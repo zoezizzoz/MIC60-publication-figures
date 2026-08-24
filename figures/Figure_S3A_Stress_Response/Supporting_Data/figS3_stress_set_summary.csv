@@ -1,0 +1,7 @@
+"pathway","human_genes_mapped","predicted_orthologs","passed_rank_filter","cg_dropped","detected_in_data"
+"Control",19,34,24,3,11
+"ISR",13,24,15,0,11
+"UPR (ATF6)",17,42,20,2,11
+"UPR (IRE1/XBP1s)",13,46,19,4,9
+"HSR",11,55,29,6,9
+"OSR",11,29,23,2,13
