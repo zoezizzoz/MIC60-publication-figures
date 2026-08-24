@@ -1,0 +1,2 @@
+"comparison","analysis_unit","n_WT_images","n_CS_images","WT_mean_percent","CS_mean_percent","test","p_value","matched_setting"
+"dMIC60CS vs WT","image",7,25,100,156.750345062468,"two-sided Mann-Whitney",0.00427291007101908,"905_-99 1143_-51"
