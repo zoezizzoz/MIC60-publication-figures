@@ -37,7 +37,6 @@ Table S1 can be rebuilt by following `tables/Table_S1_Code/README.md`.
 | `Figure_3D_Activity_Profile` | Activity profile |
 | `Figure_3E_Total_Activity` | Total activity |
 | `Figure_3F_Day_Night_Activity` | Day/night activity |
-| `Figure_3G_Survival` | Kaplan–Meier survival |
 | `Figure_3H_Performance_Index` | Negative-geotaxis performance index |
 | `Figure_3J_Mitochondrial_Perimeter` | Mitochondrial perimeter |
 | `Figure_3K_Mitochondrial_Area` | Mitochondrial area |
