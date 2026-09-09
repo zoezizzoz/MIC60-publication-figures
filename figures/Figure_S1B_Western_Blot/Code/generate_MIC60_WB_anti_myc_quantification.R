@@ -25,6 +25,18 @@ dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 source(file.path(script_dir, "figure_style.R"))
 FIG_SHOW_NS <- TRUE
 
+# This panel is reduced substantially when placed beside the western blot in
+# Figure S1B, so use larger plot-specific typography for readability at the
+# final assembled-figure size. These overrides do not affect other figures.
+WB_AXIS_TITLE_SIZE <- 21
+WB_AXIS_TEXT_SIZE <- 19
+WB_ANNOT_SIZE <- 5.8
+FIG_ANNOT_SIZE <- WB_ANNOT_SIZE
+
+# Plot-specific fills sampled from the approved Figure S1B reference image.
+FIG_COLORS[c("control", "mutant")] <- c("#5AB3E5", "#CA79A6")
+FIG_FILL_LIGHTEN <- 0
+
 wide <- read_excel(data_file, sheet = "Sheet1", .name_repair = "minimal")
 date_columns <- names(wide)[2:4]
 blot_dates <- as.Date(as.numeric(date_columns), origin = "1899-12-30")
@@ -50,35 +62,41 @@ plot_data <- data.frame(
   larvae_per_replicate = 5L
 )
 
-paired_test <- t.test(wt, cs, paired = TRUE, alternative = "two.sided")
-group_means <- aggregate(
-  normalized_MIC60_Myc_over_ATP5B ~ genotype,
-  data = plot_data,
-  FUN = mean
-)
+# Compact x positions keep the two genotypes close together while preserving
+# the original group order and all plotted values.
+x_positions <- c(dMIC60WT = 1.00, dMIC60CS = 1.48)
+plot_data$x_position <- unname(x_positions[as.character(plot_data$genotype)])
 
-p_label <- sprintf("ns\np = %.3f", paired_test$p.value)
+paired_test <- t.test(wt, cs, paired = TRUE, alternative = "two.sided")
+p_label <- sprintf("n.s.\np = %.3f", paired_test$p.value)
 
 figure <- ggplot(
   plot_data,
-  aes(x = genotype, y = normalized_MIC60_Myc_over_ATP5B, fill = genotype)
+  aes(
+    x = x_position,
+    y = normalized_MIC60_Myc_over_ATP5B,
+    group = genotype,
+    fill = genotype
+  )
 ) +
-  fig_summary(p_value = paired_test$p.value) +
-  fig_points(color = "black", width = 0.06) +
-  fig_markers(
-    data = group_means,
-    mapping = aes(x = genotype, y = normalized_MIC60_Myc_over_ATP5B),
-    width = 0
-  ) +
+  fig_summary(p_value = paired_test$p.value, width = 0.28) +
+  fig_points(color = "black", width = 0.035) +
   fig_sig_bracket(
     p_value = paired_test$p.value,
     values = plot_data$normalized_MIC60_Myc_over_ATP5B,
+    x1 = x_positions[["dMIC60WT"]],
+    x2 = x_positions[["dMIC60CS"]],
     label = p_label
   ) +
   fig_scale_fill(c("dMIC60WT", "dMIC60CS")) +
-  fig_scale_x_group(c("dMIC60WT" = "dMIC60WT", "dMIC60CS" = "dMIC60CS")) +
+  scale_x_continuous(
+    breaks = unname(x_positions),
+    labels = c("WT", "CS"),
+    limits = c(0.68, 1.80),
+    expand = expansion(mult = 0)
+  ) +
   fig_scale_y(
-    "MIC60-Myc / ATP5B (normalized intensity)",
+    "MIC60-Myc / ATP5B\n(normalized intensity)",
     limits = c(0, NA),
     breaks = seq(0, 2.0, 0.5)
   ) +
@@ -89,12 +107,17 @@ figure <- ggplot(
     caption = paste0(
       "n = 3 biological replicates per genotype; each point represents one blot.\n",
       "Each replicate contains lysate pooled from 5 larvae.\n",
-      "Boxes: median/IQR; diamonds: means.\n",
+      "Boxes: median/IQR.\n",
       "Whiskers: 1.5 x IQR; two-sided paired t-test."
     )
   ) +
   coord_cartesian(clip = "off") +
-  theme_fig()
+  theme_fig() +
+  theme(
+    axis.title = element_text(size = WB_AXIS_TITLE_SIZE),
+    axis.text = element_text(size = WB_AXIS_TEXT_SIZE),
+    plot.margin = margin(t = 10, r = 9, b = 9, l = 12)
+  )
 
 output_base <- file.path(output_dir, "MIC60_WB_anti_myc_quantification")
 fig_save(

@@ -412,6 +412,13 @@ ellipses <- layout %>%
     .groups = "drop"
   )
 module_labels <- ellipses %>% mutate(
+  label = recode(
+    as.character(description),
+    "Mitochondrial respiration & ATP production" = "Mitochondrial respiration &\nATP production",
+    "Mitochondrial membrane & protein import" = "Mitochondrial membrane &\nprotein import",
+    "NAD(P)-linked redox metabolism" = "NAD(P)-linked\nredox metabolism",
+    .default = as.character(description)
+  ),
   lx = cx,
   ly = ifelse(cy >= 0, cy + h / 2 + 0.9, cy - h / 2 - 0.9),
   vjust = ifelse(cy >= 0, 0, 1)
@@ -457,10 +464,10 @@ network <- ggraph(layout) +
   ) +
   geom_text(
     data = module_labels,
-    aes(x = lx, y = ly, label = description, vjust = vjust),
+    aes(x = lx, y = ly, label = label, vjust = vjust),
     inherit.aes = FALSE, hjust = 0.5,
     fontface = "bold", family = FIG_FONT,
-    size = program_label_size, color = "black"
+    size = program_label_size, lineheight = 0.92, color = "black"
   ) +
   coord_fixed(clip = "off") +
   expand_limits(x = c(-16.5, 16.5), y = c(-15.2, 15.2)) +

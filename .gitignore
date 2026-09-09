@@ -5,4 +5,6 @@ Thumbs.db
 *.Rhistory
 *.RData
 *.Rproj.user/
-
+Rebuilt_Output/
+__pycache__/
+*.pyc

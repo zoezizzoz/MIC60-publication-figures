@@ -8,7 +8,9 @@ from CRAN or their project repositories.
 
 - `AnnotationDbi`
 - `DESeq2`
+- `KEGGREST`
 - `clusterProfiler`
+- `enrichplot`
 - `org.Dm.eg.db`
 
 ## CRAN and other R packages
@@ -35,4 +37,3 @@ from CRAN or their project repositories.
 - `tidygraph`
 - `tidyverse`
 - `uwot`
-

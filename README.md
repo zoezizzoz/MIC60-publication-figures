@@ -27,10 +27,7 @@ Table S1 can be rebuilt by following `tables/Table_S1_Code/README.md`.
 
 | Folder | Publication panel |
 |---|---|
-| `Figure_1B_RNAseq_QC` | PCA and MDS |
 | `Figure_1C_Female_Volcano` | Female RNA-seq volcano plot |
-| `Figure_1D_Female_Heatmap` | Female RNA-seq heatmap |
-| `Figure_2A_GO_Enrichment` | Female GO enrichment |
 | `Figure_2B_Program_Ring` | Mitochondrial-program ring |
 | `Figure_2C_STRING_Network` | STRING interaction network |
 | `Figure_2D_Selected_Genes` | Normalized counts for selected genes |
@@ -50,23 +47,25 @@ Table S1 can be rebuilt by following `tables/Table_S1_Code/README.md`.
 | `Figure_4B_MTT_Viability` | MTT viability dose response |
 | `Figure_S1B_Western_Blot` | dMIC60-Myc immunoblot quantification |
 | `Figure_S1C_Male_Volcano` | Male RNA-seq volcano plot |
-| `Figure_S1D_Male_Heatmap` | Male RNA-seq heatmap |
-| `Figure_S1E_Male_GO_Enrichment` | Male GO enrichment |
-| `Figure_S2_Targeted_Modules` | Targeted gene modules |
-| `Figure_S3A_Stress_Response` | Stress-response gene sets |
-| `Figure_S3C_Transfection_Efficiency` | Transfection efficiency |
+| `Figure_S2_KEGG_GSEA` | KEGG gene-set enrichment analysis |
+| `Figure_S3_Selected_Gene_Modules` | Selected gene-module expression |
+| `Figure_S4A_Stress_Response` | Stress-response gene sets |
+| `Figure_S4C_Transfection_Efficiency` | Transfection efficiency |
 
-Figure 3H was created in GraphPad Prism; its `.pzfx` source project is included
-instead of R/Python code. Panels 1A, 3I, 3M, 4C, S1A, and S3B are schematics,
-representative images, a workflow graphic, or an immunoblot image and therefore
-have no graph-generation code in this repository.
+Figure 3H now includes an R rebuild and statistical-audit export; its earlier
+`.pzfx` project remains included for provenance. Panels 1A, 3I, 3M, 4C, S1A,
+and S3B are schematics, representative images, a workflow graphic, or an
+immunoblot image and therefore have no graph-generation code in this repository.
 
 ## Running the scripts
 
-Run each R script from its panel directory unless its header says otherwise.
-The scripts use relative paths and write rebuilt files into their panel's output
-directory. RNA-seq scripts require the packages listed in `R_PACKAGES.md`; the
-STRING panel also requires access to the remote STRING service.
+Run each R script with `Rscript figures/<panel>/Code/<script>.R`. Scripts resolve
+their inputs relative to their own panel folder and write regenerated files to
+`Rebuilt_Output/`; scripts that maintain the publication export also refresh
+`Final_Graphs/`. RNA-seq scripts require the packages in `R_PACKAGES.md`; the
+STRING panel and a first-time KEGG analysis may require access to their public
+annotation services. Checked-in annotation snapshots keep the final S2 plotting
+step offline-reproducible.
 
 The repository does not currently include a software license. Reuse permission
 should therefore be clarified by the authors before code or data are reused.

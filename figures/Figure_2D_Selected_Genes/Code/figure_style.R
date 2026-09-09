@@ -57,30 +57,49 @@ FIG_SHOW_PLOT_CAPTION  <- FALSE
 
 
 # ---- colors -------------------------------------------------
-# One palette for the whole project: control blue, mutant red.
+# Six-group manuscript palette derived from the requested swatches.
 FIG_COLORS <- c(
-  control = "#4C72B0",
-  mutant  = "#A8322B"
+  wt_f       = "#56B4E9",
+  wt_h2o2    = "#0072B2",
+  wt_m       = "#009E73",
+  cs_f       = "#CC79A7",
+  cs_h2o2    = "#B83B6B",
+  cs_m       = "#E69F00",
+  control    = "#56B4E9",
+  mutant     = "#CC79A7"
 )
 
-# Every genotype name used anywhere in the project maps onto one
-# of the two roles above. Add new names here, not in the scripts.
+# Every genotype/treatment label used in active figures maps onto one swatch.
+# Generic WT/CS labels are female in the main fly panels.
 FIG_ROLE_OF <- c(
-  "WR"        = "control",
-  "WT"        = "control",
-  "MIC60WT"   = "control",
-  "dMIC60-WT" = "control",
-  "dMIC60WT"  = "control",
-  "dMIC60WR"  = "control",
-  "CS"        = "mutant",
-  "CSF"       = "mutant",
-  "MIC60CS"   = "mutant",
-  "dMIC60-CS" = "mutant",
-  "dMIC60CS"  = "mutant"
+  "WR"          = "wt_f",
+  "WT"          = "wt_f",
+  "WT-F"        = "wt_f",
+  "WRF"         = "wt_f",
+  "MIC60WT"     = "wt_f",
+  "dMIC60-WT"   = "wt_f",
+  "dMIC60WT"    = "wt_f",
+  "dMIC60WR"    = "wt_f",
+  "WT +H2O2"    = "wt_h2o2",
+  "WT+H2O2"     = "wt_h2o2",
+  "WT +H₂O₂"    = "wt_h2o2",
+  "WT-M"        = "wt_m",
+  "WRM"         = "wt_m",
+  "CS"          = "cs_f",
+  "CS-F"        = "cs_f",
+  "CSF"         = "cs_f",
+  "MIC60CS"     = "cs_f",
+  "dMIC60-CS"   = "cs_f",
+  "dMIC60CS"    = "cs_f",
+  "CS +H2O2"    = "cs_h2o2",
+  "CS+H2O2"     = "cs_h2o2",
+  "CS +H₂O₂"    = "cs_h2o2",
+  "CS-M"        = "cs_m",
+  "CSM"         = "cs_m"
 )
 
-# How far fills are lightened toward white (0 = full color, 1 = white)
-FIG_FILL_LIGHTEN <- 0.45
+# Preserve the exact swatch colors in fills (0 = no lightening).
+FIG_FILL_LIGHTEN <- 0
 
 FIG_BOX_ALPHA   <- 1
 FIG_BOX_OUTLINE <- "grey25"
@@ -147,12 +166,21 @@ FIG_W_2COL <- 9.0   # two panels across
 FIG_H_2COL <- 8.8
 FIG_DPI    <- 600
 
-# Built-in PDF output avoids platform-specific Cairo DLL failures.
-# Trade-off: grDevices::pdf cannot encode non-ASCII glyphs, so the female
-# symbol in the genotype labels becomes a dot in the PDF. PNG output is
-# unaffected. Switch to grDevices::cairo_pdf on a machine where Cairo works
-# if those glyphs are needed in the vector file.
-FIG_PDF_DEVICE <- grDevices::pdf
+# Quartz preserves Unicode in headless macOS vector exports without requiring
+# XQuartz. Use Cairo elsewhere when it is available, with base PDF as fallback.
+FIG_PDF_DEVICE <- if (
+  identical(Sys.info()[["sysname"]], "Darwin") && isTRUE(capabilities("aqua"))
+) {
+  function(filename, width, height, ...) {
+    grDevices::quartz(
+      type = "pdf", file = filename, width = width, height = height, ...
+    )
+  }
+} else if (isTRUE(capabilities("cairo"))) {
+  grDevices::cairo_pdf
+} else {
+  grDevices::pdf
+}
 
 
 # ---- statistics display -------------------------------------
@@ -557,24 +585,6 @@ fig_summary <- function(
 # SIGNIFICANCE ANNOTATION
 # ============================================================
 
-fig_stars <- function(p_value) {
-  if (!is.finite(p_value)) {
-    return("")
-  }
-  
-  if (p_value < 0.0001) {
-    "****"
-  } else if (p_value < 0.001) {
-    "***"
-  } else if (p_value < 0.01) {
-    "**"
-  } else if (p_value < FIG_ALPHA) {
-    "*"
-  } else {
-    "ns"
-  }
-}
-
 fig_p_label <- function(p_value) {
   if (!is.finite(p_value)) {
     return("")
@@ -584,11 +594,7 @@ fig_p_label <- function(p_value) {
     return("ns")
   }
   
-  paste0(
-    fig_stars(p_value),
-    "\np = ",
-    format.pval(p_value, digits = 2, eps = 0.001)
-  )
+  paste0("p = ", format.pval(p_value, digits = 2, eps = 0.001))
 }
 
 
