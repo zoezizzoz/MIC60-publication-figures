@@ -23,6 +23,11 @@ Each panel folder is under `figures/` and contains the applicable subset of:
 
 Table S1 can be rebuilt by following `tables/Table_S1_Code/README.md`.
 
+The final code-only review workflow is available in `reviewed_analysis/`. It
+contains the shared analysis scripts, edited panel generators, workflow runner,
+publishing helper, and validation code without duplicating the underlying data
+or generated outputs.
+
 ## Publication panel map
 
 | Folder | Publication panel |
