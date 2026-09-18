@@ -5,7 +5,7 @@
  // Preserve the left-aligned survival legend beside its colored line keys.
  for(var i=0;i<doc.textFrames.length;i++){
   var tf=doc.textFrames[i];
-  if(/^UAS-dMIC60 \((WT|CS)\)$/.test(tf.contents)&&tf.top>505&&tf.top<525&&tf.left<160)tf.left=105.8310546875;
+  if(/^UAS-dMIC60-(WT|CS)$/.test(tf.contents)&&tf.top>505&&tf.top<525&&tf.left<160)tf.left=105.8310546875;
  }
  // Pair each existing sex symbol with its adjacent null label at the same height.
  for(var i=0;i<doc.textFrames.length;i++){

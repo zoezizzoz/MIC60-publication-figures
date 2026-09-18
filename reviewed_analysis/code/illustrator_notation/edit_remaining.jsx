@@ -17,7 +17,7 @@
  for(var t=0;t<doc.textFrames.length;t++){
   var tf=doc.textFrames[t],s=tf.contents,trim=s.replace(/^\s+|\s+$/g,''),newText=trim,kind='',italStart=0,italEnd=0,size=null;
   if(/^UAS-dMIC60(?:-(WT|CS)| \((WT|CS)\))?$/.test(trim)){
-   kind='construct';newText=trim.replace(/-(WT|CS)$/,' ($1)');italEnd=10;size=7;
+   kind='construct';newText=trim.replace(/ \((WT|CS)\)$/,'-$1');italEnd=10;size=7;
   }else if(/^(d?MIC60)-[Nn]ull(?:\s+(?:Flies|flies|HeLa [Cc]ells))?$/.test(trim)){
    kind='null';newText=trim.replace('-Null','-null').replace(' Flies',' flies').replace(' Cells',' cells');italEnd=newText.indexOf('-');size=7;
   }else if(/^Day\s+\d+$/.test(trim)) {kind='day';size=7;
