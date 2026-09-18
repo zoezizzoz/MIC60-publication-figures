@@ -1,75 +1,33 @@
-# Code for MIC60 publication figures
+# MIC60 publication analysis code
 
-This repository contains figure-generation code and the associated inputs for
-the manuscript **“Oxidation-Resistant dMIC60 Drives Mitochondrial–Nuclear
-Crosstalk and Promotes Resilience.”** Folder names match the final figure and
-panel labels in the assembled publication artwork.
+This repository contains the current code used for the final MIC60 publication analysis and the current Table S1 workflow. Superseded figure folders, old generated graphs, duplicated input files, and obsolete panel-number versions were removed from the active branch on 18 September 2026. They remain recoverable from Git history.
 
-The final RNA-seq supplementary table is included as `tables/Table_S1.xlsx`.
-Its DESeq2 analysis and workbook-generation code are in
-`tables/Table_S1_Code/`, together with the raw count matrix and archived inputs.
+## Current contents
 
-## Repository structure
+- `reviewed_analysis/`: final reviewed R, Python, and Illustrator scripts; shared figure styling; edited panel generators; workflow runner; publishing helper; and validation code.
+- `tables/Table_S1_Code/`: the current Table S1 DESeq2 preparation and Excel-workbook generation scripts, with the exact archived inputs used for the workbook.
+- `tables/Table_S1.xlsx`: current supplementary Table S1 output.
+- `R_PACKAGES.md`: R dependencies used by the analysis and figure code.
 
-Each panel folder is under `figures/` and contains the applicable subset of:
+## Reviewed figure-analysis code
 
-- `Code/`: R scripts and shared plotting style.
-- `Original_Data/`: input data read by the scripts.
-- `Supporting_Data/`: processed values or statistics used for verification.
-- `Final_Graphs/`: the graph exported for assembly into the publication figure.
-- `Source_Project/`: a non-script source project when the panel was made in
-  GraphPad Prism.
-- `tables/`: publication supplementary tables.
+Start with `reviewed_analysis/README.md`, then consult `reviewed_analysis/WORKFLOW.md` for the analysis sequence, methods, requirements, and limitations.
+
+The repository intentionally keeps this as a code-only reviewed snapshot rather than duplicating large experimental datasets and generated figure exports. The scripts preserve their expected relative input/output paths so they can be reunited with the separately archived final source package.
+
+## Table S1
 
 Table S1 can be rebuilt by following `tables/Table_S1_Code/README.md`.
 
-The final code-only review workflow is available in `reviewed_analysis/`. It
-contains the shared analysis scripts, edited panel generators, workflow runner,
-publishing helper, and validation code without duplicating the underlying data
-or generated outputs.
+- `prepare_table_s1_inputs.R` reruns the female and male DESeq2 analyses and exports normalized counts.
+- `build_table_s1.mjs` builds and formats the four-sheet Excel workbook.
 
-## Publication panel map
+The Table S1 scripts and archived CSV inputs were verified against the active local project before this cleanup.
 
-| Folder | Publication panel |
-|---|---|
-| `Figure_1C_Female_Volcano` | Female RNA-seq volcano plot |
-| `Figure_2B_Program_Ring` | Mitochondrial-program ring |
-| `Figure_2C_STRING_Network` | STRING interaction network |
-| `Figure_2D_Selected_Genes` | Normalized counts for selected genes |
-| `Figure_3A_Sleep_Profile` | Sleep profile |
-| `Figure_3B_Total_Sleep` | Total sleep |
-| `Figure_3C_Day_Night_Sleep` | Day/night sleep |
-| `Figure_3D_Activity_Profile` | Activity profile |
-| `Figure_3E_Total_Activity` | Total activity |
-| `Figure_3F_Day_Night_Activity` | Day/night activity |
-| `Figure_3H_Performance_Index` | Negative-geotaxis performance index |
-| `Figure_3J_Mitochondrial_Perimeter` | Mitochondrial perimeter |
-| `Figure_3K_Mitochondrial_Area` | Mitochondrial area |
-| `Figure_3L_Mitochondrial_Aspect_Ratio` | Mitochondrial aspect ratio |
-| `Figure_3N_TMRM_MTG_Ratio` | TMRM/MitoTracker Green ratio |
-| `Figure_4A_TIMELESS` | TIMELESS/DAPI quantification |
-| `Figure_4B_MTT_Viability` | MTT viability dose response |
-| `Figure_S1B_Western_Blot` | dMIC60-Myc immunoblot quantification |
-| `Figure_S1C_Male_Volcano` | Male RNA-seq volcano plot |
-| `Figure_S2_KEGG_GSEA` | KEGG gene-set enrichment analysis |
-| `Figure_S3_Selected_Gene_Modules` | Selected gene-module expression |
-| `Figure_S4A_Stress_Response` | Stress-response gene sets |
-| `Figure_S4C_Transfection_Efficiency` | Transfection efficiency |
+## Version policy
 
-Figure 3H now includes an R rebuild and statistical-audit export; its earlier
-`.pzfx` project remains included for provenance. Panels 1A, 3I, 3M, 4C, S1A,
-and S3B are schematics, representative images, a workflow graphic, or an
-immunoblot image and therefore have no graph-generation code in this repository.
+The `main` branch contains only the current code snapshot and Table S1 workflow. Do not add alternate, previous, or manually renamed figure versions to `main`; use Git history or a clearly named archival branch when an older state must be retained.
 
-## Running the scripts
+## License
 
-Run each R script with `Rscript figures/<panel>/Code/<script>.R`. Scripts resolve
-their inputs relative to their own panel folder and write regenerated files to
-`Rebuilt_Output/`; scripts that maintain the publication export also refresh
-`Final_Graphs/`. RNA-seq scripts require the packages in `R_PACKAGES.md`; the
-STRING panel and a first-time KEGG analysis may require access to their public
-annotation services. Checked-in annotation snapshots keep the final S2 plotting
-step offline-reproducible.
-
-The repository does not currently include a software license. Reuse permission
-should therefore be clarified by the authors before code or data are reused.
+No reuse license was supplied with the project. Reuse permission should be clarified by the authors before code or data are reused.

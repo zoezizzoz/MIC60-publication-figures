@@ -11,7 +11,7 @@ This directory contains the code-only snapshot used for the final MIC60 figure r
 - `validate_outputs.py`: output and numerical consistency checks.
 - `WORKFLOW.md`: detailed methods, requirements, limitations, and execution order.
 
-The scripts expect the corresponding data files and output folders described in `WORKFLOW.md`. Figure-specific source code and inputs are also retained under `../figures/`.
+The scripts expect the corresponding data files and output folders described in `WORKFLOW.md`. The current figure-specific generators are retained under `figure_sources/`; non-Table-S1 experimental data and generated figure exports are intentionally not duplicated in this code-only repository.
 
 ## Table S1
 

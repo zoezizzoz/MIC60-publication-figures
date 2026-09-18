@@ -32,8 +32,6 @@ from CRAN or their project repositories.
 - `Rtsne`
 - `scales`
 - `sleepr`
-- `survival`
-- `survminer`
 - `tidygraph`
 - `tidyverse`
 - `uwot`
