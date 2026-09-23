@@ -1,0 +1,89 @@
+"Image","Condition","Image_Mean","Panel","Metric","Objects_n"
+"CS-Female -5000X -0022.dm3","CS",0.034,"K","Mitochondrial area",1
+"CS-Female -5000X -0023.dm3","CS",0.077,"K","Mitochondrial area",5
+"CS-Female -5000X -0024.dm3","CS",0.28775,"K","Mitochondrial area",4
+"CS-Female -5000X -0025.dm3","CS",0.158428571428571,"K","Mitochondrial area",7
+"CS-Female -5000X -0027.dm3","CS",1.278,"K","Mitochondrial area",7
+"CS-Female -5000X -0028.dm3","CS",1.18716666666667,"K","Mitochondrial area",6
+"CS-Female -5000X -0029.dm3","CS",3.809,"K","Mitochondrial area",2
+"CS-Female -5000X -0030.dm3","CS",4.9845,"K","Mitochondrial area",2
+"CS-Female -5000X -0031.dm3","CS",0.638885714285714,"K","Mitochondrial area",35
+"CS-Female -5000X -0032.dm3","CS",0.440288888888889,"K","Mitochondrial area",45
+"CS-Female -5000X -0033.dm3","CS",0.193035087719298,"K","Mitochondrial area",57
+"CS-Female -5000X -0034.dm3","CS",0.285931034482759,"K","Mitochondrial area",58
+"CS-Female -5000X -0035.dm3","CS",0.405617647058824,"K","Mitochondrial area",34
+"CS-Female -5000X -0036.dm3","CS",0.273702127659574,"K","Mitochondrial area",47
+"CS-Female -5000X -0037.dm3","CS",0.238444444444444,"K","Mitochondrial area",27
+"CS-Female -5000X -0038.dm3","CS",0.4283,"K","Mitochondrial area",30
+"CS-Female -5000X -0039.dm3","CS",0.631884615384615,"K","Mitochondrial area",26
+"CS-Female -5000X -0041.dm3","CS",1.2281,"K","Mitochondrial area",10
+"CS-Female -5000X -0042.dm3","CS",0.535961538461538,"K","Mitochondrial area",26
+"CS-Female -5000X -0044.dm3","CS",0.838153846153846,"K","Mitochondrial area",13
+"CS-Female -5000X -0045.dm3","CS",0.32074358974359,"K","Mitochondrial area",39
+"CS-Female -5000X -0046.dm3","CS",0.656,"K","Mitochondrial area",3
+"Cnt fmale_a_5000X_0005.tif","WR",2.4972962962963,"K","Mitochondrial area",5
+"Cnt fmale_a_5000X_0008.tif","WR",0.602368839923848,"K","Mitochondrial area",2
+"Cnt fmale_a_5000X_0010.tif","WR",1.92465918172578,"K","Mitochondrial area",10
+"Cnt fmale_a_5000X_0012.tif","WR",2.12132996632997,"K","Mitochondrial area",11
+"WR-F -5000X -0009.tif","WR",2.00234662022978,"K","Mitochondrial area",7
+"WR-F -5000X -0010.dm3","WR",0.41175,"K","Mitochondrial area",12
+"WR-F -5000X -0011.dm3","WR",0.8116,"K","Mitochondrial area",20
+"WR-F -5000X -0012.dm3","WR",0.480666666666667,"K","Mitochondrial area",18
+"WR-F -5000X -0013.dm3","WR",1.292,"K","Mitochondrial area",4
+"WR-F -5000X -0014.dm3","WR",1.93733333333333,"K","Mitochondrial area",6
+"CS-Female -5000X -0031.dm3","CS",2.28608571428571,"L","Aspect ratio",35
+"CS-Female -5000X -0032.dm3","CS",2.36922222222222,"L","Aspect ratio",45
+"CS-Female -5000X -0033.dm3","CS",1.92526315789474,"L","Aspect ratio",57
+"CS-Female -5000X -0034.dm3","CS",2.50589655172414,"L","Aspect ratio",58
+"CS-Female -5000X -0035.dm3","CS",2.76591176470588,"L","Aspect ratio",34
+"CS-Female -5000X -0036.dm3","CS",2.629,"L","Aspect ratio",47
+"CS-Female -5000X -0037.dm3","CS",2.17385185185185,"L","Aspect ratio",27
+"CS-Female -5000X -0038.dm3","CS",3.0055,"L","Aspect ratio",30
+"CS-Female -5000X -0039.dm3","CS",3.40384615384615,"L","Aspect ratio",26
+"CS-Female -5000X -0041.dm3","CS",1.9413,"L","Aspect ratio",10
+"CS-Female -5000X -0042.dm3","CS",3.36396153846154,"L","Aspect ratio",26
+"CS-Female -5000X -0044.dm3","CS",2.60330769230769,"L","Aspect ratio",13
+"CS-Female -5000X -0045.dm3","CS",2.53848717948718,"L","Aspect ratio",39
+"CS-Female -5000X -0046.dm3","CS",2.59233333333333,"L","Aspect ratio",3
+"Cnt fmale_a_5000X_0005.tif","WR",1.5034,"L","Aspect ratio",5
+"Cnt fmale_a_5000X_0008.tif","WR",1.8205,"L","Aspect ratio",2
+"Cnt fmale_a_5000X_0010.tif","WR",1.7283,"L","Aspect ratio",10
+"Cnt fmale_a_5000X_0012.tif","WR",1.58127272727273,"L","Aspect ratio",11
+"WR-F -5000X -0009.tif","WR",1.83385714285714,"L","Aspect ratio",7
+"WR-F -5000X -0010.dm3","WR",2.008,"L","Aspect ratio",12
+"WR-F -5000X -0011.dm3","WR",2.0163,"L","Aspect ratio",20
+"WR-F -5000X -0012.dm3","WR",1.61611111111111,"L","Aspect ratio",18
+"WR-F -5000X -0013.dm3","WR",3.45375,"L","Aspect ratio",4
+"WR-F -5000X -0014.dm3","WR",2.86483333333333,"L","Aspect ratio",6
+"CS-Female -5000X -0022.dm3","CS",0.915,"M","Mitochondrial perimeter",1
+"CS-Female -5000X -0023.dm3","CS",1.4016,"M","Mitochondrial perimeter",5
+"CS-Female -5000X -0024.dm3","CS",2.26725,"M","Mitochondrial perimeter",4
+"CS-Female -5000X -0025.dm3","CS",1.99714285714286,"M","Mitochondrial perimeter",7
+"CS-Female -5000X -0027.dm3","CS",3.83714285714286,"M","Mitochondrial perimeter",7
+"CS-Female -5000X -0028.dm3","CS",4.10316666666667,"M","Mitochondrial perimeter",6
+"CS-Female -5000X -0029.dm3","CS",8.1875,"M","Mitochondrial perimeter",2
+"CS-Female -5000X -0030.dm3","CS",9.2185,"M","Mitochondrial perimeter",2
+"CS-Female -5000X -0031.dm3","CS",2.146,"M","Mitochondrial perimeter",35
+"CS-Female -5000X -0032.dm3","CS",2.05631111111111,"M","Mitochondrial perimeter",45
+"CS-Female -5000X -0033.dm3","CS",1.29033333333333,"M","Mitochondrial perimeter",57
+"CS-Female -5000X -0034.dm3","CS",1.66272413793103,"M","Mitochondrial perimeter",58
+"CS-Female -5000X -0035.dm3","CS",2.08311764705882,"M","Mitochondrial perimeter",34
+"CS-Female -5000X -0036.dm3","CS",1.79427659574468,"M","Mitochondrial perimeter",47
+"CS-Female -5000X -0037.dm3","CS",1.38433333333333,"M","Mitochondrial perimeter",27
+"CS-Female -5000X -0038.dm3","CS",2.52896666666667,"M","Mitochondrial perimeter",30
+"CS-Female -5000X -0039.dm3","CS",2.73261538461538,"M","Mitochondrial perimeter",26
+"CS-Female -5000X -0041.dm3","CS",3.5336,"M","Mitochondrial perimeter",10
+"CS-Female -5000X -0042.dm3","CS",2.56103846153846,"M","Mitochondrial perimeter",26
+"CS-Female -5000X -0044.dm3","CS",3.45269230769231,"M","Mitochondrial perimeter",13
+"CS-Female -5000X -0045.dm3","CS",2.07741025641026,"M","Mitochondrial perimeter",39
+"CS-Female -5000X -0046.dm3","CS",2.98666666666667,"M","Mitochondrial perimeter",3
+"Cnt fmale_a_5000X_0005.tif","WR",6.01238111111111,"M","Mitochondrial perimeter",5
+"Cnt fmale_a_5000X_0008.tif","WR",3.1503938547486,"M","Mitochondrial perimeter",2
+"Cnt fmale_a_5000X_0010.tif","WR",4.75199442896936,"M","Mitochondrial perimeter",10
+"Cnt fmale_a_5000X_0012.tif","WR",4.7833601010101,"M","Mitochondrial perimeter",11
+"WR-F -5000X -0009.tif","WR",5.58309084924292,"M","Mitochondrial perimeter",7
+"WR-F -5000X -0010.dm3","WR",2.60533333333333,"M","Mitochondrial perimeter",12
+"WR-F -5000X -0011.dm3","WR",3.09015,"M","Mitochondrial perimeter",20
+"WR-F -5000X -0012.dm3","WR",2.44633333333333,"M","Mitochondrial perimeter",18
+"WR-F -5000X -0013.dm3","WR",5.5825,"M","Mitochondrial perimeter",4
+"WR-F -5000X -0014.dm3","WR",6.0735,"M","Mitochondrial perimeter",6

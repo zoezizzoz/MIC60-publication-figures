@@ -21,7 +21,7 @@ output_dir <- file.path(package_dir, "Rebuilt_Output")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 source(file.path(script_dir, "figure_style.R"))
 FIG_SHOW_NS <- TRUE
-plot_data <- read.csv(file.path(package_dir,"../../../Analysis/data/western_blot.csv"))
+plot_data <- read.csv(file.path(package_dir,"../../data/western_blot.csv"))
 plot_data$genotype <- factor(plot_data$genotype,levels=c("dMIC60WT","dMIC60CS"))
 pairs <- merge(subset(plot_data,genotype=="dMIC60WT"),subset(plot_data,genotype=="dMIC60CS"),by="blot_date",suffixes=c("_WT","_CS"))
 wt <- pairs$normalized_MIC60_Myc_over_ATP5B_WT

@@ -1,7 +1,14 @@
-*.pdf binary
-*.png binary
-*.tif binary
-*.tiff binary
+* -text
+*.R diff
+*.py diff
+*.md diff
+*.csv diff
+*.tsv diff
 *.xlsx binary
-*.pzfx binary
 *.rds binary
+# Exact input bytes are preserved for SHA-256 verification. No Git LFS is required.
+
+# Preserve native CRLF and other source-data whitespace without treating it as a code style error.
+*.csv -whitespace
+*.tsv -whitespace
+*.txt -whitespace

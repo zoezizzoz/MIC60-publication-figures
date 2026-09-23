@@ -1,5 +1,5 @@
 # Portable rebuild. Outputs are isolated from final artwork and input snapshots.
-.rebuild_args <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+.rebuild_args <- grep("^--file=", gsub('~+~',' ',commandArgs(FALSE),fixed=TRUE), value = TRUE)
 .rebuild_panel <- dirname(dirname(normalizePath(sub("^--file=", "", .rebuild_args[1]))))
 .rebuild_dir <- file.path(.rebuild_panel, "Rebuilt_Output")
 dir.create(.rebuild_dir, recursive = TRUE, showWarnings = FALSE)
@@ -8,7 +8,7 @@ suppressPackageStartupMessages({
     library(ggplot2)
     library(readxl)
 })
-args <- commandArgs(trailingOnly = FALSE)
+args <- gsub('~+~',' ',commandArgs(trailingOnly = FALSE),fixed=TRUE)
 file_arg <- grep("^--file=", args, value = TRUE)
 script_path <- if (length(file_arg)) sub("^--file=", "", file_arg[[1]]) else "generate_fig3h_locomotion.R"
 code_dir <- dirname(normalizePath(script_path, mustWork = FALSE))
@@ -41,9 +41,15 @@ box_stats <- do.call(rbind, lapply(groups, function(group_name) {
 wt <- dat$performance_index[dat$group == "WT"]
 cs <- dat$performance_index[dat$group == "CS"]
 wilcox_result <- wilcox.test(wt, cs, exact = FALSE, correct = TRUE)
-p_reference <- 0.0286
+all_values <- c(wt, cs)
+assignments <- combn(seq_along(all_values), length(wt))
+observed_difference <- abs(mean(cs) - mean(wt))
+permuted_differences <- apply(assignments, 2, function(ix) abs(mean(all_values[ix]) - mean(all_values[-ix])))
+p_exact <- mean(permuted_differences >= observed_difference - 1e-12)
+stopifnot(ncol(assignments) == 70L, abs(p_exact - 2/70) < 1e-12)
+p_reference <- p_exact
 tests <- data.frame(comparison = "WT vs CS; Day 2", test = c("Reference annotation (supplied image)", "Wilcoxon rank-sum test with continuity correction", 
-    "Welch two-sample t-test", "Student two-sample t-test"), p_value = c(p_reference, wilcox_result$p.value, t.test(wt, cs)$p.value, 
+    "Exact two-sided permutation of mean difference", "Welch two-sample t-test", "Student two-sample t-test"), p_value = c(p_reference, wilcox_result$p.value, p_exact, t.test(wt, cs)$p.value,
     t.test(wt, cs, var.equal = TRUE)$p.value), stringsAsFactors = FALSE)
 write.csv(dat, .rebuild_file(file.path(support_dir, "Fig3H_locomotion_plotted_values.csv")), row.names = FALSE)
 write.csv(tests, .rebuild_file(file.path(support_dir, "Fig3H_locomotion_statistical_audit.csv")), row.names = FALSE)

@@ -1,0 +1,723 @@
+[
+  {
+    "source": "iCloud project/Figure_3L_Aspect_Ratio/Supporting_Data/TEM_2026-08-04_clean_measurements_long.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3L_Aspect_Ratio/Supporting_Data/TEM_2026-08-04_clean_measurements_long.csv",
+    "bytes": 197119,
+    "status": "copied",
+    "sha256": "9e4ffe276236e775c3cf2fecad03c03833405fa305285ecff69e7a57544852ea"
+  },
+  {
+    "source": "iCloud project/Figure_3L_Aspect_Ratio/Supporting_Data/TEM_2026-08-04_primary_statistics.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3L_Aspect_Ratio/Supporting_Data/TEM_2026-08-04_primary_statistics.csv",
+    "bytes": 869,
+    "status": "copied",
+    "sha256": "1f7835de3eb809e3486d5d42f81b5ef71268c17647ae9d022b275ae9cd482054"
+  },
+  {
+    "source": "iCloud project/Figure_3L_Aspect_Ratio/Supporting_Data/TEM_2026-08-04_image_level_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3L_Aspect_Ratio/Supporting_Data/TEM_2026-08-04_image_level_summary.csv",
+    "bytes": 6601,
+    "status": "copied",
+    "sha256": "dcae5227f7e68a867dffdd3cd3183a5aa999ba466f682a2ab1d16536ba19c202"
+  },
+  {
+    "source": "iCloud project/Figure_3M_Perimeter/Supporting_Data/TEM_2026-08-04_clean_measurements_long.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3M_Perimeter/Supporting_Data/TEM_2026-08-04_clean_measurements_long.csv",
+    "bytes": 197119,
+    "status": "copied",
+    "sha256": "9e4ffe276236e775c3cf2fecad03c03833405fa305285ecff69e7a57544852ea"
+  },
+  {
+    "source": "iCloud project/Figure_3M_Perimeter/Supporting_Data/TEM_2026-08-04_primary_statistics.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3M_Perimeter/Supporting_Data/TEM_2026-08-04_primary_statistics.csv",
+    "bytes": 869,
+    "status": "copied",
+    "sha256": "1f7835de3eb809e3486d5d42f81b5ef71268c17647ae9d022b275ae9cd482054"
+  },
+  {
+    "source": "iCloud project/Figure_3M_Perimeter/Supporting_Data/TEM_2026-08-04_image_level_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3M_Perimeter/Supporting_Data/TEM_2026-08-04_image_level_summary.csv",
+    "bytes": 6601,
+    "status": "copied",
+    "sha256": "dcae5227f7e68a867dffdd3cd3183a5aa999ba466f682a2ab1d16536ba19c202"
+  },
+  {
+    "source": "iCloud project/Figure_1C_Female_Volcano/Supporting_Data/DEG_female_CS_vs_WT.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_1C_Female_Volcano/Supporting_Data/DEG_female_CS_vs_WT.csv",
+    "bytes": 1690478,
+    "status": "copied",
+    "sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca"
+  },
+  {
+    "source": "iCloud project/Figure_1C_Female_Volcano/Supporting_Data/volcano_DEG_count_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_1C_Female_Volcano/Supporting_Data/volcano_DEG_count_summary.csv",
+    "bytes": 226,
+    "status": "copied",
+    "sha256": "ce5e9affcd4b0cd3ff59d9e0c0c7b8afd441852e1145423f0d58f4cd8d5a9d2a"
+  },
+  {
+    "source": "iCloud project/Figure_1C_Female_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_1C_Female_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "bytes": 6851,
+    "status": "copied",
+    "sha256": "ef607093abe1868884525c41941a92ba3d5819fa70ba5c6c730c9671f3a3ceaa"
+  },
+  {
+    "source": "iCloud project/Figure_1C_Female_Volcano/Code/raster_png_to_pdf.py",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_1C_Female_Volcano/Code/raster_png_to_pdf.py",
+    "bytes": 1002,
+    "status": "copied",
+    "sha256": "a1e7c6ab9342be981e5724fb5cf140ec6427591c20c33bbedfe6e01bcecacf5a"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/GO_up_28_BH_significant_terms.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/GO_up_28_BH_significant_terms.csv",
+    "bytes": 6929,
+    "status": "copied",
+    "sha256": "f782bd502e10f74c510533d47f3e8bb46a4916c0fa962c55cd14dae006e3e531"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/STRING_seed_ID_mapping.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/STRING_seed_ID_mapping.csv",
+    "bytes": 19877,
+    "status": "copied",
+    "sha256": "3a846f7903c3b9ccd795f2adab56eb487150bf16b7029f35e796b3b4b6d3da0a"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/expanded_versions_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/expanded_versions_summary.csv",
+    "bytes": 314,
+    "status": "copied",
+    "sha256": "92008390a9fad6f203cedf896100ac9a11d215179c1b8745752b375b57826da4"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/STRING_unmapped_seed_genes.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/STRING_unmapped_seed_genes.csv",
+    "bytes": 21,
+    "status": "copied",
+    "sha256": "2995c9f8ff35b585479d2a94fe813f7523288a648e845f0851f199bbcf8f87a4"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/V1_up_28_GO_gene_memberships.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/V1_up_28_GO_gene_memberships.csv",
+    "bytes": 19209,
+    "status": "copied",
+    "sha256": "7ad4c99a2fa6209771962f2c16748b0b97fb677eeef58b5a10c747c2710a593a"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/V1_up_STRING_edges.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/V1_up_STRING_edges.csv",
+    "bytes": 1106,
+    "status": "copied",
+    "sha256": "507562c0d3dee9f042cd4e29daa54637240e60864c0b0acf58d67b6efa883b28"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Supporting_Data/GO_up_all_results.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Supporting_Data/GO_up_all_results.csv",
+    "bytes": 182625,
+    "status": "copied",
+    "sha256": "0c2316ddde51aa1a847a2a9755fd739a4efb81ec184b21dbd1f2b8a9df7a2cfd"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Code/figure_style.R",
+    "bytes": 20131,
+    "status": "copied",
+    "sha256": "4f79dd39e3ff951a8927bc29cea56b0fe8bfe5b4b22cccc564c0d6ac76378bdf"
+  },
+  {
+    "source": "iCloud project/Figure_2D_STRING_Network/Code/plot_compact_landscape.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2D_STRING_Network/Code/plot_compact_landscape.R",
+    "bytes": 22322,
+    "status": "copied",
+    "sha256": "a55e07ae5f69651cfe645e65c993dbf5db9bb838f5409000ad79e484f3a5892b"
+  },
+  {
+    "source": "iCloud project/Figure_S4B_Transfection_Efficiency/Supporting_Data/transfection_efficiency_plot_data.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4B_Transfection_Efficiency/Supporting_Data/transfection_efficiency_plot_data.csv",
+    "bytes": 647,
+    "status": "copied",
+    "sha256": "33410fe28a4239a5f381a916516b9115521db720540d692c7750ee790a2d0e12"
+  },
+  {
+    "source": "iCloud project/Figure_S4B_Transfection_Efficiency/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4B_Transfection_Efficiency/Code/figure_style.R",
+    "bytes": 19610,
+    "status": "copied",
+    "sha256": "ef536daf02b5186431cc70ef7868d235c35c0f15513b72eba8368b5e304a5daf"
+  },
+  {
+    "source": "iCloud project/Figure_S4B_Transfection_Efficiency/Code/generate_transfection_efficiency.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4B_Transfection_Efficiency/Code/generate_transfection_efficiency.R",
+    "bytes": 2591,
+    "status": "copied",
+    "sha256": "36e36dae12190fc05dee0953a0360d82085e5397d1e3badc558bcf560df72b17"
+  },
+  {
+    "source": "iCloud project/Figure_3B_Sleep_Profile/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3B_Sleep_Profile/Code/figure_style.R",
+    "bytes": 19603,
+    "status": "copied",
+    "sha256": "44238f081cc303eae5a6338aa95bfbd194409ebb05d0e3785fe327a1aa4bf687"
+  },
+  {
+    "source": "iCloud project/Figure_3B_Sleep_Profile/Code/generate_sleep_activity_figures.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3B_Sleep_Profile/Code/generate_sleep_activity_figures.R",
+    "bytes": 11920,
+    "status": "copied",
+    "sha256": "4e3863faa4f089cf6a145c80a9847945ac29a28fced4813052cb7be08c78ef9f"
+  },
+  {
+    "source": "iCloud project/Figure_3K_Mitochondrial_Area/Supporting_Data/TEM_2026-08-04_clean_measurements_long.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3K_Mitochondrial_Area/Supporting_Data/TEM_2026-08-04_clean_measurements_long.csv",
+    "bytes": 197119,
+    "status": "copied",
+    "sha256": "9e4ffe276236e775c3cf2fecad03c03833405fa305285ecff69e7a57544852ea"
+  },
+  {
+    "source": "iCloud project/Figure_3K_Mitochondrial_Area/Supporting_Data/TEM_2026-08-04_primary_statistics.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3K_Mitochondrial_Area/Supporting_Data/TEM_2026-08-04_primary_statistics.csv",
+    "bytes": 869,
+    "status": "copied",
+    "sha256": "1f7835de3eb809e3486d5d42f81b5ef71268c17647ae9d022b275ae9cd482054"
+  },
+  {
+    "source": "iCloud project/Figure_3K_Mitochondrial_Area/Supporting_Data/TEM_2026-08-04_image_level_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3K_Mitochondrial_Area/Supporting_Data/TEM_2026-08-04_image_level_summary.csv",
+    "bytes": 6601,
+    "status": "copied",
+    "sha256": "dcae5227f7e68a867dffdd3cd3183a5aa999ba466f682a2ab1d16536ba19c202"
+  },
+  {
+    "source": "iCloud project/Figure_3K_Mitochondrial_Area/Code/generate_tem_figures_2026_08_04.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3K_Mitochondrial_Area/Code/generate_tem_figures_2026_08_04.R",
+    "bytes": 9249,
+    "status": "copied",
+    "sha256": "e7371d34b4649069b6f4040ea3f644f1e87c932f9b78d066d281fcfb4660a7f0"
+  },
+  {
+    "source": "iCloud project/Figure_3K_Mitochondrial_Area/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3K_Mitochondrial_Area/Code/figure_style.R",
+    "bytes": 19603,
+    "status": "copied",
+    "sha256": "44238f081cc303eae5a6338aa95bfbd194409ebb05d0e3785fe327a1aa4bf687"
+  },
+  {
+    "source": "iCloud project/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_wilcoxon_tests.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_wilcoxon_tests.csv",
+    "bytes": 362,
+    "status": "copied",
+    "sha256": "5e6082432c35c800bcc3175ddb478192420a07cef7b3e279b9f1273f58d3d9d1"
+  },
+  {
+    "source": "iCloud project/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_sleep_outlier_audit.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_sleep_outlier_audit.csv",
+    "bytes": 72999,
+    "status": "copied",
+    "sha256": "434feebc896f53b27617b02d6376e9b2574cc89160d648918431b175e973b648"
+  },
+  {
+    "source": "iCloud project/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_sleep_filtered_values.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_sleep_filtered_values.csv",
+    "bytes": 28078,
+    "status": "copied",
+    "sha256": "0aa0ff9c7c1736cfb652e3faf2870382f4c132b0fa3db03f56c8fba0c4ae96cb"
+  },
+  {
+    "source": "iCloud project/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_sample_sizes.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3D_Day_Night_Sleep/Supporting_Data/paired_phase_sample_sizes.csv",
+    "bytes": 278,
+    "status": "copied",
+    "sha256": "4894d7e2d95ef0ce8a2c8673b572627786b2931a33e008e0d4c2bdb958625f4f"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Supporting_Data/figS4_stress_gene_mapping.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Supporting_Data/figS4_stress_gene_mapping.csv",
+    "bytes": 18341,
+    "status": "copied",
+    "sha256": "2cf6811d5f4137fe9331086b2b6206983c4760679efeaeae5d4f025bc3a366e2"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Supporting_Data/figS4_plotted_values.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Supporting_Data/figS4_plotted_values.csv",
+    "bytes": 7748,
+    "status": "copied",
+    "sha256": "71b540c5b8fe35824993ad23ab9af3f715fc8a4a8f0854c754e919821b90fa1f"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Supporting_Data/figS4_analysis_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Supporting_Data/figS4_analysis_summary.csv",
+    "bytes": 82,
+    "status": "copied",
+    "sha256": "0ddeaa4acb8004da8ab692df2336300e4f388fa94bb32fe83197882fa657b50c"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Supporting_Data/figS4_enrichment.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Supporting_Data/figS4_enrichment.csv",
+    "bytes": 248,
+    "status": "copied",
+    "sha256": "7d9967ddb43cd2d3f63364824b2ed6b59d00a6500cfde3a131949860d0842c7a"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Supporting_Data/figS4_stress_pathways.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Supporting_Data/figS4_stress_pathways.csv",
+    "bytes": 5821,
+    "status": "copied",
+    "sha256": "c60d5e0fea67732297dd65599b139a554bed349d1d22ebcd21d22f5ad624ba87"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Code/figure_style.R",
+    "bytes": 20131,
+    "status": "copied",
+    "sha256": "4f79dd39e3ff951a8927bc29cea56b0fe8bfe5b4b22cccc564c0d6ac76378bdf"
+  },
+  {
+    "source": "iCloud project/Figure_S4_Stress/Code/generate_FigS4A_stress.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S4_Stress/Code/generate_FigS4A_stress.R",
+    "bytes": 9594,
+    "status": "copied",
+    "sha256": "ffa93e68df351105b65b14fddfba1d7604ef8a5e86d0b207912ae38a4a8d4320"
+  },
+  {
+    "source": "iCloud project/Figure_S2_KEGG_GSEA/Supporting_Data/FigS2_plotted_pathways.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S2_KEGG_GSEA/Supporting_Data/FigS2_plotted_pathways.csv",
+    "bytes": 9921,
+    "status": "copied",
+    "sha256": "f13f89e31363480774ff6dec4778af1f10edc8ad25593f5e1bb60d762fc01c05"
+  },
+  {
+    "source": "iCloud project/Figure_S2_KEGG_GSEA/Supporting_Data/FigS2_all_significant_pathways.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S2_KEGG_GSEA/Supporting_Data/FigS2_all_significant_pathways.csv",
+    "bytes": 12182,
+    "status": "copied",
+    "sha256": "1a7df786c49ec30e9e1e9a348d1ef49badfaf3ddc5f87e0613f04b7dfd3ef882"
+  },
+  {
+    "source": "iCloud project/Figure_S2_KEGG_GSEA/Code/plot_FigS2_KEGG_GSEA.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S2_KEGG_GSEA/Code/plot_FigS2_KEGG_GSEA.R",
+    "bytes": 2899,
+    "status": "copied",
+    "sha256": "767d06ee0c952f4c872d538c679355a408472782b82981c88b203fa56020dbf8"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Supporting_Data/mtt_plot_values.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Supporting_Data/mtt_plot_values.csv",
+    "bytes": 2773,
+    "status": "copied",
+    "sha256": "2d2e629605b53a91b0223febbebf3dfd178ee39474582380b2bc85781f7c5f03"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Supporting_Data/mtt_experiment_means.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Supporting_Data/mtt_experiment_means.csv",
+    "bytes": 878,
+    "status": "copied",
+    "sha256": "e1d33e42664f17a5a1ca9c7dfe07fdb493fecc6c2d2b25cf858a6c9d660f1249"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Supporting_Data/mtt_biological_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Supporting_Data/mtt_biological_summary.csv",
+    "bytes": 423,
+    "status": "copied",
+    "sha256": "25406baa1d8b44ab5c69cde47907e02c14e2c3f0d9b33c855d454282eb67441c"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Supporting_Data/Figure4B_MTT_plotted_datapoints.xlsx",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Supporting_Data/Figure4B_MTT_plotted_datapoints.xlsx",
+    "bytes": 28087,
+    "status": "copied",
+    "sha256": "98c8ce4b5f9a5977f414f91ff5fa7e5d71ccee267ef166eee51c90a2129ce36f"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_rebuilt_TECHNICAL_WELLS_NOT_FOR_INFERENCE.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_rebuilt_TECHNICAL_WELLS_NOT_FOR_INFERENCE.csv",
+    "bytes": 112,
+    "status": "copied",
+    "sha256": "7445c6e8f11766ef57dc0110e619e6fadbf4b2b6e4d7df001b97ba1d16152533"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Code/generate_mtt_figure.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Code/generate_mtt_figure.R",
+    "bytes": 6422,
+    "status": "copied",
+    "sha256": "89f124485dabae1dcb7f734683e0d8e2bc637331a82fed054dd5c969dc4d8dbe"
+  },
+  {
+    "source": "iCloud project/Figure_4B_MTT/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4B_MTT/Code/figure_style.R",
+    "bytes": 20159,
+    "status": "copied",
+    "sha256": "5f5c0823204b23f59f0e39031f0cb367dfbe551b03b49a240a32654d09ba8393"
+  },
+  {
+    "source": "iCloud project/Table_S1_Code/Code/prepare_table_s1_inputs.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Table_S1_Code/Code/prepare_table_s1_inputs.R",
+    "bytes": 2974,
+    "status": "copied",
+    "sha256": "b09999d911a225b36d8ce138b0f369d91cff7d104e72e2e726fbec60a241b433"
+  },
+  {
+    "source": "iCloud project/Table_S1_Code/Code/build_table_s1.mjs",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Table_S1_Code/Code/build_table_s1.mjs",
+    "bytes": 14510,
+    "status": "copied",
+    "sha256": "02f03840dd8f081a82dd8aa29c5f40f21403d6ce3242b4dabead2b0929147456"
+  },
+  {
+    "source": "iCloud project/Figure_S1C_Male_Volcano/Supporting_Data/DEG_male_CS_vs_WT.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1C_Male_Volcano/Supporting_Data/DEG_male_CS_vs_WT.csv",
+    "bytes": 1811806,
+    "status": "copied",
+    "sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d"
+  },
+  {
+    "source": "iCloud project/Figure_S1C_Male_Volcano/Supporting_Data/volcano_DEG_count_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1C_Male_Volcano/Supporting_Data/volcano_DEG_count_summary.csv",
+    "bytes": 226,
+    "status": "copied",
+    "sha256": "ce5e9affcd4b0cd3ff59d9e0c0c7b8afd441852e1145423f0d58f4cd8d5a9d2a"
+  },
+  {
+    "source": "iCloud project/Figure_S1C_Male_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1C_Male_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "bytes": 6847,
+    "status": "copied",
+    "sha256": "e8da9d9675a61693f1ccd8421d0072aa15043ef0d5a73f9e5e87cab63a97fc97"
+  },
+  {
+    "source": "iCloud project/Figure_S1C_Male_Volcano/Code/raster_png_to_pdf.py",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1C_Male_Volcano/Code/raster_png_to_pdf.py",
+    "bytes": 1002,
+    "status": "copied",
+    "sha256": "a1e7c6ab9342be981e5724fb5cf140ec6427591c20c33bbedfe6e01bcecacf5a"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_image_level_means.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_image_level_means.csv",
+    "bytes": 2766,
+    "status": "copied",
+    "sha256": "3da282100d8c8b6941b7d6ec81ad8c49890cba8bd88e4b035f0691e3014a7a81"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_statistical_audit.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_statistical_audit.csv",
+    "bytes": 709,
+    "status": "copied",
+    "sha256": "218235e9015db60cdeabf7845f24b51eb348b2bd1cb798ffea98edca50e19ac2"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_group_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_group_summary.csv",
+    "bytes": 656,
+    "status": "copied",
+    "sha256": "813641548130187120731ae24de190d8191052d4ba631bc4feedb28a6feb4986"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_statistical_results.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_statistical_results.csv",
+    "bytes": 825,
+    "status": "copied",
+    "sha256": "ce69d58cbb83d82c1ce002f8b0493b4bce82973cee129d5694629c8195520e2f"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_plotted_values.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_plotted_values.csv",
+    "bytes": 1389,
+    "status": "copied",
+    "sha256": "bbcdf9a098b9599b2e4af2d8b8800f97c9d0f5c7df9d918b5402438460faf5b1"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_cell_level_CTCF.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Supporting_Data/HeLa_TIMELESS_cell_level_CTCF.csv",
+    "bytes": 14108,
+    "status": "copied",
+    "sha256": "4175aaef9a7a79cb5af2f74f41fc0b7ef927fb7485a17d9118ff483f7d30f64a"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Code/figure_style.R",
+    "bytes": 20131,
+    "status": "copied",
+    "sha256": "9f2cdffbe201cabedf169820be5a7c5d0a3a483fd294a62260f07dadd621119d"
+  },
+  {
+    "source": "iCloud project/Figure_4C_TIMELESS/Code/generate_Fig4A_compact.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_4C_TIMELESS/Code/generate_Fig4A_compact.R",
+    "bytes": 2708,
+    "status": "copied",
+    "sha256": "3586f845a64e63aa9828908232271403793b93f9050a27597bd4a6dea192d761"
+  },
+  {
+    "source": "iCloud project/Figure_3H_Locomotion/Supporting_Data/Fig3H_locomotion_plotted_values.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3H_Locomotion/Supporting_Data/Fig3H_locomotion_plotted_values.csv",
+    "bytes": 131,
+    "status": "copied",
+    "sha256": "842ac0160557f0175da20ef56d54a300622ec217d285910adc3031280df38f90"
+  },
+  {
+    "source": "iCloud project/Figure_3H_Locomotion/Supporting_Data/Fig3H_locomotion_statistical_audit.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3H_Locomotion/Supporting_Data/Fig3H_locomotion_statistical_audit.csv",
+    "bytes": 313,
+    "status": "copied",
+    "sha256": "5ab3cbaeb349541126e97e87016c199b882083a5b5633893e799ee1ad2cf7eb4"
+  },
+  {
+    "source": "iCloud project/Figure_3H_Locomotion/Supporting_Data/Fig3H_locomotion_Tukey_hinges.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3H_Locomotion/Supporting_Data/Fig3H_locomotion_Tukey_hinges.csv",
+    "bytes": 123,
+    "status": "copied",
+    "sha256": "88b0f263b585d27f8ce83b0db94ac3b0333813eb8881fc44d082de3acd8d6839"
+  },
+  {
+    "source": "iCloud project/Figure_3H_Locomotion/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3H_Locomotion/Code/figure_style.R",
+    "bytes": 19603,
+    "status": "copied",
+    "sha256": "ccc9d1aa7b5703c98584867dd24b4c76379aec2d7db5ba607140441d297161e4"
+  },
+  {
+    "source": "iCloud project/Figure_3H_Locomotion/Code/generate_fig3h_locomotion.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3H_Locomotion/Code/generate_fig3h_locomotion.R",
+    "bytes": 5438,
+    "status": "copied",
+    "sha256": "caefd5030caf7bdef08ff2a40e5e1abdff97f3a8aba04510a3e02280a4cb1387"
+  },
+  {
+    "source": "iCloud project/Figure_2E_Individual_Genes/Supporting_Data/Figure2E_normalized_counts_plotted.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2E_Individual_Genes/Supporting_Data/Figure2E_normalized_counts_plotted.csv",
+    "bytes": 2692,
+    "status": "copied",
+    "sha256": "85cd2ca247d5762495038d32655d7419629f247f12f1c5a7fd76ed4d05bfde60"
+  },
+  {
+    "source": "iCloud project/Figure_2E_Individual_Genes/Supporting_Data/Figure2E_adjusted_p_annotations.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2E_Individual_Genes/Supporting_Data/Figure2E_adjusted_p_annotations.csv",
+    "bytes": 645,
+    "status": "copied",
+    "sha256": "26075042f0ce74854e7ac654f245b65e7a09b0c2a0f0a6a65806568e45a5e944"
+  },
+  {
+    "source": "iCloud project/Figure_2E_Individual_Genes/Supporting_Data/DEG_CSF_vs_WRF.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2E_Individual_Genes/Supporting_Data/DEG_CSF_vs_WRF.csv",
+    "bytes": 1690478,
+    "status": "copied",
+    "sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca"
+  },
+  {
+    "source": "iCloud project/Figure_2E_Individual_Genes/Supporting_Data/DEG_CSM_vs_WRM.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2E_Individual_Genes/Supporting_Data/DEG_CSM_vs_WRM.csv",
+    "bytes": 1811806,
+    "status": "copied",
+    "sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d"
+  },
+  {
+    "source": "iCloud project/Figure_2E_Individual_Genes/Code/generate_figure2E.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2E_Individual_Genes/Code/generate_figure2E.R",
+    "bytes": 9205,
+    "status": "copied",
+    "sha256": "66228a07a1da24816b0abf2202ce8941ffa6c3698c4a97d83eed4b318b0c1d31"
+  },
+  {
+    "source": "iCloud project/Figure_2E_Individual_Genes/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2E_Individual_Genes/Code/figure_style.R",
+    "bytes": 20131,
+    "status": "copied",
+    "sha256": "9f2cdffbe201cabedf169820be5a7c5d0a3a483fd294a62260f07dadd621119d"
+  },
+  {
+    "source": "iCloud project/Figure_S3_Selected_Gene_Modules/Supporting_Data/FigS3_supporting_data.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S3_Selected_Gene_Modules/Supporting_Data/FigS3_supporting_data.csv",
+    "bytes": 13190,
+    "status": "copied",
+    "sha256": "ae2fee346ef3d14995af9817263ceceea113d07dc6e61d336f9503614b81325a"
+  },
+  {
+    "source": "iCloud project/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
+    "bytes": 7803,
+    "status": "copied",
+    "sha256": "38290588b54c84945c7e293e0106455e36011ed3e53bce18601c63a4c24aeeb4"
+  },
+  {
+    "source": "iCloud project/Figure_S1B_Western_Blot/Supporting_Data/MIC60_WB_summary_statistics.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1B_Western_Blot/Supporting_Data/MIC60_WB_summary_statistics.csv",
+    "bytes": 400,
+    "status": "copied",
+    "sha256": "fa5788c7aa61f7019d8c429fd09a59a46a62da1c10b819f025277456c9715212"
+  },
+  {
+    "source": "iCloud project/Figure_S1B_Western_Blot/Supporting_Data/MIC60_WB_graph_ready_data.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1B_Western_Blot/Supporting_Data/MIC60_WB_graph_ready_data.csv",
+    "bytes": 336,
+    "status": "copied",
+    "sha256": "fc0bf6bac0710bd6a406c33ce5a6995e928d7b5fd36ea1606d0a533699021650"
+  },
+  {
+    "source": "iCloud project/Figure_S1B_Western_Blot/Code/generate_MIC60_WB_anti_myc_quantification.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1B_Western_Blot/Code/generate_MIC60_WB_anti_myc_quantification.R",
+    "bytes": 4719,
+    "status": "copied",
+    "sha256": "84c9600b6564be62fb02776b991976d816a74bffd83ff6de4112635cbb425b73"
+  },
+  {
+    "source": "iCloud project/Figure_S1B_Western_Blot/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_S1B_Western_Blot/Code/figure_style.R",
+    "bytes": 19610,
+    "status": "copied",
+    "sha256": "ef536daf02b5186431cc70ef7868d235c35c0f15513b72eba8368b5e304a5daf"
+  },
+  {
+    "source": "iCloud project/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_wilcoxon_tests.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_wilcoxon_tests.csv",
+    "bytes": 362,
+    "status": "copied",
+    "sha256": "5e6082432c35c800bcc3175ddb478192420a07cef7b3e279b9f1273f58d3d9d1"
+  },
+  {
+    "source": "iCloud project/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_activity_filtered_values.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_activity_filtered_values.csv",
+    "bytes": 26794,
+    "status": "copied",
+    "sha256": "8c23b2e8b1171d4559227f3ccaf928cc37de0e430678e0dcb7b62a8facdca3e3"
+  },
+  {
+    "source": "iCloud project/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_activity_outlier_audit.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_activity_outlier_audit.csv",
+    "bytes": 76257,
+    "status": "copied",
+    "sha256": "62b91e6d4fbf6130cc7092cb3b1fa47c8121712f4a1b3b26de8c9d127cba0e63"
+  },
+  {
+    "source": "iCloud project/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_sample_sizes.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3G_Day_Night_Activity/Supporting_Data/paired_phase_sample_sizes.csv",
+    "bytes": 278,
+    "status": "copied",
+    "sha256": "4894d7e2d95ef0ce8a2c8673b572627786b2931a33e008e0d4c2bdb958625f4f"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_connected_object_measurements.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_connected_object_measurements.csv",
+    "bytes": 4341458,
+    "status": "copied",
+    "sha256": "6071bb0fb32e6fe3e2e641d4ce6b6c60e211bd32d84e22e4c7d8314ad7c62e24"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_area_threshold_sensitivity_statistics.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_area_threshold_sensitivity_statistics.csv",
+    "bytes": 877,
+    "status": "copied",
+    "sha256": "652e49c3d590700fb903e16e7d889461a8901610215832ce324e4e4be2e23797"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_connected_object_primary_statistics.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_connected_object_primary_statistics.csv",
+    "bytes": 552,
+    "status": "copied",
+    "sha256": "5768d1c3835c70abe7df91d5efa635cfe557bf979fc1d8f708392adb832803f1"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_connected_object_image_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_connected_object_image_summary.csv",
+    "bytes": 5609,
+    "status": "copied",
+    "sha256": "cb90298c734e43a77ff202f20c61ee444d5380c72b4723c4a4893d9455c33ee5"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_area_threshold_sensitivity_image_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Supporting_Data/TMRM_MTG_area_threshold_sensitivity_image_summary.csv",
+    "bytes": 19021,
+    "status": "copied",
+    "sha256": "14389861cce0edb9fbf0d0e284098a61ea5757516cabdcbb4d99bd06f253dc55"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Code/generate_tmrm_image_means_only_figure.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Code/generate_tmrm_image_means_only_figure.R",
+    "bytes": 5036,
+    "status": "copied",
+    "sha256": "c140c8dfb3c7832bc39a5b5e6ca4ca2934851f0008ed3e83b88d17552e7803d6"
+  },
+  {
+    "source": "iCloud project/Figure_3O_TMRM/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_3O_TMRM/Code/figure_style.R",
+    "bytes": 19603,
+    "status": "copied",
+    "sha256": "44238f081cc303eae5a6338aa95bfbd194409ebb05d0e3785fe327a1aa4bf687"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/GO_up_28_BH_significant_terms.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/GO_up_28_BH_significant_terms.csv",
+    "bytes": 6929,
+    "status": "copied",
+    "sha256": "f782bd502e10f74c510533d47f3e8bb46a4916c0fa962c55cd14dae006e3e531"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/STRING_seed_ID_mapping.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/STRING_seed_ID_mapping.csv",
+    "bytes": 19877,
+    "status": "copied",
+    "sha256": "3a846f7903c3b9ccd795f2adab56eb487150bf16b7029f35e796b3b4b6d3da0a"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/expanded_versions_summary.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/expanded_versions_summary.csv",
+    "bytes": 314,
+    "status": "copied",
+    "sha256": "92008390a9fad6f203cedf896100ac9a11d215179c1b8745752b375b57826da4"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/V1_up_28_GO_gene_memberships_four_programs.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/V1_up_28_GO_gene_memberships_four_programs.csv",
+    "bytes": 19895,
+    "status": "copied",
+    "sha256": "de3e98053ca8c5222bf745509a16ac681d500657a315f78f0f3cd7018347703c"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/V1_up_28_four_program_node_assignments.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/V1_up_28_four_program_node_assignments.csv",
+    "bytes": 3409,
+    "status": "copied",
+    "sha256": "2ffc3b96c18262964de1a34fb76d46b988f0cba857580108ab67efa6ca8e18b4"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/STRING_unmapped_seed_genes.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/STRING_unmapped_seed_genes.csv",
+    "bytes": 21,
+    "status": "copied",
+    "sha256": "2995c9f8ff35b585479d2a94fe813f7523288a648e845f0851f199bbcf8f87a4"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/V1_up_28_GO_gene_memberships.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/V1_up_28_GO_gene_memberships.csv",
+    "bytes": 19209,
+    "status": "copied",
+    "sha256": "7ad4c99a2fa6209771962f2c16748b0b97fb677eeef58b5a10c747c2710a593a"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/V1_up_STRING_edges.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/V1_up_STRING_edges.csv",
+    "bytes": 1106,
+    "status": "copied",
+    "sha256": "507562c0d3dee9f042cd4e29daa54637240e60864c0b0acf58d67b6efa883b28"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Supporting_Data/GO_up_all_results.csv",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Supporting_Data/GO_up_all_results.csv",
+    "bytes": 182625,
+    "status": "copied",
+    "sha256": "0c2316ddde51aa1a847a2a9755fd739a4efb81ec184b21dbd1f2b8a9df7a2cfd"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Code/figure_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Code/figure_style.R",
+    "bytes": 20131,
+    "status": "copied",
+    "sha256": "4f79dd39e3ff951a8927bc29cea56b0fe8bfe5b4b22cccc564c0d6ac76378bdf"
+  },
+  {
+    "source": "iCloud project/Figure_2C_Program_Ring/Code/plot_expanded_paper_style.R",
+    "destination": "LOCAL_RECOVERY_REFERENCE/cloud_source_package/Figure_2C_Program_Ring/Code/plot_expanded_paper_style.R",
+    "bytes": 22165,
+    "status": "copied",
+    "sha256": "5866221b18b59d974e3669833fd8fd110d6eca126be9bc46d6d23db87f416d37"
+  }
+]

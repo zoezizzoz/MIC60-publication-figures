@@ -1,0 +1,1 @@
+September 23 layout source snapshot. Scientific inputs and calculation rules are unchanged; panel sizes and typography follow the current Illustrator formatting task. Run the numbered R entrypoint in code/. Outputs go to results/. The layout may receive later manual edits in Illustrator.

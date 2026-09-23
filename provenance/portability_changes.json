@@ -1,0 +1,30 @@
+[
+  {
+    "path": "panels/Fig4AB/Code/prepare_plot_data.py",
+    "change": "Portability only: ROOT.parent/'Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI -> ROOT.parents[1]/'reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_plotted_values.csv'"
+  },
+  {
+    "path": "panels/Fig4AB/Code/verify_and_render_pdfs.py",
+    "change": "Portability only: shutil.which('pdftoppm') or '/Users/picklejuice/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm' -> shutil.which('pdftoppm')\nif not renderer: raise SystemExit('Install Poppler and put pdftoppm on PATH.')"
+  },
+  {
+    "path": "panels/FigS4A/restyle_s4a.py",
+    "change": "Portability only: from PIL import Image\n -> "
+  },
+  {
+    "path": "panels/FigS4A/restyle_s4a.py",
+    "change": "Removed unrelated recovery-preview bitmap cleanup; vector SVG output is unchanged."
+  },
+  {
+    "path": "reviewed_analysis/code/generate_fig3_tem_field_means.R",
+    "change": "Portability only: root <- '/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Recreated_From_September_Code_2026-09-22' -> args <- gsub('~+~',' ',commandArgs(FALSE),fixed=TRUE)\nscript <- normalizePath(sub('^--file=','',grep('^--file=',args,value=TRUE)[1]))\nroot <"
+  },
+  {
+    "path": "reviewed_analysis/code/generate_fig3_tem_field_means.R",
+    "change": "Portability only: 'working_analysis/figure_sources/ -> 'figure_sources/"
+  },
+  {
+    "path": "reviewed_analysis/code/generate_fig3_tem_field_means.R",
+    "change": "Portability only: out <- file.path(root,'working_analysis') -> out <- file.path(root,'results/full_figures')\ndir.create(out,recursive=TRUE,showWarnings=FALSE)"
+  }
+]

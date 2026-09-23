@@ -1,0 +1,13 @@
+{
+  "object_count": 22531,
+  "field_count": 32,
+  "WT_fields": 7,
+  "CS_fields": 25,
+  "all_field_means_recomputed_from_objects": true,
+  "all_plotted_values_match_source": true,
+  "source_sha256": {
+    "TMRM_MTG_connected_object_measurements.csv": "6071bb0fb32e6fe3e2e641d4ce6b6c60e211bd32d84e22e4c7d8314ad7c62e24",
+    "TMRM_MTG_connected_object_primary_statistics.csv": "5768d1c3835c70abe7df91d5efa635cfe557bf979fc1d8f708392adb832803f1",
+    "TMRM_MTG_connected_object_image_summary.csv": "cb90298c734e43a77ff202f20c61ee444d5380c72b4723c4a4893d9455c33ee5"
+  }
+}

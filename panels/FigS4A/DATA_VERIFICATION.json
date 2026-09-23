@@ -1,0 +1,10 @@
+{
+  "rows_verified": 64,
+  "lfc_and_padj_match_original_table": true,
+  "original_table": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/DEG_CSF_vs_WRF.csv",
+  "recovered_git_commit": "f16269623fb9967eaee69de018291f216e6bf1ab",
+  "significant_genes": {
+    "Mis12": 0.010681576414981,
+    "l(1)G0320": 0.00121154162731128
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "TIMELESS": {
+    "observations": 64,
+    "per_condition": 16,
+    "matches_recovered_values_exactly": true,
+    "range": [
+      0.14620943,
+      1.14329337
+    ],
+    "inference": "Descriptive; cell/image/culture/experiment identifiers are absent. The later September audit removed legacy P=.0477/.0218."
+  },
+  "MTT": {
+    "technical_wells": 78,
+    "technical_wells_per_genotype_by_dose": {
+      "0": 9,
+      "5": 6,
+      "10": 6,
+      "20": 9,
+      "40": 9
+    },
+    "experiments": {
+      "1": "2026-07-15",
+      "2": "2026-07-28"
+    },
+    "raw_workbook_numeric_and_text_contents_identical": true,
+    "normalization": "100 * (raw absorbance - within-experiment mean blank) / mean corrected matched 0 mM genotype control",
+    "inference": "Descriptive mean of experiment means; SD across experiments only when n=2. No technical-well significance tests.",
+    "source_note": "July 15 control is labelled DMSO. Preserved the archived pooling and matched-control normalization; vehicle equivalence is not established here."
+  },
+  "input_sha256": {
+    "Sources/Figure_4A_TIMELESS/Original_Data/Fig4A.xlsx": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "Sources/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "Sources/Figure_4B_MTT/Original_Data/MTT Data.xlsx": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4"
+  }
+}

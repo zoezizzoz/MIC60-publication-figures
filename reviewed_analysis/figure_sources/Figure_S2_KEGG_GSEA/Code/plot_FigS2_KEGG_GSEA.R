@@ -16,8 +16,8 @@ script_dir <- dirname(script_path)
 figure_dir <- dirname(script_dir)
 source(file.path(script_dir,"figure_style.R"))
 plot_data <- read_csv(file.path(figure_dir, "Supporting_Data", "FigS2_plotted_pathways.csv"), show_col_types = FALSE) %>% 
-    mutate(Direction = if_else(NES > 0, "Higher in CS", "Higher in WT"), facet_label = recode(comparison, CSF_vs_WTF = "italic('dMIC60')*'-null female'", 
-        CSM_vs_WTM = "italic('dMIC60')*'-null male'"), PaletteGroup = if_else(comparison == "CSF_vs_WTF", if_else(NES>0,"CS_F","WT_F"),if_else(NES>0,"CS_M","WT_M")), pathway_key = paste(comparison, str_wrap(Description, 32), sep = "___")) %>% 
+    mutate(Direction = if_else(NES > 0, "Higher in CS", "Higher in WT"), facet_label = recode(comparison, CSF_vs_WTF = "'Female'",
+        CSM_vs_WTM = "'Male'"), PaletteGroup = if_else(comparison == "CSF_vs_WTF", if_else(NES>0,"CS_F","WT_F"),if_else(NES>0,"CS_M","WT_M")), pathway_key = paste(comparison, str_wrap(Description, 32), sep = "___")) %>%
     arrange(facet_label, NES) %>% mutate(pathway_key = factor(pathway_key, levels = unique(pathway_key)))
 # Display-only refinement: input pathways, NES, adjusted P and order are unchanged.
 pathway_labels <- function(keys) {

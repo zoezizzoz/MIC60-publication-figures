@@ -1,0 +1,42 @@
+[
+  {
+    "file": "panels/Fig4AB/Code/prepare_plot_data.py",
+    "parsed": true
+  },
+  {
+    "file": "panels/Fig4AB/Code/verify_and_render_pdfs.py",
+    "parsed": true
+  },
+  {
+    "file": "panels/FigS4A/restyle_s4a.py",
+    "parsed": true
+  },
+  {
+    "file": "reproduce.py",
+    "parsed": true
+  },
+  {
+    "file": "reviewed_analysis/code/03_assay_audit.py",
+    "parsed": true
+  },
+  {
+    "file": "reviewed_analysis/code/08_full_figure_panels.py",
+    "parsed": true
+  },
+  {
+    "file": "reviewed_analysis/publish_figures.py",
+    "parsed": true
+  },
+  {
+    "file": "reviewed_analysis/run_all.py",
+    "parsed": true
+  },
+  {
+    "file": "reviewed_analysis/validate_outputs.py",
+    "parsed": true
+  },
+  {
+    "file": "tools/verify_deposit.py",
+    "parsed": true
+  }
+]

@@ -1,0 +1,2999 @@
+[
+  {
+    "destination": "reviewed_analysis/code/01_rnaseq.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/01_rnaseq.R",
+    "source_sha256": "a4ccb40a0398a35d58c96d6b6447754828c233464aafc9602724abd2a8535d1f",
+    "source_mtime": "2026-09-22T13:00:09.983534",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a4ccb40a0398a35d58c96d6b6447754828c233464aafc9602724abd2a8535d1f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/02_sleep_activity.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/02_sleep_activity.R",
+    "source_sha256": "5eaa0470c36ee16c7b02a4c4e68ec4edbf40754f9203546cc057af43ffbbfd95",
+    "source_mtime": "2026-09-22T18:20:59.278619",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5eaa0470c36ee16c7b02a4c4e68ec4edbf40754f9203546cc057af43ffbbfd95",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/03_assay_audit.py",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/03_assay_audit.py",
+    "source_sha256": "23d8a3379388d936845d2582c7a9b7dc615c70d7c597f600c53571f0b6b9e8b0",
+    "source_mtime": "2026-09-22T13:00:09.987779",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "23d8a3379388d936845d2582c7a9b7dc615c70d7c597f600c53571f0b6b9e8b0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/04_review_panels.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/04_review_panels.R",
+    "source_sha256": "5c0d3608c60abebe4b730a34d8a37c25be00b717d81bbf333fdc55ceebf47c4e",
+    "source_mtime": "2026-09-22T13:00:09.986438",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5c0d3608c60abebe4b730a34d8a37c25be00b717d81bbf333fdc55ceebf47c4e",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/05_go_pathways.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/05_go_pathways.R",
+    "source_sha256": "509bd08ed95477336702be90390208c85188d9057e8adb60dab2629dd8db0c5d",
+    "source_mtime": "2026-09-22T13:12:33.205879",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "509bd08ed95477336702be90390208c85188d9057e8adb60dab2629dd8db0c5d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/06_additional_assays.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/06_additional_assays.R",
+    "source_sha256": "5dbf7476b95d00281c2421fd7224b8a6c476b088f295ddc74b000619b1dc0fc0",
+    "source_mtime": "2026-09-22T13:00:09.987241",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5dbf7476b95d00281c2421fd7224b8a6c476b088f295ddc74b000619b1dc0fc0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/07_rnaseq_displays.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/07_rnaseq_displays.R",
+    "source_sha256": "73131ff87018693281959dc5db49260ba1e3fc8d52f430b2ec0b3cdca0045b6c",
+    "source_mtime": "2026-09-22T13:00:09.991643",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "73131ff87018693281959dc5db49260ba1e3fc8d52f430b2ec0b3cdca0045b6c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/08_full_figure_panels.py",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/08_full_figure_panels.py",
+    "source_sha256": "4d0a449c324788e465c1fe6b24d93c9df4f219f124ac13840b8f090a80b1f990",
+    "source_mtime": "2026-09-22T13:00:09.984868",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4d0a449c324788e465c1fe6b24d93c9df4f219f124ac13840b8f090a80b1f990",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/09_schematics.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/09_schematics.R",
+    "source_sha256": "4fbe63e81bec7b50388c211167bd8603f06d5c895df5ca29ab3acecaf8d06a70",
+    "source_mtime": "2026-09-22T13:00:09.991216",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4fbe63e81bec7b50388c211167bd8603f06d5c895df5ca29ab3acecaf8d06a70",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/figure_style.R",
+    "source_sha256": "907862b2b6dbc5a6ab0355e7cc416a02d930be4d1ae0b03f9348764b7cacd712",
+    "source_mtime": "2026-09-22T13:00:09.986107",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "907862b2b6dbc5a6ab0355e7cc416a02d930be4d1ae0b03f9348764b7cacd712",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/generate_mtt_figure.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/generate_mtt_figure.R",
+    "source_sha256": "a73386c3f016d64b52affbe4fd8fea8113f76def606f80c3616b1dcf0ddc1b8e",
+    "source_mtime": "2026-09-22T13:00:09.985187",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a73386c3f016d64b52affbe4fd8fea8113f76def606f80c3616b1dcf0ddc1b8e",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/generate_sleep_activity_figures.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/generate_sleep_activity_figures.R",
+    "source_sha256": "e459ad26a2be3e2be6296705b3c1f3f78c4aa313146c3e8d467c27219df34dac",
+    "source_mtime": "2026-09-22T18:20:59.279606",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e459ad26a2be3e2be6296705b3c1f3f78c4aa313146c3e8d467c27219df34dac",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/go_analysis_config.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/go_analysis_config.R",
+    "source_sha256": "555d33955fc6fff84779e65ae497dc4eee4d8f9eaf6f050542051dab94a08bc9",
+    "source_mtime": "2026-09-22T13:00:09.984542",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "555d33955fc6fff84779e65ae497dc4eee4d8f9eaf6f050542051dab94a08bc9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/go_highlight_config.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/go_highlight_config.R",
+    "source_sha256": "6bc840abf9dc163602257160ed184f4ee3c55ec46d885250dd9bb4a411521b26",
+    "source_mtime": "2026-09-22T13:00:09.986754",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "6bc840abf9dc163602257160ed184f4ee3c55ec46d885250dd9bb4a411521b26",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/illustrator_notation/edit_fig3.jsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/illustrator_notation/edit_fig3.jsx",
+    "source_sha256": "2cdb2591550936a838664f9df9c35ff31089ad264b730e9f5ee50055072fc667",
+    "source_mtime": "2026-09-22T13:00:09.990758",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2cdb2591550936a838664f9df9c35ff31089ad264b730e9f5ee50055072fc667",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/illustrator_notation/edit_remaining.jsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/illustrator_notation/edit_remaining.jsx",
+    "source_sha256": "b47949d006c02e21e5321251fb16267fed63750a707a011d77d6a68d1adebcff",
+    "source_mtime": "2026-09-22T13:00:09.989196",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "b47949d006c02e21e5321251fb16267fed63750a707a011d77d6a68d1adebcff",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/illustrator_notation/finish_labels.jsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/illustrator_notation/finish_labels.jsx",
+    "source_sha256": "efd12d198833b26c3f93aeabc8432d87abb8a538f75e5d181e8b060f41f78281",
+    "source_mtime": "2026-09-22T13:00:09.990157",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "efd12d198833b26c3f93aeabc8432d87abb8a538f75e5d181e8b060f41f78281",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/illustrator_notation/inspect.jsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/illustrator_notation/inspect.jsx",
+    "source_sha256": "2ef9b5122a831e1b42e8abd6a3b7f32ed9ede5c5ea550f7ae99c5a1d8d0b2fdb",
+    "source_mtime": "2026-09-22T13:00:09.990456",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2ef9b5122a831e1b42e8abd6a3b7f32ed9ede5c5ea550f7ae99c5a1d8d0b2fdb",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/illustrator_notation/inspect_artwork.jsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/illustrator_notation/inspect_artwork.jsx",
+    "source_sha256": "04f28e2ea28a021bb0623c3323a24cf3d66aa3ebe2cd6253d852925e6a6f4e03",
+    "source_mtime": "2026-09-22T13:00:09.989505",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "04f28e2ea28a021bb0623c3323a24cf3d66aa3ebe2cd6253d852925e6a6f4e03",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/illustrator_notation/refine_fig3.jsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/illustrator_notation/refine_fig3.jsx",
+    "source_sha256": "124f42b01748b78e9e1698d74d2b1db60f822aa1bd7731fafa6a0b208140ca60",
+    "source_mtime": "2026-09-22T13:00:09.989851",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "124f42b01748b78e9e1698d74d2b1db60f822aa1bd7731fafa6a0b208140ca60",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/label_layout.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/label_layout.R",
+    "source_sha256": "3f41c0ed12171392132c1cfc19f947bbefce7406bc3c01e870fa662cc534053f",
+    "source_mtime": "2026-09-22T13:00:09.984091",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "3f41c0ed12171392132c1cfc19f947bbefce7406bc3c01e870fa662cc534053f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/sleep_cohort_sensitivity.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/code/sleep_cohort_sensitivity.R",
+    "source_sha256": "8744c068970d189b722d8014bd29cc2b74def31793f350042ac3ea173ba8def9",
+    "source_mtime": "2026-09-22T18:20:59.280427",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "8744c068970d189b722d8014bd29cc2b74def31793f350042ac3ea173ba8def9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/rnaseq_counts.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/rnaseq_counts.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/rnaseq_female.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/rnaseq_female.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/rnaseq_male.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/rnaseq_male.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor15.14.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-09-22T13:00:10.019581",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor15.20.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-09-22T13:00:10.020081",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor15.26.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-09-22T13:00:10.020571",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor16.3.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-09-22T13:00:10.021026",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor25.14.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-09-22T13:00:10.021706",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor25.26.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-09-22T13:00:10.022249",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor26.3.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-09-22T13:00:10.022665",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor35.14.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-09-22T13:00:10.023112",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/Monitor36.3.26.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-09-22T13:00:10.024317",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/sleep/sleep_metadata.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/sleep/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/data/western_blot.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/data/western_blot.csv",
+    "source_sha256": "108648499d5ea2765bdb6b7ddc10575bbe5b7bca77fbc3973fff7251266a8891",
+    "source_mtime": "2026-09-22T13:13:55.588978",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "108648499d5ea2765bdb6b7ddc10575bbe5b7bca77fbc3973fff7251266a8891",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1B_PCA/Code/generate_compact_pca.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1B_PCA/Code/generate_compact_pca.R",
+    "source_sha256": "acca2f428306c6ff0c6985a91ddde7f92b7b895cbb890e96e3d25e2a5f6a1b4c",
+    "source_mtime": "2026-09-22T13:00:57.213075",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "acca2f428306c6ff0c6985a91ddde7f92b7b895cbb890e96e3d25e2a5f6a1b4c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1B_PCA/Rebuilt_Output/Fig1B_PCA_Compact_Labels.pdf",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1B_PCA/Rebuilt_Output/Fig1B_PCA_Compact_Labels.pdf",
+    "source_sha256": "fe98b38f34b3dbca212367e7f5ffce2acb4739086f1d63971e6bafdad98f1819",
+    "source_mtime": "2026-09-22T13:01:06.287951",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "43f98a85af991ca84357bbd96432b7dc3d7264caa92da799901b3a4292e74c40",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1B_PCA/Rebuilt_Output/Fig1B_PCA_Compact_Labels.png",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1B_PCA/Rebuilt_Output/Fig1B_PCA_Compact_Labels.png",
+    "source_sha256": "b601820b15010bd1f151e1ee71786fbafdb93155c78cf6341990d17c384e19c7",
+    "source_mtime": "2026-09-22T13:01:06.466803",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "b601820b15010bd1f151e1ee71786fbafdb93155c78cf6341990d17c384e19c7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1B_PCA/Rebuilt_Output/R_sessionInfo_compact.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1B_PCA/Rebuilt_Output/R_sessionInfo_compact.txt",
+    "source_sha256": "a41d0255a7c9bf5bfed37357fe8df6ff7b5cb5087c2581e872189dcec91d1f0c",
+    "source_mtime": "2026-09-22T13:01:06.471580",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a41d0255a7c9bf5bfed37357fe8df6ff7b5cb5087c2581e872189dcec91d1f0c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1B_PCA/Supporting_Data/Fig1B_ordination_coordinates.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1B_PCA/Supporting_Data/Fig1B_ordination_coordinates.csv",
+    "source_sha256": "cac910593954d3702bf4dbffd7f89f3696f341f68e7d9d809ae906d4c58a0404",
+    "source_mtime": "2026-09-22T13:00:20.341793",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cac910593954d3702bf4dbffd7f89f3696f341f68e7d9d809ae906d4c58a0404",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1B_PCA/Supporting_Data/fresh_ordination_check.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1B_PCA/Supporting_Data/fresh_ordination_check.csv",
+    "source_sha256": "4a2653e95a11ffefcfd817b21014b25a93c46faceaa1c7b50a9fff22ea3b5a05",
+    "source_mtime": "2026-09-22T13:01:01.249326",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4a2653e95a11ffefcfd817b21014b25a93c46faceaa1c7b50a9fff22ea3b5a05",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1C_Female_Volcano/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1C_Female_Volcano/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:09.993644",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1C_Female_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1C_Female_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "source_sha256": "e9f6bc91af0752fa1a1268f6d9a334c08c6ca509bf328400adc063515a11ea27",
+    "source_mtime": "2026-09-22T13:11:46.123239",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e9f6bc91af0752fa1a1268f6d9a334c08c6ca509bf328400adc063515a11ea27",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1D_Heatmap/Code/generate_female_heatmap.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1D_Heatmap/Code/generate_female_heatmap.R",
+    "source_sha256": "a785bbe9d4a51d1e3b916f525ec76f8dc9d5238dba85940aac1e8b3f1c6e0f15",
+    "source_mtime": "2026-09-22T13:01:22.281868",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a785bbe9d4a51d1e3b916f525ec76f8dc9d5238dba85940aac1e8b3f1c6e0f15",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1D_Heatmap/Rebuilt_Output/Fig1D_Female_Heatmap.pdf",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1D_Heatmap/Rebuilt_Output/Fig1D_Female_Heatmap.pdf",
+    "source_sha256": "c10e1e398ec894da730eb57f0f531819dd3737a3b003d2d51d750154ba90ec56",
+    "source_mtime": "2026-09-22T13:01:22.553663",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "6d91c97f67892a560b8d6f1ca7422273c03ac832ad61af1951feb0a038b2a93e",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1D_Heatmap/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1D_Heatmap/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "12a0a8f2e53c9f3d43d916bad24a0b4929235b0d8d7f1ea9ae3ed8371c2ace6b",
+    "source_mtime": "2026-09-22T13:01:22.557339",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "12a0a8f2e53c9f3d43d916bad24a0b4929235b0d8d7f1ea9ae3ed8371c2ace6b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1D_Heatmap/Supporting_Data/heatmap_female_row_z_scores.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1D_Heatmap/Supporting_Data/heatmap_female_row_z_scores.csv",
+    "source_sha256": "271c798304c2c72ab3ad62d8d1b590f95c4292ced8b256c2c6559acaf530d849",
+    "source_mtime": "2026-09-22T13:00:21.212752",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "271c798304c2c72ab3ad62d8d1b590f95c4292ced8b256c2c6559acaf530d849",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1D_Heatmap/Supporting_Data/heatmap_female_selected_genes.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_1D_Heatmap/Supporting_Data/heatmap_female_selected_genes.csv",
+    "source_sha256": "81ff707b199601e47ca12c5f8a2ece1d7905ea12f4be74e8b7890609f3a66a97",
+    "source_mtime": "2026-09-22T13:00:21.212228",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "81ff707b199601e47ca12c5f8a2ece1d7905ea12f4be74e8b7890609f3a66a97",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2C_Program_Ring/Code/plot_expanded_paper_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_2C_Program_Ring/Code/plot_expanded_paper_style.R",
+    "source_sha256": "d056ef20dfb810a52ff445da6c60639862b94a83bf5e392c8d69c9590111221b",
+    "source_mtime": "2026-09-22T13:00:10.007735",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "0ddf830581b7865bbec7967e54a323ed65f9b247aa98230f3bf27a63f88cbd94",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2D_STRING_Network/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_2D_STRING_Network/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:09.994758",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2D_STRING_Network/Code/plot_compact_landscape.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_2D_STRING_Network/Code/plot_compact_landscape.R",
+    "source_sha256": "79d8bd6a90f7bf712d0a1202fc066aabdc5f6db6a7736894157df5d118ab6e4a",
+    "source_mtime": "2026-09-22T13:00:09.995174",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "28e88f598e1f3e63e1f1d2c8f5af8efe0405947147c347cec80de3947c1fd10e",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2E_Individual_Genes/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_2E_Individual_Genes/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:10.003918",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2E_Individual_Genes/Code/generate_figure2E.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_2E_Individual_Genes/Code/generate_figure2E.R",
+    "source_sha256": "20d373c1268dd471ac8466796facccace85d0cea333dcc37eddbede957fefa16",
+    "source_mtime": "2026-09-22T13:00:10.003664",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "20d373c1268dd471ac8466796facccace85d0cea333dcc37eddbede957fefa16",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Code/figure_style.R",
+    "source_sha256": "b77a8dc63127a8e10f92629bcd6f6c0a95645f9ccd6397af30c985d66d475eac",
+    "source_mtime": "2026-09-22T13:00:10.002711",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "b77a8dc63127a8e10f92629bcd6f6c0a95645f9ccd6397af30c985d66d475eac",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Code/generate_fig3h_locomotion.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Code/generate_fig3h_locomotion.R",
+    "source_sha256": "0b2678b610edbfa6f0f4704130602c9f9db21faf0a1b53dfbb3ac57073459863",
+    "source_mtime": "2026-09-22T18:17:51.651168",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a0323260a35910e2338bc04ce63f2444c81383cd8e6a151b985589375e25aed2",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Original_Data/Fig3H-locomotion.xlsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Original_Data/Fig3H-locomotion.xlsx",
+    "source_sha256": "efe3321e88290b03b56f36b37b7c4ed572412f799f37a9eba52524cce9b8b07f",
+    "source_mtime": "2026-08-29T16:41:16",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "efe3321e88290b03b56f36b37b7c4ed572412f799f37a9eba52524cce9b8b07f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/Fig3H_locomotion_Tukey_hinges.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/Fig3H_locomotion_Tukey_hinges.csv",
+    "source_sha256": "88b0f263b585d27f8ce83b0db94ac3b0333813eb8881fc44d082de3acd8d6839",
+    "source_mtime": "2026-09-22T18:18:07.093012",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "88b0f263b585d27f8ce83b0db94ac3b0333813eb8881fc44d082de3acd8d6839",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/Fig3H_locomotion_plotted_values.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/Fig3H_locomotion_plotted_values.csv",
+    "source_sha256": "fa999e64f62c51a446cf6d0b63ca65bf54d21444b75535bbce6a14509467a69d",
+    "source_mtime": "2026-09-22T18:18:07.091778",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "fa999e64f62c51a446cf6d0b63ca65bf54d21444b75535bbce6a14509467a69d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/Fig3H_locomotion_statistical_audit.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/Fig3H_locomotion_statistical_audit.csv",
+    "source_sha256": "1553c3a1564818e424ff46f48003a1ef66d8354a9b2d0b204e9eba0a23ea344f",
+    "source_mtime": "2026-09-22T18:18:07.092764",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "1553c3a1564818e424ff46f48003a1ef66d8354a9b2d0b204e9eba0a23ea344f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3H_Locomotion/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "07fd49fe987e38bb0975d6b47b49ce291e051a93eeedf4eaa45833b090dae3c9",
+    "source_mtime": "2026-09-22T18:18:07.902189",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "07fd49fe987e38bb0975d6b47b49ce291e051a93eeedf4eaa45833b090dae3c9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:09.997414",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Code/generate_tem_figures_2026_08_04.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Code/generate_tem_figures_2026_08_04.R",
+    "source_sha256": "e12b8d6cdbd6e653448b6b4e560748da329613ed712c7bcb2cc34e6472bce438",
+    "source_mtime": "2026-09-22T13:00:09.997122",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e12b8d6cdbd6e653448b6b4e560748da329613ed712c7bcb2cc34e6472bce438",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "source_mtime": "2026-08-05T14:11:26",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "fe574f732c6b937e80c20219fefae88a1329c1a501f0c61847e3945d64ad7f82",
+    "source_mtime": "2026-09-22T13:18:58.806964",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "fe574f732c6b937e80c20219fefae88a1329c1a501f0c61847e3945d64ad7f82",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_all_source_rows_QC.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_all_source_rows_QC.csv",
+    "source_sha256": "1428612f27228fd746e18c78d67a022271584cbb1ed84aadb163d8a8a65ef446",
+    "source_mtime": "2026-09-22T13:18:57.898442",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "1428612f27228fd746e18c78d67a022271584cbb1ed84aadb163d8a8a65ef446",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_calibration_audit.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_calibration_audit.csv",
+    "source_sha256": "54b695bd503e19778bcb53ce7d8338fb553dbee8dd147fb7f0895bbc2d484ac9",
+    "source_mtime": "2026-09-22T13:18:57.899984",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "54b695bd503e19778bcb53ce7d8338fb553dbee8dd147fb7f0895bbc2d484ac9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_clean_measurements_long.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_clean_measurements_long.csv",
+    "source_sha256": "488339bb0c91b5cc33e0531ba36a4d32361dc4224218642eefb328d93ede6925",
+    "source_mtime": "2026-09-22T13:18:58.798802",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "488339bb0c91b5cc33e0531ba36a4d32361dc4224218642eefb328d93ede6925",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_image_level_summary.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_image_level_summary.csv",
+    "source_sha256": "71812a6e5a342bcd9110a6174fe92e44602f9f8eee3a1e9d19256438541e357b",
+    "source_mtime": "2026-09-22T13:18:58.799180",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "71812a6e5a342bcd9110a6174fe92e44602f9f8eee3a1e9d19256438541e357b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_primary_statistics.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_primary_statistics.csv",
+    "source_sha256": "a6214c68107c9eaae044a268a11aff1f60dc661ef9480767828a55a868892451",
+    "source_mtime": "2026-09-22T13:18:58.799490",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a6214c68107c9eaae044a268a11aff1f60dc661ef9480767828a55a868892451",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3O_TMRM/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3O_TMRM/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:10.006906",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3O_TMRM/Code/generate_tmrm_image_means_only_figure.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_3O_TMRM/Code/generate_tmrm_image_means_only_figure.R",
+    "source_sha256": "cd073f5748804b81b28e3861ce8a1c7ab7191f33a8aec5d1645347d7231a8183",
+    "source_mtime": "2026-09-22T13:00:10.006541",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cd073f5748804b81b28e3861ce8a1c7ab7191f33a8aec5d1645347d7231a8183",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4B_MTT/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4B_MTT/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:10.000887",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4B_MTT/Code/generate_mtt_figure.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4B_MTT/Code/generate_mtt_figure.R",
+    "source_sha256": "483f0fe1c90fcc89b8ba267b97b9b5cf925a5d360d394794ce7e834d9a99a940",
+    "source_mtime": "2026-09-22T13:00:10.000513",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "483f0fe1c90fcc89b8ba267b97b9b5cf925a5d360d394794ce7e834d9a99a940",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4C_TIMELESS/Code/figure_style.R",
+    "source_sha256": "0901db483744e90fd813dc8800f7a880d295686e3c8688198c864f45d67bb251",
+    "source_mtime": "2026-09-22T13:00:10.001709",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "0901db483744e90fd813dc8800f7a880d295686e3c8688198c864f45d67bb251",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Code/generate_Fig4A_compact.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4C_TIMELESS/Code/generate_Fig4A_compact.R",
+    "source_sha256": "6c9b672cb06a4844ed02f60429de08b88665399be281f83383a812d0eb76581b",
+    "source_mtime": "2026-09-22T13:46:15.625246",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "6c9b672cb06a4844ed02f60429de08b88665399be281f83383a812d0eb76581b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4C_TIMELESS/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "0d40b57a75b820e7f581792b81f5b579df758a4b2139a4b762542cc03a3ed25c",
+    "source_mtime": "2026-09-22T13:46:24.931734",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "0d40b57a75b820e7f581792b81f5b579df758a4b2139a4b762542cc03a3ed25c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_plotted_values.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_4C_TIMELESS/Supporting_Data/Fig4A_TIMELESS_DAPI_plotted_values.csv",
+    "source_sha256": "bbcdf9a098b9599b2e4af2d8b8800f97c9d0f5c7df9d918b5402438460faf5b1",
+    "source_mtime": "2026-09-22T13:46:20.160901",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "bbcdf9a098b9599b2e4af2d8b8800f97c9d0f5c7df9d918b5402438460faf5b1",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S1B_Western_Blot/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:10.005890",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Code/generate_MIC60_WB_anti_myc_quantification.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S1B_Western_Blot/Code/generate_MIC60_WB_anti_myc_quantification.R",
+    "source_sha256": "4dbfe0be704a3a9b766789f14cbd0fc625163850b0d0ea734d59e35b14fc41f5",
+    "source_mtime": "2026-09-22T13:13:38.829298",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4dbfe0be704a3a9b766789f14cbd0fc625163850b0d0ea734d59e35b14fc41f5",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Rebuilt_Output/MIC60_WB_graph_ready_data.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S1B_Western_Blot/Rebuilt_Output/MIC60_WB_graph_ready_data.csv",
+    "source_sha256": "650c4e4e4060bdeac18286ff8488d206e1aa44aa63e50952269420081617e005",
+    "source_mtime": "2026-09-22T13:13:56.323918",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "650c4e4e4060bdeac18286ff8488d206e1aa44aa63e50952269420081617e005",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Rebuilt_Output/MIC60_WB_summary_statistics.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S1B_Western_Blot/Rebuilt_Output/MIC60_WB_summary_statistics.csv",
+    "source_sha256": "8d340eb6dc4edf50384bdf49c99c7d43add5f2a0f278c8500d49ba2c8e3f28c2",
+    "source_mtime": "2026-09-22T13:13:56.325346",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "8d340eb6dc4edf50384bdf49c99c7d43add5f2a0f278c8500d49ba2c8e3f28c2",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S1B_Western_Blot/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "07fd49fe987e38bb0975d6b47b49ce291e051a93eeedf4eaa45833b090dae3c9",
+    "source_mtime": "2026-09-22T13:13:56.330485",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "07fd49fe987e38bb0975d6b47b49ce291e051a93eeedf4eaa45833b090dae3c9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S2_KEGG_GSEA/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:09.999438",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Code/plot_FigS2_KEGG_GSEA.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S2_KEGG_GSEA/Code/plot_FigS2_KEGG_GSEA.R",
+    "source_sha256": "210265b888c87ac5c59cd991f8799fa9ffafca65761592b5ea546463513b76da",
+    "source_mtime": "2026-09-22T13:02:42.495309",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2f53b4d19624f409ae8296e684b0543078725b40a04c2096375448616cb8af1f",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S2_KEGG_GSEA/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "aa5e6f3ccc0ebd637b458791d0091d71be17d62ba86c58fd2c8353c9922c4950",
+    "source_mtime": "2026-09-22T13:03:05.381067",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "aa5e6f3ccc0ebd637b458791d0091d71be17d62ba86c58fd2c8353c9922c4950",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Supporting_Data/FigS2_plotted_pathways.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S2_KEGG_GSEA/Supporting_Data/FigS2_plotted_pathways.csv",
+    "source_sha256": "f76fec197bbaf0d4f705d224bcbab01c1951cf1cc85094fa5f186e1ea6e4d282",
+    "source_mtime": "2026-09-22T13:02:13.837717",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f76fec197bbaf0d4f705d224bcbab01c1951cf1cc85094fa5f186e1ea6e4d282",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:10.004971",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
+    "source_sha256": "73e5ae368948da860e3d2d11588f6bc44e49b67b0f0e36f1bacfeabcbdc87bd1",
+    "source_mtime": "2026-09-22T18:16:43.523820",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4450efd7fb30b699d043edccf926edc6463a6b2fefea3f4ce292022810209ac8",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_figure_legend.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_figure_legend.txt",
+    "source_sha256": "602987dc328c15d6a52afa794c55a1b3f19f544c69b7bb97a00c91c05f0a10cc",
+    "source_mtime": "2026-09-22T18:16:56.237394",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "602987dc328c15d6a52afa794c55a1b3f19f544c69b7bb97a00c91c05f0a10cc",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",
+    "source_sha256": "263d1e2b4430f09b4a7b5b083fc5ff8b8fd008ea1fd5a5dc23edeb65093681bf",
+    "source_mtime": "2026-09-22T18:16:53.977161",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "263d1e2b4430f09b4a7b5b083fc5ff8b8fd008ea1fd5a5dc23edeb65093681bf",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "65199502f7df50190efaaae4cb948f2337c51310e904f037941574d7c223aae2",
+    "source_mtime": "2026-09-22T18:16:56.260010",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "65199502f7df50190efaaae4cb948f2337c51310e904f037941574d7c223aae2",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:09.995949",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Code/generate_transfection_efficiency.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Code/generate_transfection_efficiency.R",
+    "source_sha256": "ce884555374f0386dad3500ada36ff9bec0357eaf0e8ef0c86a37d3b74560e5a",
+    "source_mtime": "2026-09-22T13:00:09.996261",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "ce884555374f0386dad3500ada36ff9bec0357eaf0e8ef0c86a37d3b74560e5a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "67b371145c20c8c338d3c65521ee3acf66871d3704ce9030bd21a50df995d5fc",
+    "source_mtime": "2026-09-22T13:19:37.022575",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "67b371145c20c8c338d3c65521ee3acf66871d3704ce9030bd21a50df995d5fc",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Supporting_Data/transfection_efficiency_plot_data.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Supporting_Data/transfection_efficiency_plot_data.csv",
+    "source_sha256": "90b55e116b174f05b747e6009947a7b52239dc6b0e328d60587d50710bf39186",
+    "source_mtime": "2026-09-22T13:19:32.376262",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "90b55e116b174f05b747e6009947a7b52239dc6b0e328d60587d50710bf39186",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Code/figure_style.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S4_Stress/Code/figure_style.R",
+    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "source_mtime": "2026-09-22T13:00:09.998066",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Code/generate_FigS4A_stress.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S4_Stress/Code/generate_FigS4A_stress.R",
+    "source_sha256": "be8f14c9f4c0b27d8003a3f3e44e8a6df36dce09eeaea827eaec7102ac1acf14",
+    "source_mtime": "2026-09-22T13:00:09.998542",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "be8f14c9f4c0b27d8003a3f3e44e8a6df36dce09eeaea827eaec7102ac1acf14",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/Fig1B_ordination_coordinates.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/Fig1B_ordination_coordinates.csv",
+    "source_sha256": "cac910593954d3702bf4dbffd7f89f3696f341f68e7d9d809ae906d4c58a0404",
+    "source_mtime": "2026-09-22T13:00:20.341793",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "cac910593954d3702bf4dbffd7f89f3696f341f68e7d9d809ae906d4c58a0404",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/Fig1D_Female_Heatmap_column_order.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/Fig1D_Female_Heatmap_column_order.csv",
+    "source_sha256": "f1856f11033ac3cc446ed1aa9a26768b5a391da786bdd850e2f245e3dd28328c",
+    "source_mtime": "2026-09-22T13:00:21.532733",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f1856f11033ac3cc446ed1aa9a26768b5a391da786bdd850e2f245e3dd28328c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/Fig1D_Female_Heatmap_row_order.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/Fig1D_Female_Heatmap_row_order.csv",
+    "source_sha256": "823696f813c77265c360215a112266eb20b4a860b5fae980dec099ec6aded036",
+    "source_mtime": "2026-09-22T13:00:21.532520",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "823696f813c77265c360215a112266eb20b4a860b5fae980dec099ec6aded036",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/FigS1D_Male_Heatmap_column_order.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/FigS1D_Male_Heatmap_column_order.csv",
+    "source_sha256": "b91cf3607a095d0ec728a4ad16b5d2d1f8f3fda8a9eb82f054dd2d98bce71427",
+    "source_mtime": "2026-09-22T13:00:21.773600",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "b91cf3607a095d0ec728a4ad16b5d2d1f8f3fda8a9eb82f054dd2d98bce71427",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/FigS1D_Male_Heatmap_row_order.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/FigS1D_Male_Heatmap_row_order.csv",
+    "source_sha256": "4545b8e6dae8d111f1d6cee569c524c583d82339938be0b9b0fc683ae2eec82e",
+    "source_mtime": "2026-09-22T13:00:21.773389",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4545b8e6dae8d111f1d6cee569c524c583d82339938be0b9b0fc683ae2eec82e",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/RNAseq_display_parameters.json",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/RNAseq_display_parameters.json",
+    "source_sha256": "5fc68a33f80eaa21193d6dc2a84dec8f1a9797b350e706fee70dd45486789cb0",
+    "source_mtime": "2026-09-22T13:00:21.774652",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5fc68a33f80eaa21193d6dc2a84dec8f1a9797b350e706fee70dd45486789cb0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/RNAseq_display_warnings.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/RNAseq_display_warnings.txt",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_mtime": "2026-09-22T13:00:21.784221",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/RNAseq_displays_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/RNAseq_displays_sessionInfo.txt",
+    "source_sha256": "535c055ecbb9e51d27543c7f9e9b74bd4febef5fd25d6002bfbc4b30a3a4b86f",
+    "source_mtime": "2026-09-22T13:00:21.784060",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "535c055ecbb9e51d27543c7f9e9b74bd4febef5fd25d6002bfbc4b30a3a4b86f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/RNAseq_rlog_all_libraries.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/RNAseq_rlog_all_libraries.csv",
+    "source_sha256": "faffcb9052f4ccb8d61fb0d20522d957c62b5bd65635343ffb3c2aef5e14b058",
+    "source_mtime": "2026-09-22T13:00:20.261782",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "faffcb9052f4ccb8d61fb0d20522d957c62b5bd65635343ffb3c2aef5e14b058",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/R_sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/R_sessionInfo.txt",
+    "source_sha256": "f8e4ded00dd36540b217666ae36cf88a4fa44e5d857195bccd2419e3eac3be60",
+    "source_mtime": "2026-09-22T13:12:09.649164",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f8e4ded00dd36540b217666ae36cf88a4fa44e5d857195bccd2419e3eac3be60",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/heatmap_female_row_z_scores.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/heatmap_female_row_z_scores.csv",
+    "source_sha256": "271c798304c2c72ab3ad62d8d1b590f95c4292ced8b256c2c6559acaf530d849",
+    "source_mtime": "2026-09-22T13:00:21.212752",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "271c798304c2c72ab3ad62d8d1b590f95c4292ced8b256c2c6559acaf530d849",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/heatmap_female_selected_genes.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/heatmap_female_selected_genes.csv",
+    "source_sha256": "81ff707b199601e47ca12c5f8a2ece1d7905ea12f4be74e8b7890609f3a66a97",
+    "source_mtime": "2026-09-22T13:00:21.212228",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "81ff707b199601e47ca12c5f8a2ece1d7905ea12f4be74e8b7890609f3a66a97",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/heatmap_group_key.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/heatmap_group_key.csv",
+    "source_sha256": "e0aed4d27d0b6a257210c644f702067fb89fbb85d426f2aa23544c17ee67775b",
+    "source_mtime": "2026-09-22T13:00:21.773905",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e0aed4d27d0b6a257210c644f702067fb89fbb85d426f2aa23544c17ee67775b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/heatmap_male_row_z_scores.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/heatmap_male_row_z_scores.csv",
+    "source_sha256": "21a99977a136ddc7be04765e6b95825985df18812982bec75de263a9bf0dc9e9",
+    "source_mtime": "2026-09-22T13:00:21.246426",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "21a99977a136ddc7be04765e6b95825985df18812982bec75de263a9bf0dc9e9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/heatmap_male_selected_genes.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/heatmap_male_selected_genes.csv",
+    "source_sha256": "267e9b8e6b6e72ee1699ec2fb43bffbc11f4cc9e5cab8856e2a93c3cc7502725",
+    "source_mtime": "2026-09-22T13:00:21.245901",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "267e9b8e6b6e72ee1699ec2fb43bffbc11f4cc9e5cab8856e2a93c3cc7502725",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/full_figures/volcano_DEG_count_summary.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/full_figures/volcano_DEG_count_summary.csv",
+    "source_sha256": "ce5e9affcd4b0cd3ff59d9e0c0c7b8afd441852e1145423f0d58f4cd8d5a9d2a",
+    "source_mtime": "2026-09-22T13:12:09.639797",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "ce5e9affcd4b0cd3ff59d9e0c0c7b8afd441852e1145423f0d58f4cd8d5a9d2a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/GO_displayed_terms_full_gene_lists.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/GO_displayed_terms_full_gene_lists.csv",
+    "source_sha256": "1b4c286bce4c6bff689bafe13b3222c12b32b0949a7d7abc6921ff10ed8923bc",
+    "source_mtime": "2026-09-22T13:13:02.559317",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "1b4c286bce4c6bff689bafe13b3222c12b32b0949a7d7abc6921ff10ed8923bc",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/GO_highlighted_gene_audit.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/GO_highlighted_gene_audit.csv",
+    "source_sha256": "5826f050ba7e5e20a760c95d6df6dabafbc3c0389832f126d00c83771260e70c",
+    "source_mtime": "2026-09-22T13:13:02.559696",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5826f050ba7e5e20a760c95d6df6dabafbc3c0389832f126d00c83771260e70c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/all_displayed_terms_and_genes.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/all_displayed_terms_and_genes.csv",
+    "source_sha256": "9d99b84db7f831ad564df7db1c9dfac627e67a387ca9d6943b1a748445d2894d",
+    "source_mtime": "2026-09-22T13:13:02.558353",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "9d99b84db7f831ad564df7db1c9dfac627e67a387ca9d6943b1a748445d2894d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/analysis_configuration.json",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/analysis_configuration.json",
+    "source_sha256": "c5b0b73d67661efb5d0a2a3f490a5f1646625fa45eb87e04e8142e456ea133c4",
+    "source_mtime": "2026-09-22T13:13:02.591778",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "c5b0b73d67661efb5d0a2a3f490a5f1646625fa45eb87e04e8142e456ea133c4",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/analysis_summary.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/analysis_summary.csv",
+    "source_sha256": "48cbc72450c53641a0f449ddd1139ab8fa7ae7e5947c48136fb21c1f93f2e39f",
+    "source_mtime": "2026-09-22T13:13:02.557582",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "48cbc72450c53641a0f449ddd1139ab8fa7ae7e5947c48136fb21c1f93f2e39f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/annotation_metadata.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/annotation_metadata.txt",
+    "source_sha256": "13fef5352f12cb2f8622675def3511aedb5b79af6b7e42bc5e047a4c28492b45",
+    "source_mtime": "2026-09-22T13:13:02.590425",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "13fef5352f12cb2f8622675def3511aedb5b79af6b7e42bc5e047a4c28492b45",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/female_down_all_results.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/female_down_all_results.csv",
+    "source_sha256": "c79fd17ab2a8d54a1e991f7b72bf89f7eef8a23f3422a764f99b24f9d811349f",
+    "source_mtime": "2026-09-22T13:12:54.194520",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "c79fd17ab2a8d54a1e991f7b72bf89f7eef8a23f3422a764f99b24f9d811349f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/female_down_displayed_terms.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/female_down_displayed_terms.csv",
+    "source_sha256": "7debbf2d29969eef757ef37020f0754e0905308964989b9b291cded0def103bf",
+    "source_mtime": "2026-09-22T13:12:54.195799",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "7debbf2d29969eef757ef37020f0754e0905308964989b9b291cded0def103bf",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/female_up_all_results.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/female_up_all_results.csv",
+    "source_sha256": "e438efe64b34a98397e09ea1598d5ef7bc78c4fe4be9d4ec613b45a36ba18ed5",
+    "source_mtime": "2026-09-22T13:12:51.056271",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e438efe64b34a98397e09ea1598d5ef7bc78c4fe4be9d4ec613b45a36ba18ed5",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/female_up_displayed_terms.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/female_up_displayed_terms.csv",
+    "source_sha256": "504dd62e52f2d324999688ebf59a1ed3e63062709330942c2fba7c6742d65ab1",
+    "source_mtime": "2026-09-22T13:12:51.057955",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "504dd62e52f2d324999688ebf59a1ed3e63062709330942c2fba7c6742d65ab1",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/male_down_all_results.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/male_down_all_results.csv",
+    "source_sha256": "4cca2189f08d58dad1f56e14e1b6d163b23a989116f5ec00357d298e709bb3b9",
+    "source_mtime": "2026-09-22T13:13:02.095137",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4cca2189f08d58dad1f56e14e1b6d163b23a989116f5ec00357d298e709bb3b9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/male_down_displayed_terms.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/male_down_displayed_terms.csv",
+    "source_sha256": "e7cd1f0963ee1cfcecd227832e98652254f6fdd3cfbeaaee100758abab26d311",
+    "source_mtime": "2026-09-22T13:13:02.096435",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e7cd1f0963ee1cfcecd227832e98652254f6fdd3cfbeaaee100758abab26d311",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/male_up_all_results.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/male_up_all_results.csv",
+    "source_sha256": "2c5122e7817b3f1d1d865829d60debadc5f26e5eaadbf794c7f42233fe32be14",
+    "source_mtime": "2026-09-22T13:12:58.399058",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2c5122e7817b3f1d1d865829d60debadc5f26e5eaadbf794c7f42233fe32be14",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/male_up_displayed_terms.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/male_up_displayed_terms.csv",
+    "source_sha256": "57feed9c60ca5bcd7e1e597ec6c9de696823a897f71ccde1ec00cc4204e276f8",
+    "source_mtime": "2026-09-22T13:12:58.400291",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "57feed9c60ca5bcd7e1e597ec6c9de696823a897f71ccde1ec00cc4204e276f8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/go/sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/go/sessionInfo.txt",
+    "source_sha256": "74b54747c48c89b635fbe1fd9efb2a141be51b4c298769e91756a625cf68d764",
+    "source_mtime": "2026-09-22T13:13:02.589162",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "74b54747c48c89b635fbe1fd9efb2a141be51b4c298769e91756a625cf68d764",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/acquisition_intervals.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/acquisition_intervals.csv",
+    "source_sha256": "f176baaf8f7cc81803495cb6b9351698a235e22f0d3bf6852a958d18db350052",
+    "source_mtime": "2026-09-22T18:21:44.549852",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f176baaf8f7cc81803495cb6b9351698a235e22f0d3bf6852a958d18db350052",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/activity_cohort_means.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/activity_cohort_means.csv",
+    "source_sha256": "20650fba4afbb784ed22896e96d97004014c464efaa91c6f42fe399526e18cd5",
+    "source_mtime": "2026-09-22T18:21:44.817067",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "20650fba4afbb784ed22896e96d97004014c464efaa91c6f42fe399526e18cd5",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/activity_phase_values_and_exclusions.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/activity_phase_values_and_exclusions.csv",
+    "source_sha256": "5bcbfc059e4b3cb0f88e9eed886e8ea3c6c34c30b7184d41eb37221f51a59bcb",
+    "source_mtime": "2026-09-22T18:21:44.815694",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5bcbfc059e4b3cb0f88e9eed886e8ea3c6c34c30b7184d41eb37221f51a59bcb",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/activity_profile_summary.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/activity_profile_summary.csv",
+    "source_sha256": "d2f165c62f154f9daa3c4a6a952144d5a44467732d8a47f3f144f3ea0cac390c",
+    "source_mtime": "2026-09-22T18:21:44.688340",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "d2f165c62f154f9daa3c4a6a952144d5a44467732d8a47f3f144f3ea0cac390c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/activity_total_values_and_exclusions.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/activity_total_values_and_exclusions.csv",
+    "source_sha256": "0b19e7168f48aa3643f2b12b3910eae9714340a6e0f075d53db222d72ee7de46",
+    "source_mtime": "2026-09-22T18:21:44.815215",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "0b19e7168f48aa3643f2b12b3910eae9714340a6e0f075d53db222d72ee7de46",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/analysis_parameters.json",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/analysis_parameters.json",
+    "source_sha256": "12e4868516afef8718aafff208bebef4a52b8b72b7893ec03ac812a36df8cb8f",
+    "source_mtime": "2026-09-22T18:21:44.839316",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "12e4868516afef8718aafff208bebef4a52b8b72b7893ec03ac812a36df8cb8f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/cohort_sample_counts.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/cohort_sample_counts.csv",
+    "source_sha256": "f47a17798f39ebbbf2bc806784e5a1490a095fc5376d860047c2a195e056db37",
+    "source_mtime": "2026-09-22T18:21:44.824139",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f47a17798f39ebbbf2bc806784e5a1490a095fc5376d860047c2a195e056db37",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/curated_fly_coverage.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/curated_fly_coverage.csv",
+    "source_sha256": "6ec175dfac634469bd3a2fa93ea14a304b8b0e6d1deef62b701b2619f5338ae6",
+    "source_mtime": "2026-09-22T18:21:44.563428",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "6ec175dfac634469bd3a2fa93ea14a304b8b0e6d1deef62b701b2619f5338ae6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/metadata_used.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/metadata_used.csv",
+    "source_sha256": "75b4baa0c8149014a004841ca7b82755fc7ab1ebf05d2d66db0e68c4eb869c0d",
+    "source_mtime": "2026-09-22T18:21:44.560686",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "75b4baa0c8149014a004841ca7b82755fc7ab1ebf05d2d66db0e68c4eb869c0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/primary_statistics.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/primary_statistics.csv",
+    "source_sha256": "5385e0d1a7689284df7bb3e1c71bd22904c478af20ba76bba1dcd7e334638a9d",
+    "source_mtime": "2026-09-22T18:21:44.820592",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5385e0d1a7689284df7bb3e1c71bd22904c478af20ba76bba1dcd7e334638a9d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/raw_fly_metadata.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/raw_fly_metadata.csv",
+    "source_sha256": "2a2427112c26ed8f8eaca447fb0bcb5320390df1f640fe74325574d2790a50a3",
+    "source_mtime": "2026-09-22T18:21:42.199082",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "2a2427112c26ed8f8eaca447fb0bcb5320390df1f640fe74325574d2790a50a3",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sessionInfo.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sessionInfo.txt",
+    "source_sha256": "3aa24bdb5424ffd3d35ed264c49e0212a958bedb8c9f87d2042dae0677a2ec49",
+    "source_mtime": "2026-09-22T18:21:44.846926",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "3aa24bdb5424ffd3d35ed264c49e0212a958bedb8c9f87d2042dae0677a2ec49",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sleep_cohort_means.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sleep_cohort_means.csv",
+    "source_sha256": "e30f171d4ed1fce6a8fc3aa82db2de97ba8b691d6a62d3a2b8e3ac3618447e4b",
+    "source_mtime": "2026-09-22T18:21:44.789424",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "e30f171d4ed1fce6a8fc3aa82db2de97ba8b691d6a62d3a2b8e3ac3618447e4b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sleep_cohort_stratified_sensitivity.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sleep_cohort_stratified_sensitivity.csv",
+    "source_sha256": "219544905fba14ba9a64456088e4116edb1a59b8bb5edc1ba909f155362f22cb",
+    "source_mtime": "2026-09-22T18:21:46.876141",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "219544905fba14ba9a64456088e4116edb1a59b8bb5edc1ba909f155362f22cb",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sleep_per_cohort_summary.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sleep_per_cohort_summary.csv",
+    "source_sha256": "b1843f98b5e16c02d45f0d4d28fd36f90cfc5d735d5836d8b47f206122a1b002",
+    "source_mtime": "2026-09-22T18:21:46.876985",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "b1843f98b5e16c02d45f0d4d28fd36f90cfc5d735d5836d8b47f206122a1b002",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sleep_phase_values_and_exclusions.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sleep_phase_values_and_exclusions.csv",
+    "source_sha256": "6bd06f5f351079b88d09690bed9de510300f78ad5c95881e253fbfd90da8065c",
+    "source_mtime": "2026-09-22T18:21:44.788314",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "6bd06f5f351079b88d09690bed9de510300f78ad5c95881e253fbfd90da8065c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sleep_profile_summary.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sleep_profile_summary.csv",
+    "source_sha256": "dde146f3206999e34dcf37efa9b4e489256428fa6efc68b36845ed7e1ebb833a",
+    "source_mtime": "2026-09-22T18:21:44.648400",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "dde146f3206999e34dcf37efa9b4e489256428fa6efc68b36845ed7e1ebb833a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/sleep_total_values_and_exclusions.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/sleep_total_values_and_exclusions.csv",
+    "source_sha256": "f3941238883ae94e9880c26cc667b0ce55124539efd85a45fba9eb2278e42bf0",
+    "source_mtime": "2026-09-22T18:21:44.787983",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f3941238883ae94e9880c26cc667b0ce55124539efd85a45fba9eb2278e42bf0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/results/sleep/window_and_filter_sensitivity.csv",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/results/sleep/window_and_filter_sensitivity.csv",
+    "source_sha256": "f951f14e3b25cb45679e0ab896f305dbf46b27604dfedd26aa7e9019386ed0a2",
+    "source_mtime": "2026-09-22T18:21:44.818510",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "f951f14e3b25cb45679e0ab896f305dbf46b27604dfedd26aa7e9019386ed0a2",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/run_all.py",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/run_all.py",
+    "source_sha256": "5177a3af5a02e456f97c35fa5fa19e49f6b45a19c38e1f4d537899b02cf619ae",
+    "source_mtime": "2026-09-22T13:00:10.008050",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "5177a3af5a02e456f97c35fa5fa19e49f6b45a19c38e1f4d537899b02cf619ae",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/publish_figures.py",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/publish_figures.py",
+    "source_sha256": "a781cdf65bb0e4ee781b2e2ff89e3ef6ec36e9600fa226d651ef8e461ac3c65c",
+    "source_mtime": "2026-09-22T13:00:09.982805",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "a781cdf65bb0e4ee781b2e2ff89e3ef6ec36e9600fa226d651ef8e461ac3c65c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/validate_outputs.py",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/validate_outputs.py",
+    "source_sha256": "1be6fd0518f81818c256960d9d195936ae1c3543e4d727662bbba9ed46f3f099",
+    "source_mtime": "2026-09-22T13:00:09.982310",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "1be6fd0518f81818c256960d9d195936ae1c3543e4d727662bbba9ed46f3f099",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/requirements.txt",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/requirements.txt",
+    "source_sha256": "aacde9e92cd9a87af1817cd962d091aa944a8b29bc5bda316ab0a66250a36921",
+    "source_mtime": "2026-09-22T13:00:09.981862",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "aacde9e92cd9a87af1817cd962d091aa944a8b29bc5bda316ab0a66250a36921",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/WORKFLOW.md",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/WORKFLOW.md",
+    "source_sha256": "8cf62d3aa5b771a3e8bdffa9b62affe824f592c2994779af7c556cb6ddbcc27b",
+    "source_mtime": "2026-09-22T13:00:09.992395",
+    "role": "reviewed_analysis_and_recovered_inputs",
+    "deposit_sha256": "4a81e459c69278c56243eef9079b74bb5b18aa645f6bce900cf4e50e646ed8e0",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "data/original_inputs/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-29T23:05:38",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_2C_Program_Ring/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2C_Program_Ring/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:33:19",
+    "role": "original_source_package_input",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_2D_STRING_Network/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2D_STRING_Network/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:33:19",
+    "role": "original_source_package_input",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_2E_Individual_Genes/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2E_Individual_Genes/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_2E_Individual_Genes/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2E_Individual_Genes/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_2E_Individual_Genes/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2E_Individual_Genes/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor15.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor15.20.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor15.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor16.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor25.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor25.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor26.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor35.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/Monitor36.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3B_Sleep_Profile/Original_Data/sleep_metadata.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3B_Sleep_Profile/Original_Data/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor15.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor15.20.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor15.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor16.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor25.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor25.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor26.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor35.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/Monitor36.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3C_Total_Sleep/Original_Data/sleep_metadata.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3C_Total_Sleep/Original_Data/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor15.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor15.20.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor15.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor16.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor25.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor25.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor26.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor35.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/Monitor36.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3D_Day_Night_Sleep/Original_Data/sleep_metadata.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3D_Day_Night_Sleep/Original_Data/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor15.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor15.20.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor15.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor16.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor25.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor25.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor26.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor35.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/Monitor36.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3E_Activity_Profile/Original_Data/sleep_metadata.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3E_Activity_Profile/Original_Data/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor15.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor15.20.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor15.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor16.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor25.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor25.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor26.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor35.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/Monitor36.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3F_Total_Activity/Original_Data/sleep_metadata.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3F_Total_Activity/Original_Data/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor15.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor15.14.26.txt",
+    "source_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "d1831a3896ad92720676096e4961e9900bf9aebdd8d8735652d8fca3438afa7c",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor15.20.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor15.20.26.txt",
+    "source_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72fb41fc8917a9ca15b78d43c144af3dd41c6012a2974c054bede5bb3c726509",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor15.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor15.26.26.txt",
+    "source_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "180aa215943c4a1bce7dd0b347b7feb78b8c70780a2fb15342f59493ffd54c0b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor16.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor16.3.26.txt",
+    "source_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "db864a742a8d4d32042231d2856155c1b13c1349af7435bdde53ae0971b13556",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor25.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor25.14.26.txt",
+    "source_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1d37649c31ba84b833fc36d995b30150b005aa8ac4b9491ff55a59ce2c0c1409",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor25.26.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor25.26.26.txt",
+    "source_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "fd15ed2cba9ff00b90d65128b7e5cbe189ce47eaa9688e303d72379653f874c6",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor26.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor26.3.26.txt",
+    "source_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2010c11e8666cf73f2cc138caf2446c615c32a461e8436ea55e1fc08ad7c5f72",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor35.14.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor35.14.26.txt",
+    "source_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a33f2162215ce0166c7cf04817f15d6fc0268cc0ed429b352a5309dd334c60a0",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/Monitor36.3.26.txt",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/Monitor36.3.26.txt",
+    "source_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "bd760cf6101d001630a5958b36ef7d3b74a5bdd6d31811588fb55cb95df9221d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3G_Day_Night_Activity/Original_Data/sleep_metadata.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3G_Day_Night_Activity/Original_Data/sleep_metadata.csv",
+    "source_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "789d34ec51ce7d8a649f54909f3e07fb1a4cce02c4a2ab04bbed21854790c197",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3H_Locomotion/Original_Data/Fig3H-locomotion.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3H_Locomotion/Original_Data/Fig3H-locomotion.xlsx",
+    "source_sha256": "efe3321e88290b03b56f36b37b7c4ed572412f799f37a9eba52524cce9b8b07f",
+    "source_mtime": "2026-08-29T16:41:16",
+    "role": "original_source_package_input",
+    "deposit_sha256": "efe3321e88290b03b56f36b37b7c4ed572412f799f37a9eba52524cce9b8b07f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3K_Mitochondrial_Area/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3K_Mitochondrial_Area/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "source_mtime": "2026-08-05T14:11:26",
+    "role": "original_source_package_input",
+    "deposit_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3L_Aspect_Ratio/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3L_Aspect_Ratio/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "source_mtime": "2026-08-05T14:11:26",
+    "role": "original_source_package_input",
+    "deposit_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_3M_Perimeter/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3M_Perimeter/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "source_mtime": "2026-08-05T14:11:26",
+    "role": "original_source_package_input",
+    "deposit_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx",
+    "source_sha256": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "source_mtime": "2026-08-07T19:04:12",
+    "role": "original_source_package_input",
+    "deposit_sha256": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+    "source_sha256": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_4C_TIMELESS/Original_Data/7-27-26 HeLa Timeless Quantification.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4C_TIMELESS/Original_Data/7-27-26 HeLa Timeless Quantification.xlsx",
+    "source_sha256": "000d7c9c24081adaf4ba84c567371c67f0c8a9a1b08a5cf436284414583824c9",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "000d7c9c24081adaf4ba84c567371c67f0c8a9a1b08a5cf436284414583824c9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_4C_TIMELESS/Original_Data/Fig4A.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4C_TIMELESS/Original_Data/Fig4A.xlsx",
+    "source_sha256": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "source_mtime": "2026-08-29T16:41:16",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S1B_Western_Blot/Original_Data/WB Quantificaiton MIC60.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S1B_Western_Blot/Original_Data/WB Quantificaiton MIC60.xlsx",
+    "source_sha256": "74593004d74bcbd7c824f2df9de977ee495f9b01c9b0caa632ee3cd58d8b82ce",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "74593004d74bcbd7c824f2df9de977ee495f9b01c9b0caa632ee3cd58d8b82ce",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S1B_Western_Blot/Original_Data/myc WB quantifications.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S1B_Western_Blot/Original_Data/myc WB quantifications.xlsx",
+    "source_sha256": "72b83fd301b888dcb9fd4ffa28d00439e95e36d7c92b080c4a47ca70aea774b2",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "72b83fd301b888dcb9fd4ffa28d00439e95e36d7c92b080c4a47ca70aea774b2",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S1C_Male_Volcano/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S1C_Male_Volcano/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-29T23:05:38",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2GENE_snapshot.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2GENE_snapshot.csv",
+    "source_sha256": "ffc364624ff23982b53c617dad882baf3dce9b26eeac990a03248e670bcc1b4e",
+    "source_mtime": "2026-08-27T17:26:07",
+    "role": "original_source_package_input",
+    "deposit_sha256": "ffc364624ff23982b53c617dad882baf3dce9b26eeac990a03248e670bcc1b4e",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2NAME_snapshot.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2NAME_snapshot.csv",
+    "source_sha256": "a27bf78d91619ffa20fc1133cf73c0e33df8bb5e630114599056e478608ee164",
+    "source_mtime": "2026-08-27T17:26:07",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a27bf78d91619ffa20fc1133cf73c0e33df8bb5e630114599056e478608ee164",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S2_KEGG_GSEA/Original_Data/KEGG_GSEA_all_results.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/KEGG_GSEA_all_results.csv",
+    "source_sha256": "5f8746dea05f216677dd1bc86da86f9115af9c757facf58699db22e606c09290",
+    "source_mtime": "2026-08-30T21:43:24",
+    "role": "original_source_package_input",
+    "deposit_sha256": "5f8746dea05f216677dd1bc86da86f9115af9c757facf58699db22e606c09290",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S2_KEGG_GSEA/Original_Data/gene_ID_mapping_and_DE_results.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/gene_ID_mapping_and_DE_results.csv",
+    "source_sha256": "f5951be7df77852efb1f1c4d82566defcc8ac3b41954077b44f508902a114469",
+    "source_mtime": "2026-08-30T21:43:24",
+    "role": "original_source_package_input",
+    "deposit_sha256": "f5951be7df77852efb1f1c4d82566defcc8ac3b41954077b44f508902a114469",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S4B_Transfection_Efficiency/Original_Data/2026-MIC60-paper_FigS4B-TransfectionEfficiency_SS_Hela Transfection Efficiency Final.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4B_Transfection_Efficiency/Original_Data/2026-MIC60-paper_FigS4B-TransfectionEfficiency_SS_Hela Transfection Efficiency Final.xlsx",
+    "source_sha256": "852e34b0b69a5c838a7819b072761cd6a735c6ac1d1a0c5534c4fcd796b4c380",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "original_source_package_input",
+    "deposit_sha256": "852e34b0b69a5c838a7819b072761cd6a735c6ac1d1a0c5534c4fcd796b4c380",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S4_Stress/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S4_Stress/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S4_Stress/Original_Data/RNA-seq Stress Genes.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/RNA-seq Stress Genes.xlsx",
+    "source_sha256": "b01e788b1ad5d841a25b1572d960f67a89ce34e442679ac528ee949e9f84edc7",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "b01e788b1ad5d841a25b1572d960f67a89ce34e442679ac528ee949e9f84edc7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S4_Stress/Original_Data/common stress genes.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/common stress genes.xlsx",
+    "source_sha256": "1bf6c1904fbd4144198a056dee918691b89e3aa366dc9211de47d712d2589528",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "1bf6c1904fbd4144198a056dee918691b89e3aa366dc9211de47d712d2589528",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Figure_S4_Stress/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/README.md",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/README.md",
+    "source_sha256": "d3be11b2da2de540cbb95dafe7c2cdde7f2796e63b9aab960260797c4e683daa",
+    "source_mtime": "2026-09-22T12:13:16.217006",
+    "role": "original_source_package_input",
+    "deposit_sha256": "f3a2c7b67c27eb56179d70349ad8d52d659508ed74798634897ea5b4dfa486f5",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "data/original_inputs/Table_S1_Code/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "original_source_package_input",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Table_S1_Code/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Table_S1_Code/Original_Data/DEG_female_CS_vs_WT.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_female_CS_vs_WT.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-09-02T22:32:04",
+    "role": "original_source_package_input",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Table_S1_Code/Original_Data/DEG_male_CS_vs_WT.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_male_CS_vs_WT.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-09-02T22:32:04",
+    "role": "original_source_package_input",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Table_S1_Code/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "original_source_package_input",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "data/original_inputs/Table_S1_Code/Original_Data/normalized_counts.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/normalized_counts.csv",
+    "source_sha256": "b75c567388ff1500438eea48bf689855c6bb6c80a03806af39442c61f1ca58b8",
+    "source_mtime": "2026-08-23T22:42:36",
+    "role": "original_source_package_input",
+    "deposit_sha256": "b75c567388ff1500438eea48bf689855c6bb6c80a03806af39442c61f1ca58b8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-29T23:05:38",
+    "role": "panel_input_copy",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2D_STRING_Network/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2D_STRING_Network/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:33:19",
+    "role": "panel_input_copy",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Original_Data/2026-MIC60-paper_FigS4B-TransfectionEfficiency_SS_Hela Transfection Efficiency Final.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4B_Transfection_Efficiency/Original_Data/2026-MIC60-paper_FigS4B-TransfectionEfficiency_SS_Hela Transfection Efficiency Final.xlsx",
+    "source_sha256": "852e34b0b69a5c838a7819b072761cd6a735c6ac1d1a0c5534c4fcd796b4c380",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "panel_input_copy",
+    "deposit_sha256": "852e34b0b69a5c838a7819b072761cd6a735c6ac1d1a0c5534c4fcd796b4c380",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3K_Mitochondrial_Area/Original_Data/8.4.26 TEM Retrace.xlsx",
+    "source_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "source_mtime": "2026-08-05T14:11:26",
+    "role": "panel_input_copy",
+    "deposit_sha256": "4d251cc24db276fe5142a3980e8e811c7b39228b9b9ca88de5a9c851046e5f84",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Original_Data/RNA-seq Stress Genes.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/RNA-seq Stress Genes.xlsx",
+    "source_sha256": "b01e788b1ad5d841a25b1572d960f67a89ce34e442679ac528ee949e9f84edc7",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "b01e788b1ad5d841a25b1572d960f67a89ce34e442679ac528ee949e9f84edc7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Original_Data/common stress genes.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/common stress genes.xlsx",
+    "source_sha256": "1bf6c1904fbd4144198a056dee918691b89e3aa366dc9211de47d712d2589528",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "1bf6c1904fbd4144198a056dee918691b89e3aa366dc9211de47d712d2589528",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S4_Stress/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S4_Stress/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2GENE_snapshot.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2GENE_snapshot.csv",
+    "source_sha256": "ffc364624ff23982b53c617dad882baf3dce9b26eeac990a03248e670bcc1b4e",
+    "source_mtime": "2026-08-27T17:26:07",
+    "role": "panel_input_copy",
+    "deposit_sha256": "ffc364624ff23982b53c617dad882baf3dce9b26eeac990a03248e670bcc1b4e",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2NAME_snapshot.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/KEGG_Drosophila_TERM2NAME_snapshot.csv",
+    "source_sha256": "a27bf78d91619ffa20fc1133cf73c0e33df8bb5e630114599056e478608ee164",
+    "source_mtime": "2026-08-27T17:26:07",
+    "role": "panel_input_copy",
+    "deposit_sha256": "a27bf78d91619ffa20fc1133cf73c0e33df8bb5e630114599056e478608ee164",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Original_Data/KEGG_GSEA_all_results.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/KEGG_GSEA_all_results.csv",
+    "source_sha256": "5f8746dea05f216677dd1bc86da86f9115af9c757facf58699db22e606c09290",
+    "source_mtime": "2026-08-30T21:43:24",
+    "role": "panel_input_copy",
+    "deposit_sha256": "5f8746dea05f216677dd1bc86da86f9115af9c757facf58699db22e606c09290",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S2_KEGG_GSEA/Original_Data/gene_ID_mapping_and_DE_results.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S2_KEGG_GSEA/Original_Data/gene_ID_mapping_and_DE_results.csv",
+    "source_sha256": "f5951be7df77852efb1f1c4d82566defcc8ac3b41954077b44f508902a114469",
+    "source_mtime": "2026-08-30T21:43:24",
+    "role": "panel_input_copy",
+    "deposit_sha256": "f5951be7df77852efb1f1c4d82566defcc8ac3b41954077b44f508902a114469",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx",
+    "source_sha256": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "source_mtime": "2026-08-07T19:04:12",
+    "role": "panel_input_copy",
+    "deposit_sha256": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+    "source_sha256": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "panel_input_copy",
+    "deposit_sha256": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Original_Data/7-27-26 HeLa Timeless Quantification.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4C_TIMELESS/Original_Data/7-27-26 HeLa Timeless Quantification.xlsx",
+    "source_sha256": "000d7c9c24081adaf4ba84c567371c67f0c8a9a1b08a5cf436284414583824c9",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "panel_input_copy",
+    "deposit_sha256": "000d7c9c24081adaf4ba84c567371c67f0c8a9a1b08a5cf436284414583824c9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Original_Data/Fig4A.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_4C_TIMELESS/Original_Data/Fig4A.xlsx",
+    "source_sha256": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "source_mtime": "2026-08-29T16:41:16",
+    "role": "panel_input_copy",
+    "deposit_sha256": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_3H_Locomotion/Original_Data/Fig3H-locomotion.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_3H_Locomotion/Original_Data/Fig3H-locomotion.xlsx",
+    "source_sha256": "efe3321e88290b03b56f36b37b7c4ed572412f799f37a9eba52524cce9b8b07f",
+    "source_mtime": "2026-08-29T16:41:16",
+    "role": "panel_input_copy",
+    "deposit_sha256": "efe3321e88290b03b56f36b37b7c4ed572412f799f37a9eba52524cce9b8b07f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2E_Individual_Genes/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2E_Individual_Genes/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2E_Individual_Genes/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2E_Individual_Genes/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2E_Individual_Genes/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2E_Individual_Genes/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-10T16:39:15",
+    "role": "panel_input_copy",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Original_Data/WB Quantificaiton MIC60.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S1B_Western_Blot/Original_Data/WB Quantificaiton MIC60.xlsx",
+    "source_sha256": "74593004d74bcbd7c824f2df9de977ee495f9b01c9b0caa632ee3cd58d8b82ce",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "panel_input_copy",
+    "deposit_sha256": "74593004d74bcbd7c824f2df9de977ee495f9b01c9b0caa632ee3cd58d8b82ce",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_S1B_Western_Blot/Original_Data/myc WB quantifications.xlsx",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_S1B_Western_Blot/Original_Data/myc WB quantifications.xlsx",
+    "source_sha256": "72b83fd301b888dcb9fd4ffa28d00439e95e36d7c92b080c4a47ca70aea774b2",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "panel_input_copy",
+    "deposit_sha256": "72b83fd301b888dcb9fd4ffa28d00439e95e36d7c92b080c4a47ca70aea774b2",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/figure_sources/Figure_2C_Program_Ring/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Figure_2C_Program_Ring/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-10T16:33:19",
+    "role": "panel_input_copy",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Code/figure_style.R",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Code/figure_style.R",
+    "source_sha256": "907862b2b6dbc5a6ab0355e7cc416a02d930be4d1ae0b03f9348764b7cacd712",
+    "source_mtime": "2026-09-22T11:49:43.382278",
+    "role": "current_Fig3N",
+    "deposit_sha256": "f61e995e444a475c34f5933210ece95150f839e9c6e30ee69b92f4a2be165a0b",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig3N/Code/generate_Fig3N.R",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Code/generate_Fig3N.R",
+    "source_sha256": "81537ee9a405b32471e763276f386d50d4f3dee046192fde094c6b9f3aa9c4be",
+    "source_mtime": "2026-09-22T22:46:58.352943",
+    "role": "current_Fig3N",
+    "deposit_sha256": "97ea1480fcefce2f0ab90eba7a9b29ef7de58f9b70f4f00d381c1c1f07c6824c",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig3N/Code/label_layout.R",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Code/label_layout.R",
+    "source_sha256": "3f41c0ed12171392132c1cfc19f947bbefce7406bc3c01e870fa662cc534053f",
+    "source_mtime": "2026-09-22T11:49:43.383921",
+    "role": "current_Fig3N",
+    "deposit_sha256": "3f41c0ed12171392132c1cfc19f947bbefce7406bc3c01e870fa662cc534053f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Source_Data/TMRM_MTG_connected_object_image_summary.csv",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Source_Data/TMRM_MTG_connected_object_image_summary.csv",
+    "source_sha256": "cb90298c734e43a77ff202f20c61ee444d5380c72b4723c4a4893d9455c33ee5",
+    "source_mtime": "2026-09-22T22:44:52.017105",
+    "role": "current_Fig3N",
+    "deposit_sha256": "cb90298c734e43a77ff202f20c61ee444d5380c72b4723c4a4893d9455c33ee5",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Source_Data/TMRM_MTG_connected_object_measurements.csv",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Source_Data/TMRM_MTG_connected_object_measurements.csv",
+    "source_sha256": "6071bb0fb32e6fe3e2e641d4ce6b6c60e211bd32d84e22e4c7d8314ad7c62e24",
+    "source_mtime": "2026-09-22T22:44:52.033860",
+    "role": "current_Fig3N",
+    "deposit_sha256": "6071bb0fb32e6fe3e2e641d4ce6b6c60e211bd32d84e22e4c7d8314ad7c62e24",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Source_Data/TMRM_MTG_connected_object_primary_statistics.csv",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Source_Data/TMRM_MTG_connected_object_primary_statistics.csv",
+    "source_sha256": "5768d1c3835c70abe7df91d5efa635cfe557bf979fc1d8f708392adb832803f1",
+    "source_mtime": "2026-09-22T22:44:56.636961",
+    "role": "current_Fig3N",
+    "deposit_sha256": "5768d1c3835c70abe7df91d5efa635cfe557bf979fc1d8f708392adb832803f1",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Rebuilt_Output/Fig3N_TMRM_regenerated.pdf",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Rebuilt_Output/Fig3N_TMRM_regenerated.pdf",
+    "source_sha256": "f7b74caf2c3c8242cd95b3bc3c588386a5ccb0d31bcf276725c5915a1f647f34",
+    "source_mtime": "2026-09-22T22:47:02.329877",
+    "role": "current_Fig3N",
+    "deposit_sha256": "4256ade42a74fba94b012b49c64042b5136fdb1e6e6e73cd9862cbeb13cc7789",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig3N/Rebuilt_Output/Fig3N_TMRM_regenerated.png",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Rebuilt_Output/Fig3N_TMRM_regenerated.png",
+    "source_sha256": "3466e6f0768b87c54f41b5f06f1bee3f8e0949ca0e3e92370137bb89578460df",
+    "source_mtime": "2026-09-22T22:47:02.049529",
+    "role": "current_Fig3N",
+    "deposit_sha256": "3466e6f0768b87c54f41b5f06f1bee3f8e0949ca0e3e92370137bb89578460df",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Rebuilt_Output/Fig3N_plotted_values.csv",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Rebuilt_Output/Fig3N_plotted_values.csv",
+    "source_sha256": "ff9e1cc9225101761bce0b90687d56732e562f33a10a58cd34883abaa1b5a007",
+    "source_mtime": "2026-09-22T22:47:02.424458",
+    "role": "current_Fig3N",
+    "deposit_sha256": "ff9e1cc9225101761bce0b90687d56732e562f33a10a58cd34883abaa1b5a007",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Rebuilt_Output/Fig3N_point_geometry.csv",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Rebuilt_Output/Fig3N_point_geometry.csv",
+    "source_sha256": "5eb9940f6e8a4da90e5dbb0796cebaf25e46e3aacaa3e8798299547dc7a4be50",
+    "source_mtime": "2026-09-22T22:47:02.532613",
+    "role": "current_Fig3N",
+    "deposit_sha256": "5eb9940f6e8a4da90e5dbb0796cebaf25e46e3aacaa3e8798299547dc7a4be50",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Rebuilt_Output/R_sessionInfo.txt",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Rebuilt_Output/R_sessionInfo.txt",
+    "source_sha256": "8c899c4d8b4601e53ee69adcf14ed1c5798b8feb1fa73168b65895a92456d21a",
+    "source_mtime": "2026-09-22T22:47:02.422875",
+    "role": "current_Fig3N",
+    "deposit_sha256": "8c899c4d8b4601e53ee69adcf14ed1c5798b8feb1fa73168b65895a92456d21a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/Rebuilt_Output/TMRM_MTG_connected_object_primary_statistics.csv",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/Rebuilt_Output/TMRM_MTG_connected_object_primary_statistics.csv",
+    "source_sha256": "5768d1c3835c70abe7df91d5efa635cfe557bf979fc1d8f708392adb832803f1",
+    "source_mtime": "2026-09-22T22:47:00.389396",
+    "role": "current_Fig3N",
+    "deposit_sha256": "5768d1c3835c70abe7df91d5efa635cfe557bf979fc1d8f708392adb832803f1",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig3N/README.txt",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/README.txt",
+    "source_sha256": "41dd789be3d1c2d5bad147bf77a7c01bfd786212c6e3f3545e68d62ff17d63f1",
+    "source_mtime": "2026-09-22T23:25:37.586825",
+    "role": "current_Fig3N",
+    "deposit_sha256": "858badca1b6f969e6e86a55b381170c16e1a816adbd66da2d4a647360da0daa4",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig3N/DATA_VERIFICATION.json",
+    "source_collection_path": "Fig3N_Rebuilt_2026-09-22_224252/DATA_VERIFICATION.json",
+    "source_sha256": "0fb3d2b929ec668607e73a6430dbc8ecd558d036080c5d583ff8631f797fd4ea",
+    "source_mtime": "2026-09-22T22:48:01.575785",
+    "role": "current_Fig3N",
+    "deposit_sha256": "0fb3d2b929ec668607e73a6430dbc8ecd558d036080c5d583ff8631f797fd4ea",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Code/insert_fig4_vectors.jsx",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Code/insert_fig4_vectors.jsx",
+    "source_sha256": "011f26413f1262a6484769439c6e8bdabd25be0bf9861a0ccc51f152362bf85b",
+    "source_mtime": "2026-09-23T15:04:45.697747",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "5b8338ceaa61bec244f8cae9c52c68b2a0eb445db9672c6c4d7fb6bc33626944",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig4AB/Code/inspect_current_fig4.jsx",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Code/inspect_current_fig4.jsx",
+    "source_sha256": "f90517ee087f85d95eb2ac3583319cfb02f5fad6c9db081c58d06124f094abd6",
+    "source_mtime": "2026-09-23T15:00:48.637856",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "786dd54ff61b42c9b93f82fadb1cc2e1741a97d9d11e80ab4234862760ebb652",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig4AB/Code/prepare_plot_data.py",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Code/prepare_plot_data.py",
+    "source_sha256": "332645e39737de0a9b07d2369bf964e275b19239d9ab386567806bc7fb7b22d4",
+    "source_mtime": "2026-09-23T14:51:52.733895",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "1d07e165fbf4f8a3bc7e5297255f6edf618ff2e9983da6c4903df1248f090751",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig4AB/Code/render_settings.json",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Code/render_settings.json",
+    "source_sha256": "ab5c1bc9b6f16fc9ae7fec6769ebdc2257ae0c164a4ecf484478e91bfce3f278",
+    "source_mtime": "2026-09-23T14:56:04.387658",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "ab5c1bc9b6f16fc9ae7fec6769ebdc2257ae0c164a4ecf484478e91bfce3f278",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Code/verify_and_render_pdfs.py",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Code/verify_and_render_pdfs.py",
+    "source_sha256": "95446dea69ce14e9bf6955ba648cc7a47675d51d70369f239ba2a49e749174fd",
+    "source_mtime": "2026-09-23T14:56:55.497643",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "6966975fa52476382e142a1a6aa5dd1590558d383c493990409c72ddaacf3ffd",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Code/generate_timeless_vector.R",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Code/generate_timeless_vector.R",
+    "source_sha256": "13fa55ea177e7d2f79942d79a2d60911bd96a89f44ed99693ae5d380e784c701",
+    "source_mtime": "2026-09-23T14:54:30.488519",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "13fa55ea177e7d2f79942d79a2d60911bd96a89f44ed99693ae5d380e784c701",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Documentation/README.md",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Documentation/README.md",
+    "source_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
+    "source_mtime": "2026-09-23T14:58:10.372470",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Documentation/R_sessionInfo.txt",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Documentation/R_sessionInfo.txt",
+    "source_sha256": "f52a4418523053753da4b7b37e142d5fe387d498adf4e4237908f364facec3c8",
+    "source_mtime": "2026-09-23T14:56:05.188414",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "f52a4418523053753da4b7b37e142d5fe387d498adf4e4237908f364facec3c8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Documentation/build.log",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Documentation/build.log",
+    "source_sha256": "e6ee041a2f195459066fb25e5ad11bfdd2600d6ce832d049c3995d377e6021f3",
+    "source_mtime": "2026-09-23T14:56:05.212171",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "e6ee041a2f195459066fb25e5ad11bfdd2600d6ce832d049c3995d377e6021f3",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Final_Graphs/Fig4A_TIMELESS_Vector.pdf",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Final_Graphs/Fig4A_TIMELESS_Vector.pdf",
+    "source_sha256": "30acbbdaf48eac306dde13f72998df6b6ef32720ff54474621b86568ef6947e0",
+    "source_mtime": "2026-09-23T14:56:05.179784",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "89fb14fcbc902306f5c38f6d9f46e6861e06f3668f64095e40e751fae9e22039",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Original_Data/Fig4A.xlsx",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Original_Data/Fig4A.xlsx",
+    "source_sha256": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "source_mtime": "2026-08-29T16:41:16",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Supporting_Data/TIMELESS_plotted_values.csv",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Supporting_Data/TIMELESS_plotted_values.csv",
+    "source_sha256": "9f7f3a653c013eb30fdec4bed18f65fcfbf56495e5e32f30cff73bf8d9ecb4da",
+    "source_mtime": "2026-09-23T14:51:52.988603",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "9f7f3a653c013eb30fdec4bed18f65fcfbf56495e5e32f30cff73bf8d9ecb4da",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Supporting_Data/boxplot_summary.csv",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4A_TIMELESS/Supporting_Data/boxplot_summary.csv",
+    "source_sha256": "afde3751c40d913927924c71e244dc684cdeba78a89d16b9a02599cf612f1d91",
+    "source_mtime": "2026-09-23T14:56:05.162065",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "afde3751c40d913927924c71e244dc684cdeba78a89d16b9a02599cf612f1d91",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
+    "source_sha256": "46873fe3976b88a0abb1aea767dcb3de3a6d631feb96c7fad540459f390c9013",
+    "source_mtime": "2026-09-23T14:54:30.488718",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "46873fe3976b88a0abb1aea767dcb3de3a6d631feb96c7fad540459f390c9013",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/README.md",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Documentation/README.md",
+    "source_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
+    "source_mtime": "2026-09-23T14:58:10.372555",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/R_sessionInfo.txt",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Documentation/R_sessionInfo.txt",
+    "source_sha256": "31bb632656df428f7df66bb3f26f645d7e27e8d3038f4512b48d50908e82faf5",
+    "source_mtime": "2026-09-23T14:54:31.767256",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "31bb632656df428f7df66bb3f26f645d7e27e8d3038f4512b48d50908e82faf5",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/build.log",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Documentation/build.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_mtime": "2026-09-23T14:54:31.776787",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Final_Graphs/Fig4B_MTT_Vector.pdf",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Final_Graphs/Fig4B_MTT_Vector.pdf",
+    "source_sha256": "0e2d5f4cac34a88ed371c4ed703755451f2d9d9622ef5e78e940b6787395e8b6",
+    "source_mtime": "2026-09-23T14:54:31.761594",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "124720450ddb79e2e98cf9f9fbbda1fb0d8905a9c37f7d4895cb12b4dcf13a4b",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Original_Data/7-28-26-MTT.xlsx",
+    "source_sha256": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "source_mtime": "2026-08-07T19:04:12",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "ec00770212764683ddc3c999c728edea98b7351f0ce01e335c66253f65cccc7b",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+    "source_sha256": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4",
+    "source_mtime": "2026-08-05T13:15:54",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "339e8df959da13d8a19f1eeb1f246ceb47696b7f8b70c7a4dae0bf12b893e1a4",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_biological_summary.csv",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Supporting_Data/mtt_biological_summary.csv",
+    "source_sha256": "8fce60fc838ea13de83c5a6a10c1654e9011caa31beb81546b375d2ebdf62993",
+    "source_mtime": "2026-09-23T14:54:31.573732",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "8fce60fc838ea13de83c5a6a10c1654e9011caa31beb81546b375d2ebdf62993",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_experiment_means.csv",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Supporting_Data/mtt_experiment_means.csv",
+    "source_sha256": "d2e6a00388c6a56468c829a2712e9c19eebb0fd8cdaefa31e659d45a970a7cf8",
+    "source_mtime": "2026-09-23T14:54:31.573517",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "d2e6a00388c6a56468c829a2712e9c19eebb0fd8cdaefa31e659d45a970a7cf8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_plot_values.csv",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Sources/Figure_4B_MTT/Supporting_Data/mtt_plot_values.csv",
+    "source_sha256": "9d8c30804ab825504db6305fd1e56c761686ba1978b97901df0c1e6dcecf9075",
+    "source_mtime": "2026-09-23T14:51:53.087427",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "9d8c30804ab825504db6305fd1e56c761686ba1978b97901df0c1e6dcecf9075",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Documentation/DATA_VERIFICATION.json",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Documentation/DATA_VERIFICATION.json",
+    "source_sha256": "13efcbd84ee05d9e6fb8f49b7394fc6191c1c47dc0663c7013b1c5425ac2c814",
+    "source_mtime": "2026-09-23T14:51:53.088413",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "13efcbd84ee05d9e6fb8f49b7394fc6191c1c47dc0663c7013b1c5425ac2c814",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Documentation/NATIVE_INSERTION_QA.json",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Documentation/NATIVE_INSERTION_QA.json",
+    "source_sha256": "45e5c836a127b5e610c1460cc4a803237d4de443ece94c1024405916c59f0a5d",
+    "source_mtime": "2026-09-23T15:04:55.035932",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "45e5c836a127b5e610c1460cc4a803237d4de443ece94c1024405916c59f0a5d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/Documentation/PDF_VECTOR_QA.json",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/Documentation/PDF_VECTOR_QA.json",
+    "source_sha256": "e52f3e16bed44d16f3daf15e5e5c4bb1b86747e0f8bfe933234b5b38b605a4f8",
+    "source_mtime": "2026-09-23T14:56:55.969504",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "e52f3e16bed44d16f3daf15e5e5c4bb1b86747e0f8bfe933234b5b38b605a4f8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/Fig4AB/README.md",
+    "source_collection_path": "Fig4AB_Vector_Rebuild_2026-09-23/README.md",
+    "source_sha256": "35ee1d0b66e125ecbb2a4b1b1958198f0b23c065fc8db9072b75669f57f73310",
+    "source_mtime": "2026-09-23T14:58:10.372361",
+    "role": "current_Fig4AB",
+    "deposit_sha256": "f1a3bbc5463e01f5ac1e7810a4643becb1c71ca31ce4bf1f22027c2e71108f88",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/FigS4A/restyle_s4a.py",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/restyle_s4a.py",
+    "source_sha256": "0ff3e003366a0f937b5e09290bc4ac2ce12576f60bbc548f5eba952b6cc6a28d",
+    "source_mtime": "2026-09-22T22:08:10.810637",
+    "role": "current_FigS4A",
+    "deposit_sha256": "6c556024c7a08c69aead5eb4f3b804a4c9aa193f21d694b904d623b1b07e0dde",
+    "unchanged_from_recovered_copy": false
+  },
+  {
+    "destination": "panels/FigS4A/figS4_plotted_values.csv",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/figS4_plotted_values.csv",
+    "source_sha256": "71b540c5b8fe35824993ad23ab9af3f715fc8a4a8f0854c754e919821b90fa1f",
+    "source_mtime": "2026-09-22T22:03:24.822367",
+    "role": "current_FigS4A",
+    "deposit_sha256": "71b540c5b8fe35824993ad23ab9af3f715fc8a4a8f0854c754e919821b90fa1f",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/FigS4A/figS4_enrichment.csv",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/figS4_enrichment.csv",
+    "source_sha256": "7d9967ddb43cd2d3f63364824b2ed6b59d00a6500cfde3a131949860d0842c7a",
+    "source_mtime": "2026-09-22T22:03:25.145002",
+    "role": "current_FigS4A",
+    "deposit_sha256": "7d9967ddb43cd2d3f63364824b2ed6b59d00a6500cfde3a131949860d0842c7a",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/FigS4A/figS4_stress_pathways.csv",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/figS4_stress_pathways.csv",
+    "source_sha256": "c60d5e0fea67732297dd65599b139a554bed349d1d22ebcd21d22f5ad624ba87",
+    "source_mtime": "2026-09-22T22:03:25.428383",
+    "role": "current_FigS4A",
+    "deposit_sha256": "c60d5e0fea67732297dd65599b139a554bed349d1d22ebcd21d22f5ad624ba87",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/FigS4A/S4A_reference_style.svg",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/S4A_reference_style.svg",
+    "source_sha256": "1be10b9e1d1dd97667a5be0c79a606ab057d557663567c56574d2e396f47db42",
+    "source_mtime": "2026-09-22T22:08:10.920359",
+    "role": "current_FigS4A",
+    "deposit_sha256": "1be10b9e1d1dd97667a5be0c79a606ab057d557663567c56574d2e396f47db42",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/FigS4A/DATA_VERIFICATION.json",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/DATA_VERIFICATION.json",
+    "source_sha256": "a1c8c87a7dbe9ca5e3909e510fe54d50473e2abac51d00ba38bbccfce177efda",
+    "source_mtime": "2026-09-22T22:05:15.452916",
+    "role": "current_FigS4A",
+    "deposit_sha256": "a1c8c87a7dbe9ca5e3909e510fe54d50473e2abac51d00ba38bbccfce177efda",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "panels/FigS4A/RESTYLE_MANIFEST.json",
+    "source_collection_path": "FigS4A_Label_Colors_2026-09-22_215949/RESTYLE_MANIFEST.json",
+    "source_sha256": "f457d9aceeb8e2f8583cc0227d4f465349ca70aa48094c2a59f8ce711c6881e9",
+    "source_mtime": "2026-09-22T22:08:10.920794",
+    "role": "current_FigS4A",
+    "deposit_sha256": "f457d9aceeb8e2f8583cc0227d4f465349ca70aa48094c2a59f8ce711c6881e9",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Code/build_table_s1.mjs",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/Code/build_table_s1.mjs",
+    "source_sha256": "02f03840dd8f081a82dd8aa29c5f40f21403d6ce3242b4dabead2b0929147456",
+    "source_mtime": "2026-09-22T11:49:43.407446",
+    "role": "table_S1_code",
+    "deposit_sha256": "02f03840dd8f081a82dd8aa29c5f40f21403d6ce3242b4dabead2b0929147456",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Code/prepare_table_s1_inputs.R",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/Code/prepare_table_s1_inputs.R",
+    "source_sha256": "b09999d911a225b36d8ce138b0f369d91cff7d104e72e2e726fbec60a241b433",
+    "source_mtime": "2026-09-22T11:49:43.407577",
+    "role": "table_S1_code",
+    "deposit_sha256": "b09999d911a225b36d8ce138b0f369d91cff7d104e72e2e726fbec60a241b433",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-09-22T11:49:43.410526",
+    "role": "table_S1_code",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-09-22T11:49:43.413625",
+    "role": "table_S1_code",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-09-22T11:49:43.414867",
+    "role": "table_S1_code",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/normalized_counts.csv",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/Original_Data/normalized_counts.csv",
+    "source_sha256": "b75c567388ff1500438eea48bf689855c6bb6c80a03806af39442c61f1ca58b8",
+    "source_mtime": "2026-09-22T11:49:43.418569",
+    "role": "table_S1_code",
+    "deposit_sha256": "b75c567388ff1500438eea48bf689855c6bb6c80a03806af39442c61f1ca58b8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/README.md",
+    "source_collection_path": "Analysis_Backup_2026-09-18/tables/Table_S1_Code/README.md",
+    "source_sha256": "ca2665aabee2c43c9fe639a8d9ce4447de10f4797dd6102dbb6ac8aae82d5972",
+    "source_mtime": "2026-09-22T11:49:43.418769",
+    "role": "table_S1_code",
+    "deposit_sha256": "ca2665aabee2c43c9fe639a8d9ce4447de10f4797dd6102dbb6ac8aae82d5972",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_CSF_vs_WRF.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "table_S1_original_inputs",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_CSM_vs_WRM.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "table_S1_original_inputs",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/DEG_female_CS_vs_WT.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_female_CS_vs_WT.csv",
+    "source_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "source_mtime": "2026-09-02T22:32:04",
+    "role": "table_S1_original_inputs",
+    "deposit_sha256": "78ceb185686f6001657c37c0157da619c6dadc811205524fd9bc62aa7593dbca",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/DEG_male_CS_vs_WT.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/DEG_male_CS_vs_WT.csv",
+    "source_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "source_mtime": "2026-09-02T22:32:04",
+    "role": "table_S1_original_inputs",
+    "deposit_sha256": "2a990901127c433c717253ef17cae3950e8e373808188e81a022689c6fed2d0d",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/count_matrix_symbol.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/count_matrix_symbol.csv",
+    "source_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "source_mtime": "2026-08-23T22:39:33",
+    "role": "table_S1_original_inputs",
+    "deposit_sha256": "a0b5c663efc11e38088a57dada20bc88ec7c28c607ff8e0d873c43f8063b5ba7",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "tables/Table_S1_Code/Original_Data/normalized_counts.csv",
+    "source_collection_path": "Original_Graph_Inputs_from_iCloud/Table_S1_Code/Original_Data/normalized_counts.csv",
+    "source_sha256": "b75c567388ff1500438eea48bf689855c6bb6c80a03806af39442c61f1ca58b8",
+    "source_mtime": "2026-08-23T22:42:36",
+    "role": "table_S1_original_inputs",
+    "deposit_sha256": "b75c567388ff1500438eea48bf689855c6bb6c80a03806af39442c61f1ca58b8",
+    "unchanged_from_recovered_copy": true
+  },
+  {
+    "destination": "reviewed_analysis/code/generate_fig3_tem_field_means.R",
+    "source_collection_path": "Recreated_From_September_Code_2026-09-22/generate_fig3_tem_field_means.R",
+    "source_sha256": "48fa3fca7a1d602dfef809393b681d32fae9b07a667a48dc2019ac475c7b7895",
+    "source_mtime": "2026-09-22T13:50:41.717888",
+    "role": "current_TEM_field_display",
+    "deposit_sha256": "d1373e837df1f90b6abf6356833b1a764ec16db56e8fd40a6936748cdf4dbdb8",
+    "unchanged_from_recovered_copy": false
+  }
+]

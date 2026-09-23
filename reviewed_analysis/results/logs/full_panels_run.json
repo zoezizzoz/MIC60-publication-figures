@@ -1,0 +1,50 @@
+[
+  {
+    "folder": "Figure_1C_Female_Volcano",
+    "script": "figure_sources/Figure_1C_Female_Volcano/Code/generate_consistent_female_male_volcano_plots.R",
+    "exit_code": 0,
+    "elapsed_seconds": 3.44
+  },
+  {
+    "folder": "Figure_2E_Individual_Genes",
+    "script": "figure_sources/Figure_2E_Individual_Genes/Code/generate_figure2E.R",
+    "exit_code": 0,
+    "elapsed_seconds": 6.61
+  },
+  {
+    "folder": "Figure_3K_Mitochondrial_Area",
+    "script": "figure_sources/Figure_3K_Mitochondrial_Area/Code/generate_tem_figures_2026_08_04.R",
+    "exit_code": 0,
+    "elapsed_seconds": 1.61
+  },
+  {
+    "folder": "Figure_S1B_Western_Blot",
+    "script": "figure_sources/Figure_S1B_Western_Blot/Code/generate_MIC60_WB_anti_myc_quantification.R",
+    "exit_code": 0,
+    "elapsed_seconds": 0.87
+  },
+  {
+    "folder": "Figure_S2_KEGG_GSEA",
+    "script": "figure_sources/Figure_S2_KEGG_GSEA/Code/plot_FigS2_KEGG_GSEA.R",
+    "exit_code": 0,
+    "elapsed_seconds": 1.26
+  },
+  {
+    "folder": "Figure_S3_Selected_Gene_Modules",
+    "script": "figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
+    "exit_code": 0,
+    "elapsed_seconds": 3.62
+  },
+  {
+    "folder": "Figure_S4_Stress",
+    "script": "figure_sources/Figure_S4_Stress/Code/generate_FigS4A_stress.R",
+    "exit_code": 0,
+    "elapsed_seconds": 1.8
+  },
+  {
+    "folder": "Figure_S4B_Transfection_Efficiency",
+    "script": "figure_sources/Figure_S4B_Transfection_Efficiency/Code/generate_transfection_efficiency.R",
+    "exit_code": 0,
+    "elapsed_seconds": 0.83
+  }
+]

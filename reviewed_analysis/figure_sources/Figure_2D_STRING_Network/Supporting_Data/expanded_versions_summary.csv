@@ -1,0 +1,13 @@
+"metric","value"
+"female_non_NA_padj",7456
+"up_DEGs",98
+"down_DEGs",108
+"up_BH_significant_GO_terms",28
+"up_unique_GO_genes",22
+"up_STRING_edges",13
+"down_BH_significant_GO_terms",41
+"down_unique_GO_genes",42
+"down_STRING_edges",90
+"first_shell_seed_nodes",22
+"first_shell_context_nodes",10
+"first_shell_edges",70

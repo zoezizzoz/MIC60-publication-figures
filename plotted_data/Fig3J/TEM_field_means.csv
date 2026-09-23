@@ -1,0 +1,33 @@
+Image,Condition,Image_Mean,Panel,Metric,Objects_n
+CS-Female -5000X -0022.dm3,CS,0.915,J,Mitochondrial perimeter,1
+CS-Female -5000X -0023.dm3,CS,1.4016,J,Mitochondrial perimeter,5
+CS-Female -5000X -0024.dm3,CS,2.26725,J,Mitochondrial perimeter,4
+CS-Female -5000X -0025.dm3,CS,1.99714285714286,J,Mitochondrial perimeter,7
+CS-Female -5000X -0027.dm3,CS,3.83714285714286,J,Mitochondrial perimeter,7
+CS-Female -5000X -0028.dm3,CS,4.10316666666667,J,Mitochondrial perimeter,6
+CS-Female -5000X -0029.dm3,CS,8.1875,J,Mitochondrial perimeter,2
+CS-Female -5000X -0030.dm3,CS,9.2185,J,Mitochondrial perimeter,2
+CS-Female -5000X -0031.dm3,CS,2.146,J,Mitochondrial perimeter,35
+CS-Female -5000X -0032.dm3,CS,2.05631111111111,J,Mitochondrial perimeter,45
+CS-Female -5000X -0033.dm3,CS,1.29033333333333,J,Mitochondrial perimeter,57
+CS-Female -5000X -0034.dm3,CS,1.66272413793103,J,Mitochondrial perimeter,58
+CS-Female -5000X -0035.dm3,CS,2.08311764705882,J,Mitochondrial perimeter,34
+CS-Female -5000X -0036.dm3,CS,1.79427659574468,J,Mitochondrial perimeter,47
+CS-Female -5000X -0037.dm3,CS,1.38433333333333,J,Mitochondrial perimeter,27
+CS-Female -5000X -0038.dm3,CS,2.52896666666667,J,Mitochondrial perimeter,30
+CS-Female -5000X -0039.dm3,CS,2.73261538461538,J,Mitochondrial perimeter,26
+CS-Female -5000X -0041.dm3,CS,3.5336,J,Mitochondrial perimeter,10
+CS-Female -5000X -0042.dm3,CS,2.56103846153846,J,Mitochondrial perimeter,26
+CS-Female -5000X -0044.dm3,CS,3.45269230769231,J,Mitochondrial perimeter,13
+CS-Female -5000X -0045.dm3,CS,2.07741025641026,J,Mitochondrial perimeter,39
+CS-Female -5000X -0046.dm3,CS,2.98666666666667,J,Mitochondrial perimeter,3
+Cnt fmale_a_5000X_0005.tif,WR,6.01238111111111,J,Mitochondrial perimeter,5
+Cnt fmale_a_5000X_0008.tif,WR,3.1503938547486,J,Mitochondrial perimeter,2
+Cnt fmale_a_5000X_0010.tif,WR,4.75199442896936,J,Mitochondrial perimeter,10
+Cnt fmale_a_5000X_0012.tif,WR,4.7833601010101,J,Mitochondrial perimeter,11
+WR-F -5000X -0009.tif,WR,5.58309084924292,J,Mitochondrial perimeter,7
+WR-F -5000X -0010.dm3,WR,2.60533333333333,J,Mitochondrial perimeter,12
+WR-F -5000X -0011.dm3,WR,3.09015,J,Mitochondrial perimeter,20
+WR-F -5000X -0012.dm3,WR,2.44633333333333,J,Mitochondrial perimeter,18
+WR-F -5000X -0013.dm3,WR,5.5825,J,Mitochondrial perimeter,4
+WR-F -5000X -0014.dm3,WR,6.0735,J,Mitochondrial perimeter,6

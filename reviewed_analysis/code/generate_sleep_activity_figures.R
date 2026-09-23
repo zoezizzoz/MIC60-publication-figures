@@ -7,7 +7,7 @@ SCRIPT_DIR <- dirname(normalizePath(gsub('~+~',' ',sub('^--file=','',script_arg[
 source(file.path(SCRIPT_DIR, 'figure_style.R'))
 FIG_DIR <- file.path(dirname(SCRIPT_DIR), 'results/sleep')
 FIG_P_ADJUST_LABEL <- 'Holm'
-tests <- fread(file.path(FIG_DIR, 'window_and_filter_sensitivity.csv'))
+tests <- fread(file=file.path(FIG_DIR, 'window_and_filter_sensitivity.csv'))
 tests <- tests[window=='corrected_12_60' & mode=='paired_phase_IQR']
 reviewed_p <- function(metric_name, phase_name) {
     p <- tests[metric==metric_name & phase==phase_name, Holm_P_six_summary_tests]
@@ -79,13 +79,13 @@ build_profile <- function(prof, ylab, title, legend_position = "top") {
 }
 
 for (metric in c('sleep','activity')) {
-    prof <- fread(file.path(FIG_DIR,paste0(metric,'_profile_summary.csv')))
+    prof <- fread(file=file.path(FIG_DIR,paste0(metric,'_profile_summary.csv')))
     setnames(prof,c('mean','SEM','bin'),c('m','sem','zbin'))
     ylab <- if(metric=='sleep') FIG_LABEL_SLEEP_PROFILE else FIG_LABEL_ACTIVITY
     p <- build_profile(prof,ylab=ylab,title='',legend_position='top')
     fig_save_panel(p,file.path(FIG_DIR,paste0(metric,'_profile_corrected')),paste0(metric,'_profile'))
-    total <- fread(file.path(FIG_DIR,paste0(metric,'_total_values_and_exclusions.csv')))[exclude==FALSE]
-    phase <- fread(file.path(FIG_DIR,paste0(metric,'_phase_values_and_exclusions.csv')))[exclude==FALSE]
+    total <- fread(file=file.path(FIG_DIR,paste0(metric,'_total_values_and_exclusions.csv')))[exclude==FALSE]
+    phase <- fread(file=file.path(FIG_DIR,paste0(metric,'_phase_values_and_exclusions.csv')))[exclude==FALSE]
     phase[,phase:=factor(phase,levels=c('Day','Night'),labels=FIG_LABEL_PHASES)]
     yvar <- if(metric=='sleep') 'percent_asleep' else 'activity'
     ylab <- if(metric=='sleep') FIG_LABEL_SLEEP else FIG_LABEL_ACTIVITY

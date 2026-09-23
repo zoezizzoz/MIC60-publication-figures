@@ -1,0 +1,33 @@
+Image,Condition,Image_Mean,Panel,Metric,Objects_n
+CS-Female -5000X -0022.dm3,CS,0.034,K,Mitochondrial area,1
+CS-Female -5000X -0023.dm3,CS,0.077,K,Mitochondrial area,5
+CS-Female -5000X -0024.dm3,CS,0.28775,K,Mitochondrial area,4
+CS-Female -5000X -0025.dm3,CS,0.158428571428571,K,Mitochondrial area,7
+CS-Female -5000X -0027.dm3,CS,1.278,K,Mitochondrial area,7
+CS-Female -5000X -0028.dm3,CS,1.18716666666667,K,Mitochondrial area,6
+CS-Female -5000X -0029.dm3,CS,3.809,K,Mitochondrial area,2
+CS-Female -5000X -0030.dm3,CS,4.9845,K,Mitochondrial area,2
+CS-Female -5000X -0031.dm3,CS,0.638885714285714,K,Mitochondrial area,35
+CS-Female -5000X -0032.dm3,CS,0.440288888888889,K,Mitochondrial area,45
+CS-Female -5000X -0033.dm3,CS,0.193035087719298,K,Mitochondrial area,57
+CS-Female -5000X -0034.dm3,CS,0.285931034482759,K,Mitochondrial area,58
+CS-Female -5000X -0035.dm3,CS,0.405617647058824,K,Mitochondrial area,34
+CS-Female -5000X -0036.dm3,CS,0.273702127659574,K,Mitochondrial area,47
+CS-Female -5000X -0037.dm3,CS,0.238444444444444,K,Mitochondrial area,27
+CS-Female -5000X -0038.dm3,CS,0.4283,K,Mitochondrial area,30
+CS-Female -5000X -0039.dm3,CS,0.631884615384615,K,Mitochondrial area,26
+CS-Female -5000X -0041.dm3,CS,1.2281,K,Mitochondrial area,10
+CS-Female -5000X -0042.dm3,CS,0.535961538461538,K,Mitochondrial area,26
+CS-Female -5000X -0044.dm3,CS,0.838153846153846,K,Mitochondrial area,13
+CS-Female -5000X -0045.dm3,CS,0.32074358974359,K,Mitochondrial area,39
+CS-Female -5000X -0046.dm3,CS,0.656,K,Mitochondrial area,3
+Cnt fmale_a_5000X_0005.tif,WR,2.4972962962963,K,Mitochondrial area,5
+Cnt fmale_a_5000X_0008.tif,WR,0.602368839923848,K,Mitochondrial area,2
+Cnt fmale_a_5000X_0010.tif,WR,1.92465918172578,K,Mitochondrial area,10
+Cnt fmale_a_5000X_0012.tif,WR,2.12132996632997,K,Mitochondrial area,11
+WR-F -5000X -0009.tif,WR,2.00234662022978,K,Mitochondrial area,7
+WR-F -5000X -0010.dm3,WR,0.41175,K,Mitochondrial area,12
+WR-F -5000X -0011.dm3,WR,0.8116,K,Mitochondrial area,20
+WR-F -5000X -0012.dm3,WR,0.480666666666667,K,Mitochondrial area,18
+WR-F -5000X -0013.dm3,WR,1.292,K,Mitochondrial area,4
+WR-F -5000X -0014.dm3,WR,1.93733333333333,K,Mitochondrial area,6

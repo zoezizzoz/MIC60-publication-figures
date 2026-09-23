@@ -1,0 +1,1 @@
+See the package README and Documentation/DATA_VERIFICATION.json for source provenance, methods, limitations, and reproduction instructions. The Code/Archived_Source directory is reference only; run the current generate_*_vector.R script in Code.

@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "contrast": "dMIC60-CS versus dMIC60-WT",
+    "sexes": ["female", "male"],
+    "directions": ["up", "down"],
+    "ontologies": ["BP", "CC", "MF"],
+    "de_adjusted_p_cutoff": 0.05,
+    "absolute_log2_fold_change_cutoff": 0.58,
+    "background_rule": "Non-missing DESeq2 adjusted P, separately within each sex",
+    "annotation_package": "org.Dm.eg.db",
+    "key_type": "SYMBOL",
+    "minimum_gene_set_size": 10,
+    "maximum_gene_set_size": 500,
+    "p_adjust_method": "BH",
+    "pool_ontologies": false,
+    "go_adjusted_p_cutoff": 0.05,
+    "top_terms_per_ontology": 8,
+    "selection_order": ["p.adjust", "pvalue", "ID"],
+    "adjustment_family": "Separate ontology, sex, and direction",
+    "redundancy_filter": "None"
+  },
+  "ontology_colors": {
+    "BP": "#E9B067",
+    "CC": "#CBB0D6",
+    "MF": "#CCE5BC"
+  },
+  "package_versions": {
+    "clusterProfiler": "4.12.6",
+    "org.Dm.eg.db": "3.19.1"
+  }
+}

@@ -5,6 +5,16 @@ Thumbs.db
 *.Rhistory
 *.RData
 *.Rproj.user/
-Rebuilt_Output/
 __pycache__/
 *.pyc
+.venv/
+node_modules/
+# Rendering artifacts are regenerated from the deposited tables and code.
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.ai
+*.log
+# Machine-local output from verification and optional refits.
+verification/local_runs/

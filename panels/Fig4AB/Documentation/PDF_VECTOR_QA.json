@@ -1,0 +1,43 @@
+{
+  "Fig4A_TIMELESS_Vector": {
+    "page_width_pt": 211.2497,
+    "page_height_pt": 156.2205,
+    "image_objects": 0,
+    "vector_rectangles": 12,
+    "vector_curves": 128,
+    "text_characters": 89,
+    "fonts": [
+      "AAAAAB+ArialMT",
+      "AAAAAC+Arial-ItalicMT"
+    ],
+    "upright_text_sizes_pt": [
+      5.6,
+      8.0
+    ],
+    "text_outside_page": [],
+    "box_visible_widths_pt": [
+      28.0,
+      28.0,
+      28.0,
+      28.0
+    ]
+  },
+  "Fig4B_MTT_Vector": {
+    "page_width_pt": 194.9107,
+    "page_height_pt": 156.5903,
+    "image_objects": 0,
+    "vector_rectangles": 8,
+    "vector_curves": 178,
+    "text_characters": 158,
+    "fonts": [
+      "AAAAAB+ArialMT",
+      "AAAAAC+Symbol",
+      "AAAAAD+Arial-ItalicMT"
+    ],
+    "upright_text_sizes_pt": [
+      5.6,
+      8.0
+    ],
+    "text_outside_page": []
+  }
+}

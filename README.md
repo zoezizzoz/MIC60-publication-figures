@@ -1,33 +1,39 @@
-# MIC60 publication analysis code
+# MIC60 publication figures: code and plotted data
 
-This repository contains the current code used for the final MIC60 publication analysis and the current Table S1 workflow. Superseded figure folders, old generated graphs, duplicated input files, and obsolete panel-number versions were removed from the active branch on 18 September 2026. They remain recoverable from Git history.
+This update adds the recoverable graph inputs and September 22–23 figure rebuilds to the existing [MIC60-publication-figures repository](https://github.com/zoezizzoz/MIC60-publication-figures). It is based on `main` commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
 
-## Current contents
+## Find a graph's data
 
-- `reviewed_analysis/`: final reviewed R, Python, and Illustrator scripts; shared figure styling; edited panel generators; workflow runner; publishing helper; and validation code.
-- `tables/Table_S1_Code/`: the current Table S1 DESeq2 preparation and Excel-workbook generation scripts, with the exact archived inputs used for the workbook.
-- `tables/Table_S1.xlsx`: current supplementary Table S1 output.
-- `R_PACKAGES.md`: R dependencies used by the analysis and figure code.
+Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 40 tables cover 29 graph panels using the current panel letters. [INDEX.csv](plotted_data/INDEX.csv) maps each table to its generator, original source, observation unit, row selection and checksum.
 
-## Reviewed figure-analysis code
+- `reviewed_analysis/`: existing reviewed pipeline, restored inputs, shared styles, generators and numerical outputs.
+- `panels/Fig3N/`: current connected-object TMRM/MTG field-mean graph; 32 fields and 22,531 contributing objects.
+- `panels/Fig4AB/`: current TIMELESS/DAPI and MTT graphs, with source-cell references for the 64 measurements and 78 wells.
+- `panels/FigS4A/`: 64 stress-response points, enrichment results and the current SVG renderer with color-matched labels.
+- `panels/layout_2026-09-23/`: latest recovered GO and sleep/activity formatting generators, with their calculation inputs.
+- `data/original_inputs/`: supplied measurement workbooks, count matrices and analysis tables. The historical name `Original_Data` does **not** imply every file is raw instrument data.
+- `tables/`: existing Table S1 workflow, archived inputs and workbook.
+- `provenance/`, `verification/`: recovery records, checks, dependencies and limitations.
 
-Start with `reviewed_analysis/README.md`, then consult `reviewed_analysis/WORKFLOW.md` for the analysis sequence, methods, requirements, and limitations.
+Sequencing reads are available separately under [GEO GSE346353](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346353), confirmed public on 23 September 2026. They are excluded from this graph-data update. Microscopy/blot acquisition images and Illustrator assemblies are also excluded from the graph-data repository. No data values were invented to fill a recovery gap.
 
-The repository intentionally keeps this as a code-only reviewed snapshot rather than duplicating large experimental datasets and generated figure exports. The scripts preserve their expected relative input/output paths so they can be reunited with the separately archived final source package.
+## Check and rebuild
 
-## Table S1
+```sh
+python3 tools/verify_deposit.py
+python3 tools/verify_deposit.py --checksums
+python3 reproduce.py --list
+python3 reproduce.py --step recent-panels
+```
 
-Table S1 can be rebuilt by following `tables/Table_S1_Code/README.md`.
+See [REPRODUCING.md](REPRODUCING.md) for dependencies and the reviewed workflow. Builds write into the existing `results/`, `Rebuilt_Output/`, or `Final_Graphs/` directories; they do not modify `plotted_data/`. The package was exercised with R 4.4.1 and Python 3.12.14 on macOS; exact versions are recorded in `environment/`. Some PDF generators use macOS Quartz/Arial, and Table S1's original workbook formatter uses `@oai/artifact-tool`.
 
-- `prepare_table_s1_inputs.R` reruns the female and male DESeq2 analyses and exports normalized counts.
-- `build_table_s1.mjs` builds and formats the four-sheet Excel workbook.
+## Scope and remaining gaps
 
-The Table S1 scripts and archived CSV inputs were verified against the active local project before this cleanup.
+**Fig3G survival is not certified as the data behind the current curve.** Historical observations and code are provided in `provenance/survival_legacy/`; missing times/censoring, historical filtering and the displayed P value still need reconciliation. [LIMITATIONS.md](LIMITATIONS.md) also records missing biological replicate mappings, fresh DESeq2 numerical differences and Illustrator-only layout refinements.
 
-## Version policy
-
-The `main` branch contains only the current code snapshot and Table S1 workflow. Do not add alternate, previous, or manually renamed figure versions to `main`; use Git history or a clearly named archival branch when an older state must be retained.
+Current generators and data belong on this branch. Older alternative code and failed recovery helpers are preserved in the local companion recovery folder, rather than mixed into this update. Earlier published versions remain available in Git history.
 
 ## License
 
-No reuse license was supplied with the project. Reuse permission should be clarified by the authors before code or data are reused.
+The existing repository has no reuse license. This preparation does not assign a new license or change ownership.

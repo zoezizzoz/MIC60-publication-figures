@@ -40,6 +40,11 @@ plot_data <- bind_rows(lapply(names(module_genes), function(module_name) {
 if (anyNA(plot_data$log2FoldChange)) {
     stop("One or more requested module genes are absent from the DESeq2 table.")
 }
+p_annotations <- plot_data %>% filter(!is.na(padj), padj < 0.05) %>%
+    mutate(p_label = if_else(padj < 0.001, "adj. p < 0.001", sprintf("adj. p = %.5f", padj)),
+           p_x = if_else(gene == "timeout", 3.9, if_else(gene == "Lsp1gamma", 0.8, 1.2)),
+           p_hjust = if_else(gene == "timeout", 1, 0),
+           p_vjust = if_else(gene == "timeout", -1.1, 0.5))
 dna_padding_label <- "__DNA_TOP_PADDING__"
 gene_levels_with_padding <- c(levels(plot_data$gene_display), dna_padding_label)
 plot_data_chart <- bind_rows(plot_data %>% mutate(gene_display = factor(as.character(gene_display), levels = gene_levels_with_padding)), 
@@ -54,7 +59,7 @@ p <- ggplot(plot_data_chart, aes(log2FoldChange, gene_display)) + geom_vline(xin
     linewidth = 0.45) + geom_point(aes(size = evidence, color = status), alpha = 1, na.rm = TRUE, show.legend=TRUE) + facet_wrap(~module, 
     scales = "free_y", ncol = 2) + scale_x_continuous(limits = c(-2.1, 4.65), breaks = c(-2, 0, 2, 4), expand = expansion(mult = c(0.01, 
     0.02))) + scale_y_discrete(breaks = function(x) x[x != dna_padding_label], expand = expansion(add = 0.6)) + scale_color_manual(values = status_colors, 
-    breaks = observed_status, limits=observed_status, drop=FALSE, name = "DE status") + scale_size_continuous(range = c(1.5, 5.2), limits = c(0, 50), breaks = c(10, 
+    breaks = observed_status, limits=observed_status, drop=FALSE, labels = c("Up in CS" = "Up in CS", "Down in CS" = "Down in CS", "Not significant" = "Below DE cutoffs")[observed_status], name = "DE status") + scale_size_continuous(range = c(1.5, 5.2), limits = c(0, 50), breaks = c(10,
     20, 30, 40, 50), name = expression(-log[10](italic(p)[plain(BH)]))) + labs(title = "Expression across selected gene modules", 
     subtitle = "Female CS vs WT; n = 3 biological libraries per genotype", x = expression(log[2] ~ "fold change (dMIC60-CS/dMIC60-WT)"), 
     y = NULL, caption = paste0("Significant: BH-adjusted P < 0.05 and |log2 fold change| >= 0.58. ", "Point size encodes -log10 adjusted P (capped at 50).")) + 
@@ -73,11 +78,16 @@ p <- ggplot(plot_data_chart, aes(log2FoldChange, gene_display)) + geom_vline(xin
 modules <- levels(plot_data$module)
 module_panels <- lapply(seq_along(modules),function(i) {
  q <- (p %+% subset(plot_data_chart,module==modules[i])) + facet_wrap(~module,scales="free_y",ncol=1) +
+  geom_text(data=subset(p_annotations,module==modules[i]),
+    aes(x=p_x,y=gene_display,label=p_label,hjust=p_hjust,vjust=p_vjust),
+    inherit.aes=FALSE,size=2.5,family="Arial",show.legend=FALSE) +
   labs(title=NULL,subtitle=NULL,caption=NULL,x=if(i>4) expression(log[2]~"fold change (dMIC60-CS/dMIC60-WT)") else NULL) +
   theme(plot.margin=margin(3,3,3,3),legend.position="top")
  q
 })
-p <- wrap_plots(module_panels,ncol=2,heights=c(32,15,15),guides="collect") & theme(legend.position="top")
+p <- (wrap_plots(module_panels,ncol=2,heights=c(32,15,15),guides="collect") +
+    plot_annotation(caption="DE cutoffs: adjusted p < 0.05 and |log2FC| >= 0.58. Labels show BH-adjusted p; values below 0.001 use < 0.001.")) &
+    theme(legend.position="top",plot.caption=element_text(size=7,hjust=.5,margin=margin(t=4)))
 fig_save(p,file.path(output_dir,"FigS3_selected_gene_modules"),width=580/72,height=740/72)
 legend_text <- c("Figure S3. Expression changes across selected gene modules.", paste0("Female dMIC60-CS and dMIC60-WT bulk RNA-seq libraries were compared using ", 
     "DESeq2 (n = 3 biological libraries per genotype). Points show ", "DESeq2 log2 fold-change estimates for the indicated selected genes. Red ", 

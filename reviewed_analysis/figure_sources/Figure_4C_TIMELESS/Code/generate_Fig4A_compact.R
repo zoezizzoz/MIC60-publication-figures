@@ -2,7 +2,7 @@
 
 suppressPackageStartupMessages(library(ggplot2))
 
-args <- grep("^--file=",commandArgs(FALSE),value=TRUE)
+args <- grep("^--file=",gsub('~+~',' ',commandArgs(FALSE),fixed=TRUE),value=TRUE)
 project_dir <- dirname(dirname(normalizePath(sub("^--file=","",args[1]))))
 output_dir <- file.path(project_dir,"Rebuilt_Output")
 dir.create(output_dir,recursive=TRUE,showWarnings=FALSE)

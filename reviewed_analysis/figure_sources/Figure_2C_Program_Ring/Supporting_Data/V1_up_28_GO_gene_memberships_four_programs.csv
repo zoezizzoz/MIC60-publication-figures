@@ -1,0 +1,117 @@
+"GO_ID","GO_term","GO_padj","collapsed_program","gene","direction","log2FoldChange","padj"
+"GO:0098800","inner mitochondrial membrane protein complex",0.00969849154922986,"Mitochondrial membrane & protein import","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0098800","inner mitochondrial membrane protein complex",0.00969849154922986,"Mitochondrial membrane & protein import","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0098800","inner mitochondrial membrane protein complex",0.00969849154922986,"Mitochondrial membrane & protein import","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0098800","inner mitochondrial membrane protein complex",0.00969849154922986,"Mitochondrial membrane & protein import","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0098800","inner mitochondrial membrane protein complex",0.00969849154922986,"Mitochondrial membrane & protein import","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0098800","inner mitochondrial membrane protein complex",0.00969849154922986,"Mitochondrial membrane & protein import","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:0005753","mitochondrial proton-transporting ATP synthase complex",0.00969849154922986,"Mitochondrial respiration & ATP production","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0005753","mitochondrial proton-transporting ATP synthase complex",0.00969849154922986,"Mitochondrial respiration & ATP production","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0005753","mitochondrial proton-transporting ATP synthase complex",0.00969849154922986,"Mitochondrial respiration & ATP production","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:0045259","proton-transporting ATP synthase complex",0.00969849154922986,"Mitochondrial respiration & ATP production","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0045259","proton-transporting ATP synthase complex",0.00969849154922986,"Mitochondrial respiration & ATP production","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0045259","proton-transporting ATP synthase complex",0.00969849154922986,"Mitochondrial respiration & ATP production","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:0033177","proton-transporting two-sector ATPase complex, proton-transporting domain",0.0156549822026195,"Mitochondrial respiration & ATP production","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0033177","proton-transporting two-sector ATPase complex, proton-transporting domain",0.0156549822026195,"Mitochondrial respiration & ATP production","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0033177","proton-transporting two-sector ATPase complex, proton-transporting domain",0.0156549822026195,"Mitochondrial respiration & ATP production","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:1902495","transmembrane transporter complex",0.0218864480172829,"Mitochondrial membrane & protein import","Nmdar1","Upregulated",2.49132020624968,1.25051185737966e-26
+"GO:1902495","transmembrane transporter complex",0.0218864480172829,"Mitochondrial membrane & protein import","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:1902495","transmembrane transporter complex",0.0218864480172829,"Mitochondrial membrane & protein import","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:1902495","transmembrane transporter complex",0.0218864480172829,"Mitochondrial membrane & protein import","Mdr65","Upregulated",0.786878635897797,9.99219369582883e-05
+"GO:1902495","transmembrane transporter complex",0.0218864480172829,"Mitochondrial membrane & protein import","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:1902495","transmembrane transporter complex",0.0218864480172829,"Mitochondrial membrane & protein import","ort","Upregulated",1.28423158649456,0.00418630061877876
+"GO:1990351","transporter complex",0.0249152102047628,"Mitochondrial membrane & protein import","Nmdar1","Upregulated",2.49132020624968,1.25051185737966e-26
+"GO:1990351","transporter complex",0.0249152102047628,"Mitochondrial membrane & protein import","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:1990351","transporter complex",0.0249152102047628,"Mitochondrial membrane & protein import","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:1990351","transporter complex",0.0249152102047628,"Mitochondrial membrane & protein import","Mdr65","Upregulated",0.786878635897797,9.99219369582883e-05
+"GO:1990351","transporter complex",0.0249152102047628,"Mitochondrial membrane & protein import","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:1990351","transporter complex",0.0249152102047628,"Mitochondrial membrane & protein import","ort","Upregulated",1.28423158649456,0.00418630061877876
+"GO:0005743","mitochondrial inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0005743","mitochondrial inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0005743","mitochondrial inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0005743","mitochondrial inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0005743","mitochondrial inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0005743","mitochondrial inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:0019866","organelle inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0019866","organelle inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0019866","organelle inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0019866","organelle inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0019866","organelle inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0019866","organelle inner membrane",0.0289518397845672,"Mitochondrial membrane & protein import","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:0005777","peroxisome",0.0289518397845672,"Energy metabolism","CG14893","Upregulated",2.3023744229898,5.29212429383357e-07
+"GO:0005777","peroxisome",0.0289518397845672,"Energy metabolism","CG9577","Upregulated",0.892030455706982,3.18264690073472e-06
+"GO:0005777","peroxisome",0.0289518397845672,"Energy metabolism","CG5122","Upregulated",6.98868906128901,0.018050161984474
+"GO:0005777","peroxisome",0.0289518397845672,"Energy metabolism","CG5265","Upregulated",6.783745235477,0.0352252037858784
+"GO:0042579","microbody",0.0289518397845672,"Energy metabolism","CG14893","Upregulated",2.3023744229898,5.29212429383357e-07
+"GO:0042579","microbody",0.0289518397845672,"Energy metabolism","CG9577","Upregulated",0.892030455706982,3.18264690073472e-06
+"GO:0042579","microbody",0.0289518397845672,"Energy metabolism","CG5122","Upregulated",6.98868906128901,0.018050161984474
+"GO:0042579","microbody",0.0289518397845672,"Energy metabolism","CG5265","Upregulated",6.783745235477,0.0352252037858784
+"GO:0005747","mitochondrial respiratory chain complex I",0.0289518397845672,"Mitochondrial respiration & ATP production","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0005747","mitochondrial respiratory chain complex I",0.0289518397845672,"Mitochondrial respiration & ATP production","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0005747","mitochondrial respiratory chain complex I",0.0289518397845672,"Mitochondrial respiration & ATP production","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0016469","proton-transporting two-sector ATPase complex",0.0289518397845672,"Mitochondrial respiration & ATP production","knon","Upregulated",7.60321371078838,0.0043172536847864
+"GO:0016469","proton-transporting two-sector ATPase complex",0.0289518397845672,"Mitochondrial respiration & ATP production","ATPsynG","Upregulated",5.85383354107608,0.018050161984474
+"GO:0016469","proton-transporting two-sector ATPase complex",0.0289518397845672,"Mitochondrial respiration & ATP production","ATP8","Upregulated",2.43236618259867,0.0240568325656283
+"GO:0030964","NADH dehydrogenase complex",0.0289518397845672,"Mitochondrial respiration & ATP production","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0030964","NADH dehydrogenase complex",0.0289518397845672,"Mitochondrial respiration & ATP production","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0030964","NADH dehydrogenase complex",0.0289518397845672,"Mitochondrial respiration & ATP production","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0045271","respiratory chain complex I",0.0289518397845672,"Mitochondrial respiration & ATP production","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0045271","respiratory chain complex I",0.0289518397845672,"Mitochondrial respiration & ATP production","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0045271","respiratory chain complex I",0.0289518397845672,"Mitochondrial respiration & ATP production","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0003954","NADH dehydrogenase activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0003954","NADH dehydrogenase activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0003954","NADH dehydrogenase activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0003955","NAD(P)H dehydrogenase (quinone) activity",0.0144166107948239,"NAD(P)-linked redox metabolism","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0003955","NAD(P)H dehydrogenase (quinone) activity",0.0144166107948239,"NAD(P)-linked redox metabolism","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0003955","NAD(P)H dehydrogenase (quinone) activity",0.0144166107948239,"NAD(P)-linked redox metabolism","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0008137","NADH dehydrogenase (ubiquinone) activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0008137","NADH dehydrogenase (ubiquinone) activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0008137","NADH dehydrogenase (ubiquinone) activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.0144166107948239,"NAD(P)-linked redox metabolism","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.0144166107948239,"NAD(P)-linked redox metabolism","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.0144166107948239,"NAD(P)-linked redox metabolism","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0050136","NADH dehydrogenase (quinone) activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0050136","NADH dehydrogenase (quinone) activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0050136","NADH dehydrogenase (quinone) activity",0.0144166107948239,"Mitochondrial respiration & ATP production","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0004303","estradiol 17-beta-dehydrogenase [NAD(P)] activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG9360","Upregulated",1.33974175609357,1.12603627893606e-13
+"GO:0004303","estradiol 17-beta-dehydrogenase [NAD(P)] activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG10962","Upregulated",1.18219170872228,4.70777463615036e-10
+"GO:0004303","estradiol 17-beta-dehydrogenase [NAD(P)] activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG40485","Upregulated",1.80162119193626,0.0156945817248463
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG9360","Upregulated",1.33974175609357,1.12603627893606e-13
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG10962","Upregulated",1.18219170872228,4.70777463615036e-10
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG12224","Upregulated",1.54426226022315,2.98779096319116e-08
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG14893","Upregulated",2.3023744229898,5.29212429383357e-07
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","Cyp28a5","Upregulated",1.16089504601816,5.72373529965225e-07
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","Cyp6a8","Upregulated",0.693666110049444,0.010272363311272
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG32026","Upregulated",7.07080944052504,0.013177761557036
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG40485","Upregulated",1.80162119193626,0.0156945817248463
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","CG9521","Upregulated",0.909978557025997,0.0348243624292318
+"GO:0016491","oxidoreductase activity",0.0144166107948239,"NAD(P)-linked redox metabolism","GstO1","Upregulated",0.739548636200136,0.0381387678868548
+"GO:0033764","steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0144166107948239,"NAD(P)-linked redox metabolism","CG9360","Upregulated",1.33974175609357,1.12603627893606e-13
+"GO:0033764","steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0144166107948239,"NAD(P)-linked redox metabolism","CG10962","Upregulated",1.18219170872228,4.70777463615036e-10
+"GO:0033764","steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0144166107948239,"NAD(P)-linked redox metabolism","CG40485","Upregulated",1.80162119193626,0.0156945817248463
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",0.0144166107948239,"NAD(P)-linked redox metabolism","CG9360","Upregulated",1.33974175609357,1.12603627893606e-13
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",0.0144166107948239,"NAD(P)-linked redox metabolism","CG10962","Upregulated",1.18219170872228,4.70777463615036e-10
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",0.0144166107948239,"NAD(P)-linked redox metabolism","CG12224","Upregulated",1.54426226022315,2.98779096319116e-08
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",0.0144166107948239,"NAD(P)-linked redox metabolism","CG32026","Upregulated",7.07080944052504,0.013177761557036
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",0.0144166107948239,"NAD(P)-linked redox metabolism","CG40485","Upregulated",1.80162119193626,0.0156945817248463
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",0.0144166107948239,"NAD(P)-linked redox metabolism","CG9521","Upregulated",0.909978557025997,0.0348243624292318
+"GO:0016229","steroid dehydrogenase activity",0.015778332987986,"NAD(P)-linked redox metabolism","CG9360","Upregulated",1.33974175609357,1.12603627893606e-13
+"GO:0016229","steroid dehydrogenase activity",0.015778332987986,"NAD(P)-linked redox metabolism","CG10962","Upregulated",1.18219170872228,4.70777463615036e-10
+"GO:0016229","steroid dehydrogenase activity",0.015778332987986,"NAD(P)-linked redox metabolism","CG40485","Upregulated",1.80162119193626,0.0156945817248463
+"GO:0016651","oxidoreductase activity, acting on NAD(P)H",0.0250185662092763,"NAD(P)-linked redox metabolism","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0016651","oxidoreductase activity, acting on NAD(P)H",0.0250185662092763,"NAD(P)-linked redox metabolism","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0016651","oxidoreductase activity, acting on NAD(P)H",0.0250185662092763,"NAD(P)-linked redox metabolism","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0289169769414149,"NAD(P)-linked redox metabolism","CG9360","Upregulated",1.33974175609357,1.12603627893606e-13
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0289169769414149,"NAD(P)-linked redox metabolism","CG10962","Upregulated",1.18219170872228,4.70777463615036e-10
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0289169769414149,"NAD(P)-linked redox metabolism","CG12224","Upregulated",1.54426226022315,2.98779096319116e-08
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0289169769414149,"NAD(P)-linked redox metabolism","CG32026","Upregulated",7.07080944052504,0.013177761557036
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",0.0289169769414149,"NAD(P)-linked redox metabolism","CG40485","Upregulated",1.80162119193626,0.0156945817248463
+"GO:0015453","oxidoreduction-driven active transmembrane transporter activity",0.0438672744632298,"Mitochondrial membrane & protein import","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0015453","oxidoreduction-driven active transmembrane transporter activity",0.0438672744632298,"Mitochondrial membrane & protein import","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0015453","oxidoreduction-driven active transmembrane transporter activity",0.0438672744632298,"Mitochondrial membrane & protein import","ND6","Upregulated",1.35519343284636,0.00173072368349273
+"GO:0009055","electron transfer activity",0.0461247842216852,"NAD(P)-linked redox metabolism","ND2","Upregulated",1.94487410705515,1.31052134500606e-06
+"GO:0009055","electron transfer activity",0.0461247842216852,"NAD(P)-linked redox metabolism","ND4L","Upregulated",4.36097714380546,1.46320223481204e-05
+"GO:0009055","electron transfer activity",0.0461247842216852,"NAD(P)-linked redox metabolism","ND6","Upregulated",1.35519343284636,0.00173072368349273

@@ -1,0 +1,2 @@
+"Analysis","Mask","Analysis_Unit","WT_Images_n","CS_Images_n","WT_Objects_n","CS_Objects_n","WT_Image_Mean_Percent","CS_Image_Mean_Percent","WT_Image_Median_Percent","CS_Image_Median_Percent","CS_over_WT_Image_Mean","Cliffs_Delta_CS_vs_WT","Exploratory_Mann_Whitney_p"
+"Connected MTG-positive object TMRM/MTG ratio","3x3 median-filtered MTG; per-image Otsu; 8-connected; minimum 0.05 um2","image mean of connected-object ratios",7,25,2817,19714,100,137.001823289644,78.3059360526295,127.465933033799,1.37001823289644,0.302857142857143,0.24198955629712
