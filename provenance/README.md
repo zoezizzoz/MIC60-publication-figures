@@ -7,3 +7,5 @@ The update starts from the existing repository main commit `0924a4e5256396266baa
 `survival_legacy/` contains original historical observations and a script whose correspondence to the current curve is unverified. No alternate recovery script is presented as an active replacement for this panel.
 
 The author narrowed this deposit to the data used in plotted graphs. Sequencing reads, acquisition image files and the broad raw-data archive are not included. Source paths in historical metadata are provenance, not required runtime paths.
+
+`final_layout_2026-09-23/` adds exact copies of the final Illustrator formatting code, layout plans, and recorded checks after the plotting-data snapshot. Its source index verifies the copied files, and baseline/final native hashes identify the separate local assemblies. Absolute source paths are preserved as historical provenance; these scripts are not portable entrypoints and are not executed by reproduce.py.

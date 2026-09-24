@@ -13,6 +13,7 @@ Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 40 tables c
 - `panels/layout_2026-09-23/`: latest recovered GO and sleep/activity formatting generators, with their calculation inputs.
 - `data/original_inputs/`: supplied measurement workbooks, count matrices and analysis tables. The historical name `Original_Data` does **not** imply every file is raw instrument data.
 - `tables/`: existing Table S1 workflow, archived inputs and workbook.
+- `provenance/final_layout_2026-09-23/`: final native Illustrator layout scripts, geometry records, verification results and before/after figure hashes; these require the separate matching native assemblies.
 - `provenance/`, `verification/`: recovery records, checks, dependencies and limitations.
 
 Sequencing reads are available separately under [GEO GSE346353](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346353), confirmed public on 23 September 2026. They are excluded from this graph-data update. Microscopy/blot acquisition images and Illustrator assemblies are also excluded from the graph-data repository. No data values were invented to fill a recovery gap.

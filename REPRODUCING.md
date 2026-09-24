@@ -34,3 +34,7 @@ Rerunning changes generated outputs and session records; full-snapshot checksum 
 ## Validation performed during preparation
 
 The reviewed RNA-seq fit, sleep/activity processing, assay audit, review panels, GO, RNA-seq displays and eight full-panel generators were run successfully from the deposit paths. Ring and STRING-network scripts, the Fig3N generator, Figure 4 extraction/vector generators, the S4A renderer, TEM field displays, additional assays, compact PCA and female heatmap were also exercised. See `verification/PREPARATION_REPORT.json` for actual recorded outcomes and any limits. This validates executable paths and recoverable numerical inputs, not pixel identity to every manually edited Illustrator panel.
+
+## Final native layout provenance
+
+[provenance/final_layout_2026-09-23/README.md](provenance/final_layout_2026-09-23/README.md) describes the archived code and geometry used for the final eight-figure common-width pass. These state-specific Illustrator scripts are excluded from reproduce.py and retain the original absolute paths and object UUIDs. Replaying the native edits requires the separately retained baseline AI assemblies and backups; the public code/data deposit does not contain those assemblies. Recorded verification results and exact before/after hashes are supplied for audit.

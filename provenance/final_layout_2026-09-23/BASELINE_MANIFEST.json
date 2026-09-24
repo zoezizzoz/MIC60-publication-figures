@@ -1,0 +1,46 @@
+{
+  "all_open_documents_reported_saved": true,
+  "captured": "2026-09-23T20:01:51.860651",
+  "files": [
+    {
+      "name": "Fig1.ai",
+      "sha256": "5eca0f5bf99f6392417e31c10344313b7c2423e530afa227bb54f2f946588194",
+      "size": 10344784
+    },
+    {
+      "name": "Fig2.ai",
+      "sha256": "6f649cdb255b0fd6ed4b2d43170fd9d8e1b43d292a6419003fe024a1674e79a6",
+      "size": 679304
+    },
+    {
+      "name": "Fig3.ai",
+      "sha256": "6eae6f5d5a3d4ea9b3c4b7cb595ae9c61605b78f1f2eff2fcb327d19e0bbd12f",
+      "size": 25501379
+    },
+    {
+      "name": "Fig4.ai",
+      "sha256": "883ef386d887514db4bb2c5c9609802b7e398b9b6e251da126edea3d68799e7b",
+      "size": 5655283
+    },
+    {
+      "name": "FigS1.ai",
+      "sha256": "ae06ee7b996386f842f95f7e33b12c917427097c8ff4b663d7f2d0b582bbb306",
+      "size": 12932575
+    },
+    {
+      "name": "FigS2.ai",
+      "sha256": "a28e3160b2550b0c5e307b0cdefd1fc388b7f074bdfffec20c8fb1809ae8c08f",
+      "size": 193762
+    },
+    {
+      "name": "FigS3.ai",
+      "sha256": "3d4714397b97e1005fbf346746adc4f8b0e8d1c0619f974665d625a459da38c2",
+      "size": 266984
+    },
+    {
+      "name": "FigS4.ai",
+      "sha256": "36b15678deaaa3f61c8dbd23f0596f5d0002998fdd814641b8b25fc90576469e",
+      "size": 732973
+    }
+  ]
+}

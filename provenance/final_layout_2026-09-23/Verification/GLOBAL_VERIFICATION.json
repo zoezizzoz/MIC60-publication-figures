@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Fig1.ai",
+    "canvas_pt": [
+      612.0,
+      822.6270141601562
+    ],
+    "paint_bounds_pdf": [
+      17.5,
+      18.0,
+      594.0,
+      805.0
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "70810858687a49b854b8cc95ba71b83a03a886040ea282bf1c15813e6b90d8fa"
+  },
+  {
+    "name": "Fig2.ai",
+    "canvas_pt": [
+      612.0,
+      839.4390258789062
+    ],
+    "paint_bounds_pdf": [
+      17.5,
+      18.5,
+      594.5,
+      821.5
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "f113efb2946dca94993ed551299b02efaf7b3a5947bcd8388ceb7f2100134d92"
+  },
+  {
+    "name": "Fig3.ai",
+    "canvas_pt": [
+      612.0,
+      795.9949951171875
+    ],
+    "paint_bounds_pdf": [
+      17.5,
+      18.0,
+      594.5,
+      778.0
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [
+      "Missing area-axis tick 2 restored at 7 pt"
+    ],
+    "embedded_images_identical": true,
+    "after_sha256": "ca0b6f28d0d60ccb233aa8ac19c9d84c407b77c8f0246825d99adf70066c6c62"
+  },
+  {
+    "name": "Fig4.ai",
+    "canvas_pt": [
+      612.0,
+      990.0
+    ],
+    "paint_bounds_pdf": [
+      17.5,
+      18.5,
+      594.5,
+      972.0
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "11b59352c58bfaa10f570d5898e28f06d770cefc5dcc95eb12888aeabdf13cb4"
+  },
+  {
+    "name": "FigS1.ai",
+    "canvas_pt": [
+      612.0,
+      891.1199951171875
+    ],
+    "paint_bounds_pdf": [
+      17.5,
+      18.0,
+      595.0,
+      873.5
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "df2fd3954aad6cd6c6056542f221eff0d1ff1faaa37f1b81025e9461b12f4945"
+  },
+  {
+    "name": "FigS2.ai",
+    "canvas_pt": [
+      612.0,
+      392.5060119628906
+    ],
+    "paint_bounds_pdf": [
+      19.5,
+      18.5,
+      594.0,
+      375.0
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "5ddcecaa90e0401ef6eacf5ed6ddbb95ac705f90e5faa14a8c1d13bc51421662"
+  },
+  {
+    "name": "FigS3.ai",
+    "canvas_pt": [
+      612.0,
+      772.094970703125
+    ],
+    "paint_bounds_pdf": [
+      18.5,
+      18.0,
+      594.0,
+      754.5
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "e735b1e767ad69fddd7050b551c8cbddddb319c576d10049149a7e128f60c0fc"
+  },
+  {
+    "name": "FigS4.ai",
+    "canvas_pt": [
+      612.0,
+      458.4440002441406
+    ],
+    "paint_bounds_pdf": [
+      17.5,
+      17.5,
+      594.5,
+      441.0
+    ],
+    "original_text_and_font_sizes_preserved": true,
+    "intentional_text_additions": [],
+    "embedded_images_identical": true,
+    "after_sha256": "ffabe0b3593645714a65cd297a05404a61ac7cc264bc911db1466670bbf3aafd"
+  }
+]

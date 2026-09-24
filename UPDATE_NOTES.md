@@ -6,4 +6,6 @@ Changes preserve the existing `reviewed_analysis/` and `tables/` structure and T
 
 Validation includes successful reviewed analysis stages, panel generators, graph-input integrity checks and a byte-level manifest. Remaining source/censoring uncertainty for Fig3G and replicate limitations are explicit in LIMITATIONS.md.
 
-Prepared locally on `codex/plotted-data-deposit-2026-09-23`, based on `0924a4e5256396266baa405587a617cfd20d0eed`. This preparation does not publish or push changes.
+Prepared locally on `codex/plotted-data-deposit-2026-09-23`, based on `0924a4e5256396266baa405587a617cfd20d0eed`. The update is published as draft pull request #1; main remains unchanged.
+
+The final common-width figure pass is recorded in provenance/final_layout_2026-09-23/, including the native edit scripts, per-object geometry plans, recorded preservation checks, and hashes for all eight baseline/final assemblies. No plotted table or scientific analysis result changed in this supplement. Native AI files and the manuscript remain outside the deposit.
