@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-24T03:28:20.055751+00:00",
+  "snapshot_utc": "2026-09-24T04:02:35.249011+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -709,8 +709,8 @@
     },
     {
       "path": "panels/FigS4A/S4A_reference_style.svg",
-      "bytes": 19524,
-      "sha256": "1be10b9e1d1dd97667a5be0c79a606ab057d557663567c56574d2e396f47db42"
+      "bytes": 19360,
+      "sha256": "8a35ca9d32e80cdc94dd8c2bfa4f86a2ae2dd2632a4fc7be13f741e372151071"
     },
     {
       "path": "panels/FigS4A/figS4_enrichment.csv",
@@ -729,8 +729,8 @@
     },
     {
       "path": "panels/FigS4A/restyle_s4a.py",
-      "bytes": 5860,
-      "sha256": "6c556024c7a08c69aead5eb4f3b804a4c9aa193f21d694b904d623b1b07e0dde"
+      "bytes": 5858,
+      "sha256": "12e565b51ac9c959bd52bea3502ba9b73be28e4b918d1fc8b80fb46c7f8876bb"
     },
     {
       "path": "panels/layout_2026-09-23/Fig3_Sleep_Rebuild/README.md",
@@ -914,8 +914,8 @@
     },
     {
       "path": "panels/layout_2026-09-23/GO_Rebuild/code/05_go_pathways.R",
-      "bytes": 11676,
-      "sha256": "4947248905bce9d06954678757a5838a8a6e15242114f1851e60ced013c91731"
+      "bytes": 11593,
+      "sha256": "b53c4e55fd700c6f9c662bc26444a32cc3a789c63221919c08976b37c490bddc"
     },
     {
       "path": "panels/layout_2026-09-23/GO_Rebuild/code/figure_style.R",
@@ -1478,6 +1478,26 @@
       "sha256": "381afd5a3ebc272477253de9ccc9d0c2c2e62852e7eac3bc403b94be989435a6"
     },
     {
+      "path": "provenance/panel_titles_2026-09-23/PLAN.json",
+      "bytes": 356,
+      "sha256": "77bdf1ed7c7a99fd7fb40acd74b7f74e15cfb50cf07c4469530cb8afdd09bec0"
+    },
+    {
+      "path": "provenance/panel_titles_2026-09-23/README.md",
+      "bytes": 1668,
+      "sha256": "07f7a79540806b81895747efa352cde6a9d6dac94fa5e6f9b871d5a368e752bd"
+    },
+    {
+      "path": "provenance/panel_titles_2026-09-23/VERIFICATION.json",
+      "bytes": 1862,
+      "sha256": "393760a4720351836290dba3d5369e11fda03dae7b791a4d1f5ae21673176323"
+    },
+    {
+      "path": "provenance/panel_titles_2026-09-23/apply.jsx",
+      "bytes": 1188,
+      "sha256": "b041670807c03e125730bde75b2542310b9c191bbfa686b6bac4fb1c7da2552f"
+    },
+    {
       "path": "provenance/portability_changes.json",
       "bytes": 1763,
       "sha256": "5e8bda9b3a87d94d6001231c82382526299d4df12224929bcc3fd65045bc7d59"
@@ -1544,8 +1564,8 @@
     },
     {
       "path": "reviewed_analysis/code/05_go_pathways.R",
-      "bytes": 11676,
-      "sha256": "509bd08ed95477336702be90390208c85188d9057e8adb60dab2629dd8db0c5d"
+      "bytes": 11593,
+      "sha256": "44eac40eae88659450d19d82cdb6ad2b6038d8b6b88c916213c2d9ad0af75b3d"
     },
     {
       "path": "reviewed_analysis/code/06_additional_assays.R",

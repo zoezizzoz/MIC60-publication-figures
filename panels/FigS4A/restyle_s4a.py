@@ -17,8 +17,8 @@ def text(x,y,s,size=8.5,color='#000000',anchor='start',italic=False,parent=svg,*
  t=el('text',{'x':round(x,4),'y':round(y,4),'font-family':'Arial','font-size':size,'fill':color,'text-anchor':anchor,**({'font-style':'italic'} if italic else {}),**attrs},parent);t.text=s;return t
 def span(t,s,**attrs):e=el('tspan',attrs,t);e.text=s;return e
 def line(x1,y1,x2,y2,color='#000000',width=.55,**attrs):return el('line',{'x1':round(x1,5),'y1':round(y1,5),'x2':round(x2,5),'y2':round(y2,5),'stroke':color,'stroke-width':width,**attrs})
-# Title and legend follow the supplied visual reference.
-t=text(58,16,'',9);span(t,'dMIC60',**{'font-style':'italic'});span(t,'-null female')
+# Shared sex/background context is stated in the figure legend.
+# Retain the plotting area and legend geometry when omitting the old title.
 x=215
 for label,key,advance in [('Higher in CS','higher_cs',70),('Higher in WT','higher_wt',71),('Not significant','not_significant',85),('Not tested','not_tested',64)]:
  el('circle',{'cx':x,'cy':13,'r':2.6,'fill':cols[key]});text(x+6,16,label,8.5);x+=advance

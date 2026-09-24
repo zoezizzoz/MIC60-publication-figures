@@ -143,9 +143,9 @@ for (sex in GO_CONFIG$sexes) {
   # Direction/term-count headings are needed to identify the separate analyses.
   # Detailed methods live in the companion legend, as for the other panels.
   combined <- layout + plot_annotation(
-    title=if(sex=="male") expression(italic("dMIC60") * "-null male") else expression(italic("dMIC60") * "-null female"),
+    title=if(sex=="male") "Male" else "Female",
     theme=theme(
-      # Keep the sex/genotype heading exactly 2 pt larger than the
+      # Keep the sex heading exactly 2 pt larger than the
       # 10 pt Upregulated/Downregulated heading, with a clear gap below it.
       plot.title=element_text(family=FIG_FONT,size=FIG_SUBTITLE_SIZE + 5,
         face='bold',hjust=.5,margin=margin(b=8)),

@@ -1,0 +1,77 @@
+{
+  "figures_checked": 8,
+  "native_changes": [
+    {
+      "figure": "Fig1.ai",
+      "removed": [],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "Fig2.ai",
+      "removed": [],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "Fig3.ai",
+      "removed": [],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "Fig4.ai",
+      "removed": [
+        "MIC60-null HeLa Cells"
+      ],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "FigS1.ai",
+      "removed": [],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "FigS2.ai",
+      "removed": [],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "FigS3.ai",
+      "removed": [],
+      "all_other_text_and_artboard_unchanged": true
+    },
+    {
+      "figure": "FigS4.ai",
+      "removed": [
+        "dMIC60-null female"
+      ],
+      "all_other_text_and_artboard_unchanged": true
+    }
+  ],
+  "saved_pdf_checks": [
+    {
+      "figure": "Fig4.ai",
+      "only_pixels_in_removed_title_changed": true,
+      "changed_pixel_bounds": [
+        564,
+        36,
+        751,
+        51
+      ],
+      "image_bytes_unchanged": true,
+      "before_sha256": "902bbf6b69bd45c501743128736af2cf650e9a38a758419b33b513d927336258",
+      "after_sha256": "a907bd92a0f81d91164b097a4d5808caa12ce794d7abe115b86b79aa3deb2e81"
+    },
+    {
+      "figure": "FigS4.ai",
+      "only_pixels_in_removed_title_changed": true,
+      "changed_pixel_bounds": [
+        111,
+        37,
+        274,
+        52
+      ],
+      "image_bytes_unchanged": true,
+      "before_sha256": "6bafc9022b9fbf771e153a25ae41b60948d554887cac2c8cbc64cdff36f92831",
+      "after_sha256": "cbd35138b5975bdab1c3fd8956de3c4e0a7f1a6255c825a2ff442547e2e9f4d1"
+    }
+  ]
+}
