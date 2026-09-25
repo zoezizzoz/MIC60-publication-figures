@@ -1,6 +1,6 @@
 # MIC60 publication figures: code and plotted data
 
-This update adds the recoverable graph inputs and September 22–23 figure rebuilds to the existing [MIC60-publication-figures repository](https://github.com/zoezizzoz/MIC60-publication-figures). It is based on `main` commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
+This repository contains the current deposited graph code and plotting data, including the September 24 Figure S3 revision. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
 
 ## Find a graph's data
 
@@ -35,7 +35,7 @@ See [REPRODUCING.md](REPRODUCING.md) for dependencies and the reviewed workflow.
 
 **Fig3G survival is not certified as the data behind the current curve.** Historical observations and code are provided in `provenance/survival_legacy/`; missing times/censoring, historical filtering and the displayed P value still need reconciliation. [LIMITATIONS.md](LIMITATIONS.md) also records missing biological replicate mappings, fresh DESeq2 numerical differences and Illustrator-only layout refinements.
 
-Current generators and data belong on this branch. Older alternative code and failed recovery helpers are preserved in the local companion recovery folder, rather than mixed into this update. Earlier published versions remain available in Git history.
+The current Figure S3 code is kept with the other figure sources, with one complete rebuild entrypoint and no superseded S3 layout code. Older alternative code and failed recovery helpers are preserved in the local companion recovery folder, rather than mixed into this update. Earlier published versions remain available in Git history.
 
 ## License
 

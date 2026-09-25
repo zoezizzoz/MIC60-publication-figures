@@ -40,4 +40,4 @@ The compact figure is 612 x 669 pt. Gene labels and legend/tick text remain 7 pt
 
 The gray headers (#EFEFEF), black plot outlines and adjusted-P annotations incorporate the side chat’s saved formatting (repository commit 9b4be42). The compact figure has four annotations; the full survey retains two. Labels are shown for adjusted P <0.05 irrespective of the fold-change cutoff, preserving the distinction between annotated gray points and points meeting both thresholds.
 
-QA/compact_publication_validation.json and QA/rebuild_validation.json describe the current compact figure. Other older QA records describe earlier survey/layout stages and are retained as history.
+QA/compact_publication_validation.json and QA/rebuild_validation.json describe the current compact figure. QA/membership_validation.json and QA/grouping_validation.json describe the retained full supporting survey. Superseded layout reports and the unused style helper have been removed; earlier versions remain available in Git history. See Code/README.md for the current entrypoints.

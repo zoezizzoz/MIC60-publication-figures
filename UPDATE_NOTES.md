@@ -6,7 +6,7 @@ Changes preserve the existing `reviewed_analysis/` and `tables/` structure and T
 
 Validation includes successful reviewed analysis stages, panel generators, graph-input integrity checks and a byte-level manifest. Remaining source/censoring uncertainty for Fig3G and replicate limitations are explicit in LIMITATIONS.md.
 
-Prepared locally on `codex/plotted-data-deposit-2026-09-23`, based on `0924a4e5256396266baa405587a617cfd20d0eed`. The September 23 deposit was published as draft pull request #1; the September 24 Figure S3 changes below extend that same draft branch.
+Prepared locally on `codex/plotted-data-deposit-2026-09-23`, based on `0924a4e5256396266baa405587a617cfd20d0eed`. The September 23 deposit and September 24 Figure S3 updates were prepared together in pull request #1.
 
 The final common-width figure pass is recorded in provenance/final_layout_2026-09-23/, including the native edit scripts, per-object geometry plans, recorded preservation checks, and hashes for all eight baseline/final assemblies. No plotted table or scientific analysis result changed in this supplement. Native AI files and the manuscript remain outside the deposit.
 
@@ -29,3 +29,7 @@ Figure S3 now uses light-gray header strips and black outlines following the sup
 Figure S3D now displays nine genes supported by primary Drosophila experiments: AMPKalpha, alc, SNF4Agamma, Lkb1, ACC, gig, S6k, Thor and Atg1. Gene-specific evidence and limitations are recorded for Pan and Hardie (2002), Castanieto et al. (2014), Kim and Lee (2015), and Ulgherait et al. (2014). This non-exhaustive selection was assembled after RNA-seq analysis using biological evidence rather than significance. The complete 131-gene survey, including Takl1 and ninaD, remains unchanged in supporting data; an explicit flag identifies displayed genes. No DESeq2 analysis or P adjustment was rerun.
 
 The current six-panel figure contains 86 entries and has a 612 × 669 pt canvas. Gray headers, black outlines, upper-left letters, the 7/8/9/13 pt typography and adjusted-P labeling convention are preserved from the side chat. Four labels remain in the compact figure; the full-survey supporting plot retains its two labels. Corresponding Results, Methods and caption text and four references are supplied. Five displayed AMPK genes have adjusted P values and none meets both thresholds; four have unavailable estimates, so no conclusion about AMPK activity is drawn.
+
+## Consolidation of current S3 code
+
+Removed the unused S3 style helper, four superseded layout reports and a duplicate report. The full-survey renderer now renders only the supporting plot; its unused former six-panel layout branch was removed. Both the standalone S3 command and the reviewed full-panel workflow use the complete current rebuild. Current code and QA indexes distinguish the nine-gene figure from the intentionally retained 131-gene supporting survey. No numerical input or plotted value was changed.

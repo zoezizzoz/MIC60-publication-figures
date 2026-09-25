@@ -41,8 +41,8 @@
     "source_sha256": "509bd08ed95477336702be90390208c85188d9057e8adb60dab2629dd8db0c5d",
     "source_mtime": "2026-09-22T13:12:33.205879",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "509bd08ed95477336702be90390208c85188d9057e8adb60dab2629dd8db0c5d",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "44eac40eae88659450d19d82cdb6ad2b6038d8b6b88c916213c2d9ad0af75b3d",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/code/06_additional_assays.R",
@@ -68,8 +68,8 @@
     "source_sha256": "4d0a449c324788e465c1fe6b24d93c9df4f219f124ac13840b8f090a80b1f990",
     "source_mtime": "2026-09-22T13:00:09.984868",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "4d0a449c324788e465c1fe6b24d93c9df4f219f124ac13840b8f090a80b1f990",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "8ad0f1460fbb189e0873309e4c6fa9c9323a10f5c01ab5ac1f10afcd2286c274",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/code/09_schematics.R",
@@ -783,21 +783,12 @@
     "unchanged_from_recovered_copy": true
   },
   {
-    "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/figure_style.R",
-    "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/figure_style.R",
-    "source_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
-    "source_mtime": "2026-09-22T13:00:10.004971",
-    "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f",
-    "unchanged_from_recovered_copy": true
-  },
-  {
     "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
     "source_collection_path": "Recreated_From_September_Code_2026-09-22/working_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
     "source_sha256": "73e5ae368948da860e3d2d11588f6bc44e49b67b0f0e36f1bacfeabcbdc87bd1",
     "source_mtime": "2026-09-22T18:16:43.523820",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "4450efd7fb30b699d043edccf926edc6463a6b2fefea3f4ce292022810209ac8",
+    "deposit_sha256": "83a30d5b2aa5a80f7d9f6b264dba51c61d799aaa811832b4392d5698b1ae81a6",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -806,8 +797,8 @@
     "source_sha256": "602987dc328c15d6a52afa794c55a1b3f19f544c69b7bb97a00c91c05f0a10cc",
     "source_mtime": "2026-09-22T18:16:56.237394",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "602987dc328c15d6a52afa794c55a1b3f19f544c69b7bb97a00c91c05f0a10cc",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "c5c712d7211be3facf1628a443ed289ee3e148383d3e4f882ce34b5dd577c2db",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",
@@ -815,8 +806,8 @@
     "source_sha256": "263d1e2b4430f09b4a7b5b083fc5ff8b8fd008ea1fd5a5dc23edeb65093681bf",
     "source_mtime": "2026-09-22T18:16:53.977161",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "263d1e2b4430f09b4a7b5b083fc5ff8b8fd008ea1fd5a5dc23edeb65093681bf",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "31e13e25606af7c6b225a14fd3c4f3a695b16ecce4c9c1e577a93e0f78163a9f",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/R_sessionInfo.txt",
@@ -824,8 +815,8 @@
     "source_sha256": "65199502f7df50190efaaae4cb948f2337c51310e904f037941574d7c223aae2",
     "source_mtime": "2026-09-22T18:16:56.260010",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "65199502f7df50190efaaae4cb948f2337c51310e904f037941574d7c223aae2",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "22e5993f6ddd29f26878d340af1ecf5a9f72944e49695c43c1dfd0b006cebb72",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/figure_sources/Figure_S4B_Transfection_Efficiency/Code/figure_style.R",
@@ -1355,8 +1346,8 @@
     "source_sha256": "1be6fd0518f81818c256960d9d195936ae1c3543e4d727662bbba9ed46f3f099",
     "source_mtime": "2026-09-22T13:00:09.982310",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "1be6fd0518f81818c256960d9d195936ae1c3543e4d727662bbba9ed46f3f099",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "d85fa7a37bc7a416460593489cb29302899147f5898b1974db3f1d395fc8e613",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/requirements.txt",
@@ -2813,7 +2804,7 @@
     "source_sha256": "0ff3e003366a0f937b5e09290bc4ac2ce12576f60bbc548f5eba952b6cc6a28d",
     "source_mtime": "2026-09-22T22:08:10.810637",
     "role": "current_FigS4A",
-    "deposit_sha256": "6c556024c7a08c69aead5eb4f3b804a4c9aa193f21d694b904d623b1b07e0dde",
+    "deposit_sha256": "12e565b51ac9c959bd52bea3502ba9b73be28e4b918d1fc8b80fb46c7f8876bb",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2849,8 +2840,8 @@
     "source_sha256": "1be10b9e1d1dd97667a5be0c79a606ab057d557663567c56574d2e396f47db42",
     "source_mtime": "2026-09-22T22:08:10.920359",
     "role": "current_FigS4A",
-    "deposit_sha256": "1be10b9e1d1dd97667a5be0c79a606ab057d557663567c56574d2e396f47db42",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "8a35ca9d32e80cdc94dd8c2bfa4f86a2ae2dd2632a4fc7be13f741e372151071",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "panels/FigS4A/DATA_VERIFICATION.json",

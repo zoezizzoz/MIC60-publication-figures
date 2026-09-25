@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-25T01:58:06.992319+00:00",
+  "snapshot_utc": "2026-09-25T03:17:55.112164+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -19,13 +19,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3942,
-      "sha256": "1514ac0070ef2375184c24994c7c0216a03b1c12b68450e941fd464199983408"
+      "bytes": 4086,
+      "sha256": "9a65294eb2224671383479bed502c67e0fef1d304c028c6343fd5af2e03b655c"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 5580,
-      "sha256": "f0d0766a5168918b6e9a3fb1f46eeea19e8f7e8a750daecd4ff7f35f1f55dd39"
+      "bytes": 5750,
+      "sha256": "3ed7a5ccea7de5a2a2faf6f46fa0d585d297238502461b6af70e3292ff3558ab"
     },
     {
       "path": "R_PACKAGES.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "UPDATE_NOTES.md",
-      "bytes": 5620,
-      "sha256": "7557e895006e4afe30b9fc02f9bb6e1dd6455bfc7afa80266bbfc05397bdd688"
+      "bytes": 6105,
+      "sha256": "d5058314266122436f2a4a7b1ffed5161fcaa83f957ac0cbd94efd641a61b638"
     },
     {
       "path": "data/original_inputs/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
@@ -1524,8 +1524,8 @@
     },
     {
       "path": "provenance/source_files.json",
-      "bytes": 182334,
-      "sha256": "d4a4fb5ef4fd47bb845c59f01615d4056aeec4c8d986a5f010b0c04fdf3bcc96"
+      "bytes": 181742,
+      "sha256": "df8a5df866d2c3c14daf16190c2a0ec3059350da632b0ad3deeebd5c13d059be"
     },
     {
       "path": "provenance/survival_legacy/Fly Lifespan Streamlined.csv",
@@ -1594,8 +1594,8 @@
     },
     {
       "path": "reviewed_analysis/code/08_full_figure_panels.py",
-      "bytes": 1368,
-      "sha256": "4d0a449c324788e465c1fe6b24d93c9df4f219f124ac13840b8f090a80b1f990"
+      "bytes": 1442,
+      "sha256": "8ad0f1460fbb189e0873309e4c6fa9c9323a10f5c01ab5ac1f10afcd2286c274"
     },
     {
       "path": "reviewed_analysis/code/09_schematics.R",
@@ -2358,6 +2358,11 @@
       "sha256": "f76fec197bbaf0d4f705d224bcbab01c1951cf1cc85094fa5f186e1ea6e4d282"
     },
     {
+      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/README.md",
+      "bytes": 1350,
+      "sha256": "ce6804a11e741deb604dcecf1498ac64b4806ee5a824490d0ec1e6775668fe20"
+    },
+    {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/assemble_ampk_data.py",
       "bytes": 4787,
       "sha256": "1d81bcc6d1cf0b405d50b42b77c6787c3cc0c17dcfde2e607c42ea3f58df78c4"
@@ -2368,14 +2373,9 @@
       "sha256": "f1211ba86062f6ffcad97f7d020b380e0a11e9c8c0d72ed7a6ce790b0b03f606"
     },
     {
-      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/figure_style.R",
-      "bytes": 77,
-      "sha256": "cb0a60e73f438bdebb1c26921cd2d867e0854f1e443abcf4e5605629d4fba26f"
-    },
-    {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_AMPK_full_survey.R",
-      "bytes": 8226,
-      "sha256": "fb1486bc93b9c6bbe1e566d3bb67e8d20ed659d18b16a9815ed5b4c2ebc00d01"
+      "bytes": 6579,
+      "sha256": "1e8cc89ff9828bff9eee0d45683d33300d855d8ccba0411bb8fcf7fac7b2d8cd"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
@@ -2413,34 +2413,19 @@
       "sha256": "b261ce0ec7a0ed736b149db323af2111808f234b6157ec5ca6ffae5394e29195"
     },
     {
+      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/README.md",
+      "bytes": 703,
+      "sha256": "fad54453cae56ad9e0033dc75ddb158578d2972e35257097fa3cda40087e72bf"
+    },
+    {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/compact_publication_validation.json",
       "bytes": 1278,
       "sha256": "bad0a720147fe3ea99ad74e41c9594f963e25583a1195f75a7579974b33156a5"
     },
     {
-      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/dash_display_validation.json",
-      "bytes": 465,
-      "sha256": "e6032937a22f4542f9e20c32ce5468d8cf046223c310e987f72a925342829cd4"
-    },
-    {
-      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/formatting_validation.json",
-      "bytes": 2339,
-      "sha256": "0370f03b8db9eaab6f143022fc83d949c239f96c5fe4c04a61741aaaa930adf3"
-    },
-    {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/grouping_validation.json",
       "bytes": 943,
       "sha256": "0ffba69e409c6cfe692f6c2b36f7fb99ceed0dd83682af14fe83d2d3d8b2438b"
-    },
-    {
-      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/header_pvalue_validation.json",
-      "bytes": 1278,
-      "sha256": "bad0a720147fe3ea99ad74e41c9594f963e25583a1195f75a7579974b33156a5"
-    },
-    {
-      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/legend_wording_validation.json",
-      "bytes": 546,
-      "sha256": "3a99090a2ffdffd29e306ca1cf1abb4660be5220574b833e7bc3e4da75741d66"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/membership_validation.json",
@@ -2453,14 +2438,9 @@
       "sha256": "7db41705c3e28d520c992fcda36ffc6ed925c0d27677338477555b0917fdf601"
     },
     {
-      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/typography_validation.json",
-      "bytes": 1781,
-      "sha256": "78bf9c8dbe82f2b5c25b4dbaacb8e249a0c7eee12b79d5bf095e330b16eba775"
-    },
-    {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/README.md",
-      "bytes": 5714,
-      "sha256": "33df1833b41b1e026d48c37ca540e5a8fae390df2448a8cbe65f15479e8f23a6"
+      "bytes": 5903,
+      "sha256": "9db8d74f52be35ced4eb2b9728f16dd3e1e1af35aad78f13e2fd70c607cd60b2"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_component_group_definitions.csv",
@@ -3824,13 +3804,18 @@
     },
     {
       "path": "verification/Python_parse_checks.json",
-      "bytes": 777,
-      "sha256": "b047a2e61c9ee617d7dcac5668207434ac3a29b738cae7fa4c6a94c43ffebb04"
+      "bytes": 1636,
+      "sha256": "d788b4e62d881f6b401ecbe13d5ea3bb44bc04e174d942a26d602b51b1488c64"
     },
     {
       "path": "verification/R_parse_checks.csv",
-      "bytes": 4717,
-      "sha256": "fae882f09cd7a36fee49bb0a5ccfbea15b187f96de1c3488dc41bd6b4ac8ff05"
+      "bytes": 4730,
+      "sha256": "0bdd14d20aa911da3d30da47663b98fe9ddd61aa25b711228799385ff515891d"
+    },
+    {
+      "path": "verification/S3_CLEANUP.json",
+      "bytes": 827,
+      "sha256": "63e1050859e5519e29ea01cfd7561b00b920a2f52d87dc709c4bd276aed55204"
     },
     {
       "path": "verification/build_additional_assays.txt",
@@ -3873,5 +3858,5 @@
       "sha256": "01752b84ff1a83e7197d86bca2df70c50bafeb101962e3f1247df69d8456d3d3"
     }
   ],
-  "notes": "Manifest excludes itself and SHA256SUMS. All paths are repository-relative; all payloads are regular files. Git attributes preserve exact input bytes. Includes the September 24 Figure S3 gene-set and display update."
+  "notes": "Manifest excludes itself and SHA256SUMS. All paths are repository-relative; all payloads are regular files. Git attributes preserve exact input bytes. Includes the current nine-gene Figure S3 and code cleanup; the full supporting survey is preserved."
 }
