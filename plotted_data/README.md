@@ -39,8 +39,8 @@ Data are organized using the current figure panel letters. Old source directorie
 | Fig4B | [mtt_biological_summary.csv](Fig4B/mtt_biological_summary.csv) | 10 | genotype × dose summary |
 | FigS1B | [western_blot_quantification.csv](FigS1B/western_blot_quantification.csv) | 6 | paired blot measurement |
 | FigS2 | [KEGG_GSEA_plotted_pathways.csv](FigS2/KEGG_GSEA_plotted_pathways.csv) | 20 | pathway × sex |
-| FigS3 | [selected_gene_modules.csv](FigS3/selected_gene_modules.csv) | 208 | gene × figure panel |
-| FigS3 | [AMPK_grouped_gene_set_and_expression.csv](FigS3/AMPK_grouped_gene_set_and_expression.csv) | 131 | unique fly gene in the AMPK panel |
+| FigS3 | [selected_gene_modules.csv](FigS3/selected_gene_modules.csv) | 86 | gene × figure panel |
+| FigS3 | [AMPK_grouped_gene_set_and_expression.csv](FigS3/AMPK_grouped_gene_set_and_expression.csv) | 131 | unique fly gene in the full supporting survey |
 | FigS3 | [AMPK_component_group_mapping.csv](FigS3/AMPK_component_group_mapping.csv) | 200 | retained human-to-fly mapping edge |
 | FigS3 | [AMPK_component_group_definitions.csv](FigS3/AMPK_component_group_definitions.csv) | 13 | AMPK display group |
 | FigS4A | [figS4_plotted_values.csv](FigS4A/figS4_plotted_values.csv) | 64 | gene × curated pathway |
@@ -54,4 +54,4 @@ Each row of [INDEX.csv](INDEX.csv) records its source, generator, selection, cav
 
 Schematic, workflow, model, blot-photo and micrograph panels do not have numeric plotting tables. Fig1A, Fig3I/M, Fig4C, FigS1A and FigS4B are therefore not treated as missing graph tables.
 
-Figure S3 was updated on 24 September 2026. Only the AMPK membership was redefined, using high/moderate-confidence fly homologs of the complete human KEGG AMPK pathway. The full table retains the five other selected lists unchanged. The 13 AMPK categories describe human-source roles/protein families; they are display groups, not enrichment tests or evidence of AMPK activation. Missing fold changes and adjusted P values are retained explicitly.
+Figure S3 was updated on 24 September 2026. Its current AMPK panel displays nine fly genes with gene-specific experimental evidence from four primary publications; the full 131-gene KEGG/DIOPT homolog survey and all original values remain in the supporting tables and standalone plot. The other five selected lists are unchanged. Publication evidence, scope and interpretation limits are in the [S3 package](../reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/README.md). Missing fold changes and adjusted P values remain explicit. These descriptive panels do not establish pathway activity.

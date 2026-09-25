@@ -1,7 +1,15 @@
 {
   "frozen_inputs_checked": 127,
-  "module_entries": 208,
-  "unique_fly_genes_across_modules": 207,
+  "module_entries": 86,
+  "full_survey_module_entries": 208,
+  "focused_AMPK_genes": 9,
+  "focused_AMPK_categories": {
+    "No fold-change estimate": 3,
+    "Below DE cutoffs": 5,
+    "Adjusted P unavailable": 1
+  },
+  "unique_fly_genes_across_modules": 86,
+  "full_survey_unique_fly_genes_across_modules": 207,
   "AMPK_unique_fly_genes": 131,
   "AMPK_display_groups": 13,
   "other_modules_unchanged_entries": 77,
@@ -16,11 +24,15 @@
   "PNG_dimensions": {
     "FigS3_selected_gene_modules": [
       5100,
-      8176
+      5575
     ],
     "AMPK_signaling_components_grouped_panel": [
       5100,
       4167
+    ],
+    "AMPK_literature_selected_panel": [
+      2584,
+      1334
     ]
   },
   "DESeq2_rerun": false,

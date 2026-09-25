@@ -1,48 +1,43 @@
-# Figure S3: selected genes and fly homologs of human AMPK-pathway genes
+# Figure S3 selected genes with a publication-supported AMPK panel
 
-This is the current grouped Figure S3, updated 24 September 2026. It replaces the former 12-gene AMPK panel with 131 unique fly genes mapped from the complete human KEGG AMPK signaling pathway, hsa04152. The other five selected lists are unchanged: FOXO (14), DNA replication (31), spargel-associated (7), chromatin regulation (15) and checkpoint (10). The complete figure contains 208 gene-by-panel entries, including genes shared between panels.
+Figure S3D now displays nine AMPK-associated fly genes: AMPKalpha, alc, SNF4Agamma, Lkb1, ACC, gig, S6k, Thor and Atg1. Each has specific experimental support from a primary publication in Drosophila. The panel is a focused, non-exhaustive selection assembled after the RNA-seq analysis, without selecting for differential-expression significance. It is not a published target-gene signature, a systematic literature review, an enrichment test, or an AMPK activity assay.
+
+The five other selected lists retain their memberships and values: FOXO (14), DNA replication (31), Spargel (7), chromatin (15), and checkpoint (10). The current figure has 86 gene-by-panel entries. This AMPK revision does not establish the original published provenance of those five lists.
 
 ## Rebuild
 
-Requirements: Python 3 with `pypdfium2` and Pillow; R with the standard `grid` package. The PDF renderer uses macOS Quartz and Arial to reproduce the reviewed typography. The archived `org.Dm.eg.db` 3.19.1 identifier check is supplied; no annotation database download is needed for the frozen rebuild.
+Run `python3 Code/rebuild_FigS3.py --rscript /path/to/Rscript`. Dependencies are R with grid and Quartz/Arial, Python with pypdfium2 and Pillow. The rebuild checks 127 frozen KEGG/DIOPT/DESeq2 inputs, reconstructs the complete homolog survey, selects the nine documented genes, and renders the compact figure and standalone supporting plots. It runs offline without fitting DESeq2 again.
 
-```sh
-python3 Code/rebuild_FigS3.py --rscript /path/to/Rscript
-```
+## Publication support
 
-All 127 frozen inputs are hash-checked first. The command rebuilds membership from the archived DIOPT responses, joins the archived female DESeq2 contrast, assigns display groups, checks the data, and creates editable vector PDFs plus 600-dpi PNGs in `Rebuilt_Output/`. It runs offline, does not fit DESeq2 again, and does not change any Illustrator file. `Code/generate_FigS3_selected_modules.R` can also redraw the PDFs directly from the included plotting tables.
+Supporting_Data/AMPK_literature_selection.csv records each selected gene, its role, the exact supporting publication, experiment or figure, and interpretation limits. Supporting_Data/AMPK_literature_references.csv contains the four source references. Documentation/AMPK_published_selection.md explains the scope and selection process.
 
-## Membership and display groups
+The AMPK subunits and ACC are supported by Pan and Hardie (2002), Lkb1 by Castanieto et al. (2014), gig and the S6k/Thor translation outputs by Kim and Lee (2015), and Atg1 by Ulgherait et al. (2014). Downstream connections are not presented as proof of direct AMPK phosphorylation or transcriptional regulation.
 
-The complete KEGG hsa04152 entry was retrieved on 24 September 2026 (122 human genes). All high- and moderate-confidence DIOPT 9.1 matches were retained and deduplicated by FlyBase ID: 115 human genes have retained matches, giving 200 mapping edges and 131 unique fly genes. High confidence requires best matches in both directions and score >=2; moderate confidence requires score >=4 or a best match in either direction and score >=2. Gene selection did not depend on RNA-seq results.
+## Current plotted data
 
-Panel D groups these genes into 13 human-source component/function categories. AMPK subunits are ordered alpha, beta, gamma; remaining genes are alphabetical within groups. These are manually specified display categories, not official KEGG subpathway sets. Broad groups such as PP2A-, CFTR-, CD36- and CIDEA-related proteins denote mapping relationships and do not establish the corresponding function in flies. Only AMPK membership was redefined; the other five lists remain selected exploratory lists.
+- Rebuilt_Output/FigS3_supporting_data.csv: 86 gene-by-panel entries, with unchanged DESeq2 values and publication evidence for the nine AMPK entries.
+- Rebuilt_Output/AMPK_literature_selected_gene_set_and_expression.csv: nine selected genes with expression values and evidence.
+- Rebuilt_Output/FigS3_selected_gene_modules.pdf and .png: compact six-panel figure.
+- Rebuilt_Output/AMPK_literature_selected_panel.pdf and .png: standalone focused panel.
+- Documentation/FigS3_figure_legend.txt and Documentation/Manuscript_wording.md: matching caption, Results and Methods.
 
-## Files
+## Preserved comprehensive supporting survey
 
-- `Rebuilt_Output/FigS3_supporting_data.csv`: all 208 gene-by-panel entries, six unchanged DESeq2 numeric columns, gene-set provenance and AMPK display groups.
-- `Rebuilt_Output/AMPK_grouped_gene_set_and_expression.csv`: all 131 AMPK-panel rows in display order.
-- `Rebuilt_Output/AMPK_component_group_mapping.csv`: all 200 retained human-to-fly edges, confidence scores, KEGG nodes, group assignments and rationale.
-- `Rebuilt_Output/AMPK_component_group_definitions.csv`: 13 category definitions and counts.
-- `Supporting_Data/AMPK_sources/`: frozen KEGG entry/KGML, all 122 DIOPT responses, retained and excluded mappings, mapping audit, identifier check and source documentation.
-- `Supporting_Data/female_DE_source.csv`: unchanged archived female DESeq2 results, with three biological libraries per genotype.
-- `Supporting_Data/selected_gene_modules_previous.csv`: previous membership preserved solely to verify the unchanged five lists and document the AMPK membership replacement.
-- `Documentation/Manuscript_wording.md`: matching caption, Methods, Results and source references.
-- `QA/`: membership, grouping and reconstruction checks.
+The complete 131-gene survey is retained unchanged in AMPK_gene_set_and_expression.csv and AMPK_grouped_gene_set_and_expression.csv. These are fly homologs of all 122 human KEGG hsa04152 genes, mapped with DIOPT 9.1, retaining high- and moderate-confidence matches and deduplicating by FlyBase identifier. There are 200 mapping edges covering 115 human genes. Full mappings, confidence definitions and frozen inputs remain in Supporting_Data/AMPK_sources and AMPK_component_group_mapping.csv.
+
+AMPK_full_survey_with_display_selection.csv contains all 131 genes plus a flag identifying the nine in the current panel. FigS3_full_orthology_survey.csv preserves the former 208-row figure data. AMPK_signaling_components_grouped_panel.pdf and .png retain the full 13-group survey as a supporting plot. Those categories describe the mapped human components; they do not establish the fly genes’ functions. Takl1 and ninaD remain in these files with their original values.
 
 ## Plot interpretation
 
-Red/blue points meet both BH-adjusted P <0.05 and absolute log2 fold change >=0.58. Gray points have adjusted P values but fail one or both thresholds. Open circles have fold-change estimates without adjusted P values. Rows with no fold-change estimate are marked with an em dash (—). Point size represents -log10(adjusted P), capped at 50. All values use the existing genome-wide female dMIC60-CS-versus-dMIC60-WT contrast; both transgenes are in a dMIC60-null background.
+All values use the existing genome-wide female dMIC60-CS versus dMIC60-WT DESeq2 contrast (three biological libraries per genotype; both transgenes in a dMIC60-null background). Filled red/blue points meet BH-adjusted P <0.05 and absolute log2 fold change >=0.58; gray points have adjusted P values but fail one or both criteria. Labels show adjusted P values below 0.05, including genes below the fold-change threshold. Point size represents -log10(adjusted P), capped at 50. Open circles indicate missing adjusted P values; em dashes indicate missing fold-change estimates.
 
-Of 131 AMPK-panel genes, 113 have fold-change estimates and 82 have adjusted P values. Takl1 and ninaD meet both thresholds for decreased expression; none meets both for increased expression. The 18 missing fold-change rows have zero counts in the supplied female count matrix; the upstream counting/identifier handling has not been independently resolved. Missing estimates are not evidence of absent gene expression or an unchanged pathway. This is a descriptive gene-level display, not enrichment or a measurement of AMPK activity.
+For the nine selected genes, five have adjusted P values and none meets both thresholds. Thor has a fold-change estimate without an adjusted P value; AMPKalpha, Lkb1 and gig lack fold-change estimates. Missing estimates do not establish absence of expression or lack of pathway activity. In the complete survey, 113 genes have fold changes and 82 have adjusted P values; Takl1 and ninaD meet both thresholds for decreased expression. The original missing-estimate rows have zero counts in the supplied female count matrix; upstream counting/identifier handling remains unresolved.
 
 ## Artwork
 
-Full figure: 612 x 981 pt. Standalone AMPK panel: 612 x 500 pt. Typography matches the current Fig4, S4 and S2 reference artwork: Arial, with 7 pt gene labels, ticks, legends and adjusted-P annotations; 8 pt common-axis title; 9 pt module and component headings; and 13 pt panel letters. Gene labels remain italic, and headings and panel letters remain bold. Both native Illustrator copies now use the same typography. The overall figure title and contextual notes are in the caption; light-gray header strips and black plot outlines follow the supplied reference, with standalone upper-left panel letters. AMPK component headers span their outlined columns. Axes, ticks and point outlines are 0.426791 pt, measured from the current S4 axes. All gene labels, plotted values, data-symbol positions and canvas dimensions are preserved. Six labels show adjusted P values below 0.05, including gray points below the fold-change threshold; values below 0.001 use “adj. p < 0.001,” and other labels use up to five decimal places. Full-precision values remain in the CSVs. High-resolution PNGs are intended for viewing; vector PDFs and native AI retain editable artwork.
+The compact figure is 612 x 669 pt. Gene labels and legend/tick text remain 7 pt, panel titles 9 pt, panel letters 13 pt, and the common axis title 8 pt, matching the current saved native figure at the start of this revision. Axis, tick and open-point outline widths remain 0.426791 pt. Panel letters are upper left. Native AI artwork is editable vector content with no external links or rasterized plots.
 
-## References
+The gray headers (#EFEFEF), black plot outlines and adjusted-P annotations incorporate the side chat’s saved formatting (repository commit 9b4be42). The compact figure has four annotations; the full survey retains two. Labels are shown for adjusted P <0.05 irrespective of the fold-change cutoff, preserving the distinction between annotated gray points and points meeting both thresholds.
 
-- KEGG hsa04152, https://www.kegg.jp/entry/hsa04152 (accessed 24 September 2026). The exact membership is the archived entry, not a gene list taken from the general database paper.
-- Kanehisa et al. (2025), *Nucleic Acids Research* 53, D672–D677. https://doi.org/10.1093/nar/gkae909
-- Hu et al. (2011), *BMC Bioinformatics* 12, 357. https://doi.org/10.1186/1471-2105-12-357
-- DIOPT confidence definitions: https://www.flyrnai.org/DIOPT_help.html
+QA/compact_publication_validation.json and QA/rebuild_validation.json describe the current compact figure. Other older QA records describe earlier survey/layout stages and are retained as history.

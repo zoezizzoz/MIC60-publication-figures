@@ -9,7 +9,7 @@ Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 43 tables c
 - `reviewed_analysis/`: existing reviewed pipeline, restored inputs, shared styles, generators and numerical outputs.
 - `panels/Fig3N/`: current connected-object TMRM/MTG field-mean graph; 32 fields and 22,531 contributing objects.
 - `panels/Fig4AB/`: current TIMELESS/DAPI and MTT graphs, with source-cell references for the 64 measurements and 78 wells.
-- `reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/`: current Figure S3, including 131 fly homologs of human AMPK-pathway genes in 13 display groups, frozen source records, mapping tables, vector PDFs and 600-dpi PNGs.
+- `reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/`: current Figure S3 with nine AMPK-associated fly genes selected using four primary publications. The full 131-gene homolog survey, frozen records, mappings, gene-specific evidence, vector PDFs and 600-dpi PNGs are preserved.
 - `panels/FigS4A/`: 64 stress-response points, enrichment results and the current SVG renderer with color-matched labels.
 - `panels/layout_2026-09-23/`: latest recovered GO and sleep/activity formatting generators, with their calculation inputs.
 - `data/original_inputs/`: supplied measurement workbooks, count matrices and analysis tables. The historical name `Original_Data` does **not** imply every file is raw instrument data.

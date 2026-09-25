@@ -37,7 +37,7 @@ def verify():
     ampk=rows(ROOT/'plotted_data/FigS3/AMPK_grouped_gene_set_and_expression.csv')
     edges=rows(ROOT/'plotted_data/FigS3/AMPK_component_group_mapping.csv')
     definitions=rows(ROOT/'plotted_data/FigS3/AMPK_component_group_definitions.csv')
-    assert len(s3)==208 and len({r['gene'] for r in s3})==207
+    assert len(s3)==86 and len({r['gene'] for r in s3})==86
     assert len(ampk)==131 and len({r['flybase_id'] for r in ampk})==131
     assert len(edges)==200 and len(definitions)==13
     assert {r['flybase_id'] for r in edges}=={r['flybase_id'] for r in ampk}
@@ -54,7 +54,24 @@ def verify():
     unchanged=[row for row in old if row['module']!='AMPK']
     assert len(unchanged)==77
     for row in unchanged:assert all(current[(row['module'],row['gene'])][key]==value for key,value in row.items())
-    for row in ampk:assert row==current[(row['module'],row['gene'])]
+    package=ROOT/'reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules'
+    evidence=rows(package/'Supporting_Data/AMPK_literature_selection.csv')
+    focused=[r for r in s3 if r['module']=='AMPK-associated genes']
+    assert [r['gene'] for r in focused]==[r['gene'] for r in evidence]
+    assert len(focused)==9 and all(r['doi'] and r['published_fly_evidence'] for r in evidence)
+    full={r['gene']:r for r in ampk}
+    for row in focused:
+        for col in numeric:assert row[col]==full[row['gene']][col]
+    assert collections.Counter(r['status'] for r in focused)=={'Below DE cutoffs':5,'No fold-change estimate':3,'Adjusted P unavailable':1}
+    flags=rows(package/'Rebuilt_Output/AMPK_full_survey_with_display_selection.csv')
+    assert len(flags)==131
+    assert {r['gene'] for r in flags if r['shown_in_focused_panel']=='true'}=={r['gene'] for r in focused}
+    for row in ampk:
+        for col in numeric:
+            a,b=row[col],de[row['gene']][col]
+            if a in ('','NA'):assert b in ('','NA')
+            else:assert math.isclose(float(a),float(b),rel_tol=1e-12,abs_tol=1e-14)
+    assert {r['gene'] for r in focused} <= set(full)
     assert collections.Counter(row['status'] for row in ampk)=={'Below DE cutoffs':80,'Adjusted P unavailable':31,'No fold-change estimate':18,'Down in CS':2}
     assert {row['gene'] for row in ampk if row['status']=='Down in CS'}=={'Takl1','ninaD'}
     fields=rows(ROOT/'panels/Fig3N/Source_Data/TMRM_MTG_connected_object_image_summary.csv')
@@ -74,7 +91,7 @@ def verify():
     for item in idx:
         if item['panel'] in ['Fig3B','Fig3C','Fig3E','Fig3F']:
             assert all(r['exclude']=='FALSE' for r in rows(ROOT/item['file']))
-    return {'status':'passed','plotted_tables':len(idx),'graph_panels':len({r['panel'] for r in idx}),'S3_entries_checked':len(s3),'S3_AMPK_genes':len(ampk),'S3_mapping_edges':len(edges),'S3_display_groups':len(definitions),'S4A_DE_values_checked':64,'TMRM_objects':len(objects),'TMRM_fields':len(fields),'TMRM_max_mean_error':max(errors),'survival':'historical source retained; not certified against current curve'}
+    return {'status':'passed','plotted_tables':len(idx),'graph_panels':len({r['panel'] for r in idx}),'S3_entries_checked':len(s3),'S3_AMPK_displayed_genes':len(focused),'S3_AMPK_full_survey_genes':len(ampk),'S3_mapping_edges':len(edges),'S3_display_groups':len(definitions),'S4A_DE_values_checked':64,'TMRM_objects':len(objects),'TMRM_fields':len(fields),'TMRM_max_mean_error':max(errors),'survival':'historical source retained; not certified against current curve'}
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--checksums',action='store_true');a=p.parse_args()
     report=verify()
