@@ -38,7 +38,7 @@ Of 131 AMPK-panel genes, 113 have fold-change estimates and 82 have adjusted P v
 
 ## Artwork
 
-Full figure: 612 x 1035 pt. Standalone AMPK panel: 612 x 554 pt. Gene labels, ticks and legends are 7 pt; panel titles/letters 9 pt; group headings 8 pt. Preserve physical text size when scaling. The separate native Illustrator assembly has the same final scientific titles. High-resolution PNGs are intended for viewing; vector PDFs and native AI retain editable artwork.
+Full figure: 612 x 981 pt. Standalone AMPK panel: 612 x 500 pt. The generator preserves its existing gene-label, tick and legend sizes (7 pt), module-label/panel-letter size (9 pt), component-heading size (8 pt), and common-axis label size (8 pt). The overall figure title and contextual notes are in the caption; plain headings, standalone upper-left panel letters and open left/bottom axes match the other figures. Axes, ticks and point outlines are 0.426791 pt, measured from the current S4 axes. Margins were cropped and panel groups translated without scaling text or data symbols. Both separate native Illustrator copies preserve their own exact pre-edit character sizes; the embedded copy retains its larger axis/legend annotations. High-resolution PNGs are intended for viewing; vector PDFs and native AI retain editable artwork.
 
 ## References
 

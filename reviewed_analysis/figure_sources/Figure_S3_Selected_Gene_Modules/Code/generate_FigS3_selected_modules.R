@@ -10,11 +10,15 @@ ampk <- subset(d,module=='Fly homologs of human AMPK-pathway genes')
 stopifnot(nrow(ampk)==131)
 W <- 612; rh <- 8.6; xlim <- c(-4.7,7); ticks <- c(-4,0,4)
 cols <- c('Up in CS'='#B2182B','Down in CS'='#5AB4E5','Below DE cutoffs'='#B8B8B8','Not significant'='#B8B8B8')
-txt <- function(s,x,y,size=7,face='plain',just='left',color='black') grid.text(s,x=x,y=y,default.units='native',just=just,gp=gpar(fontfamily='Arial',fontsize=size,fontface=face,col=color))
-line <- function(x,y,color='black',dash='solid',width=.5) grid.lines(x=x,y=y,default.units='native',gp=gpar(col=color,lwd=width,lty=dash))
-box <- function(x,y,w,h,fill=NA) grid.polygon(x=c(x,x+w,x+w,x),y=c(y,y,y+h,y+h),default.units='native',gp=gpar(fill=fill,col='black',lwd=.5))
+# Removing outer text is handled by translation/cropping, never by scaling.
+TOP_CROP <- 22
+AXIS_LWD <- 0.42679131031036 / 0.75 # match FigS4 axes, in physical points
+txt <- function(s,x,y,size=7,face='plain',just='left',color='black') grid.text(s,x=x,y=y-TOP_CROP,default.units='native',just=just,gp=gpar(fontfamily='Arial',fontsize=size,fontface=face,col=color))
+line <- function(x,y,color='black',dash='solid',width=AXIS_LWD) grid.lines(x=x,y=y-TOP_CROP,default.units='native',gp=gpar(col=color,lwd=width,lty=dash))
+box <- function(x,y,w,h,fill=NA,stroke=TRUE) grid.polygon(x=c(x,x+w,x+w,x),y=c(y,y,y+h,y+h)-TOP_CROP,default.units='native',gp=gpar(fill=fill,col=if(stroke)'black' else NA,lwd=AXIS_LWD))
+axes <- function(x,y,w,h) line(c(x,x,x+w),c(y,y+h,y+h))
 radius <- function(p) 1+2.7*sqrt(pmin(50,pmax(0,-log10(pmax(p,.Machine$double.xmin))))/50)
-dot <- function(x,y,r,color,open=FALSE) grid.circle(x=x,y=y,r=unit(r,'pt'),default.units='native',gp=gpar(fill=if(open)'white' else color,col=if(open)'#555555' else NA,lwd=.5))
+dot <- function(x,y,r,color,open=FALSE) grid.circle(x=x,y=y-TOP_CROP,r=unit(r,'pt'),default.units='native',gp=gpar(fill=if(open)'white' else color,col=if(open)'#555555' else NA,lwd=AXIS_LWD))
 legend <- function() {
     yy <- 35
     for(z in list(c(16,'Up in CS'),c(99,'Down in CS'),c(194,'Below DE cutoffs'))) {
@@ -30,7 +34,7 @@ legend <- function() {
 body <- function(data,left,top,width,nrows=nrow(data)) {
     axl<-left+58;axr<-left+width-4;h<-rh*nrows
     trans<-function(v)axl+(v-xlim[1])/diff(xlim)*(axr-axl)
-    box(axl,top,axr-axl,h)
+    axes(axl,top,axr-axl,h)
     line(rep(trans(0),2),c(top,top+h),color='#8A8A8A',dash='dashed')
     for(i in seq_len(nrow(data))) {
         yy<-top+(i-.5)*rh;r<-data[i,]
@@ -47,8 +51,7 @@ body <- function(data,left,top,width,nrows=nrow(data)) {
     invisible(top+h+16)
 }
 header <- function(title,letter,left,top,width) {
-    box(left,top,width,17,fill='#EFEFEF')
-    if(nchar(letter))txt(letter,left+5,top+8.5,9,'bold')
+    if(nchar(letter))txt(letter,left,top+8.5,9,'bold')
     txt(title,left+width/2,top+8.5,9,'bold','centre')
 }
 panel <- function(module,letter,left,top,width) {
@@ -78,20 +81,19 @@ for(col in 1:4) {
     layouts[[col]]<-list(heads=heads,rows=rows,height=yy)
 }
 column_height<-max(vapply(layouts,function(z)z$height,numeric(1)))
-ampk_height<-38+column_height+16
+ampk_height<-22+column_height+16
 ampk_grouped_panel <- function(top,letter='D') {
     header('Fly homologs of human AMPK-pathway genes',letter,14,top,584)
-    txt('Grouped by human-source pathway roles and protein families',306,top+27,7,just='centre',color='#555555')
-    y0<-top+38
+    y0<-top+22
     for(col in 1:4) {
         left<-14+(col-1)*148;ww<-140;axl<-left+58;axr<-left+ww-4
         trans<-function(v)axl+(v-xlim[1])/diff(xlim)*(axr-axl)
-        box(axl,y0,axr-axl,column_height)
+        axes(axl,y0,axr-axl,column_height)
         line(rep(trans(0),2),c(y0,y0+column_height),color='#8A8A8A',dash='dashed')
         layout<-layouts[[col]]
         for(hh in layout$heads) {
             yy<-y0+hh$y
-            box(left,yy,ww,14,fill='#F2F2F2')
+            box(left,yy,ww,14,fill='white',stroke=FALSE)
             txt(hh$label,left+4,yy+7,8,'bold')
         }
         for(entry in layout$rows) {
@@ -116,12 +118,9 @@ page_grouped <- function(path,full=TRUE) {
     after_ampk<-top+ampk_height
     lower_top<-after_ampk+20
     x_title_y<-if(full)lower_top+168 else after_ampk+16
-    footer_y<-x_title_y+16
-    H<-ceiling(footer_y+13)
+    H<-ceiling(x_title_y+13)-TOP_CROP
     quartz(type='pdf',file=path,width=W/72,height=H/72,family='Arial')
     grid.newpage();pushViewport(viewport(xscale=c(0,W),yscale=c(H,0)))
-    txt(if(full)'Figure S3. Selected genes and fly homologs of human AMPK-pathway genes' else 'Figure S3 AMPK panel',14,13,11,'bold')
-    txt('Female dMIC60-CS versus dMIC60-WT; n = 3 biological libraries per genotype',14,24,7)
     legend()
     if(full) {
         panel('FOXO','A',14,69,282)
@@ -132,7 +131,6 @@ page_grouped <- function(path,full=TRUE) {
         panel('Checkpoint','F',316,lower_top,282)
     } else ampk_grouped_panel(top,letter='')
     txt(expression(log[2]~'fold change (dMIC60-CS/dMIC60-WT)'),W/2,x_title_y,8,just='centre')
-    txt(expression(paste('DE cutoffs: BH-adjusted ',italic(P),' < 0.05 and |',log[2],' fold change| >= 0.58. Point-size scale capped at 50.')),W/2,footer_y,7,just='centre')
     popViewport();dev.off()
     message(basename(path),': ',W,' x ',H,' pt; labels 7 pt, group headings 8 pt')
 }

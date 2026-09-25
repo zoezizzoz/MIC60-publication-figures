@@ -16,11 +16,11 @@
   "PNG_dimensions": {
     "FigS3_selected_gene_modules": [
       5100,
-      8625
+      8176
     ],
     "AMPK_signaling_components_grouped_panel": [
       5100,
-      4617
+      4167
     ]
   },
   "DESeq2_rerun": false,
