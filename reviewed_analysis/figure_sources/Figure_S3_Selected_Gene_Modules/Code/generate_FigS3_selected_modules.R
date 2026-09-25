@@ -7,7 +7,7 @@ dir.create(file.path(root,"Rebuilt_Output"), recursive=TRUE, showWarnings=FALSE)
 library(grid)
 d <- read.csv(file.path(root,'Rebuilt_Output','FigS3_supporting_data.csv'),check.names=FALSE,na.strings=c('NA',''))
 ampk <- subset(d,module=='AMPK-associated genes')
-stopifnot(nrow(ampk)==9)
+stopifnot(nrow(ampk)==11)
 W <- 612; rh <- 8.6; xlim <- c(-4.7,7); ticks <- c(-4,0,4)
 cols <- c('Up in CS'='#B2182B','Down in CS'='#5AB4E5','Below DE cutoffs'='#B8B8B8','Not significant'='#B8B8B8')
 # Removing outer text is handled by translation/cropping, never by scaling.
@@ -47,7 +47,8 @@ legend <- function() {
     }
     txt('— Fold change unavailable',240,53,7,color='#555555')
 }
-body <- function(data,left,top,width,nrows=nrow(data)) {
+body <- function(data,left,top,width,nrows=nrow(data),row_height=rh) {
+    rh <- row_height
     axl<-left+58;axr<-left+width-4;h<-rh*nrows
     trans<-function(v)axl+(v-xlim[1])/diff(xlim)*(axr-axl)
     axes(axl,top,axr-axl,h)
@@ -73,31 +74,45 @@ header <- function(title,letter,left,top,width) {
     box(axl,top,axr-axl,20,fill='#EFEFEF')
     txt(title,(axl+axr)/2,top+10,9,'bold','centre')
 }
-panel <- function(module,letter,left,top,width) {
+panel <- function(module,letter,left,top,width,row_height=rh) {
     dd<-d[d$module==module,]
     header(module,letter,left,top,width)
-    body(dd,left,top+20,width)
+    body(dd,left,top+20,width,row_height=row_height)
 }
 
 
-# Six compact panels; membership is defined in AMPK_literature_selection.csv.
+# Membership follows the individual publication audit and AMPK_literature_selection.csv.
+# Preserve the embedded figure's staggered columns and physical text/line sizes.
 page_compact <- function(path, full=TRUE) {
     ww <- if(full) W else 310
-    H <- if(full) 669 else 160
+    H <- if(full) 669 else 180
     quartz(type='pdf',file=path,width=ww/72,height=H/72,family='Arial')
     grid.newpage();pushViewport(viewport(xscale=c(0,ww),yscale=c(H,0)))
     if(full) {
         legend()
-        panel('FOXO','A',14,69,282)
-        panel('DNA replication','B',316,69,282)
-        panel('Spargel','C',14,378,282)
-        panel('AMPK-associated genes','D',316,378,282)
-        panel('Chromatin','E',14,510,282)
-        panel('Checkpoint','F',316,510,282)
+        # Equal column lengths and uniform compact panel gaps. Redistribute gene
+        # rows vertically, preserving physical font, point, tick and line sizes.
+        modules <- c('FOXO-associated genes','DNA replication/genome maintenance',
+                     'Mitochondrial/metabolic genes','AMPK-associated genes',
+                     'Chromatin regulation','DNA repair/checkpoints')
+        column_top <- 69; column_bottom <- 650; gap <- 28
+        for(column in 1:2) {
+            ids <- seq(column,6,2)
+            counts <- sapply(modules[ids],function(m)sum(d$module==m))
+            row_height <- (column_bottom-column_top-3*20-2*gap)/sum(counts)
+            stopifnot(row_height>=8.6)
+            top <- column_top
+            for(i in seq_along(ids)) {
+                idx <- ids[i]
+                panel(modules[idx],LETTERS[idx],if(column==1)14 else 316,top,282,row_height)
+                top <- top+20+counts[i]*row_height+gap
+            }
+            stopifnot(abs(top-gap-column_bottom)<1e-8)
+        }
         txt(expression(log[2]~'fold change (dMIC60-CS/dMIC60-WT)'),W/2,678,8,just='centre')
     } else {
         panel('AMPK-associated genes','D',14,30,282)
-        txt(expression(log[2]~'fold change (dMIC60-CS/dMIC60-WT)'),ww/2,160,8,just='centre')
+        txt(expression(log[2]~'fold change (dMIC60-CS/dMIC60-WT)'),ww/2,178,8,just='centre')
     }
     popViewport();dev.off()
 }

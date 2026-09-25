@@ -23,8 +23,8 @@
     "source_sha256": "23d8a3379388d936845d2582c7a9b7dc615c70d7c597f600c53571f0b6b9e8b0",
     "source_mtime": "2026-09-22T13:00:09.987779",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "23d8a3379388d936845d2582c7a9b7dc615c70d7c597f600c53571f0b6b9e8b0",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "9aa39637d90103ad26c3a80c3886a13224a4d9012082f06f0b8efccee6f0a048",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/code/04_review_panels.R",
@@ -95,8 +95,8 @@
     "source_sha256": "a73386c3f016d64b52affbe4fd8fea8113f76def606f80c3616b1dcf0ddc1b8e",
     "source_mtime": "2026-09-22T13:00:09.985187",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "a73386c3f016d64b52affbe4fd8fea8113f76def606f80c3616b1dcf0ddc1b8e",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "f6c720185d2f62edc7ca00a3ef44ca5d8bcef726451d019d361f3899e9ff3b4c",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/code/generate_sleep_activity_figures.R",
@@ -662,8 +662,8 @@
     "source_sha256": "483f0fe1c90fcc89b8ba267b97b9b5cf925a5d360d394794ce7e834d9a99a940",
     "source_mtime": "2026-09-22T13:00:10.000513",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "483f0fe1c90fcc89b8ba267b97b9b5cf925a5d360d394794ce7e834d9a99a940",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "02f12765e46db8eca5edc24c3d42893082a670754404284112f233123805dc19",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "reviewed_analysis/figure_sources/Figure_4C_TIMELESS/Code/figure_style.R",
@@ -788,7 +788,7 @@
     "source_sha256": "73e5ae368948da860e3d2d11588f6bc44e49b67b0f0e36f1bacfeabcbdc87bd1",
     "source_mtime": "2026-09-22T18:16:43.523820",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "83a30d5b2aa5a80f7d9f6b264dba51c61d799aaa811832b4392d5698b1ae81a6",
+    "deposit_sha256": "bfc06964b11c51823d91c0a81b7ba16d7e604ec191c717133ae2b0ae706b93e7",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -797,7 +797,7 @@
     "source_sha256": "602987dc328c15d6a52afa794c55a1b3f19f544c69b7bb97a00c91c05f0a10cc",
     "source_mtime": "2026-09-22T18:16:56.237394",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "c5c712d7211be3facf1628a443ed289ee3e148383d3e4f882ce34b5dd577c2db",
+    "deposit_sha256": "25798eb5c12f0642d3d0822ea62dd8e4474aef58d042978653038faf3c5b7fbb",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -806,7 +806,7 @@
     "source_sha256": "263d1e2b4430f09b4a7b5b083fc5ff8b8fd008ea1fd5a5dc23edeb65093681bf",
     "source_mtime": "2026-09-22T18:16:53.977161",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "31e13e25606af7c6b225a14fd3c4f3a695b16ecce4c9c1e577a93e0f78163a9f",
+    "deposit_sha256": "dac8fb7198d1f062c2b0fcaca2180e4e095ea83a5ac812bbaf647c5ea2a319bf",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2579,7 +2579,7 @@
     "source_sha256": "332645e39737de0a9b07d2369bf964e275b19239d9ab386567806bc7fb7b22d4",
     "source_mtime": "2026-09-23T14:51:52.733895",
     "role": "current_Fig4AB",
-    "deposit_sha256": "1d07e165fbf4f8a3bc7e5297255f6edf618ff2e9983da6c4903df1248f090751",
+    "deposit_sha256": "bce357264ef20670435e465bb90e19ba0cee062be2d9b06b7b7031410515a513",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2588,8 +2588,8 @@
     "source_sha256": "ab5c1bc9b6f16fc9ae7fec6769ebdc2257ae0c164a4ecf484478e91bfce3f278",
     "source_mtime": "2026-09-23T14:56:04.387658",
     "role": "current_Fig4AB",
-    "deposit_sha256": "ab5c1bc9b6f16fc9ae7fec6769ebdc2257ae0c164a4ecf484478e91bfce3f278",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "00c668cecc57a421b1171c012e87ec50e990860ea6133340a0420e43e3903636",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "panels/Fig4AB/Code/verify_and_render_pdfs.py",
@@ -2678,8 +2678,8 @@
     "source_sha256": "46873fe3976b88a0abb1aea767dcb3de3a6d631feb96c7fad540459f390c9013",
     "source_mtime": "2026-09-23T14:54:30.488718",
     "role": "current_Fig4AB",
-    "deposit_sha256": "46873fe3976b88a0abb1aea767dcb3de3a6d631feb96c7fad540459f390c9013",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "63fa8d8208eb9c7876b97bb88a123625bacffc5ed8873a2c6d5522703b9c21d7",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/README.md",
@@ -2687,8 +2687,8 @@
     "source_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
     "source_mtime": "2026-09-23T14:58:10.372555",
     "role": "current_Fig4AB",
-    "deposit_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "4b5354275848db059b33c6ec6bf4164e918cac17f9fb70fe736decfcff108f6d",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/R_sessionInfo.txt",
@@ -2768,8 +2768,8 @@
     "source_sha256": "13efcbd84ee05d9e6fb8f49b7394fc6191c1c47dc0663c7013b1c5425ac2c814",
     "source_mtime": "2026-09-23T14:51:53.088413",
     "role": "current_Fig4AB",
-    "deposit_sha256": "13efcbd84ee05d9e6fb8f49b7394fc6191c1c47dc0663c7013b1c5425ac2c814",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "fc0f29f71aa52f7500f74e034a5933015b8c68a1ac950dc7cd41363c8775fc6e",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "panels/Fig4AB/Documentation/NATIVE_INSERTION_QA.json",
@@ -2786,8 +2786,8 @@
     "source_sha256": "e52f3e16bed44d16f3daf15e5e5c4bb1b86747e0f8bfe933234b5b38b605a4f8",
     "source_mtime": "2026-09-23T14:56:55.969504",
     "role": "current_Fig4AB",
-    "deposit_sha256": "e52f3e16bed44d16f3daf15e5e5c4bb1b86747e0f8bfe933234b5b38b605a4f8",
-    "unchanged_from_recovered_copy": true
+    "deposit_sha256": "27bb388b70c51263ae838ccf730bea707ab201e6146f280917914d311f139059",
+    "unchanged_from_recovered_copy": false
   },
   {
     "destination": "panels/Fig4AB/README.md",
@@ -2795,7 +2795,7 @@
     "source_sha256": "35ee1d0b66e125ecbb2a4b1b1958198f0b23c065fc8db9072b75669f57f73310",
     "source_mtime": "2026-09-23T14:58:10.372361",
     "role": "current_Fig4AB",
-    "deposit_sha256": "f1a3bbc5463e01f5ac1e7810a4643becb1c71ca31ce4bf1f22027c2e71108f88",
+    "deposit_sha256": "cf28c54bcf682deef969179660500bdf9012036d54edfab915c0281b1026e154",
     "unchanged_from_recovered_copy": false
   },
   {

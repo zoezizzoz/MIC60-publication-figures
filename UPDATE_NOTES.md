@@ -1,4 +1,16 @@
-# Proposed update to MIC60-publication-figures
+# Publication deposit updates
+
+## Current Figure S3, 25 September 2026
+
+Figure S3 contains 81 group–gene entries (79 unique genes), including 11 AMPK-associated genes. Each original entry has a publication-evidence audit and an explicit display decision. Seven entries were omitted where the reviewed publications did not establish the specified association or exact-gene experimental support; Sesn and Atg8a were restored to AMPK based on fly experiments. Functional panel names match the scope of the evidence. The original 89 entries and full 131-gene orthology survey remain in supporting data, with unchanged RNA-seq values.
+
+The active code rebuilds the current six-panel figure and the supporting survey offline. Current PDF/PNG exports, captions, suggested Methods/Results wording, five AMPK references and individual-gene evidence tables accompany the code. Equal column heights and 28 pt panel gaps reduce unused space while preserving font, point and line sizes. The plotted-data index and deposit verifier check the current membership, evidence, numeric values and survey mappings. No superseded S3 figure generator is included as an active alternative.
+
+Figure 4B's pooled-well code and summaries were deposited in commit `3ec494e`. The manuscript and private correspondence remain outside this repository. Known limitations for other analyses remain in `LIMITATIONS.md`.
+
+## Historical deposit notes (18–24 September 2026)
+
+The following records describe earlier deposit stages. Their earlier S3 memberships, panel dimensions and annotation counts are superseded by the current revision above.
 
 The September 18 repository retained reviewed code but omitted the graph datasets needed to run most panels. This update restores the recoverable analysis inputs, adds a current-panel index of frozen plotted values, and includes the September 22–23 Fig3N, Fig4A/B, S4A and layout generators.
 

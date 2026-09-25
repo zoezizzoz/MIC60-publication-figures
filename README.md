@@ -1,6 +1,6 @@
 # MIC60 publication figures: code and plotted data
 
-This repository contains the current deposited graph code and plotting data, including the September 24 Figure S3 revision and September 25 pooled-well Figure 4B update. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
+This repository contains the current deposited graph code and plotting data, including the September 25 Figure S3 evidence review and September 25 pooled-well Figure 4B update. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
 
 ## Find a graph's data
 
@@ -9,7 +9,7 @@ Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 43 tables c
 - `reviewed_analysis/`: existing reviewed pipeline, restored inputs, shared styles, generators and numerical outputs.
 - `panels/Fig3N/`: current connected-object TMRM/MTG field-mean graph; 32 fields and 22,531 contributing objects.
 - `panels/Fig4AB/`: current TIMELESS/DAPI and MTT graphs, with source-cell references for the 64 measurements and 78 wells.
-- `reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/`: current Figure S3 with nine AMPK-associated fly genes selected using four primary publications. The full 131-gene homolog survey, frozen records, mappings, gene-specific evidence, vector PDFs and 600-dpi PNGs are preserved.
+- `reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/`: current Figure S3 with 81 literature-reviewed entries and 11 AMPK-associated fly genes supported by five primary publications. The full 131-gene homolog survey, frozen records, mappings, gene-specific evidence, vector PDFs and 600-dpi PNGs are preserved.
 - `panels/FigS4A/`: 64 stress-response points, enrichment results and the current SVG renderer with color-matched labels.
 - `panels/layout_2026-09-23/`: latest recovered GO and sleep/activity formatting generators, with their calculation inputs.
 - `data/original_inputs/`: supplied measurement workbooks, count matrices and analysis tables. The historical name `Original_Data` does **not** imply every file is raw instrument data.

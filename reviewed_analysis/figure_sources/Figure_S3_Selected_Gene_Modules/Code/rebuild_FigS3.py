@@ -52,10 +52,13 @@ def main():
     # Preserve the comprehensive table before assembling the literature-selected figure.
     shutil.copy2(OUT/'FigS3_supporting_data.csv',OUT/'FigS3_full_orthology_survey.csv')
     selection=read(ROOT/'Supporting_Data/AMPK_literature_selection.csv')
-    assert len(selection)==9 and len({r['gene'] for r in selection})==9
+    assert len(selection)==11 and len({r['gene'] for r in selection})==11
     selected=[]
     for evidence in selection:
-        row=dict(by_gene[evidence['gene']])
+        gene=evidence['gene']
+        # Publication-supported fly genes need not belong to the human-orthology survey.
+        row=dict(by_gene[gene]) if gene in by_gene else dict(next(r for r in old if r['module']=='AMPK' and r['gene']==gene))
+        row['in_full_orthology_survey']=str(gene in by_gene).lower()
         row['module']='AMPK-associated genes'
         row.update({k:v for k,v in evidence.items() if k!='gene'})
         selected.append(row)
@@ -63,13 +66,24 @@ def main():
     keep={r['gene'] for r in selection}
     flagged=[dict(row,shown_in_focused_panel=str(row['gene'] in keep).lower()) for row in ampk]
     write(OUT/'AMPK_full_survey_with_display_selection.csv',flagged)
+    decisions=read(ROOT/'Supporting_Data/S3_original_gene_display_decisions.csv')
+    assert [(r['original_module'],r['gene']) for r in decisions]==[(r['module'],r['gene']) for r in old]
+    old_lookup={(r['module'],r['gene']):r for r in old}
     figure=[]
-    # Preserve all five prior lists in their original within-panel order.
-    for module in ['FOXO','DNA replication','Spargel','AMPK-associated genes','Chromatin','Checkpoint']:
-        figure.extend(selected if module=='AMPK-associated genes' else [r for r in data if r['module']==module])
+    for module in ['FOXO','DNA replication','Spargel','AMPK','Chromatin','Checkpoint']:
+        if module=='AMPK':
+            figure.extend(selected)
+            continue
+        for decision in decisions:
+            if decision['original_module']!=module or decision['shown_in_revised_figure']!='true':continue
+            row=dict(old_lookup[(module,decision['gene'])])
+            row['original_module']=module
+            row['module']=decision['display_module']
+            row.update({k:v for k,v in decision.items() if k not in ['gene','original_module','display_module']})
+            figure.append(row)
     columns=list(dict.fromkeys(k for row in figure for k in row))
     figure=[{k:row.get(k,'') for k in columns} for row in figure]
-    assert len(figure)==86
+    assert len(figure)==81
     for row in figure:
         assert all(same(row[col],de[row['gene']][col]) for col in numeric),row['gene']
     write(OUT/'FigS3_supporting_data.csv',figure)
@@ -80,7 +94,7 @@ def main():
     dimensions={}
     for stem in ['FigS3_selected_gene_modules','AMPK_signaling_components_grouped_panel','AMPK_literature_selected_panel']:
         dimensions[stem]=export_png(OUT/(stem+'.pdf'),OUT/(stem+'.png'))
-    report={'frozen_inputs_checked':len(sources),'module_entries':len(figure),'full_survey_module_entries':len(data),'focused_AMPK_genes':9,'focused_AMPK_categories':dict(Counter(r['status'] for r in selected)),'unique_fly_genes_across_modules':len({r['gene'] for r in figure}),'full_survey_unique_fly_genes_across_modules':len({r['gene'] for r in data}),'AMPK_unique_fly_genes':131,'AMPK_display_groups':13,'other_modules_unchanged_entries':77,'all_six_numeric_fields_match_frozen_female_contrast':True,'AMPK_categories':dict(states),'PNG_dpi':600,'PNG_dimensions':dimensions,'DESeq2_rerun':False,'network_access':False}
+    report={'frozen_inputs_checked':len(sources),'module_entries':len(figure),'full_survey_module_entries':len(data),'focused_AMPK_genes':len(selected),'focused_AMPK_categories':dict(Counter(r['status'] for r in selected)),'unique_fly_genes_across_modules':len({r['gene'] for r in figure}),'full_survey_unique_fly_genes_across_modules':len({r['gene'] for r in data}),'AMPK_unique_fly_genes':131,'AMPK_display_groups':13,'other_modules_retained_entries':70,'original_entries_audited':89,'excluded_from_previous_figure':7,'original_AMPK_members_restored':['Sesn','Atg8a'],'focused_AMPK_outside_orthology_survey':[r['gene'] for r in selected if r['in_full_orthology_survey']=='false'],'display_module_counts':dict(Counter(r['module'] for r in figure)),'all_six_numeric_fields_match_frozen_female_contrast':True,'AMPK_categories':dict(states),'PNG_dpi':600,'PNG_dimensions':dimensions,'DESeq2_rerun':False,'network_access':False}
     (ROOT/'QA/rebuild_validation.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

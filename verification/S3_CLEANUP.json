@@ -30,5 +30,6 @@
   "reviewed_dispatch_uses_complete_S3_rebuild": true,
   "frozen_inputs_checked": 127,
   "reviewed_dispatch_validation": "Mocked non-executing dispatch check; the complete S3 command was separately executed successfully.",
-  "comparison_commit": "3518937048fa69fb2b982310dd5fb3d5ff5ba39a"
+  "comparison_commit": "3518937048fa69fb2b982310dd5fb3d5ff5ba39a",
+  "scope": "Historical 24 September cleanup comparison; current 25 September evidence revision is validated in the S3 package QA files."
 }

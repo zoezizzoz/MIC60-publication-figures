@@ -387,13 +387,13 @@
   {
     "panel": "FigS3",
     "file": "plotted_data/FigS3/selected_gene_modules.csv",
-    "rows": 86,
+    "rows": 81,
     "observation_unit": "gene \u00d7 figure panel",
     "source": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",
     "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py",
     "selection": "Source table copied unchanged",
-    "notes": "77 unchanged entries in five selected lists plus nine AMPK-associated genes selected using primary publications; the full 131 survey remains in supporting data.",
-    "sha256": "31e13e25606af7c6b225a14fd3c4f3a695b16ecce4c9c1e577a93e0f78163a9f"
+    "notes": "81 entries (79 unique genes): 70 retained entries in five individually reviewed lists plus 11 AMPK-associated genes supported by five primary publications. All 89 original entries and their individual display decisions are retained in the S3 supporting data; the full 131-gene survey is unchanged.",
+    "sha256": "dac8fb7198d1f062c2b0fcaca2180e4e095ea83a5ac812bbaf647c5ea2a319bf"
   },
   {
     "panel": "FigS3",
@@ -403,7 +403,7 @@
     "source": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_grouped_gene_set_and_expression.csv",
     "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py",
     "selection": "Source table copied unchanged",
-    "notes": "All 131 unique FlyBase IDs retained unchanged in 13 human-source display groups; current Figure S3D uses nine publication-supported genes.",
+    "notes": "All 131 unique FlyBase IDs retained unchanged in 13 human-source display groups. Current Figure S3D uses 11 publication-supported genes: nine from this survey plus Sesn and Atg8a, supported independently by fly experiments.",
     "sha256": "9881495684adaaf5ae3decbeb0799235ab1cbd44018fd91521b2eb43722ac845"
   },
   {

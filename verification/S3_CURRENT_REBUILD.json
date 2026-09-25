@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "command": "python3 reproduce.py --step figs3 --rscript /usr/local/bin/Rscript",
+  "fresh_copy_rebuild": true,
+  "scientific_output_CSVs_byte_identical": 9,
+  "plots": [
+    {
+      "plot": "FigS3_selected_gene_modules",
+      "dimensions": [
+        5100,
+        5575
+      ],
+      "pixels_identical": true
+    },
+    {
+      "plot": "AMPK_signaling_components_grouped_panel",
+      "dimensions": [
+        5100,
+        4167
+      ],
+      "pixels_identical": true
+    },
+    {
+      "plot": "AMPK_literature_selected_panel",
+      "dimensions": [
+        2584,
+        1500
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "rebuild_checks": {
+    "frozen_inputs_checked": 127,
+    "module_entries": 81,
+    "full_survey_module_entries": 208,
+    "focused_AMPK_genes": 11,
+    "focused_AMPK_categories": {
+      "No fold-change estimate": 3,
+      "Below DE cutoffs": 5,
+      "Not significant": 2,
+      "Adjusted P unavailable": 1
+    },
+    "unique_fly_genes_across_modules": 79,
+    "full_survey_unique_fly_genes_across_modules": 207,
+    "AMPK_unique_fly_genes": 131,
+    "AMPK_display_groups": 13,
+    "other_modules_retained_entries": 70,
+    "original_entries_audited": 89,
+    "excluded_from_previous_figure": 7,
+    "original_AMPK_members_restored": [
+      "Sesn",
+      "Atg8a"
+    ],
+    "focused_AMPK_outside_orthology_survey": [
+      "Sesn",
+      "Atg8a"
+    ],
+    "display_module_counts": {
+      "FOXO-associated genes": 10,
+      "DNA replication/genome maintenance": 28,
+      "Mitochondrial/metabolic genes": 7,
+      "AMPK-associated genes": 11,
+      "Chromatin regulation": 15,
+      "DNA repair/checkpoints": 10
+    },
+    "all_six_numeric_fields_match_frozen_female_contrast": true,
+    "AMPK_categories": {
+      "No fold-change estimate": 18,
+      "Below DE cutoffs": 80,
+      "Adjusted P unavailable": 31,
+      "Down in CS": 2
+    },
+    "PNG_dpi": 600,
+    "PNG_dimensions": {
+      "FigS3_selected_gene_modules": [
+        5100,
+        5575
+      ],
+      "AMPK_signaling_components_grouped_panel": [
+        5100,
+        4167
+      ],
+      "AMPK_literature_selected_panel": [
+        2584,
+        1500
+      ]
+    },
+    "DESeq2_rerun": false,
+    "network_access": false
+  },
+  "validation_scope": "Current 25 September S3 evidence and equal-column-height revision. All output CSVs and three PNGs reproduced exactly from a separate temporary copy."
+}
