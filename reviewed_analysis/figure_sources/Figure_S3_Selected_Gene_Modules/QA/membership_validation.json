@@ -1,0 +1,33 @@
+{
+  "human_pathway_genes": 122,
+  "human_genes_with_retained_fly_match": 115,
+  "unique_fly_members": 131,
+  "finite_fold_change": 113,
+  "adjusted_P_available": 82,
+  "plot_categories": {
+    "Below DE cutoffs": 80,
+    "No fold-change estimate": 18,
+    "Adjusted P unavailable": 31,
+    "Down in CS": 2
+  },
+  "all_symbols_exact_canonical_matches": true,
+  "other_five_modules_unchanged_rows": 77,
+  "source_value_checks": "All six numeric columns match archived female DE; old module rows remain byte-identical by field",
+  "old_AMPK_removed": [
+    "Atg13",
+    "Atg8a",
+    "Sesn",
+    "bmm"
+  ],
+  "old_AMPK_retained": [
+    "ACC",
+    "Atg1",
+    "FASN2",
+    "FASN3",
+    "S6k",
+    "SNF4Agamma",
+    "Sirt1",
+    "alc"
+  ],
+  "new_AMPK_added_count": 123
+}

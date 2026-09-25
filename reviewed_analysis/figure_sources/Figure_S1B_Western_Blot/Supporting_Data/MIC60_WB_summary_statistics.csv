@@ -1,0 +1,2 @@
+"comparison","n_biological_replicates_per_genotype","larvae_pooled_per_replicate","dMIC60WT_mean","dMIC60WT_median","dMIC60WT_sd","dMIC60CS_mean","dMIC60CS_median","dMIC60CS_sd","paired_t_statistic","paired_t_df","paired_t_p_value"
+"dMIC60WT vs dMIC60CS",3,5,1.36756379477567,1.21246412374296,0.379043978206253,1.00973421760591,1.2066487671375,0.392108587190891,0.809284311856443,2,0.503323426347277

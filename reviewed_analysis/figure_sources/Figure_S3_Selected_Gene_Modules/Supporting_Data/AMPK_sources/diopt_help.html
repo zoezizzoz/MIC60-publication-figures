@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DRSC - DRSC Integrative Ortholog Prediction Tool</title>
+        <meta name="description" content="Search 10 ortholog algorithms at once with DRSC integrated ortholog prediction tool (finds homologs among flies, fish, yeast, human, mice, worms)." />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.4.3.1.css" />
+        <style type="text/css">
+
+            #mbodytd {
+                z-index: 0;
+            }
+            div.menuDiv {
+                z-index: 12;
+            }
+    
+            .ortholog th{
+                text-align:center;
+            }
+    
+            #uptorrlink {
+                position: relative;
+                top: -10px;
+                left: 20px;
+            }
+            #uptorrlink2 {
+                position: relative;
+                top: 0px;
+                left: 20px;
+            }
+            div.utlink {
+                float: left;
+                display: none;
+                z-index: 11;
+            }
+            div.utlink form {
+                margin: 0px;
+            }
+            div.utlink form * {
+                margin: 0px;
+            }
+    
+    
+            #DnldFrm1 {
+                position: relative;
+                top: -10px;
+            }
+            div.DnldFrm form {
+                position: relative;
+                margin: 0px auto;
+            }
+            div.DnldFrm form * {
+                margin: 0px auto;
+            }
+        </style>
+
+
+        <meta name="description" content="diopt gene ortholog finder">
+        <meta name="author" content="DRSC Drisophila RNAi Screening Center, Harvard University">
+
+
+        <link rel="stylesheet" href="cgi-bin/css/bootstrap.css">
+        <script src="/js/fontawesome-all.min.js"></script>
+
+
+
+    </head>
+
+    <header>
+
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #49172D !important" >
+
+            <a href="http://hms.harvard.edu" class="navbar-brand"> <img style="height:26px" alt="Brand" src="//static.hwpi.harvard.edu/files/styles/os_files_xxlarge/public/iccb/files/branding_top.png?m=1462213676&amp;itok=igvSfIhX"> </a>
+
+        <a class="navbar-brand" href="/cgi-bin/DRSC_orthologs.pl">DIOPT Ortholog Finder  </a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+
+
+
+
+	      <li  class="nav-item">
+		<a  class="nav-link" href="http://fgr.hms.harvard.edu/tools">Other Online Tools</a>
+              </li>
+              <li  class="nav-item">
+		<a class="nav-link"  href="/diopt-dist"> DIOPT: Disease + Traits</a>
+	      </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/DIOPT_help.html"> About/Help</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    </header>
+    <main role="main" style="margin:3%">
+
+        <h1> DIOPT Ortholog Finder Help </h1>
+
+
+        <h2> Version Details </h2>
+        <p>
+        
+        <a href="https://www.flyrnai.org/DIOPT_documentation_v10.html"> Version 10 Details </a> <br>
+        <a href="https://www.flyrnai.org/DIOPT_documentation_v9.html"> Version 9 Details </a>
+        
+
+
+        </p>
+        
+        
+        
+        <p><b>Using the text box option:</b><br />
+        Gene and/or protein identifiers should be entered one per line.
+        Different types of identifiers can be entered together.</p>
+        
+        <p><b>Example (fly genes):</b>
+        <pre>
+        Nmd3
+        lace
+        FBgn0000339
+        FBgn0032679
+        CG5110
+        CG5861
+        par-1
+        wg
+        </pre></p>
+
+
+        <p><b>Using the file upload option:</b><br />
+        Please upload a text file with one gene/protein per line.</p>
+
+
+    <h3> Tutorial</h3>
+
+            <iframe width="430" height="230" src="https://www.youtube.com/embed/-RX56ZGX7gY?feature=oembed" frameborder="0" allowfullscreen=""></iframe>
+    <hr>
+    <h3> How To Cite:</h3>
+
+    <p> </p>
+    <ul>
+        <li>
+            <p>
+Hu Y, Comjean A, Rodiger J, Liu Y, Gao Y, Chung V, Zirin J, Perrimon N, Mohr
+SE. <b> FlyRNAi.org-the database of the Drosophila RNAi screening center and
+                transgenic RNAi project: 2021 update. </b>Nucleic Acids Research <em>2021 Jan
+                8; </em><br> <a href="https://pubmed.ncbi.nlm.nih.gov/33104800/"> PubmedID: 33104800;</a>
+                <br>
+
+                <!--<a href="https://fgr.hms.harvard.edu/publications/flyrnaiorg-database-drosophila-rnai-screening-center-and-transgenic-rnai-project">   https://fgr.hms.harvard.edu/publications/flyrnaiorg-database-drosophila-rnai-screening-center-and-transgenic-rnai-project </a>
+                        <br>
+                        -->
+            </p>
+        </li>
+        <li>
+            <p>
+                Hu Y, Flockhart I, Vinayagam A, Bergwitz C, Berger B, Perrimon N, Mohr SE. <b>An
+                integrative approach to ortholog prediction for disease-focused and other
+                functional studies. </b>BMC Bioinformatics.  <em>2011 Aug 31 </em>;<br> <a href="https://pubmed.ncbi.nlm.nih.gov/21880147/">PubmedID: 21880147;</a>
+           <br>
+                <!-- <a href="https://fgr.hms.harvard.edu/publications/integrative-approach-ortholog-prediction-disease-focused-and-other-functional">https://fgr.hms.harvard.edu/publications/integrative-approach-ortholog-prediction-disease-focused-and-other-functional </a>
+                -->
+                   </li>
+               </ul>
+<h4>DIOPT API</h4>
+<p>
+You can access diopt data through an API call. For details see:  
+
+<a href="https://www.flyrnai.org/tools/diopt/web/api">https://www.flyrnai.org/tools/diopt/web/api </a>
+</p>
+
+           <h4 id="versions"> Versions </h4>
+           <ul>
+                <li><a href="cgi-bin/DRSC_orthologs.pl">Version 10.0 - 2025</a>-
+                    <ul>
+                        <li>added tick and removed out-dated predictions</li>
+                    </ul>
+                </li>
+
+               <li><a href="cgi-bin/DRSC_orthologs_v9.pl">Version 9.0 -  2023</a>-
+                   <ul>
+                       <li> Finalized dataset
+                       </li>
+                   </ul>
+
+
+               <li>9.0 (beta) Sept 2021 -
+               <ul><li> Revamped UI </li>
+                   <li> added 2 species:  Mosquito (Anopheles gambiae) and E. coli</li>
+                   <li> added 2 sources of annotation (SGD and ECOCYC) and 2 prediction algorithms (sonicParanoid and Domainid)
+                   </li>
+
+
+
+               </ul>
+           </li>
+               <li>8.5 August 2021 -
+                   <ul><li> Revamped UI </li></ul>
+                   </li>
+               <li>8.0- August 2019 -
+                   <ul><li>Updated <a href="https://fgr.hms.harvard.edu/diopt-documentation">Data Sources</a></li>
+                   </ul>
+               <li>7.1- March 2018 -
+               <ul> <li> User Feedback on missing relationships </li> </ul>
+
+               <li>7.0- Jan 2018 -
+                   <ul><li>Updated <a href="https://fgr.hms.harvard.edu/diopt-documentation">Data Sources</a></li>
+                       <li>added 3 new algorithms: OrthoFinder, OrthoInspector, Hieranoid as a sources</li>
+                       <li>added new species: Arabidopsis (Thale Cress) </li>
+                   </ul>
+               <li>6.0.3- Oct 2017 - bug fix to error where in some cases where report fails to generate if certain genes are input</li>
+               <li>6.0.2- June 2017 - fix the ID mapping issue of worm genes to include worm gene related eggNOG predictions</li>
+               <li>6.0.1- Jan 2017 - fixed links to pombebase, column header </li>
+               <li>6.0- Dec 2016 -
+                   <ul><li>Updated Data Sources</li>
+                       <li>added eggNOG as a source</li>
+                       <li>Added paralogs </li>
+                   </ul>
+               <li>5.5- Oct 2016 - Added multi-sequence alignment from target "All" heatmap </li>
+               <li>5.4- Sept 2016 - Added target species "All" and new filter</li>
+               <li>5.3- May 2016 - Added more prediction tools (Panther, HGNC and ZFIN)</li>
+               <li>5.2.1- April 2016 - Added orthologous rank<br>
+                   <ul>
+                       <li>High: best score both ways AND DIOPT score >=2   </li>
+                       <li>Moderate:  <ol><li> (best score forward or reverse) AND DIOPT score >=2
+                        <li> DIOPT score >=4  </li>
+                           </ol>
+                       <li>Low: all others  </li>
+                   </ul>
+
+               </li>
+               <li>5.2- April 2016 - Added New Species (Rattus norvegicus) </li>
+
+            <li>5.1.1 - December 2015 - Added Best forward and reverse columns </li>
+            <li>5.1 - November 2015 - Upgraded gene matching algorithm </li>
+            <li>5.0 - November 2015 - Upgraded data sources to version 5 </li>
+
+
+                   </td></tr></table></td>
+                 </tr>
+
+               </table>
+
+             </center>
+    </body>
+</html>

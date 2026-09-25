@@ -1,0 +1,7 @@
+"pathway","n_detected","n_tested","n_up","pct_up","odds_ratio","fisher_p","fisher_padj"
+"Control",11,11,0,0,0,1,1
+"ISR",11,11,0,0,0,1,1
+"UPR (ATF6)",11,11,1,9.1,Inf,0.186440677966102,1
+"UPR (IRE1/XBP1s)",9,9,0,0,0,1,1
+"HSR",9,6,0,0,0,1,1
+"OSR",13,12,0,0,0,1,1

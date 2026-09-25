@@ -34,7 +34,7 @@ for (sex in GO_CONFIG$sexes) {
     write.csv(selected,file.path(out,paste0(key,'_displayed_terms.csv')),row.names=FALSE)
     audit[[key]] <- data.frame(sex,direction,testable_genes=nrow(d),DEG_input=length(genes),
       tested_terms=nrow(result),BH_significant_terms=sum(result$p.adjust<GO_CONFIG$go_adjusted_p_cutoff),displayed_terms=nrow(selected))
-    if(sex=='female' && direction=='up') {
+    if(sex=='female' && direction=='up' && file.exists(file.path(root,'data/go_female_up_archived.csv'))) {
       archived<-read.csv(file.path(root,'data/go_female_up_archived.csv'))
       cmp<-merge(result,archived,by='ID',suffixes=c('_rerun','_archived'))
       check<-data.frame(rerun_terms=nrow(result),archived_terms=nrow(archived),matched_terms=nrow(cmp),
@@ -143,9 +143,9 @@ for (sex in GO_CONFIG$sexes) {
   # Direction/term-count headings are needed to identify the separate analyses.
   # Detailed methods live in the companion legend, as for the other panels.
   combined <- layout + plot_annotation(
-    title=if(sex=="male") expression(italic("dMIC60") * "-null male") else expression(italic("dMIC60") * "-null female"),
+    title=if(sex=="male") "Male" else "Female",
     theme=theme(
-      # Keep the sex/genotype heading exactly 2 pt larger than the
+      # Keep the sex heading exactly 2 pt larger than the
       # 10 pt Upregulated/Downregulated heading, with a clear gap below it.
       plot.title=element_text(family=FIG_FONT,size=FIG_SUBTITLE_SIZE + 5,
         face='bold',hjust=.5,margin=margin(b=8)),

@@ -1,0 +1,11 @@
+"comparison","test","p_value"
+"WT vs CS; no H2O2","Reference annotation (supplied image)",0.0477
+"WT vs CS; no H2O2","Welch two-sample t-test",0.0187221738377597
+"WT vs CS; no H2O2","Student two-sample t-test",0.0178090518996098
+"WT vs CS; no H2O2","Wilcoxon rank-sum test",0.015059907061992
+"WT vs CS; no H2O2","Paired t-test (row-aligned exploratory)",0.0451519882642039
+"WT vs CS; +H2O2","Reference annotation (supplied image)",0.0218
+"WT vs CS; +H2O2","Welch two-sample t-test",0.00344479669447191
+"WT vs CS; +H2O2","Student two-sample t-test",0.00344364405724876
+"WT vs CS; +H2O2","Wilcoxon rank-sum test",0.0018750851285173
+"WT vs CS; +H2O2","Paired t-test (row-aligned exploratory)",0.0101604310242043

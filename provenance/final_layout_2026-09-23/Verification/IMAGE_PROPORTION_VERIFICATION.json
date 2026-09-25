@@ -1,0 +1,42 @@
+[
+  {
+    "figure": "Fig1.ai",
+    "images": 1,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "Fig4.ai",
+    "images": 20,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "FigS4.ai",
+    "images": 2,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "FigS1.ai",
+    "images": 3,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "FigS2.ai",
+    "images": 0,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "FigS3.ai",
+    "images": 0,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "Fig3.ai",
+    "images": 8,
+    "image_aspect_ratios_preserved": true
+  },
+  {
+    "figure": "Fig2.ai",
+    "images": 0,
+    "image_aspect_ratios_preserved": true
+  }
+]

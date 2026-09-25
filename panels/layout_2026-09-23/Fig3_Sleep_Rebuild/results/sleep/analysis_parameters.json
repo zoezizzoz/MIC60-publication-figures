@@ -1,0 +1,17 @@
+{
+  "window_hours": [12, 60],
+  "upper_bound_exclusive": true,
+  "lights_on": "10:00",
+  "lights_off": "22:00",
+  "light_schedule_author_confirmed": true,
+  "acquisition_interval_seconds": 300,
+  "sleep_minimum_immobility_seconds": 300,
+  "death_curation": "sleepr::curate_dead_animals; 24-hour windows, <=1% moving, hourly evaluation",
+  "IQR_multiplier": 1.5,
+  "phase_exclusions_paired": true,
+  "test": "two-sided Wilcoxon rank-sum, normal approximation with tie and continuity correction",
+  "adjustment": "Holm across six total/day/night sleep/activity genotype comparisons",
+  "cohort_analysis": "Sensitivity only; four recording start dates; replicate column is not an independent-run ID",
+  "activity_units": "beam crossings per minute",
+  "profiles": "mean and SEM across available flies per 30-minute bin"
+}

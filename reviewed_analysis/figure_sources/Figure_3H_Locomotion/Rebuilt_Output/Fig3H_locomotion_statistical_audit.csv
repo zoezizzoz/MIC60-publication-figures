@@ -1,0 +1,6 @@
+"comparison","test","p_value"
+"WT vs CS; Day 2","Reference annotation (supplied image)",0.0285714285714286
+"WT vs CS; Day 2","Wilcoxon rank-sum test with continuity correction",0.0294010481903397
+"WT vs CS; Day 2","Exact two-sided permutation of mean difference",0.0285714285714286
+"WT vs CS; Day 2","Welch two-sample t-test",0.00693954270679559
+"WT vs CS; Day 2","Student two-sample t-test",0.0050821238591071

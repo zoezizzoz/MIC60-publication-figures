@@ -1,0 +1,7 @@
+pathway,testable_genes,upregulated,odds_ratio,P,BH_adjusted_P
+Control,11,0,0.0,1.0,1.0
+ISR,11,0,0.0,1.0,1.0
+UPR (ATF6),11,1,inf,0.18644067796610164,1.0
+UPR (IRE1/XBP1s),9,0,0.0,1.0,1.0
+HSR,6,0,0.0,1.0,1.0
+OSR,12,0,0.0,1.0,1.0

@@ -1,0 +1,72 @@
+{
+  "TIMELESS_DAPI": {
+    "F": 5.4296030605547125,
+    "df_between": 3,
+    "df_within": 60,
+    "P": 0.002268089268223056,
+    "limitation": "Conditional numerical reproduction only. Biological replicate IDs are absent; these tests do not establish replicate-level inference."
+  },
+  "MTT": {
+    "raw_to_plotted_max_absolute_error": 1.4210854715202004e-14,
+    "technical_wells": 78,
+    "limitation": "One experiment at 5/10 mM; two at 0/20/40 mM. No well-level significance annotations. July 15 source control is labelled DMSO; confirm vehicle before interpreting pooled experiments."
+  },
+  "locomotion": {
+    "WT_n": 4,
+    "CS_n": 4,
+    "exact_two_sided_rank_permutation_P": 0.02857142857142857,
+    "asymptotic_tie_corrected_P": 0.029401048190339663,
+    "note": "Exact permutation enumerates all 70 allocations and handles ties explicitly; inference assumes independent populations."
+  },
+  "stress": {
+    "unique_testable_genes": 59,
+    "upregulated_genes": [
+      "Mis12"
+    ],
+    "limitation": "Enrichment relative to other curated genes; nonsignificance does not show absence of pathway activation. ER-UPR sets are not a dedicated mitochondrial UPR assay."
+  },
+  "female_DE": {
+    "testable_genes": 7456,
+    "up": 98,
+    "down": 108,
+    "selected_genes": [
+      {
+        "gene": "timeout",
+        "log2FoldChange": 3.96185054231995,
+        "padj": 2.8975929703358303e-63
+      },
+      {
+        "gene": "DNAlig3",
+        "log2FoldChange": 0.992042512486254,
+        "padj": 8.34865929040657e-08
+      },
+      {
+        "gene": "ImpL2",
+        "log2FoldChange": 0.948456418174197,
+        "padj": 1.09480480145797e-06
+      }
+    ]
+  },
+  "male_DE": {
+    "testable_genes": 9695,
+    "up": 540,
+    "down": 505,
+    "selected_genes": [
+      {
+        "gene": "timeout",
+        "log2FoldChange": 3.19050999916057,
+        "padj": 1.3017833544610799e-70
+      },
+      {
+        "gene": "ImpL2",
+        "log2FoldChange": 1.0551861415783,
+        "padj": 1.4980732546063101e-09
+      },
+      {
+        "gene": "DNAlig3",
+        "log2FoldChange": 0.733231442340555,
+        "padj": 0.0001257809804159
+      }
+    ]
+  }
+}

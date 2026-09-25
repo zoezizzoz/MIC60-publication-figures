@@ -1,0 +1,3 @@
+"sex","genes","testable","up","down","max_LFC_difference","max_padj_difference","NA_padj_disagreements"
+"female",17173,7456,98,108,2.10682340819966,1.25086704986233e-05,0
+"male",17173,9695,540,505,5.28857300770014e-05,9.81021384449665e-06,0

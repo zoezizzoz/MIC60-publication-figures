@@ -1,5 +1,5 @@
 # Portable rebuild. Outputs are isolated from final artwork and input snapshots.
-.rebuild_args <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+.rebuild_args <- grep("^--file=", gsub("~+~", " ", commandArgs(FALSE), fixed=TRUE), value = TRUE)
 .rebuild_panel <- dirname(dirname(normalizePath(sub("^--file=", "", .rebuild_args[1]))))
 .rebuild_dir <- file.path(.rebuild_panel, "Rebuilt_Output")
 dir.create(.rebuild_dir, recursive = TRUE, showWarnings = FALSE)
@@ -12,7 +12,7 @@ suppressPackageStartupMessages({
     library(scales)
     library(grid)
 })
-args_all <- commandArgs(trailingOnly = FALSE)
+args_all <- gsub("~+~", " ", commandArgs(trailingOnly = FALSE), fixed=TRUE)
 file_arg <- grep("^--file=", args_all, value = TRUE)
 script_dir <- if (length(file_arg) == 1) dirname(normalizePath(sub("^--file=", "", file_arg))) else getwd()
 figure_dir <- normalizePath(file.path(script_dir, ".."), mustWork = TRUE)

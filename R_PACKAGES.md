@@ -35,3 +35,15 @@ from CRAN or their project repositories.
 - `tidygraph`
 - `tidyverse`
 - `uwot`
+
+## Additional dependencies exercised by the restored/current generators
+
+- `BiocManager` (installation helper)
+- `ggnewscale`
+- `ggtext`
+- `gtable`
+- `jsonlite`
+- `systemfonts`
+- `grid` and `stats` (bundled with R)
+
+See `environment/R_installed_packages.csv` and R session records for actual versions. The historical survival reference additionally calls `survival` and `survminer`; it is not a certified current analysis.

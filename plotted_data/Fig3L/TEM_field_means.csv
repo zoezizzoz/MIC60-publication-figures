@@ -1,0 +1,25 @@
+Image,Condition,Image_Mean,Panel,Metric,Objects_n
+CS-Female -5000X -0031.dm3,CS,2.28608571428571,L,Aspect ratio,35
+CS-Female -5000X -0032.dm3,CS,2.36922222222222,L,Aspect ratio,45
+CS-Female -5000X -0033.dm3,CS,1.92526315789474,L,Aspect ratio,57
+CS-Female -5000X -0034.dm3,CS,2.50589655172414,L,Aspect ratio,58
+CS-Female -5000X -0035.dm3,CS,2.76591176470588,L,Aspect ratio,34
+CS-Female -5000X -0036.dm3,CS,2.629,L,Aspect ratio,47
+CS-Female -5000X -0037.dm3,CS,2.17385185185185,L,Aspect ratio,27
+CS-Female -5000X -0038.dm3,CS,3.0055,L,Aspect ratio,30
+CS-Female -5000X -0039.dm3,CS,3.40384615384615,L,Aspect ratio,26
+CS-Female -5000X -0041.dm3,CS,1.9413,L,Aspect ratio,10
+CS-Female -5000X -0042.dm3,CS,3.36396153846154,L,Aspect ratio,26
+CS-Female -5000X -0044.dm3,CS,2.60330769230769,L,Aspect ratio,13
+CS-Female -5000X -0045.dm3,CS,2.53848717948718,L,Aspect ratio,39
+CS-Female -5000X -0046.dm3,CS,2.59233333333333,L,Aspect ratio,3
+Cnt fmale_a_5000X_0005.tif,WR,1.5034,L,Aspect ratio,5
+Cnt fmale_a_5000X_0008.tif,WR,1.8205,L,Aspect ratio,2
+Cnt fmale_a_5000X_0010.tif,WR,1.7283,L,Aspect ratio,10
+Cnt fmale_a_5000X_0012.tif,WR,1.58127272727273,L,Aspect ratio,11
+WR-F -5000X -0009.tif,WR,1.83385714285714,L,Aspect ratio,7
+WR-F -5000X -0010.dm3,WR,2.008,L,Aspect ratio,12
+WR-F -5000X -0011.dm3,WR,2.0163,L,Aspect ratio,20
+WR-F -5000X -0012.dm3,WR,1.61611111111111,L,Aspect ratio,18
+WR-F -5000X -0013.dm3,WR,3.45375,L,Aspect ratio,4
+WR-F -5000X -0014.dm3,WR,2.86483333333333,L,Aspect ratio,6

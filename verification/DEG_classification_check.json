@@ -1,0 +1,12 @@
+{
+  "female": {
+    "archived_DEGs": 206,
+    "fresh_DEGs": 206,
+    "classification_disagreements": 0
+  },
+  "male": {
+    "archived_DEGs": 1045,
+    "fresh_DEGs": 1045,
+    "classification_disagreements": 0
+  }
+}

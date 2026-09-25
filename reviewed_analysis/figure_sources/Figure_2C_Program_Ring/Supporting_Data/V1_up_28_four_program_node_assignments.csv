@@ -1,0 +1,23 @@
+"gene","log2FoldChange","padj","membership_count","memberships","program","significance"
+"ND2",1.94487410705515,1.31052134500606e-06,3,"Mitochondrial respiration & ATP production; Mitochondrial membrane & protein import; NAD(P)-linked redox metabolism","Mitochondrial respiration & ATP production",5.88255590112497
+"ND4L",4.36097714380546,1.46320223481204e-05,3,"Mitochondrial respiration & ATP production; Mitochondrial membrane & protein import; NAD(P)-linked redox metabolism","Mitochondrial membrane & protein import",4.83469564421439
+"ND6",1.35519343284636,0.00173072368349273,3,"Mitochondrial respiration & ATP production; Mitochondrial membrane & protein import; NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",2.76177226332813
+"ATP8",2.43236618259867,0.0240568325656283,2,"Mitochondrial respiration & ATP production; Mitochondrial membrane & protein import","Mitochondrial respiration & ATP production",1.61876155446186
+"ATPsynG",5.85383354107608,0.018050161984474,2,"Mitochondrial respiration & ATP production; Mitochondrial membrane & protein import","Mitochondrial membrane & protein import",1.74351889632633
+"CG14893",2.3023744229898,5.29212429383357e-07,2,"Energy metabolism; NAD(P)-linked redox metabolism","Energy metabolism",6.27636996427816
+"knon",7.60321371078838,0.0043172536847864,2,"Mitochondrial respiration & ATP production; Mitochondrial membrane & protein import","Mitochondrial respiration & ATP production",2.36479243115243
+"CG10962",1.18219170872228,4.70777463615036e-10,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",9.32718433525488
+"CG12224",1.54426226022315,2.98779096319116e-08,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",7.52464979062782
+"CG32026",7.07080944052504,0.013177761557036,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",1.88015835499158
+"CG40485",1.80162119193626,0.0156945817248463,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",1.80425025416029
+"CG5122",6.98868906128901,0.018050161984474,1,"Energy metabolism","Energy metabolism",1.74351889632633
+"CG5265",6.783745235477,0.0352252037858784,1,"Energy metabolism","Energy metabolism",1.45314648571821
+"CG9360",1.33974175609357,1.12603627893606e-13,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",12.9484476170442
+"CG9521",0.909978557025997,0.0348243624292318,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",1.45811682597367
+"CG9577",0.892030455706982,3.18264690073472e-06,1,"Energy metabolism","Energy metabolism",5.49721154157656
+"Cyp28a5",1.16089504601816,5.72373529965225e-07,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",6.24232045886728
+"Cyp6a8",0.693666110049444,0.010272363311272,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",1.98832962894711
+"GstO1",0.739548636200136,0.0381387678868548,1,"NAD(P)-linked redox metabolism","NAD(P)-linked redox metabolism",1.41863334140494
+"Mdr65",0.786878635897797,9.99219369582883e-05,1,"Mitochondrial membrane & protein import","Mitochondrial membrane & protein import",4.00033915587749
+"Nmdar1",2.49132020624968,1.25051185737966e-26,1,"Mitochondrial membrane & protein import","Mitochondrial membrane & protein import",25.9029121859246
+"ort",1.28423158649456,0.00418630061877876,1,"Mitochondrial membrane & protein import","Mitochondrial membrane & protein import",2.37816958813565

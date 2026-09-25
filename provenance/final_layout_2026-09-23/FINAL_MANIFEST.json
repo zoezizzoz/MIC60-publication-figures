@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Fig1.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/Fig1.ai",
+    "sha256": "70810858687a49b854b8cc95ba71b83a03a886040ea282bf1c15813e6b90d8fa",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/Fig1.ai"
+  },
+  {
+    "name": "Fig2.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/Fig2.ai",
+    "sha256": "f113efb2946dca94993ed551299b02efaf7b3a5947bcd8388ceb7f2100134d92",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/Fig2.ai"
+  },
+  {
+    "name": "Fig3.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/Fig3.ai",
+    "sha256": "ca0b6f28d0d60ccb233aa8ac19c9d84c407b77c8f0246825d99adf70066c6c62",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/Fig3.ai"
+  },
+  {
+    "name": "Fig4.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/Fig4.ai",
+    "sha256": "11b59352c58bfaa10f570d5898e28f06d770cefc5dcc95eb12888aeabdf13cb4",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/Fig4.ai"
+  },
+  {
+    "name": "FigS1.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/FigS1.ai",
+    "sha256": "df2fd3954aad6cd6c6056542f221eff0d1ff1faaa37f1b81025e9461b12f4945",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/FigS1.ai"
+  },
+  {
+    "name": "FigS2.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/FigS2.ai",
+    "sha256": "5ddcecaa90e0401ef6eacf5ed6ddbb95ac705f90e5faa14a8c1d13bc51421662",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/FigS2.ai"
+  },
+  {
+    "name": "FigS3.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/FigS3.ai",
+    "sha256": "e735b1e767ad69fddd7050b551c8cbddddb319c576d10049149a7e128f60c0fc",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/FigS3.ai"
+  },
+  {
+    "name": "FigS4.ai",
+    "current_master": "/Users/picklejuice/Desktop/MIC60 Final Figs/FigS4.ai",
+    "sha256": "ffabe0b3593645714a65cd297a05404a61ac7cc264bc911db1466670bbf3aafd",
+    "archive_copy": "/Users/picklejuice/Desktop/dMIC60 Graphs Code and Data/Common_Width_2026-09-23/After_AI/FigS4.ai"
+  }
+]

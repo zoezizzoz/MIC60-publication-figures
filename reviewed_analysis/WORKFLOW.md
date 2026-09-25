@@ -1,10 +1,10 @@
 # Reviewed analysis workflow
 
-This is the current code-only snapshot used for the final MIC60 analysis and figure review. Large experimental inputs, generated outputs, Illustrator assemblies, manuscript files, validation reports, and superseded figure versions are maintained in the separate final source package rather than duplicated here.
+This is the reviewed analysis workflow retained from the September 18 baseline, with recoverable graph inputs restored by the September 23 update. Current plotted tables and newer panel/layout generators are indexed in ../plotted_data/INDEX.csv. Illustrator assemblies, acquisition images, sequencing reads and superseded recovery alternatives are maintained separately.
 
 ## Workflow entry point
 
-With the expected inputs restored under `data/` and the figure-source folders restored under `figure_sources/`, run:
+The recoverable inputs are supplied under `data/` and `figure_sources/`. To refit and regenerate the reviewed analyses, run:
 
 ```sh
 python3 run_all.py --rscript "$(command -v Rscript)"
@@ -30,7 +30,7 @@ Fresh generated panels are not copied over publication exports unless `--publish
 
 ## Current figure generators
 
-The `figure_sources/` tree contains only the current generator code. It includes the female/male volcano plots, program ring, STRING network, individual-gene panels, locomotion, TEM, TMRM, MTT, TIMELESS, western-blot quantification, KEGG/GSEA, selected-gene modules, stress response, and transfection efficiency.
+The `figure_sources/` tree contains the reviewed generators and restored supporting inputs. It includes the female/male volcano plots, program ring, STRING network, individual-gene panels, locomotion, TEM, TMRM, MTT, TIMELESS, western-blot quantification, KEGG/GSEA, selected-gene modules, stress response, and transfection efficiency.
 
 ## Analysis conventions
 
@@ -41,8 +41,8 @@ The `figure_sources/` tree contains only the current generator code. It includes
 
 ## Dependencies
 
-Python requirements are listed in `requirements.txt`. R dependencies are summarized in the repository-level `R_PACKAGES.md`; individual regenerated outputs should retain their R `sessionInfo()` records in the external final source package.
+Python requirements are listed in `requirements.txt`. R dependencies are summarized in the repository-level `R_PACKAGES.md`; individual regenerated outputs should retain their R `sessionInfo()` records alongside the generated outputs.
 
 ## Scope
 
-This code supports the downstream analyses for which readable inputs were available. It does not reconstruct upstream FASTQ processing, unavailable raw-image segmentation, or survival analysis without event-level records. No missing source data or specimen metadata were inferred.
+This code supports the downstream analyses for which readable inputs were available. It does not reconstruct upstream FASTQ processing, unavailable raw-image segmentation, or the current survival curve from historical records with unresolved missing-time/censoring semantics. No missing source data or specimen metadata were inferred.

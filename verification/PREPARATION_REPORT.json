@@ -1,0 +1,47 @@
+{
+  "prepared_utc": "2026-09-23T22:23:25.333227+00:00",
+  "upstream": "https://github.com/zoezizzoz/MIC60-publication-figures",
+  "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
+  "successful_checks": [
+    "RNA-seq DESeq2 refit",
+    "Reviewed sleep/activity processing",
+    "Assay audit (including MTT worksheet reconciliation)",
+    "Reviewed assay panels",
+    "GO enrichment and plots",
+    "RNA-seq displays",
+    "Eight reviewed full-panel generators",
+    "Recovered program ring",
+    "Recovered STRING network",
+    "TEM field-mean display",
+    "Additional assays",
+    "Compact PCA",
+    "Female heatmap",
+    "Schematics",
+    "September 23 GO layout",
+    "September 23 sleep/activity layout",
+    "Fig3N current rebuild",
+    "Fig4A/B extraction and current vector rebuild",
+    "S4A current SVG renderer",
+    "61 R files parsed",
+    "10 Python files parsed",
+    "Table S1 JavaScript syntax check",
+    "Frozen plotted-table hashes and key source-data consistency"
+  ],
+  "not_claimed": [
+    "Exact pixel identity of every manual Illustrator layout",
+    "Survival source-to-current-curve match or significance verification",
+    "Full cross-platform dependency lock",
+    "Execution of the unchanged Table S1 artifact-tool formatter"
+  ],
+  "figures": {
+    "plotted_tables": 40,
+    "graph_panels": 29,
+    "survival_panel_included_as_unverified_reference": true
+  },
+  "runtime": {
+    "R": "4.4.1",
+    "Python": "3.12.14",
+    "system": "macOS"
+  },
+  "git_push_performed": false
+}

@@ -1,0 +1,162 @@
+term,name
+dme01100,Metabolic pathways
+dme01200,Carbon metabolism
+dme01210,2-Oxocarboxylic acid metabolism
+dme01212,Fatty acid metabolism
+dme01230,Biosynthesis of amino acids
+dme01232,Nucleotide metabolism
+dme01250,Biosynthesis of nucleotide sugars
+dme01240,Biosynthesis of cofactors
+dme01320,Sulfur cycle
+dme00010,Glycolysis / Gluconeogenesis
+dme00020,Citrate cycle (TCA cycle)
+dme00030,Pentose phosphate pathway
+dme00040,Pentose and glucuronate interconversions
+dme00051,Fructose and mannose metabolism
+dme00052,Galactose metabolism
+dme00053,Ascorbate and aldarate metabolism
+dme00500,Starch and sucrose metabolism
+dme00620,Pyruvate metabolism
+dme00630,Glyoxylate and dicarboxylate metabolism
+dme00640,Propanoate metabolism
+dme00650,Butanoate metabolism
+dme00562,Inositol phosphate metabolism
+dme00190,Oxidative phosphorylation
+dme00910,Nitrogen metabolism
+dme00920,Sulfur metabolism
+dme00061,Fatty acid biosynthesis
+dme00062,Fatty acid elongation
+dme00071,Fatty acid degradation
+dme00100,Steroid biosynthesis
+dme00561,Glycerolipid metabolism
+dme00564,Glycerophospholipid metabolism
+dme00565,Ether lipid metabolism
+dme00600,Sphingolipid metabolism
+dme00590,Arachidonic acid metabolism
+dme00592,alpha-Linolenic acid metabolism
+dme01040,Biosynthesis of unsaturated fatty acids
+dme00230,Purine metabolism
+dme00240,Pyrimidine metabolism
+dme00250,"Alanine, aspartate and glutamate metabolism"
+dme00260,"Glycine, serine and threonine metabolism"
+dme00270,Cysteine and methionine metabolism
+dme00280,"Valine, leucine and isoleucine degradation"
+dme00290,"Valine, leucine and isoleucine biosynthesis"
+dme00310,Lysine degradation
+dme00220,Arginine biosynthesis
+dme00330,Arginine and proline metabolism
+dme00340,Histidine metabolism
+dme00350,Tyrosine metabolism
+dme00360,Phenylalanine metabolism
+dme00380,Tryptophan metabolism
+dme00400,"Phenylalanine, tyrosine and tryptophan biosynthesis"
+dme00410,beta-Alanine metabolism
+dme00430,Taurine and hypotaurine metabolism
+dme00440,Phosphonate and phosphinate metabolism
+dme00450,Selenocompound metabolism
+dme00470,D-Amino acid metabolism
+dme00480,Glutathione metabolism
+dme00520,Amino sugar and nucleotide sugar metabolism
+dme00541,Biosynthesis of various nucleotide sugars
+dme00510,N-Glycan biosynthesis
+dme00513,Various types of N-glycan biosynthesis
+dme00512,Mucin type O-glycan biosynthesis
+dme00515,Mannose type O-glycan biosynthesis
+dme00514,Other types of O-glycan biosynthesis
+dme00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+dme00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+dme00531,Glycosaminoglycan degradation
+dme00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+dme00601,Glycosphingolipid biosynthesis - lacto and neolacto series
+dme00603,Glycosphingolipid biosynthesis - globo and isoglobo series
+dme00604,Glycosphingolipid biosynthesis - ganglio series
+dme00511,Other glycan degradation
+dme00730,Thiamine metabolism
+dme00740,Riboflavin metabolism
+dme00750,Vitamin B6 metabolism
+dme00760,Nicotinate and nicotinamide metabolism
+dme00770,Pantothenate and CoA biosynthesis
+dme00780,Biotin metabolism
+dme00785,Lipoic acid metabolism
+dme00790,Folate biosynthesis
+dme00670,One carbon pool by folate
+dme00830,Retinol metabolism
+dme00860,Porphyrin metabolism
+dme00130,Ubiquinone and other terpenoid-quinone biosynthesis
+dme00900,Terpenoid backbone biosynthesis
+dme00981,Insect hormone biosynthesis
+dme00232,Caffeine metabolism
+dme00980,Metabolism of xenobiotics by cytochrome P450
+dme00982,Drug metabolism - cytochrome P450
+dme00983,Drug metabolism - other enzymes
+dme03020,RNA polymerase
+dme03022,Basal transcription factors
+dme03040,Spliceosome
+dme03010,Ribosome
+dme00970,Aminoacyl-tRNA biosynthesis
+dme03013,Nucleocytoplasmic transport
+dme03015,mRNA surveillance pathway
+dme03008,Ribosome biogenesis in eukaryotes
+dme03060,Protein export
+dme04141,Protein processing in endoplasmic reticulum
+dme04130,SNARE interactions in vesicular transport
+dme04120,Ubiquitin mediated proteolysis
+dme04122,Sulfur relay system
+dme03050,Proteasome
+dme03018,RNA degradation
+dme03030,DNA replication
+dme03410,Base excision repair
+dme03420,Nucleotide excision repair
+dme03430,Mismatch repair
+dme03440,Homologous recombination
+dme03450,Non-homologous end-joining
+dme03460,Fanconi anemia pathway
+dme03082,ATP-dependent chromatin remodeling
+dme03083,Polycomb repressive complex
+dme03250,Viral life cycle - HIV-1
+dme03265,"Virion - Ebolavirus, Lyssavirus and Morbillivirus"
+dme03273,Virion - Lassa virus and SFTS virus
+dme03272,Virion - Hepatitis viruses
+dme03266,Virion - Herpesvirus
+dme02010,ABC transporters
+dme04013,MAPK signaling pathway - fly
+dme04310,Wnt signaling pathway
+dme04330,Notch signaling pathway
+dme04341,Hedgehog signaling pathway - fly
+dme04350,TGF-beta signaling pathway
+dme04391,Hippo signaling pathway - fly
+dme04392,Hippo signaling pathway - multiple species
+dme04068,FoxO signaling pathway
+dme04070,Phosphatidylinositol signaling system
+dme04150,mTOR signaling pathway
+dme04080,Neuroactive ligand-receptor interaction
+dme04082,Neuroactive ligand signaling
+dme04081,Hormone signaling
+dme04512,ECM-receptor interaction
+dme04517,IgSF CAM signaling
+dme04518,Integrin signaling
+dme04519,Cadherin signaling
+dme04144,Endocytosis
+dme04145,Phagocytosis
+dme04142,Lysosome biogenesis
+dme04146,Peroxisome
+dme04140,Autophagy - animal
+dme04136,Autophagy - other
+dme04137,Mitophagy - animal
+dme04148,Efferocytosis
+dme04214,Apoptosis - fly
+dme04215,Apoptosis - multiple species
+dme04156,Integrated stress response (ISR) signaling pathway
+dme04814,Motor proteins
+dme04820,Cytoskeleton in muscle cells
+dme04620,Toll-like receptor signaling pathway
+dme04624,Toll and Imd signaling pathway
+dme04977,Vitamin digestion and absorption
+dme04981,Folate transport and metabolism
+dme04980,Cobalamin transport and metabolism
+dme04745,Phototransduction - fly
+dme04320,Dorso-ventral axis formation
+dme04382,Cornified envelope formation
+dme04213,Longevity regulating pathway - multiple species
+dme04711,Circadian rhythm - fly
+dme05100,Bacterial invasion of epithelial cells

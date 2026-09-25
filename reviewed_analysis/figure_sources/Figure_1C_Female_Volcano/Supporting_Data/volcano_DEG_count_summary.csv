@@ -1,0 +1,3 @@
+"Figure","Sex","Contrast","Testable_genes","Up_in_CS","Down_in_CS","LFC_threshold","adjusted_P_threshold"
+"Figure 1C","Female","Female CS vs WT",7456,98,108,0.58,0.05
+"Figure S1C","Male","Male CS vs WT",9695,540,505,0.58,0.05

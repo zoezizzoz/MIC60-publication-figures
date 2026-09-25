@@ -1,0 +1,5 @@
+"sex","direction","testable_genes","DEG_input","tested_terms","BH_significant_terms","displayed_terms"
+"female","up",7456,98,960,28,16
+"female","down",7456,108,953,41,21
+"male","up",9695,540,1639,3,3
+"male","down",9695,505,1988,95,17

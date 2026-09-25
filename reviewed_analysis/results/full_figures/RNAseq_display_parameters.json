@@ -1,0 +1,10 @@
+{
+  "transformation": "DESeq2 rlog, blind=TRUE, all 12 libraries",
+  "PCA_genes": 13979,
+  "PCA_variance_percent": [76.5916, 5.1756],
+  "MDS": "classical MDS, Euclidean distances, same nonconstant rlog genes",
+  "heatmap_selection": "30 smallest BH P values per direction among adjusted P < 0.05 and absolute log2FC >= 0.58; ties by gene name",
+  "scaling": "row z scores over all 12 libraries",
+  "clustering": "Euclidean, complete linkage",
+  "shared_z_limit": 3
+}

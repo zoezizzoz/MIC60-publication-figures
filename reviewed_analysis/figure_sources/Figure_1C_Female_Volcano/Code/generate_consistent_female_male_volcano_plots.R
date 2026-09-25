@@ -37,7 +37,7 @@ x_limit <- ceiling(max(abs(combined$log2FoldChange), na.rm = TRUE))
 y_limit <- ceiling(max(combined$neg_log10_padj, na.rm = TRUE) * 1.05)
 colors <- c(`Up in CS` = "#D62728", `Down in CS` = "#4D4398", `Not significant` = "#B5B5B5")
 make_volcano <- function(data, sex) {
-    panel_title <- if (sex == "Female") expression(italic("dMIC60") * "-null female") else expression(italic("dMIC60") * "-null male")
+    panel_title <- sex
     colors <- c(`Up in CS`=unname(FIG_GROUP_COLORS[if(sex=="Female") "CS_F" else "CS_M"]),
       `Down in CS`=unname(FIG_GROUP_COLORS[if(sex=="Female") "WT_F" else "WT_M"]),`Not significant`="#B5B5B5")
     up_n <- sum(data$direction == "Up in CS")

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "FigS4.ai",
+    "id": "530",
+    "expected": "dMIC60-null female",
+    "before_sha256": "6bafc9022b9fbf771e153a25ae41b60948d554887cac2c8cbc64cdff36f92831"
+  },
+  {
+    "name": "Fig4.ai",
+    "id": "278",
+    "expected": "MIC60-null HeLa Cells",
+    "before_sha256": "902bbf6b69bd45c501743128736af2cf650e9a38a758419b33b513d927336258"
+  }
+]

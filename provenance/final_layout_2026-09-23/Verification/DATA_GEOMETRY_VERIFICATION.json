@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "Fig2",
+    "data_point_centers_unchanged": 18,
+    "other_path_y_coordinates_unchanged": 99,
+    "box_outline_and_median_widths_24pt": 0
+  },
+  {
+    "figure": "Fig3",
+    "data_point_centers_unchanged": 1101,
+    "other_path_y_coordinates_unchanged": 251,
+    "box_outline_and_median_widths_24pt": 66
+  },
+  {
+    "figure": "Fig4",
+    "data_point_centers_unchanged": 64,
+    "other_path_y_coordinates_unchanged": 294,
+    "box_outline_and_median_widths_24pt": 12
+  },
+  {
+    "figure": "FigS4",
+    "data_point_centers_unchanged": 20,
+    "other_path_y_coordinates_unchanged": 39,
+    "box_outline_and_median_widths_24pt": 6
+  }
+]

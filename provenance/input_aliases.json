@@ -1,0 +1,6 @@
+{
+  "reviewed_analysis/data/TIMELESS_DAPI.xlsx": "data/original_inputs/Figure_4C_TIMELESS/Original_Data/Fig4A.xlsx",
+  "reviewed_analysis/data/MTT_source.xlsx": "data/original_inputs/Figure_4B_MTT/Original_Data/MTT Data.xlsx",
+  "reviewed_analysis/data/TEM_fields.csv": "reviewed_analysis/figure_sources/Figure_3K_Mitochondrial_Area/Rebuilt_Output/TEM_2026-08-04_image_level_summary.csv",
+  "reviewed_analysis/data/stress_genes.csv": "panels/FigS4A/figS4_stress_pathways.csv"
+}

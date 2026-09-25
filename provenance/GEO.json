@@ -1,0 +1,8 @@
+{
+  "accession": "GSE346353",
+  "title": "Blocking dMIC60 Oxidation Drives Mitochondrial-Nuclear Crosstalk and Promotes Resilience",
+  "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346353",
+  "status": "Public on Sep 07 2026",
+  "checked_utc": "2026-09-23T22:23:25.332581+00:00",
+  "verification": "Accession in current manuscript matches the public NCBI GEO text record. Sequencing payloads were not downloaded."
+}

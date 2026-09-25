@@ -1,0 +1,527 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9623D36P8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z9623D36P8');
+    </script>
+    <!-- Google Analytics, just because it's useful to know how much use our tools are getting when grant renewal comes up -->
+
+    <meta charset="utf-8">
+            <meta name="description" content="">
+    
+    <title>DIOPT - Drosophila Orthologs</title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/tools/diopt/web/assets/css/styles.css">
+    <link rel="stylesheet" href="/tools/diopt/web/assets/css/table_expression.css">
+    <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script src="/tools/diopt/web/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+    <script src="/tools/diopt/web/js/libs/jquery-3.4.1.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>older</em> <a href="http://browsehappy.com/">Upgrade to a
+    different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a>
+    to experience this site.</p><![endif]-->
+
+
+
+
+<!-- TOP NAVIGATION BAR -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://hms.az1.qualtrics.com/jfe/form/SV_cApK7Mvnw54HeyV">DIOPT Feedback</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">API <span class="sr-only">(current)</span></a></li>
+                <li><a href="https://fgr.hms.harvard.edu/diopt">Help</a></li>
+            </ul>
+
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+
+        <div class="row">
+
+        <div class="col-md-12">
+                                                                                                                                                                                                        
+
+            
+            
+    <style>
+        pre, code {
+            font-size: 0.85em;
+            font-weight: inherit;
+            font-family: Courier, 'Courier New';
+            line-height: inherit;
+            background: #F5F5F5;
+            padding: 0.2em 0.25em;
+            border: 1px solid #d6d8d8;
+            border-radius: 0.2em;
+        }
+
+        .box {
+            background: #F5F5F5;
+            padding: 0.2em 0.25em;
+            border: 1px solid #d6d8d8;
+            border-radius: 0.2em;
+
+
+        }
+
+        .jsstring {
+            color: #007f00;
+        }
+
+        .jsnumber {
+            color: darkorange;
+        }
+
+        .jsboolean {
+            color: #9a0303;
+        }
+
+        .jsnull {
+            color: #a6036e;
+        }
+
+        .jskey {
+            font-size: 1.1em;
+            color: #1a28a0;
+        }
+    </style>
+
+    <h1> DIOPT API </h1>
+
+    <p><b>Python Users</b> there is an un-official community created wrapper available on
+        <a href="https://pypi.org/project/pyDIOPT/" target="_blank">
+            PyDIOPT </a> (pypi / gitgub.)</p>
+    <h2> End Points </h2>
+
+    <pre>
+        https://www.flyrnai.org/tools/diopt/web/diopt_api/{api version}/get_orthologs_from_entrez/{input Species}/{entrez Gene ID}/{target Species}/{filter}
+    </pre>
+
+
+
+    <h2> Parameters </h2>
+
+    <div class="row">
+
+        <div class="col-sm-6">
+
+            <h4> Species</h4>
+
+            <p>
+                Where Species is the <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi">NCBI Taxonomy
+                    ID</a> Supported IDs Include:
+
+            </p>
+
+            <ul>
+
+                <li style="margin-bottom:1rem"><code> all </code> &nbsp All Species (Avaiable for Target only)</li>
+
+                                    <li style="margin-bottom:1rem"><code>83333</code> Escherichia coli
+                        [ E. coli ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>3702</code> Arabidopsis thaliana
+                        [ Thale cress ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>4896</code> Schizosaccharomyces pombe
+                        [ Fission yeast ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>4932</code> Saccharomyces cerevisiae
+                        [ Yeast ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>6239</code> Caenorhabditis elegans
+                        [ Worm ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>7165</code> Anopheles gambiae
+                        [ Mosquito ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>7227</code> Drosophila melanogaster
+                        [ Fly ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>7955</code> Danio rerio
+                        [ Zebrafish ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>8364</code> Xenopus tropicalis
+                        [ Western clawed frog ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>10116</code> Rattus norvegicus
+                        [ Rat ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>10090</code> Mus musculus
+                        [ Mouse ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>9606</code> Homo sapiens
+                        [ Human ]
+                    </li>
+                                    <li style="margin-bottom:1rem"><code>6945</code> Ixodes scapularis
+                        [ Black-legged tick ]
+                    </li>
+                
+            </ul>
+            <br>
+
+
+            <h4> Filter</h4>
+            <p>
+                Filtering based on scores.
+            </p>
+            <ul>
+                <li style="margin-bottom:1rem"><span><code>none</code> </span> No Filter, Show All results</li>
+                <li style="margin-bottom:1rem"><code>best_match</code> Return only best match when there is more than
+                    one match per input gene or protein
+                </li>
+                <li style="margin-bottom:1rem"><code>exclude_score_less_1</code> Exclude low diopt scores (score > 1,
+                    unless only match score is 1)
+                </li>
+                <li style="margin-bottom:1rem"><code>exclude_score_less_2</code> Exclude low diopt scores (score > 2,
+                    unless only match score is 1 or 2)
+                </li>
+
+            </ul>
+
+            <h4> API Versions</h4>
+
+            <p> DIOPT Dataset Version</p>
+            <ul>
+                <li>
+                    v9 or v10
+                </li>
+            </ul>
+
+
+            <h3> Example Output </h3>
+
+            <pre>{
+    <span class="jskey">"search_details":</span> {
+        <span class="jskey">"date":</span> <span class="jsstring">"20-02-10 13:32:21"</span>,
+        <span class="jskey">"input_species":</span> <span class="jsnumber">9606</span>,
+        <span class="jskey">"search_gene_entrez":</span> <span class="jsnumber">7471</span>,
+        <span class="jskey">"target_species":</span> <span class="jsnumber">0</span>,
+        <span class="jskey">"filter":</span> <span class="jsstring">"best_match"</span>,
+        <span class="jskey">"diopt_version":</span> <span class="jsstring">"9"</span>,
+        <span class="jskey">"gene_details":</span> [
+
+            {
+                <span class="jskey">"geneid":</span> <span class="jsnumber">7471</span>,
+                <span class="jskey">"speciesid":</span> <span class="jsnumber">9606</span>,
+                <span class="jskey">"symbol":</span> <span class="jsstring">"WNT1"</span>,
+                <span class="jskey">"description":</span> <span class="jsstring">"Wnt family member 1"</span>,
+                <span class="jskey">"locus_tag":</span> <span class="jsstring">"-"</span>,
+                <span class="jskey">"species_specific_geneid":</span> <span class="jsnumber">12774</span>,
+                <span class="jskey">"species_specific_geneid_type":</span> <span class="jsstring">"HGNC"</span>,
+                <span class="jskey">"chromosome":</span> <span class="jsnumber">12</span>,
+                <span class="jskey">"map_location":</span> <span class="jsstring">"12q13.12"</span>,
+                <span class="jskey">"gene_type":</span> <span class="jsstring">"protein-coding"</span>
+            }
+        ]
+    },
+    <span class="jskey">"results":</span> {
+        <span class="jskey">"7471":</span> {
+            <span class="jskey">"22408":</span> {
+                <span class="jskey">"methods":</span> [
+                    <span class="jsstring">"Compara"</span>,
+                    <span class="jsstring">"Homologene"</span>,
+                    <span class="jsstring">"Inparanoid"</span>,
+                    <span class="jsstring">"Isobase"</span>,
+                    <span class="jsstring">"OMA"</span>,
+                    <span class="jsstring">"OrthoDB"</span>,
+                    <span class="jsstring">"orthoMCL"</span>,
+                    <span class="jsstring">"Phylome"</span>,
+                    <span class="jsstring">"RoundUp"</span>,
+                    <span class="jsstring">"Treefam"</span>
+                ],
+                <span class="jskey">"best_score":</span> <span class="jsstring">"Yes"</span>,
+                <span class="jskey">"score":</span> <span class="jsnumber">10</span>,
+                <span class="jskey">"max_score":</span> <span class="jsnumber">13</span>,
+                <span class="jskey">"best_score_rev":</span> <span class="jsstring">"Yes"</span>,
+                <span class="jskey">"best_score_count":</span> <span class="jsnumber">2</span>,
+                <span class="jskey">"confidence":</span> <span class="jsnull">null</span>,
+                <span class="jskey">"geneid":</span> <span class="jsnumber">22408</span>,
+                <span class="jskey">"species_id":</span> <span class="jsnumber">10090</span>,
+                <span class="jskey">"species_name":</span> <span class="jsstring">"Mus musculus"</span>,
+                <span class="jskey">"species_common_name":</span> <span class="jsstring">"Mouse"</span>,
+                <span class="jskey">"symbol":</span> <span class="jsstring">"Wnt1"</span>,
+                <span class="jskey">"species_specific_geneid":</span> <span class="jsnumber">98953</span>,
+                <span class="jskey">"species_specific_geneid_type":</span> <span class="jsstring">"MGI"</span>
+            },
+            <span class="jskey">"30128":</span> {
+                <span class="jskey">"methods":</span> [
+                    <span class="jsstring">"Compara"</span>,
+                    <span class="jsstring">"Homologene"</span>,
+                    <span class="jsstring">"Inparanoid"</span>,
+                    <span class="jsstring">"OMA"</span>,
+                    <span class="jsstring">"OrthoDB"</span>,
+                    <span class="jsstring">"orthoMCL"</span>,
+                    <span class="jsstring">"Phylome"</span>,
+                    <span class="jsstring">"RoundUp"</span>,
+                    <span class="jsstring">"Treefam"</span>
+                ],
+                <span class="jskey">"best_score":</span> <span class="jsstring">"Yes"</span>,
+                <span class="jskey">"score":</span> <span class="jsnumber">9</span>,
+                ................
+            }
+        }
+    },
+    <span class="jskey">"message":</span> <span class="jsstring">""</span>
+}</pre>
+
+
+        </div>
+        <div class="col-md-6">
+
+            <h3> Try It</h3>
+
+            <label class="" for="diopt_version">Diopt Version </label>
+            <select name="diopt_version" id="diopt_version">
+                <option value="9" selected="selected">9</option>
+                <option value="8">8</option>
+
+            </select>
+            <br>
+
+            <label class="" for="input_species">Input Species ID</label>
+            <input type="text" name="input_species" class="form-control" id="input_species" placeholder=""
+                   value="9606" style="width:450px">
+
+            <label class="" for="gene_id">Gene Name (Entrez gene id)</label>
+            <input type="text" name="gene_id" class="form-control input-md" id="gene_id" placeholder=""
+                   value="7471" style="width:450px">
+
+
+            <label class="" for="target_sepcies">Output Species IDs (comma separated)</label>
+            <input type="text" name="target_sepcies" class="form-control input-md" id="target_sepcies" placeholder=""
+                   value="0" style="width:450px">
+            <br>
+            <label class="" for="filter">filter</label><br>
+            <select name="filter" id="filter" style="width:450px">
+                <option value="best_match">best_match</option>
+                <option value="none">none</option>
+                <option value="exclude_score_less_1">exclude_score_less_1</option>
+                <option value="exclude_score_less_2">exclude_score_less_2</option>
+            </select>
+
+            <br><br>
+            <input class="btn btn-info" type="button" id="api-submit" value="Try It">
+
+
+            <p>
+                <br>
+
+            <div id="ajax_response" style="display:none">
+
+                <h5> URL:</h5>
+                <div class="box">
+
+                    <div id="url_out">
+                    </div>
+                </div>
+                <h5> Response Header:</h5>
+                <div class="box">
+
+                    <div id="ajax_status">
+                    </div>
+                </div>
+
+                <h5>Data</h5>
+                <div id="api_out">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-sm-6">
+
+            <h4> Entrez Gene Id</h4>
+
+            <p> NCBI Entrez Gene. Its an integer and can be found at the <a href="https://www.ncbi.nlm.nih.gov/gene">
+                    NCBI Gene Site </a>
+
+            <p>
+
+                <a href="../web/diopt_api/v1/get_orthologs_from_entrez/{input Species}/{entrez Gene ID}/{target Species}/{filter}">
+                    Try it </a>
+            </p>
+
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="row">
+
+        <div class="col-sm-8">
+
+
+        </div>
+    </div>
+
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("#api-submit").click(function () {
+
+                var url = "/tools/diopt/web/diopt_api/v1/get_orthologs_from_entrez/inputSpecies/geneID/targetSpecies/filter";
+                // pull data from form.
+                var input_species = ($("#input_species").val());
+                var gene_id = ($("#gene_id").val());
+                var target_species = ($("#target_sepcies").val());
+                var filter = ($("#filter").val());
+                var dioptVersion = ($("#diopt_version").val());
+
+                console.log(input_species);
+                console.log(gene_id);
+                console.log(target_species);
+                console.log(filter);
+
+                url = url.replace("v1", "v" + dioptVersion);
+                url = url.replace("inputSpecies", input_species);
+                url = url.replace("geneID", gene_id);
+                url = url.replace("targetSpecies", target_species);
+                url = url.replace("filter", filter);
+
+                var getUrl = window.location;
+
+
+                $('#url_out').text('' + getUrl.origin + url);
+
+                //---------------------------
+                // Get JSON Data
+                //---------------------------
+
+                console.log(url);
+
+                $("#ajax_response").show();
+
+                console.log("+--------------------------+");
+                console.log(getUrl.origin);
+                console.log("+--------------------------+");
+
+
+                var jqxhr;
+                jqxhr = $.getJSON(url, function (data2) {
+
+                    console.log(data2)
+                    console.log(jqxhr)
+
+                    // ('#ajax_response').show();
+
+                    var status_number = jqxhr.status;
+                    var status = jqxhr.statusText;
+                    console.log(status_number);
+
+                    var jsdata = JSON.stringify(data2, null, 4);
+
+                    $('#ajax_status').html("<b>Status:</b>:" + status_number + "<br><b>Status Text:</b>:" + status);
+
+                    // Colorize..
+                    // https://stackoverflow.com/questions/4810841/how-can-i-pretty-print-json-using-javascript
+
+                    jsdata = jsdata.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                    jsdata = jsdata.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+
+                        var cls = 'jsnumber';
+
+                        if (/^"/.test(match)) {
+                            if (/:$/.test(match)) {
+                                cls = 'jskey';
+                            } else {
+                                cls = 'jsstring';
+                            }
+                        } else if (/true|false/.test(match)) {
+                            cls = 'jsboolean';
+                        } else if (/null/.test(match)) {
+                            cls = 'jsnull';
+                        }
+                        return '<span class="' + cls + '">' + match + '</span>';
+                    });
+
+                    $('#api_out').html("<pre>" + jsdata + "</pre>");
+
+                }).fail(function (returnData) {
+                    console.log(returnData);
+                    console.log(jqxhr.getAllResponseHeaders())
+
+
+                });
+            });
+
+
+        });
+
+
+    </script>
+
+
+
+
+            <br>
+        </div>
+    </div>
+</div>
+
+
+<script>window.jQuery || document.write('<script src="/tools/diopt/web/js/libs/jquery-1.11.3.js"><\/script>')</script>
+<script src="/tools/diopt/web/js/scripts2.js"></script>
+</body>
+</html>
