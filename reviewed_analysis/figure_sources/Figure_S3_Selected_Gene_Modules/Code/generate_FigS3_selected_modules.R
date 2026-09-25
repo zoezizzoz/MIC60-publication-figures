@@ -16,9 +16,24 @@ AXIS_LWD <- 0.42679131031036 / 0.75 # match FigS4 axes, in physical points
 txt <- function(s,x,y,size=7,face='plain',just='left',color='black') grid.text(s,x=x,y=y-TOP_CROP,default.units='native',just=just,gp=gpar(fontfamily='Arial',fontsize=size,fontface=face,col=color))
 line <- function(x,y,color='black',dash='solid',width=AXIS_LWD) grid.lines(x=x,y=y-TOP_CROP,default.units='native',gp=gpar(col=color,lwd=width,lty=dash))
 box <- function(x,y,w,h,fill=NA,stroke=TRUE) grid.polygon(x=c(x,x+w,x+w,x),y=c(y,y,y+h,y+h)-TOP_CROP,default.units='native',gp=gpar(fill=fill,col=if(stroke)'black' else NA,lwd=AXIS_LWD))
-axes <- function(x,y,w,h) line(c(x,x,x+w),c(y,y+h,y+h))
+axes <- function(x,y,w,h) box(x,y,w,h)
 radius <- function(p) 1+2.7*sqrt(pmin(50,pmax(0,-log10(pmax(p,.Machine$double.xmin))))/50)
 dot <- function(x,y,r,color,open=FALSE) grid.circle(x=x,y=y-TOP_CROP,r=unit(r,'pt'),default.units='native',gp=gpar(fill=if(open)'white' else color,col=if(open)'#555555' else NA,lwd=AXIS_LWD))
+# Annotate every estimable gene with BH-adjusted P < 0.05, independently of color.
+# Keep full numeric precision in the CSVs; round only the displayed labels.
+p_label <- function(p) {
+    if(p < .001) return('adj. p < 0.001')
+    paste0('adj. p = ', sub('0+$','',formatC(p,format='f',digits=5)))
+}
+p_annotation <- function(r,x,y,right) {
+    if(is.na(r$log2FoldChange) || is.na(r$padj) || r$padj >= .05) return(invisible(NULL))
+    label <- p_label(r$padj)
+    label_width <- convertWidth(grobWidth(textGrob(label,gp=gpar(fontfamily='Arial',fontsize=7))), 'points', valueOnly=TRUE)
+    px <- x + radius(r$padj) + 3
+    if(px + label_width > right - 1)
+        stop('Adjusted-P label does not fit to the right of ',r$gene)
+    txt(label,px,y,7)
+}
 legend <- function() {
     labels <- c('Up in CS'='Higher in CS','Down in CS'='Higher in WT','Below DE cutoffs'='Below DE cutoffs')
     yy <- 35
@@ -46,6 +61,7 @@ body <- function(data,left,top,width,nrows=nrow(data)) {
             dot(trans(r$log2FoldChange),yy,1.9,'#555555',TRUE)
         } else {
             dot(trans(r$log2FoldChange),yy,radius(r$padj),cols[r$status])
+            p_annotation(r,trans(r$log2FoldChange),yy,axr)
         }
     }
     for(t in ticks){xx<-trans(t);line(rep(xx,2),c(top+h,top+h+2.5));txt(as.character(t),xx,top+h+10,7,just='centre')}
@@ -53,7 +69,9 @@ body <- function(data,left,top,width,nrows=nrow(data)) {
 }
 header <- function(title,letter,left,top,width) {
     if(nchar(letter))txt(letter,left,top+8.5,13,'bold')
-    txt(title,left+width/2,top+8.5,9,'bold','centre')
+    axl<-left+58; axr<-left+width-4
+    box(axl,top,axr-axl,20,fill='#EFEFEF')
+    txt(title,(axl+axr)/2,top+10,9,'bold','centre')
 }
 panel <- function(module,letter,left,top,width) {
     dd<-d[d$module==module,]
@@ -89,13 +107,14 @@ ampk_grouped_panel <- function(top,letter='D') {
     for(col in 1:4) {
         left<-14+(col-1)*148;ww<-140;axl<-left+58;axr<-left+ww-4
         trans<-function(v)axl+(v-xlim[1])/diff(xlim)*(axr-axl)
-        axes(axl,y0,axr-axl,column_height)
+        box(left,y0,ww,column_height)
+        line(c(axl,axl,axr),c(y0,y0+column_height,y0+column_height))
         line(rep(trans(0),2),c(y0,y0+column_height),color='#8A8A8A',dash='dashed')
         layout<-layouts[[col]]
         for(hh in layout$heads) {
             yy<-y0+hh$y
-            box(left,yy,ww,14,fill='white',stroke=FALSE)
-            txt(hh$label,left+4,yy+7,9,'bold')
+            box(left,yy,ww,14,fill='#EFEFEF')
+            txt(hh$label,left+ww/2,yy+7,9,'bold','centre')
         }
         for(entry in layout$rows) {
             yy<-y0+entry$y;r<-entry$row
@@ -106,6 +125,7 @@ ampk_grouped_panel <- function(top,letter='D') {
                 dot(trans(r$log2FoldChange),yy,1.9,'#555555',TRUE)
             } else {
                 dot(trans(r$log2FoldChange),yy,radius(r$padj),cols[r$status])
+            p_annotation(r,trans(r$log2FoldChange),yy,left+ww)
             }
         }
         for(t in ticks) {

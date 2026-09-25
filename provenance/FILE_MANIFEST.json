@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-25T01:39:12.732880+00:00",
+  "snapshot_utc": "2026-09-25T01:45:46.265027+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -34,8 +34,8 @@
     },
     {
       "path": "UPDATE_NOTES.md",
-      "bytes": 3907,
-      "sha256": "e9245c8452735a1efdb6a75adc432afdd65d30561cb7a1000823a57e5281cf4c"
+      "bytes": 4402,
+      "sha256": "7376870118e6d1d5cbddd799b5fbc49b503e82e14e70910660c6a1862edaedcb"
     },
     {
       "path": "data/original_inputs/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
@@ -2374,8 +2374,8 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
-      "bytes": 7250,
-      "sha256": "17ce8590ecbb818a3e78a3e40ea900f0eb169f2f06f172a11a190f928d132249"
+      "bytes": 8243,
+      "sha256": "f03ccd870ebff55b3b3ca63c3061260c79eae157edeeb8b9cd71e7b6712903b8"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/group_ampk_components.py",
@@ -2399,8 +2399,8 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Documentation/Manuscript_wording.md",
-      "bytes": 4219,
-      "sha256": "fd31a3c44084fa4cf3491c0180febccfae5fcc6199659865a899898e001df231"
+      "bytes": 4323,
+      "sha256": "c0e67852480aa1fe86f3df99e31854361d0199d67827a6e5a1a15e0ded321f8c"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/dash_display_validation.json",
@@ -2416,6 +2416,11 @@
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/grouping_validation.json",
       "bytes": 943,
       "sha256": "35ae270fe98705a48aa3878fcf69061cc5dea2cde843b4a7c9f1323e0d746e3c"
+    },
+    {
+      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/header_pvalue_validation.json",
+      "bytes": 1809,
+      "sha256": "499189a9ec226c9a7ec4a4021661292559eb178d9860c1e3ee643618cf37834f"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/legend_wording_validation.json",
@@ -2439,8 +2444,8 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/README.md",
-      "bytes": 5931,
-      "sha256": "33c76f014b32f26e725eec5b0be1b08e1f9c38917d0e7f1fa95e9acb0c0b73a7"
+      "bytes": 6236,
+      "sha256": "0e22af0d1356b5742ae262d251f0849b1e5fecb57726b8a97c04e21875a4936e"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_component_group_definitions.csv",
@@ -2469,13 +2474,13 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_signaling_components_grouped_panel.pdf",
-      "bytes": 83786,
-      "sha256": "7837fb25ab612d558a897c0e5c9c34caad26961e440d306d878a1ad77017beca"
+      "bytes": 85157,
+      "sha256": "8b2ba55e4a3a9f71a6afc43589a0bfa100fe61ec65a324579f621df22d60687a"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_signaling_components_grouped_panel.png",
-      "bytes": 1147998,
-      "sha256": "4b4f946a0fa066463617d4e72d1c9cb8b79eede3402231653e46f6eb06d6662b"
+      "bytes": 1174207,
+      "sha256": "5c48c1f40c603d126d8914e8a64003e41a8af0568f5b83700b2b39369d3f4a41"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_figure_legend.txt",
@@ -2484,13 +2489,13 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_selected_gene_modules.pdf",
-      "bytes": 96710,
-      "sha256": "0be7d0432b607a2700f8437f6b493848269a0289542250b65c1049e82d1cf351"
+      "bytes": 98472,
+      "sha256": "d5efa5c440867f49f6a7ee575d66744517bb3ef979adbb2322c2029916b2832e"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_selected_gene_modules.png",
-      "bytes": 1708754,
-      "sha256": "588d937c9925106707bed125c9a1c288d7bfcd14e451134ce5287e96251736b1"
+      "bytes": 1766668,
+      "sha256": "1e954b91061bd34cccf0e26569ad06a61d9d8e1e1a6d2bcd0b706bbed983baeb"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",

@@ -1,0 +1,74 @@
+{
+  "annotation_rule": "All estimable genes with BH-adjusted P < 0.05, independently of the fold-change threshold and point color.",
+  "annotation_count": 6,
+  "annotations": [
+    {
+      "module": "FOXO",
+      "gene": "ImpL2",
+      "padj": 1.09480480145797e-06,
+      "label": "adj. p < 0.001"
+    },
+    {
+      "module": "FOXO",
+      "gene": "Lsp1gamma",
+      "padj": 0.0445201773214549,
+      "label": "adj. p = 0.04452"
+    },
+    {
+      "module": "DNA replication",
+      "gene": "timeout",
+      "padj": 2.89759297033583e-63,
+      "label": "adj. p < 0.001"
+    },
+    {
+      "module": "DNA replication",
+      "gene": "DNAlig3",
+      "padj": 8.34865929040657e-08,
+      "label": "adj. p < 0.001"
+    },
+    {
+      "module": "Fly homologs of human AMPK-pathway genes",
+      "gene": "ninaD",
+      "padj": 0.0127967633015822,
+      "label": "adj. p = 0.0128"
+    },
+    {
+      "module": "Fly homologs of human AMPK-pathway genes",
+      "gene": "Takl1",
+      "padj": 0.00231106636326874,
+      "label": "adj. p = 0.00231"
+    }
+  ],
+  "all_CSV_hashes_unchanged": true,
+  "header_fill": "#EFEFEF",
+  "outline_width_pt": 0.42679131031036,
+  "typography_pt": {
+    "labels_ticks_legends_p_values": 7,
+    "axis_title": 8,
+    "headings": 9,
+    "panel_letters": 13
+  },
+  "annotation_fit_checked_by_generator": true,
+  "native_checks": [
+    {
+      "variant": "canonical",
+      "annotations": 6,
+      "gene_labels": 208,
+      "panel_letters": 6,
+      "headings": 19,
+      "text_frames": 308,
+      "raster_items": 0,
+      "font_sizes_verified": true
+    },
+    {
+      "variant": "embedded",
+      "annotations": 6,
+      "gene_labels": 208,
+      "panel_letters": 6,
+      "headings": 19,
+      "text_frames": 308,
+      "raster_items": 0,
+      "font_sizes_verified": true
+    }
+  ]
+}
