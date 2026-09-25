@@ -1,0 +1,66 @@
+{
+  "reference_figures": [
+    "Fig4.ai",
+    "FigS4.ai",
+    "FigS2.ai"
+  ],
+  "font_family": "Arial",
+  "common_sizes_pt": {
+    "gene_labels_ticks_legends": 7,
+    "axis_title": 8,
+    "module_component_headings": 9,
+    "panel_letters": 13
+  },
+  "native_checks": {
+    "typography_matches_between_copies": true,
+    "documents": [
+      {
+        "variant": "canonical",
+        "text_frames": 302,
+        "resized_frames": 19,
+        "gene_labels": 208,
+        "gene_label_size_pt": 7,
+        "legend_tick_size_pt": 7,
+        "axis_title_size_pt": 8,
+        "heading_count": 19,
+        "heading_size_pt": 9,
+        "panel_letters": 6,
+        "panel_letter_size_pt": 13,
+        "all_text_content_and_plot_geometry_preserved": true
+      },
+      {
+        "variant": "embedded",
+        "text_frames": 302,
+        "resized_frames": 88,
+        "gene_labels": 208,
+        "gene_label_size_pt": 7,
+        "legend_tick_size_pt": 7,
+        "axis_title_size_pt": 8,
+        "heading_count": 19,
+        "heading_size_pt": 9,
+        "panel_letters": 6,
+        "panel_letter_size_pt": 13,
+        "all_text_content_and_plot_geometry_preserved": true
+      }
+    ],
+    "embedded_legend_alignment": {
+      "first_row_key_symbols_aligned_to_canonical": true,
+      "symbols": 4,
+      "paths": 5,
+      "vertical_adjustment_pt": 3.5,
+      "plotted_data_symbols_unchanged": true
+    }
+  },
+  "all_source_CSV_hashes_unchanged": true,
+  "source_CSV_files_verified": 13,
+  "full_and_standalone_PDF_PNG_exports_updated": true,
+  "full_figure_size_pt": [
+    612,
+    981
+  ],
+  "standalone_AMPK_size_pt": [
+    612,
+    500
+  ],
+  "visual_review": "Full figure, standalone AMPK panel, component headings and native Illustrator export reviewed for overlap and clipping."
+}

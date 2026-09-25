@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-25T01:23:40.516967+00:00",
+  "snapshot_utc": "2026-09-25T01:39:12.732880+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -34,8 +34,8 @@
     },
     {
       "path": "UPDATE_NOTES.md",
-      "bytes": 3525,
-      "sha256": "62c78883cebc1c1a28391846159feb6bbd0aeb14255a5d6eff63c11312e06be5"
+      "bytes": 3907,
+      "sha256": "e9245c8452735a1efdb6a75adc432afdd65d30561cb7a1000823a57e5281cf4c"
     },
     {
       "path": "data/original_inputs/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
@@ -2374,8 +2374,8 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
-      "bytes": 7209,
-      "sha256": "eaf4242a1288eb75a4a9e61d9f12fe3d95a6f27810d00229b6a4c51897fb237d"
+      "bytes": 7250,
+      "sha256": "17ce8590ecbb818a3e78a3e40ea900f0eb169f2f06f172a11a190f928d132249"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/group_ampk_components.py",
@@ -2433,9 +2433,14 @@
       "sha256": "63d0d5838817a2a4b7ba358cc9f66b9dec259030b9e3c72db9d1d94292afae92"
     },
     {
+      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/typography_validation.json",
+      "bytes": 1781,
+      "sha256": "78bf9c8dbe82f2b5c25b4dbaacb8e249a0c7eee12b79d5bf095e330b16eba775"
+    },
+    {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/README.md",
-      "bytes": 5906,
-      "sha256": "1119ea66e25ffc1701a90cfefc938a582f8fe28aec7d8f40734b7cfc05e5cc7f"
+      "bytes": 5931,
+      "sha256": "33c76f014b32f26e725eec5b0be1b08e1f9c38917d0e7f1fa95e9acb0c0b73a7"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_component_group_definitions.csv",
@@ -2464,13 +2469,13 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_signaling_components_grouped_panel.pdf",
-      "bytes": 83796,
-      "sha256": "c68da8216bb4ffb26d14a46382aef0c04a0c2cf076e254f6b6224aaf2592015e"
+      "bytes": 83786,
+      "sha256": "7837fb25ab612d558a897c0e5c9c34caad26961e440d306d878a1ad77017beca"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_signaling_components_grouped_panel.png",
-      "bytes": 1128147,
-      "sha256": "4938feec1261dfcc343c78f1176276fd394e17ff85c4f47181fc5aa85b5ea4c8"
+      "bytes": 1147998,
+      "sha256": "4b4f946a0fa066463617d4e72d1c9cb8b79eede3402231653e46f6eb06d6662b"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_figure_legend.txt",
@@ -2479,13 +2484,13 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_selected_gene_modules.pdf",
-      "bytes": 96652,
-      "sha256": "a8de334e0451c09dc6df993aa59952aa694c6f4426be7b8d5126f0ba825d122b"
+      "bytes": 96710,
+      "sha256": "0be7d0432b607a2700f8437f6b493848269a0289542250b65c1049e82d1cf351"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_selected_gene_modules.png",
-      "bytes": 1685433,
-      "sha256": "47694dba8d42c09ccc7bb72ceb10a9de5c8bc66c3c1b3ef856b41ea6d2c31f5c"
+      "bytes": 1708754,
+      "sha256": "588d937c9925106707bed125c9a1c288d7bfcd14e451134ce5287e96251736b1"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",

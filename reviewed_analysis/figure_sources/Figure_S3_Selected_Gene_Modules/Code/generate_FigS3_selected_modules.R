@@ -52,7 +52,7 @@ body <- function(data,left,top,width,nrows=nrow(data)) {
     invisible(top+h+16)
 }
 header <- function(title,letter,left,top,width) {
-    if(nchar(letter))txt(letter,left,top+8.5,9,'bold')
+    if(nchar(letter))txt(letter,left,top+8.5,13,'bold')
     txt(title,left+width/2,top+8.5,9,'bold','centre')
 }
 panel <- function(module,letter,left,top,width) {
@@ -95,7 +95,7 @@ ampk_grouped_panel <- function(top,letter='D') {
         for(hh in layout$heads) {
             yy<-y0+hh$y
             box(left,yy,ww,14,fill='white',stroke=FALSE)
-            txt(hh$label,left+4,yy+7,8,'bold')
+            txt(hh$label,left+4,yy+7,9,'bold')
         }
         for(entry in layout$rows) {
             yy<-y0+entry$y;r<-entry$row
@@ -133,7 +133,7 @@ page_grouped <- function(path,full=TRUE) {
     } else ampk_grouped_panel(top,letter='')
     txt(expression(log[2]~'fold change (dMIC60-CS/dMIC60-WT)'),W/2,x_title_y,8,just='centre')
     popViewport();dev.off()
-    message(basename(path),': ',W,' x ',H,' pt; labels 7 pt, group headings 8 pt')
+    message(basename(path),': ',W,' x ',H,' pt; labels/legends 7 pt, axis title 8 pt, headings 9 pt, panel letters 13 pt')
 }
 page_grouped(file.path(root,'Rebuilt_Output','FigS3_selected_gene_modules.pdf'),TRUE)
 page_grouped(file.path(root,'Rebuilt_Output','AMPK_signaling_components_grouped_panel.pdf'),FALSE)
