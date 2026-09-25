@@ -21,6 +21,7 @@ python3 tools/verify_deposit.py --checksums  # initial snapshot integrity
 python3 reproduce.py --list
 python3 reproduce.py --step recent-panels  # current 3N, 4A/B, S4A
 python3 reproduce.py --step current-layout # September 23 GO and sleep/activity
+python3 reproduce.py --step figs3          # September 24 grouped AMPK panel; offline, no DESeq2 refit
 python3 reproduce.py --step networks       # recovered ring and STRING inputs
 python3 reproduce.py --step reviewed       # full reviewed analysis, including DESeq2 refit
 ```
@@ -38,3 +39,9 @@ The reviewed RNA-seq fit, sleep/activity processing, assay audit, review panels,
 ## Final native layout provenance
 
 [provenance/final_layout_2026-09-23/README.md](provenance/final_layout_2026-09-23/README.md) describes the archived code and geometry used for the final eight-figure common-width pass. These state-specific Illustrator scripts are excluded from reproduce.py and retain the original absolute paths and object UUIDs. Replaying the native edits requires the separately retained baseline AI assemblies and backups; the public code/data deposit does not contain those assemblies. Recorded verification results and exact before/after hashes are supplied for audit.
+
+## Figure S3 update, 24 September 2026
+
+The `figs3` step rebuilds from 127 hash-checked frozen inputs: the complete KEGG hsa04152 entry/KGML, DIOPT 9.1 responses, identifier mapping and archived female DESeq2 table. It requires Python with `pypdfium2` and Pillow, plus R with `grid`; PDF output uses macOS Quartz and Arial. It performs no network requests or DESeq2 refit. The complete figure has 208 gene-by-panel entries; the AMPK panel has 131 unique fly genes in 13 display groups. The other five lists are unchanged. See the Figure S3 package README for selection criteria, missing-value interpretation, source references and display limitations.
+
+The S3 step was rebuilt successfully from its installed deposit path. Checks verified all six numeric DESeq2 columns, the 77 unchanged entries, the 200 retained mapping edges and 13 groups. Included PDF/PNG outputs are deliberate exceptions to the general generated-artifact exclusion.

@@ -1,0 +1,625 @@
+{
+  "retrieved_utc": "2026-09-24T22:14:48.904241+00:00",
+  "pathway": "KEGG hsa04152 AMPK signaling pathway",
+  "human_gene_count": 122,
+  "diopt_version": 9.1,
+  "selection": "All high- and moderate-confidence DIOPT matches; deduplicate by FlyBase ID",
+  "mapped_human_count": 115,
+  "unique_fly_count": 131,
+  "retained_edge_count": 200,
+  "low_confidence_edges_excluded": 667,
+  "rank_rule": "high: best both directions and score >= 2; moderate: score >= 4 or best either direction and score >= 2; otherwise low",
+  "source_pathway_sha256": "1b3448eb492a359e6a715cd1c9f6d3f21cb4296028210086294e44110c1947de",
+  "api_responses": [
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/10000.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/10000/7227/none",
+      "sha256": "9a7eaf4e111236c15ee0603136355dfa638c95c38933993e506df19e2d30d206"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/10488.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/10488/7227/none",
+      "sha256": "1a7bd3c697d0aa2e7893e60ff1dd6865e39a81d849b8a01be99045a3f01fb95d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/10645.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/10645/7227/none",
+      "sha256": "7fc8c8e1583f64a4e1f2d0a8697504b946d403f229b917c9a3e3cd3a93fdcf37"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1080.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1080/7227/none",
+      "sha256": "9dd2f3a61b449c13b10670c6a4624c7bf52e4b228b02be1ed3ef2305cb5b630d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/10890.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/10890/7227/none",
+      "sha256": "b6579175107826f960b8a10971dfa7cf84e36d5c9271a12b494d76d0f28d3c92"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/10891.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/10891/7227/none",
+      "sha256": "b785071313c5407cfb645916e991e0f8d5bd011fc4447f8df89e75701cf549dd"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/110117499.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/110117499/7227/none",
+      "sha256": "6987a47a9ffe68024d62989a50d47ab18cf4af40598fd3527f44c33a74d4115c"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1149.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1149/7227/none",
+      "sha256": "12794c6d138737b580cc9da898be5dbfea878277c4198cdac480593e4f642c7e"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/126129.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/126129/7227/none",
+      "sha256": "4f603f821f8444f00e7d47bd992f841df8cacf38b05e0f0848e0ed07e7d4aa58"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1374.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1374/7227/none",
+      "sha256": "631077342c3670a8e9b2193c49b444ce60bde0824acd4299bb0a89b4f6057c93"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1375.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1375/7227/none",
+      "sha256": "fd65095d81c1244451aafce14730538b257127b2f10769fe7a58048f429f158a"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1385.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1385/7227/none",
+      "sha256": "79cdc619f879d870f52b83d975e7f517ed6cbaaa5302e6b27ff1ba8247d4a227"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/148.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/148/7227/none",
+      "sha256": "7fc254632102e1f9fb129490e1591c68c9defd7078f73dbd53d4fb036ffea5ea"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/148327.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/148327/7227/none",
+      "sha256": "e19adb7ec3c873b6cd16b7332a0c6df456dcc1ce4ae4258253f09019c813dc0d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1938.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1938/7227/none",
+      "sha256": "6a825475c384f754a14d95c5a9a3a13d160d62f2ddbf5643e2bf0367cd805ae5"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1978.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1978/7227/none",
+      "sha256": "6b83d6a3fec2e48276d9d14df6ac8bf4ac4ce802d5f7d135934e331fd7156316"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/1994.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/1994/7227/none",
+      "sha256": "80be02892ce56328a33431ddec3258035b6870845d00435faaba53026c352ecc"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/200186.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/200186/7227/none",
+      "sha256": "6598640fb6d816abd3a41f970bf7b9cc1708c697cdae123d2f07823b5dc6b318"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/207.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/207/7227/none",
+      "sha256": "0aad6252a9761fa26b71f28cf8c7d5192971ee72573bcccea177820dffbbf424"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/208.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/208/7227/none",
+      "sha256": "cd554e9b8dcfda827619bdcb9851ba5bb058998e5f6ac984390c9d2b678a70c6"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2194.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2194/7227/none",
+      "sha256": "8e2d83109b96fd137b61e2e198ff168fc75352a8b9e03cf21a49da370002c4bd"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2203.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2203/7227/none",
+      "sha256": "d0a025b8a27f0aa16a7cb28ed89649fea9acd131f4cefa45ee7560a21981a6fa"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2308.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2308/7227/none",
+      "sha256": "eab07c043b112b3538c21c4acea26821d3d4f3dbd71d09a3bcf07cd1deffa2fe"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2309.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2309/7227/none",
+      "sha256": "7ea597aab833176d145e04798d8937ba012f246e178ee26563a741c47daa7387"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/23216.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/23216/7227/none",
+      "sha256": "b2a527efc15125cae0dca345f846bb43aa3cfeaeb8119a2380161c8e5c5190a2"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/23411.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/23411/7227/none",
+      "sha256": "128711bd90a576bf4f9c99caa03c6f7eb653af75b5aa2a701ac49f13052359b7"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/23417.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/23417/7227/none",
+      "sha256": "018a6d091501c5c5884dacde4e358c49de1b9ad35cf8bd0f30d8641907121a58"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2475.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2475/7227/none",
+      "sha256": "f56f57baea172ac20614d17582814cf140c604e76b097ae621bf19c069ad7afb"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2538.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2538/7227/none",
+      "sha256": "8aa1620a996372c77f9ad98c6ddfe138c52cf32edea6d5fc8ee52ea9405136ea"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/28227.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/28227/7227/none",
+      "sha256": "4a84723f1eff3285a5c3915d274a71b8b0fb757720adfd9435627238d49709e4"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/29904.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/29904/7227/none",
+      "sha256": "60a534d5e4c83296e1dc2f90690f5b511f3ac7dc1b9752192ddbff707c581d60"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2997.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2997/7227/none",
+      "sha256": "18504847c7b0e1f124d44d3f7c1be0e722e905ccbbee82d568f07cdef3388387"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/2998.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/2998/7227/none",
+      "sha256": "ee3fe200c9477674265f3b52e8d8a05f535b0f563e0757769849737135f4e714"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/31.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/31/7227/none",
+      "sha256": "5998b7d4ff8c174dba2e2055564e8be0a7aff03bb1f86a031d967d8c5a8dc69f"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3156.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3156/7227/none",
+      "sha256": "13d9a2ebeb4ca4bcab54680c6d6632219c1da3b6492f5cf4e716fbd276893cb4"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3172.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3172/7227/none",
+      "sha256": "c51859d04d1d1fcf66c03b4863293d87739b83bca871a20b170cbe4f4d05d2df"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/32.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/32/7227/none",
+      "sha256": "d17406e95c3e3b1e7818523c5c80feb66a253bf361427adc6cfc4e6aac9fa5f9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3479.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3479/7227/none",
+      "sha256": "c9e8fc66dd3528f947876ab5bb0b450e5b07ae3cd445d6efa4a9c53cdb0dd253"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3480.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3480/7227/none",
+      "sha256": "33d55a3164d106184d35491fb345103477efb38e58716d1e33b6848459fe1d9c"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3630.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3630/7227/none",
+      "sha256": "7e97b383c7a8c1d41aea3c2d52921bf508f0d8666e1fc3027808a50e09427232"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3643.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3643/7227/none",
+      "sha256": "eb4f252ca82b469a284af7e072f649b61817649d942612ac9dd0841b1c2afe07"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3667.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3667/7227/none",
+      "sha256": "7699fa48d35a28e3326327654391d291f25992f3e7028a808644d6daac337d5f"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3952.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3952/7227/none",
+      "sha256": "5a36654757c0414a0d2c4b5d2c08e170b6c71947fb5b94065d458742b7f54e79"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3953.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3953/7227/none",
+      "sha256": "29d67bd91bff3333d93e558613d2c7ebdcd3426e780bb31dccd6187e74270bcb"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/3991.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/3991/7227/none",
+      "sha256": "05d83edd77890ba747dac61382f3db6b41c9c18c7219650812f0cd5eed0f5a2b"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/4218.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/4218/7227/none",
+      "sha256": "99768693ab4a52d9415446841c14ca40b9d8edce1291f5c5ce689153c7f5623d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5105.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5105/7227/none",
+      "sha256": "399716db542c2c95599884aeed5900c5603dc672d97ff8ebba7450f1d0e5fa3d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5106.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5106/7227/none",
+      "sha256": "e471e225945ed6dbda4b863da2c3cecd215be0b7a0d5887ce25471bd6a606e85"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/51094.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/51094/7227/none",
+      "sha256": "1eb6b212198743e98b52e134c58ff504dd8235a35c997a7a240f8c035ee3bbed"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/51422.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/51422/7227/none",
+      "sha256": "f573b11a25ba76738a6e2d000e201a04759ee33de6819d36d637ee9b5b23f1e5"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/51552.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/51552/7227/none",
+      "sha256": "f5b1445ac957841936e3ceab5cd8d51ab294336581c3abcc3bc8d42b3a40387a"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5170.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5170/7227/none",
+      "sha256": "55bec5016a1e37008f9447bb48b31de5ea0fa66a30e80c26a8fa60b0f8aaba56"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/51719.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/51719/7227/none",
+      "sha256": "627dc2e1d1f90bacd40d9e3874c77589e282e0c4e053dd953d27685b07e1d1c2"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5207.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5207/7227/none",
+      "sha256": "dc98385eb1cc344711a0bd4ce24a25f19b7a0f8c2309f36224a9aa412de41c48"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5208.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5208/7227/none",
+      "sha256": "def8de90cfa745d81ab9a328ded93f439c95949c207640455a3a95bfb7b8a596"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5209.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5209/7227/none",
+      "sha256": "7eaafe01fe9e879c31241d648bb65cbb70b966d6d7d31c20d00a6358747ca2e3"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5210.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5210/7227/none",
+      "sha256": "9526c188e35d10a8655caf5c345f5380a0280cdf60b59c6401bfb3228b4088a6"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5211.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5211/7227/none",
+      "sha256": "6a767ff9aa06d3e7fda37b54ad9be334664c16dbd07c7ce08c4f6cc365be2ed2"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5213.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5213/7227/none",
+      "sha256": "3fd57ff51c839666f58bc3c4cbdb4addae84c285b33814c0f923af8ef918fc27"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5214.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5214/7227/none",
+      "sha256": "364ad1db40cb99f8e8e78978c70e6d6ca51100c449455d386a31ac3b3cbb5b1f"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5290.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5290/7227/none",
+      "sha256": "3226eda791ccb0963a91b21d8ee2509ea6443c0fc78f0eefc8aba79f806b6c5d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5291.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5291/7227/none",
+      "sha256": "c8c5c94d8235d2824810b0c196a3b1f56a2fdc2da0843471161a75a7acfc0706"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5293.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5293/7227/none",
+      "sha256": "8fad9a11ba25aa498b4584547dd60af5d18d07c8f1150169d6e2f17fad76c1b9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5295.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5295/7227/none",
+      "sha256": "384d28b6620019ab7212fbced2380b788a5cdf4da83c83711edf340abf3dc3ff"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5296.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5296/7227/none",
+      "sha256": "5ccc91b710b5e8ba6e005c1ebe4eab3309964f400f665466ddb2fda0acc2acb7"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/53632.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/53632/7227/none",
+      "sha256": "ba13900b55249906721ba99852613e59466c41a357ddb95c10ccff525a214f19"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5468.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5468/7227/none",
+      "sha256": "f5181fe1b2192c7e3a2a368e9108c5cb93cc93d29a69f3c43de9256db2a2eb96"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/55012.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/55012/7227/none",
+      "sha256": "4f9b3a59d9503e63c4ed7842472c19fde3e05e9d01b50d05c491d956d5b562ac"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5515.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5515/7227/none",
+      "sha256": "67d60ae1334385e797716f748a89d25e0eebcf191c163edc1d740932ee28adb9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5516.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5516/7227/none",
+      "sha256": "3c2829623fc8004070ef2db585a82c4696fe3158dc0400c6c2da22bbd952b688"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5518.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5518/7227/none",
+      "sha256": "ad2eb446e89f7d4dcb1b37354d6767ddd879e512615b45f8b9dbe62787690537"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5519.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5519/7227/none",
+      "sha256": "a1e785c5379a4cfc7294e7ed950c74959edb22d0b6e120161e39714eca33a379"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5520.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5520/7227/none",
+      "sha256": "7b4c155ef605b823f4c05847248cdc81a258e3707b2e5068cfd33298ba618799"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5521.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5521/7227/none",
+      "sha256": "9f568c657908c88b95bd9c6340995f0f19b133d39607c2bb38920023b1ecfd1a"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5522.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5522/7227/none",
+      "sha256": "1d20c76ee5b48932889817441fae2078a94a7caa3525a0bc190d43af0bbf6305"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5523.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5523/7227/none",
+      "sha256": "d68ac8c78336a0456d624f57f2ede7d01acf1343fa1cae3de2e2125f92f4bf52"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5525.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5525/7227/none",
+      "sha256": "8aa08915bb5f3fdf909dc114113d97b5d930921e6dd419f3a5c0802b604dfa7c"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5526.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5526/7227/none",
+      "sha256": "ab10a5e7a709dd43e1520ab9c4657076d3fa09fb3d03430f4a747c1e5d1d79dc"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5527.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5527/7227/none",
+      "sha256": "d728cabe4b64390de2334f5a1f20bfa3477b88cee7805ee042d492a89f088632"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5528.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5528/7227/none",
+      "sha256": "ec6305b1d84bc3d2641cccd3408ddd17d5a111caa3406400fd3a0be88194874b"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5529.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5529/7227/none",
+      "sha256": "709d84e82451b0387e4832eb00006e374fd1078e7e7ec44a567455a1f50b2811"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/55437.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/55437/7227/none",
+      "sha256": "a5789132ca61e7d071d7278710f57703ad9a38efa884b05943a09279794d7b80"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5562.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5562/7227/none",
+      "sha256": "9bffbfa46667c56895c1734dc882e3d04e7a5062479edd765eabf72796a5ece1"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5563.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5563/7227/none",
+      "sha256": "74afe63fac1e4515e15de247c4431daf8fed0ba7bf569b4d4ed89d2e18101ddf"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5564.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5564/7227/none",
+      "sha256": "2548dbf7432329e78dbbb5fdd74e6a1ffcf1cd79b2d407dcd15b0c460efe7239"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5565.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5565/7227/none",
+      "sha256": "819f1a2cd67c885f55a4db9eedf6820766a7cda64ad92b38437ad1dbb1cfe82e"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5571.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5571/7227/none",
+      "sha256": "f401edcea0e0ea55b523203439b4130864e791a36dccb2b874f88ebb7a6ed672"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/55844.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/55844/7227/none",
+      "sha256": "5e6cd4e9a2f78200fe5d3f73540bee8b5706743695fe2cf839a5ec2f50507694"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/57521.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/57521/7227/none",
+      "sha256": "db8e8b0fd8565b5e2852ff13d6536473964057bb2f6cc3ef6984902104686010"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/57818.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/57818/7227/none",
+      "sha256": "0697356f137190d32fd325f9edf6326d206e554af4892bd4bff738014e378aae"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/5862.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/5862/7227/none",
+      "sha256": "b4d15b70d9a071abc7408e9f5d70901e436a5f9fa44f0e551350eb773d5ea27b"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/595.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/595/7227/none",
+      "sha256": "3a51e42ffbc5de21c908a16fc8879a1afcc8e0e4e7bdd3c23261002cf4acf598"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6009.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6009/7227/none",
+      "sha256": "2f8cac5d8c2e45e84a4120043f19899d7eb70c4ac382a04567d398eebfce25b9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6198.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6198/7227/none",
+      "sha256": "43e403a9a3c7e21b1df97a5074d43eb30ee493920904edc9651c888b8cccf4ca"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6199.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6199/7227/none",
+      "sha256": "f31ef8561649c3d1c1bd59036367a3f0e5b9ea622de21a45e514b998be95d13c"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6319.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6319/7227/none",
+      "sha256": "62f0de347ff5603aadc3bda9543ca00f082023ab5e703e0d71d0fabba21c6f82"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/64764.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/64764/7227/none",
+      "sha256": "d48b709099d0d52397cbbc2c075138107e8f407d363338dcc32db92cc5e45d05"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6517.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6517/7227/none",
+      "sha256": "04c9bb4bea69f28e18597933fa0546a10ca8fa9dd27fa102b751c4f763495bab"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6720.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6720/7227/none",
+      "sha256": "27e7921bdc54d8ac10597e72c64d98e48cd46becbf53d0451b1c6d6c67aabf6f"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6794.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6794/7227/none",
+      "sha256": "b892d59c543b2745f61f5195262b965062c3052173e2ecf0241589680d6ec9be"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/6885.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/6885/7227/none",
+      "sha256": "50ee1d2f03bcf626c984b7288e3f291863d8f9dab8120e5fc7be7e897523e327"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/7248.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/7248/7227/none",
+      "sha256": "1093ead1e42f2da1669481fbc6a3cacad870eb20a41675e4adb79698dd2af3ae"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/7249.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/7249/7227/none",
+      "sha256": "173f3d9a6e6a2293334e82737cb917bb17f8887ca295ce72faaa3715b47f1c6b"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/79602.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/79602/7227/none",
+      "sha256": "d4d5547fe00fbf77558990f0323c16ba9d686f1a1b416ff2038e2a403c7debc9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/79966.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/79966/7227/none",
+      "sha256": "e595dbea48c1cf70f5abdc3774bab34776da323bce23cd625257e0ddfea10555"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/81617.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/81617/7227/none",
+      "sha256": "4120777dcb4fff41f82253536e2b513c0e39cf45b38b1c751508231f268b0651"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/8408.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/8408/7227/none",
+      "sha256": "44e53f71613433bf375aca7302ec95ffe26239bcececf7450e144601c3b01484"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/84335.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/84335/7227/none",
+      "sha256": "7734e88091e6fd2331820678ab05a7f7413ed15f6b5e1e0c32103c5a626c9819"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/84699.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/84699/7227/none",
+      "sha256": "367f91e1b8286c68a811c3ba0b4751d5f68920db9ee8bdec896efbd8dba5e685"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/8471.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/8471/7227/none",
+      "sha256": "7c11fcbe62914b2e0d9a6b23c4d6471f0f8bcb53dcc9b57bf231aeeec7282968"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/8503.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/8503/7227/none",
+      "sha256": "62c239537b4abf88b451c5145eaa9cb3baed0833f668621aff4ff31ed7e75589"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/8660.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/8660/7227/none",
+      "sha256": "6b03b6292a34622715f7f85f7dbd81a091600b67f51b80f1feec07ed74d86fb9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/8789.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/8789/7227/none",
+      "sha256": "7a93d99cf4b4ee8eb12d05ae626151ea4115ae04073601f380bd28982a52dd39"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/890.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/890/7227/none",
+      "sha256": "55f57d2d23fbb2306be4c7a33197e013b18d5522bf4e1fc3ee47e2c573267828"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/8900.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/8900/7227/none",
+      "sha256": "8724b552f4bf6740b0e599f26a4d540dbeb3cb721cce28a352b3cd5a64ef091d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/90993.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/90993/7227/none",
+      "sha256": "530ff3cbc82f983175dfcbc32e43cbc7a8b9cc4b9871cc08c856660f0a1a8df9"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/9230.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/9230/7227/none",
+      "sha256": "4303038a904f6c6b358232f09a928a46f2e2eca0fb8da2d86cf99d4be6d23dcc"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/92335.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/92335/7227/none",
+      "sha256": "5d8956ab2f7b36982df526669f48993dc0bb7253d3ef98ff5df422ce2a19f82f"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/92579.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/92579/7227/none",
+      "sha256": "6b6ab05268c6afb88b0acf3dd0eee0ac6b9e777d0fc175916a7ec8c3d2f3662d"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/9370.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/9370/7227/none",
+      "sha256": "97cdd76bd12bcaf665e1d04ca2487c45ecce73d85e30817d9ab2d3ee655c5222"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/948.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/948/7227/none",
+      "sha256": "5e5bbe19dff9444dff13604988541a0355d131056ca01445ad2f43d42411b8c1"
+    },
+    {
+      "file": "Supporting_Data/AMPK_sources/diopt_v9_1/9586.json",
+      "url": "https://www.flyrnai.org/tools/diopt/web/diopt_api/v9/get_orthologs_from_entrez/9606/9586/7227/none",
+      "sha256": "9ced878a85259837b2aa261993be2243039573204f7ed62c36d9efe16183181c"
+    }
+  ]
+}

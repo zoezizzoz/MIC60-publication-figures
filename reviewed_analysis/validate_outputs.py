@@ -43,8 +43,8 @@ for sex in ['female','male']:
 coords=pd.read_csv(out/'Fig1B_ordination_coordinates.csv');assert len(coords)==12 and (coords.groupby('group').size()==3).all()
 s=pd.read_csv(A/'figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv')
 de=pd.read_csv(A/'data/rnaseq_female.csv');j=s.merge(de,on='gene',suffixes=('_plot','_main'))
-assert len(s)==len(j)==89 and s.gene.nunique()==86
-assert np.allclose(j.padj_plot,j.padj_main,rtol=1e-12,atol=0) and np.allclose(j.log2FoldChange_plot,j.log2FoldChange_main,rtol=1e-12,atol=0)
+assert len(s)==len(j)==208 and s.gene.nunique()==207
+assert np.allclose(j.padj_plot,j.padj_main,rtol=1e-12,atol=0,equal_nan=True) and np.allclose(j.log2FoldChange_plot,j.log2FoldChange_main,rtol=1e-12,atol=0,equal_nan=True)
 checks['S3_matches_main_female_contrast']=True
 l=pd.read_csv(out/'Fig3H_statistics.csv').iloc[0];assert l.n_WT==4 and l.n_CS==4 and l.allocations==70 and abs(l.exact_rank_permutation_P-2/70)<1e-12
 assert len(pd.read_csv(out/'Fig4A_plotted_values.csv'))==64

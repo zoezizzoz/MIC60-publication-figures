@@ -387,13 +387,46 @@
   {
     "panel": "FigS3",
     "file": "plotted_data/FigS3/selected_gene_modules.csv",
-    "rows": 89,
-    "observation_unit": "gene \u00d7 curated module",
+    "rows": 208,
+    "observation_unit": "gene \u00d7 figure panel",
     "source": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",
-    "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
+    "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py",
     "selection": "Source table copied unchanged",
-    "notes": "",
-    "sha256": "263d1e2b4430f09b4a7b5b083fc5ff8b8fd008ea1fd5a5dc23edeb65093681bf"
+    "notes": "All 208 entries; AMPK replaced by 131 unique fly homologs; five other selected lists unchanged.",
+    "sha256": "f20cfbeae7492b2457a4b4b8e8e932f11859955187f06d6f6b2c778b32093d66"
+  },
+  {
+    "panel": "FigS3",
+    "file": "plotted_data/FigS3/AMPK_grouped_gene_set_and_expression.csv",
+    "rows": 131,
+    "observation_unit": "unique fly gene in the AMPK panel",
+    "source": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_grouped_gene_set_and_expression.csv",
+    "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py",
+    "selection": "Source table copied unchanged",
+    "notes": "131 unique FlyBase IDs in 13 display groups; unavailable estimates remain missing.",
+    "sha256": "9881495684adaaf5ae3decbeb0799235ab1cbd44018fd91521b2eb43722ac845"
+  },
+  {
+    "panel": "FigS3",
+    "file": "plotted_data/FigS3/AMPK_component_group_mapping.csv",
+    "rows": 200,
+    "observation_unit": "retained human-to-fly mapping edge",
+    "source": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_component_group_mapping.csv",
+    "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py",
+    "selection": "Source table copied unchanged",
+    "notes": "200 DIOPT high/moderate-confidence edges from the archived complete human KEGG hsa04152 entry.",
+    "sha256": "fe79e506dab7f8ffe04939df883957799a61a04cdfc5d682bb35702665df35ae"
+  },
+  {
+    "panel": "FigS3",
+    "file": "plotted_data/FigS3/AMPK_component_group_definitions.csv",
+    "rows": 13,
+    "observation_unit": "AMPK display group",
+    "source": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_component_group_definitions.csv",
+    "code": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py",
+    "selection": "Source table copied unchanged",
+    "notes": "13 manually specified human-source component/function categories, not official KEGG subpathway sets.",
+    "sha256": "c5672d1d00e5468cae2ccaf77d4e47eec23fcf8885094e476a9ea5d1afff99c9"
   },
   {
     "panel": "FigS4A",

@@ -4,11 +4,12 @@ This update adds the recoverable graph inputs and September 22–23 figure rebui
 
 ## Find a graph's data
 
-Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 40 tables cover 29 graph panels using the current panel letters. [INDEX.csv](plotted_data/INDEX.csv) maps each table to its generator, original source, observation unit, row selection and checksum.
+Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 43 tables cover 29 graph panels using the current panel letters. [INDEX.csv](plotted_data/INDEX.csv) maps each table to its generator, original source, observation unit, row selection and checksum.
 
 - `reviewed_analysis/`: existing reviewed pipeline, restored inputs, shared styles, generators and numerical outputs.
 - `panels/Fig3N/`: current connected-object TMRM/MTG field-mean graph; 32 fields and 22,531 contributing objects.
 - `panels/Fig4AB/`: current TIMELESS/DAPI and MTT graphs, with source-cell references for the 64 measurements and 78 wells.
+- `reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/`: current Figure S3, including 131 fly homologs of human AMPK-pathway genes in 13 display groups, frozen source records, mapping tables, vector PDFs and 600-dpi PNGs.
 - `panels/FigS4A/`: 64 stress-response points, enrichment results and the current SVG renderer with color-matched labels.
 - `panels/layout_2026-09-23/`: latest recovered GO and sleep/activity formatting generators, with their calculation inputs.
 - `data/original_inputs/`: supplied measurement workbooks, count matrices and analysis tables. The historical name `Original_Data` does **not** imply every file is raw instrument data.
@@ -25,6 +26,7 @@ python3 tools/verify_deposit.py
 python3 tools/verify_deposit.py --checksums
 python3 reproduce.py --list
 python3 reproduce.py --step recent-panels
+python3 reproduce.py --step figs3
 ```
 
 See [REPRODUCING.md](REPRODUCING.md) for dependencies and the reviewed workflow. Builds write into the existing `results/`, `Rebuilt_Output/`, or `Final_Graphs/` directories; they do not modify `plotted_data/`. The package was exercised with R 4.4.1 and Python 3.12.14 on macOS; exact versions are recorded in `environment/`. Some PDF generators use macOS Quartz/Arial, and Table S1's original workbook formatter uses `@oai/artifact-tool`.

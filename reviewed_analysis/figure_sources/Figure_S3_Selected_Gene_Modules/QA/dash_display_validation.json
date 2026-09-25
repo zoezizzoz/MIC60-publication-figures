@@ -1,0 +1,22 @@
+{
+  "display_update": "18 unavailable fold-change rows use em dashes, with one key explanation",
+  "gene_and_numeric_tables_unchanged": true,
+  "immutable_data_files_checked": 14,
+  "row_dashes": 18,
+  "legend_dashes": 1,
+  "PNG_dpi": 600,
+  "PNG_dimensions": {
+    "FigS3_selected_gene_modules": [
+      5100,
+      8625
+    ],
+    "AMPK_signaling_components_grouped_panel": [
+      5100,
+      4617
+    ],
+    "native_FigS3": [
+      5100,
+      8625
+    ]
+  }
+}

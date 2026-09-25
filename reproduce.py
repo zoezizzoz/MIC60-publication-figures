@@ -5,6 +5,7 @@ import argparse,datetime,json,os,shutil,subprocess,sys
 ROOT=Path(__file__).resolve().parent
 A='reviewed_analysis';P='panels'
 TASKS={
+'figs3':[('PY',A+'/figure_sources/Figure_S3_Selected_Gene_Modules/Code/rebuild_FigS3.py')],
 'recent-panels':[
  ('R',P+'/Fig3N/Code/generate_Fig3N.R'),
  ('PY',P+'/Fig4AB/Code/prepare_plot_data.py'),

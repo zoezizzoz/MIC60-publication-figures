@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-09-25T00:44:10.647968+00:00",
+  "unchanged_unique_fly_genes": 131,
+  "membership_and_all_existing_fields_unchanged": true,
+  "multiple_group_assignment_count": 0,
+  "groups": {
+    "AMPK subunits": 3,
+    "Upstream signalling": 21,
+    "PP2A-related proteins": 14,
+    "Glucose metabolism": 7,
+    "GLUT / TBC1D1 / Rab-related": 15,
+    "CFTR-related proteins": 11,
+    "Lipid metabolic enzymes": 14,
+    "CD36-related proteins": 13,
+    "CIDEA-related proteins": 3,
+    "mTOR / translation / autophagy": 10,
+    "Transcriptional regulators": 11,
+    "RNA-binding proteins": 6,
+    "Cyclins": 3
+  },
+  "column_gene_counts": {
+    "1": 38,
+    "2": 33,
+    "3": 30,
+    "4": 30
+  },
+  "kgml_sha256": "264bd1ef583ab0ce7187f5364c168724930df943e59eb248e9a5ff2a46c0eae7",
+  "definition": "Display groups based on human-source pathway roles/families, manually specified and traced to source KEGG nodes; not new gene sets."
+}
