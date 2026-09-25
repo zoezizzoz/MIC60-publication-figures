@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-25T01:19:03.892690+00:00",
+  "snapshot_utc": "2026-09-25T01:23:40.516967+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -34,8 +34,8 @@
     },
     {
       "path": "UPDATE_NOTES.md",
-      "bytes": 3325,
-      "sha256": "e04f1f451e1ad21f57b78c9c219fe20f2066122938aa86a37f4c0c9d2fdf6bd7"
+      "bytes": 3525,
+      "sha256": "62c78883cebc1c1a28391846159feb6bbd0aeb14255a5d6eff63c11312e06be5"
     },
     {
       "path": "data/original_inputs/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
@@ -2374,8 +2374,8 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/generate_FigS3_selected_modules.R",
-      "bytes": 7092,
-      "sha256": "364c9ec53f7d05bb9b19f769a529fa4ab0bcfdf8e6fb366839a807bed24bf985"
+      "bytes": 7209,
+      "sha256": "eaf4242a1288eb75a4a9e61d9f12fe3d95a6f27810d00229b6a4c51897fb237d"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Code/group_ampk_components.py",
@@ -2416,6 +2416,11 @@
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/grouping_validation.json",
       "bytes": 943,
       "sha256": "35ae270fe98705a48aa3878fcf69061cc5dea2cde843b4a7c9f1323e0d746e3c"
+    },
+    {
+      "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/legend_wording_validation.json",
+      "bytes": 546,
+      "sha256": "3a99090a2ffdffd29e306ca1cf1abb4660be5220574b833e7bc3e4da75741d66"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/QA/membership_validation.json",
@@ -2459,13 +2464,13 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_signaling_components_grouped_panel.pdf",
-      "bytes": 83936,
-      "sha256": "32a60868f5cafda5932af72dad2ef47ad04926eebdfaedcd6a573eaebb96e6df"
+      "bytes": 83796,
+      "sha256": "c68da8216bb4ffb26d14a46382aef0c04a0c2cf076e254f6b6224aaf2592015e"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/AMPK_signaling_components_grouped_panel.png",
-      "bytes": 1127345,
-      "sha256": "4a5885d4adcb454c30730e5d4f5414a7a17375041d687c5bf1583d92245c821b"
+      "bytes": 1128147,
+      "sha256": "4938feec1261dfcc343c78f1176276fd394e17ff85c4f47181fc5aa85b5ea4c8"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_figure_legend.txt",
@@ -2474,13 +2479,13 @@
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_selected_gene_modules.pdf",
-      "bytes": 96833,
-      "sha256": "6898343a13c32741ddbe301231ddab0c6f8a0724897f7391516c8090f5bdfb86"
+      "bytes": 96652,
+      "sha256": "a8de334e0451c09dc6df993aa59952aa694c6f4426be7b8d5126f0ba825d122b"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_selected_gene_modules.png",
-      "bytes": 1685047,
-      "sha256": "ab0e43b821fd09c91907fab7ecbfe28b87d38eea476f5cd0ce5bf86c2e2fac33"
+      "bytes": 1685433,
+      "sha256": "47694dba8d42c09ccc7bb72ceb10a9de5c8bc66c3c1b3ef856b41ea6d2c31f5c"
     },
     {
       "path": "reviewed_analysis/figure_sources/Figure_S3_Selected_Gene_Modules/Rebuilt_Output/FigS3_supporting_data.csv",

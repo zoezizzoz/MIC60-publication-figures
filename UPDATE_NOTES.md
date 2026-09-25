@@ -17,3 +17,5 @@ Replaces the former 12-gene AMPK list with 131 unique fly homologs of the comple
 Figure S3 display clarification: the 18 rows without fold-change estimates now use an em dash, explained once in the figure key as “— Fold change unavailable.” All gene memberships, numeric values and point positions are unchanged. Matching caption/Methods wording and 600-dpi exports are updated.
 
 Figure S3 now follows the surrounding figure style: no overall title or shared-context/footer lines, plain module/component headings, separate upper-left panel letters and open left/bottom axes. Axis/tick/outline width matches the measured S4 axes. The canvas is cropped without scaling; every remaining native character retains its font, size and scale, and all plotted data and symbol geometry are preserved. The caption retains sample size, contrast, grouping and cutoff information. The generator and full/standalone exports are synchronized.
+
+Figure S3 legend labels now read “Higher in CS” and “Higher in WT,” matching the surrounding figures. Legend text sizes, colors, positions and internal expression-status codes are unchanged.

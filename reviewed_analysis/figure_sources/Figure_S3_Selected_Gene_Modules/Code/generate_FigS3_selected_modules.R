@@ -20,9 +20,10 @@ axes <- function(x,y,w,h) line(c(x,x,x+w),c(y,y+h,y+h))
 radius <- function(p) 1+2.7*sqrt(pmin(50,pmax(0,-log10(pmax(p,.Machine$double.xmin))))/50)
 dot <- function(x,y,r,color,open=FALSE) grid.circle(x=x,y=y-TOP_CROP,r=unit(r,'pt'),default.units='native',gp=gpar(fill=if(open)'white' else color,col=if(open)'#555555' else NA,lwd=AXIS_LWD))
 legend <- function() {
+    labels <- c('Up in CS'='Higher in CS','Down in CS'='Higher in WT','Below DE cutoffs'='Below DE cutoffs')
     yy <- 35
     for(z in list(c(16,'Up in CS'),c(99,'Down in CS'),c(194,'Below DE cutoffs'))) {
-        xx<-as.numeric(z[1]);dot(xx,yy,2.5,cols[z[2]]);txt(z[2],xx+7,yy)
+        xx<-as.numeric(z[1]);dot(xx,yy,2.5,cols[z[2]]);txt(labels[z[2]],xx+7,yy)
     }
     dot(319,yy,2,'#555555',TRUE);txt('Adjusted P unavailable',326,yy)
     txt(expression(-log[10](italic(P)[adj])),14,53,7)
