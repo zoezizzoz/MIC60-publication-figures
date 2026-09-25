@@ -10,22 +10,22 @@
     "inference": "Descriptive; cell/image/culture/experiment identifiers are absent. The later September audit removed legacy P=.0477/.0218."
   },
   "MTT": {
-    "technical_wells": 78,
-    "technical_wells_per_genotype_by_dose": {
+    "raw_workbook_numeric_and_text_contents_identical": true,
+    "normalization": "100 * (raw absorbance - within-experiment mean blank) / mean corrected matched 0 mM genotype control",
+    "inference": "Mean and SEM across normalized wells pooled within genotype and dose; each well is treated as a biological replicate per author direction. No inferential tests.",
+    "source_note": "July 15 control is labelled DMSO. Preserved the matched-control normalization; vehicle equivalence is not established here.",
+    "wells": 78,
+    "wells_per_genotype_by_dose": {
       "0": 9,
       "5": 6,
       "10": 6,
       "20": 9,
       "40": 9
     },
-    "experiments": {
+    "culture_preparations": {
       "1": "2026-07-15",
       "2": "2026-07-28"
-    },
-    "raw_workbook_numeric_and_text_contents_identical": true,
-    "normalization": "100 * (raw absorbance - within-experiment mean blank) / mean corrected matched 0 mM genotype control",
-    "inference": "Descriptive mean of experiment means; SD across experiments only when n=2. No technical-well significance tests.",
-    "source_note": "July 15 control is labelled DMSO. Preserved the archived pooling and matched-control normalization; vehicle equivalence is not established here."
+    }
   },
   "input_sha256": {
     "Sources/Figure_4A_TIMELESS/Original_Data/Fig4A.xlsx": "1a5f1c911258bb8d4da74266607033d5b98b5ada4274081ffb99ec1d24e1162a",

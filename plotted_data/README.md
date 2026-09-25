@@ -34,9 +34,9 @@ Data are organized using the current figure panel letters. Old source directorie
 | Fig3L | [TEM_field_means.csv](Fig3L/TEM_field_means.csv) | 24 | microscopy field |
 | Fig3N | [TMRM_MTG_field_means.csv](Fig3N/TMRM_MTG_field_means.csv) | 32 | microscopy field |
 | Fig4A | [TIMELESS_DAPI_values.csv](Fig4A/TIMELESS_DAPI_values.csv) | 64 | provided cell/image measurement without biological replicate IDs |
-| Fig4B | [mtt_plot_values.csv](Fig4B/mtt_plot_values.csv) | 78 | technical well |
-| Fig4B | [mtt_experiment_means.csv](Fig4B/mtt_experiment_means.csv) | 16 | experiment × genotype × dose |
-| Fig4B | [mtt_biological_summary.csv](Fig4B/mtt_biological_summary.csv) | 10 | genotype × dose summary |
+| Fig4B | [mtt_plot_values.csv](Fig4B/mtt_plot_values.csv) | 78 | normalized well (treated as biological replicate per author direction) |
+| Fig4B | [mtt_experiment_means.csv](Fig4B/mtt_experiment_means.csv) | 16 | culture preparation × genotype × dose (provenance only) |
+| Fig4B | [mtt_pooled_well_summary.csv](Fig4B/mtt_pooled_well_summary.csv) | 10 | pooled-well mean, SD, s.e.m. and counts by genotype × dose |
 | FigS1B | [western_blot_quantification.csv](FigS1B/western_blot_quantification.csv) | 6 | paired blot measurement |
 | FigS2 | [KEGG_GSEA_plotted_pathways.csv](FigS2/KEGG_GSEA_plotted_pathways.csv) | 20 | pathway × sex |
 | FigS3 | [selected_gene_modules.csv](FigS3/selected_gene_modules.csv) | 86 | gene × figure panel |

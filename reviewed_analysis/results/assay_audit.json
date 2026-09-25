@@ -8,8 +8,8 @@
   },
   "MTT": {
     "raw_to_plotted_max_absolute_error": 1.4210854715202004e-14,
-    "technical_wells": 78,
-    "limitation": "One experiment at 5/10 mM; two at 0/20/40 mM. No well-level significance annotations. July 15 source control is labelled DMSO; confirm vehicle before interpreting pooled experiments."
+    "wells": 78,
+    "limitation": "Pooled normalized wells, mean +/- SEM: 6 wells/genotype at 5/10 mM, 9 at 0/20/40 mM. Each well is treated as a biological replicate at the authors' direction; culture-preparation IDs remain available. No inferential tests. July 15 source control is labelled DMSO."
   },
   "locomotion": {
     "WT_n": 4,

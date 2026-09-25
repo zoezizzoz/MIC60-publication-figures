@@ -19,6 +19,7 @@ From the repository root:
 ```sh
 python3 tools/verify_deposit.py --checksums  # initial snapshot integrity
 python3 reproduce.py --list
+python3 reproduce.py --step fig4b          # pooled normalized MTT wells, mean +/- SEM
 python3 reproduce.py --step recent-panels  # current 3N, 4A/B, S4A
 python3 reproduce.py --step current-layout # September 23 GO and sleep/activity
 python3 reproduce.py --step figs3          # current nine-gene AMPK panel and supporting survey; offline
@@ -45,3 +46,7 @@ The reviewed RNA-seq fit, sleep/activity processing, assay audit, review panels,
 The `figs3` step rebuilds from 127 hash-checked frozen inputs: the complete KEGG hsa04152 entry/KGML, DIOPT 9.1 responses, identifier mapping and archived female DESeq2 table. It requires Python with `pypdfium2` and Pillow, plus R with `grid`; PDF output uses macOS Quartz and Arial. It performs no network requests or DESeq2 refit. The current figure has 86 gene-by-panel entries, including nine AMPK genes selected from the explicit publication-evidence table. The full 131-gene survey remains in supporting data with its 13 display groups and a standalone plot. The other five lists are unchanged. See the Figure S3 package README for selection criteria, missing-value interpretation, source references and display limitations.
 
 Both the `figs3` command and the reviewed full-panel workflow invoke the same current S3 rebuild, including the publication-based gene selection and supporting survey. The S3 step was rebuilt successfully from its installed deposit path. Checks verified all six numeric DESeq2 columns, the 77 unchanged entries, the 200 retained mapping edges and 13 groups. Included PDF/PNG outputs are deliberate exceptions to the general generated-artifact exclusion.
+
+## Figure 4B update, 25 September 2026
+
+The `fig4b` step rebuilds the pooled-well MTT panel. All 78 source-cell absorbances and matched-control normalizations are checked against the raw workbook before plotting. The 10 pooled means and s.e.m. values are independently checked by `tools/verify_deposit.py`. Both prior MTT generator entrypoints now delegate to this same implementation; the full assay audit also produces pooled-well summaries. No inferential tests are introduced. Historical culture-preparation summaries remain labelled as provenance, and the superseded active biological-summary files were removed.

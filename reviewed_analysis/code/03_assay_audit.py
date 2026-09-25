@@ -1,4 +1,5 @@
-"""Recalculate accessible assay summaries without treating subsamples as replicates.
+"""Recalculate accessible assay summaries with explicit observation units.
+MTT follows the authors' pooled-well mean and SEM specification.
 
 Run with the bundled Python runtime documented in ../README.md.
 All input workbooks are read only; outputs go to ../results.
@@ -107,9 +108,11 @@ assert maxdiff<1e-10, f'MTT does not reconcile: {maxdiff}'
 d.to_csv(OUT/'MTT_reconstructed_wells.csv',index=False)
 means=d.groupby(['experiment','dose_mM','genotype'],as_index=False).agg(mean_pct=('normalized_pct','mean'),technical_n=('normalized_pct','size'))
 means.to_csv(OUT/'MTT_experiment_means.csv',index=False)
-means.groupby(['dose_mM','genotype']).agg(mean_pct=('mean_pct','mean'),sd_between_experiments=('mean_pct','std'),independent_experiments=('mean_pct','size'),technical_wells=('technical_n','sum')).to_csv(OUT/'MTT_descriptive_summary.csv')
-results['MTT']={'raw_to_plotted_max_absolute_error':maxdiff,'technical_wells':len(d),
- 'limitation':'One experiment at 5/10 mM; two at 0/20/40 mM. No well-level significance annotations. July 15 source control is labelled DMSO; confirm vehicle before interpreting pooled experiments.'}
+pooled=d.groupby(['dose_mM','genotype']).agg(mean_pct=('normalized_pct','mean'),sd_wells=('normalized_pct','std'),well_n=('normalized_pct','size'),culture_preparations=('experiment','nunique'))
+pooled['sem_wells']=pooled.sd_wells/np.sqrt(pooled.well_n)
+pooled.to_csv(OUT/'MTT_descriptive_summary.csv')
+results['MTT']={'raw_to_plotted_max_absolute_error':maxdiff,'wells':len(d),
+ 'limitation':'Pooled normalized wells, mean +/- SEM: 6 wells/genotype at 5/10 mM, 9 at 0/20/40 mM. Each well is treated as a biological replicate at the authors\' direction; culture-preparation IDs remain available. No inferential tests. July 15 source control is labelled DMSO.'}
 
 # TEM: field-level tests can be reproduced but fly IDs are absent.
 d=pd.read_csv(DATA/'TEM_fields.csv');tem=[]

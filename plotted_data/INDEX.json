@@ -333,34 +333,34 @@
     "panel": "Fig4B",
     "file": "plotted_data/Fig4B/mtt_plot_values.csv",
     "rows": 78,
-    "observation_unit": "technical well",
+    "observation_unit": "normalized well (treated as biological replicate per author direction)",
     "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_plot_values.csv",
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
-    "notes": "78 wells; means and SD across experiments, not wells. The historical filename biological_summary is retained; replicate limitations are documented.",
+    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only.",
     "sha256": "9d8c30804ab825504db6305fd1e56c761686ba1978b97901df0c1e6dcecf9075"
   },
   {
     "panel": "Fig4B",
     "file": "plotted_data/Fig4B/mtt_experiment_means.csv",
     "rows": 16,
-    "observation_unit": "experiment \u00d7 genotype \u00d7 dose",
+    "observation_unit": "culture preparation x genotype x dose (provenance only)",
     "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_experiment_means.csv",
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
-    "notes": "78 wells; means and SD across experiments, not wells. The historical filename biological_summary is retained; replicate limitations are documented.",
+    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only.",
     "sha256": "d2e6a00388c6a56468c829a2712e9c19eebb0fd8cdaefa31e659d45a970a7cf8"
   },
   {
     "panel": "Fig4B",
-    "file": "plotted_data/Fig4B/mtt_biological_summary.csv",
+    "file": "plotted_data/Fig4B/mtt_pooled_well_summary.csv",
     "rows": 10,
-    "observation_unit": "genotype \u00d7 dose summary",
-    "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_biological_summary.csv",
+    "observation_unit": "pooled-well summary by genotype x dose",
+    "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_pooled_well_summary.csv",
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
-    "notes": "78 wells; means and SD across experiments, not wells. The historical filename biological_summary is retained; replicate limitations are documented.",
-    "sha256": "8fce60fc838ea13de83c5a6a10c1654e9011caa31beb81546b375d2ebdf62993"
+    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only.",
+    "sha256": "12a57ad40a168ccb4db672361511eb9f717964c11ffcf5ae531c371a9a558204"
   },
   {
     "panel": "FigS1B",

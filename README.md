@@ -1,6 +1,6 @@
 # MIC60 publication figures: code and plotted data
 
-This repository contains the current deposited graph code and plotting data, including the September 24 Figure S3 revision. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
+This repository contains the current deposited graph code and plotting data, including the September 24 Figure S3 revision and September 25 pooled-well Figure 4B update. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
 
 ## Find a graph's data
 

@@ -23,19 +23,17 @@
     ]
   },
   "Fig4B_MTT_Vector": {
-    "page_width_pt": 194.9107,
-    "page_height_pt": 156.5903,
+    "page_width_pt": 240.3692,
+    "page_height_pt": 161.3443,
     "image_objects": 0,
-    "vector_rectangles": 8,
-    "vector_curves": 178,
-    "text_characters": 158,
+    "text_characters": 109,
     "fonts": [
       "AAAAAB+ArialMT",
-      "AAAAAC+Symbol",
-      "AAAAAD+Arial-ItalicMT"
+      "AAAAAC+Symbol"
     ],
     "upright_text_sizes_pt": [
       5.6,
+      7.0,
       8.0
     ],
     "text_outside_page": []

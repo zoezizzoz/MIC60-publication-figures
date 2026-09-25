@@ -1,0 +1,48 @@
+{
+  "revision": "2026-09-25",
+  "assemblies_checked": 2,
+  "native_objects_outside_B_unchanged": true,
+  "linked_items": [
+    0,
+    0
+  ],
+  "embedded_image_counts": [
+    20,
+    20
+  ],
+  "panel_axes_before": {
+    "x": 395,
+    "y": 163.515365258614,
+    "width": 199,
+    "height": 132.913399028967,
+    "stroke": 0.42679131031036
+  },
+  "panel_axes_after": {
+    "x": 395,
+    "y": 163.515365258614,
+    "width": 198.999977111816,
+    "height": 132.913375854492,
+    "stroke": 0.42679131031036
+  },
+  "pixel_check": {
+    "embedded": {
+      "changed_pixel_bounds": [
+        711,
+        969,
+        1180,
+        1312
+      ],
+      "outside_panel_pixel_identical": true
+    },
+    "main": {
+      "changed_pixel_bounds": [
+        711,
+        969,
+        1180,
+        1312
+      ],
+      "outside_panel_pixel_identical": true
+    }
+  },
+  "note": "Native AI assemblies and backups are retained locally, outside this code/data deposit."
+}

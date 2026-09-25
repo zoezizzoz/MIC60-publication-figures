@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "revision": "2026-09-25",
+  "raw_wells_checked": 78,
+  "pooled_groups_checked": 10,
+  "source_values_unchanged": true,
+  "preparation_summary_unchanged": true,
+  "raw_to_plotted_max_error": 1.4210854715202004e-14,
+  "summary_statistics": "arithmetic mean; sample SD / sqrt(well_n) for SEM",
+  "tests_performed": false,
+  "well_counts_per_genotype": {
+    "0": 9,
+    "5": 6,
+    "10": 6,
+    "20": 9,
+    "40": 9
+  }
+}

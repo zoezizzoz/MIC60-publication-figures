@@ -24,6 +24,19 @@ def verify():
     assert len(rows(ROOT/'plotted_data/FigS1C/volcano_plotted_genes.csv'))==9695
     assert len(rows(ROOT/'plotted_data/Fig4A/TIMELESS_DAPI_values.csv'))==64
     assert len(rows(ROOT/'plotted_data/Fig4B/mtt_plot_values.csv'))==78
+    mtt=collections.defaultdict(list)
+    for row in rows(ROOT/'plotted_data/Fig4B/mtt_plot_values.csv'):
+        mtt[(int(row['dose_mM']),row['genotype'])].append(float(row['normalized_pct']))
+    pooled=rows(ROOT/'plotted_data/Fig4B/mtt_pooled_well_summary.csv')
+    assert len(pooled)==len(mtt)==10
+    for row in pooled:
+        dose=int(row['dose_mM']);values=mtt[(dose,row['genotype'])]
+        n=len(values);sd=statistics.stdev(values)
+        assert int(row['well_n'])==n==(6 if dose in (5,10) else 9)
+        assert int(row['culture_preparations'])==(1 if dose in (5,10) else 2)
+        assert math.isclose(float(row['mean']),statistics.mean(values),abs_tol=1e-10)
+        assert math.isclose(float(row['sd']),sd,abs_tol=1e-10)
+        assert math.isclose(float(row['sem']),sd/math.sqrt(n),abs_tol=1e-10)
     assert len(rows(ROOT/'plotted_data/FigS4C/transfection_efficiency.csv'))==20
     stress=rows(ROOT/'plotted_data/FigS4A/figS4_plotted_values.csv')
     de={r['gene']:r for r in rows(ROOT/'reviewed_analysis/data/rnaseq_female.csv')}
