@@ -12,7 +12,7 @@
   "MTT": {
     "raw_workbook_numeric_and_text_contents_identical": true,
     "normalization": "100 * (raw absorbance - within-experiment mean blank) / mean corrected matched 0 mM genotype control",
-    "inference": "Mean and SEM across normalized wells pooled within genotype and dose; each well is treated as a biological replicate per author direction. No inferential tests.",
+    "inference": "Mean and SEM across normalized wells pooled within genotype and dose; each well is treated as a biological replicate per author direction. The plotting generator calculates unadjusted two-sided Welch WT-versus-CS comparisons at the four treated doses.",
     "source_note": "July 15 control is labelled DMSO. Preserved the matched-control normalization; vehicle equivalence is not established here.",
     "wells": 78,
     "wells_per_genotype_by_dose": {

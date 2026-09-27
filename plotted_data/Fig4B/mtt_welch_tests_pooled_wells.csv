@@ -1,0 +1,5 @@
+"dose_mM","n_WT","n_CS","t_WT_minus_CS","df","p_value","comparison","test","unit","p_adjustment","label","bracket_y","label_y"
+5,6,6,-3.6911326805693,9.51426823960699,0.00453605545131348,"WT versus CS at the same dose","Two-sided Welch t-test","Pooled normalized well","None","p = 0.0045",88,91
+10,6,6,-5.95346588415256,8.72688374960923,0.000242267027828075,"WT versus CS at the same dose","Two-sided Welch t-test","Pooled normalized well","None","p < 0.001",73,76
+20,9,9,-5.75457471524046,15.978272902459,2.97303938704541e-05,"WT versus CS at the same dose","Two-sided Welch t-test","Pooled normalized well","None","p < 0.001",65,68
+40,9,9,-2.37710984446242,15.6127926097255,0.0306077041061126,"WT versus CS at the same dose","Two-sided Welch t-test","Pooled normalized well","None","p = 0.031",43,46

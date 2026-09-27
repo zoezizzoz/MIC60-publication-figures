@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "comparison": "WT versus CS at each treated dose",
+  "test": "Two-sided Welch t-test",
+  "unit": "Pooled normalized well",
+  "multiple_testing_adjustment": "None",
+  "doses_mM": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "independent_python_t_and_df_checks": true,
+  "all_P_values_match_archived_Welch_results": true,
+  "normalized_values_and_pooled_mean_SEM_tables_byte_identical": true,
+  "tests": [
+    {
+      "dose_mM": "5",
+      "n_WT": "6",
+      "n_CS": "6",
+      "t_WT_minus_CS": "-3.6911326805693",
+      "df": "9.51426823960699",
+      "p_value": "0.00453605545131348",
+      "comparison": "WT versus CS at the same dose",
+      "test": "Two-sided Welch t-test",
+      "unit": "Pooled normalized well",
+      "p_adjustment": "None",
+      "label": "p = 0.0045",
+      "bracket_y": "88",
+      "label_y": "91"
+    },
+    {
+      "dose_mM": "10",
+      "n_WT": "6",
+      "n_CS": "6",
+      "t_WT_minus_CS": "-5.95346588415256",
+      "df": "8.72688374960923",
+      "p_value": "0.000242267027828075",
+      "comparison": "WT versus CS at the same dose",
+      "test": "Two-sided Welch t-test",
+      "unit": "Pooled normalized well",
+      "p_adjustment": "None",
+      "label": "p < 0.001",
+      "bracket_y": "73",
+      "label_y": "76"
+    },
+    {
+      "dose_mM": "20",
+      "n_WT": "9",
+      "n_CS": "9",
+      "t_WT_minus_CS": "-5.75457471524046",
+      "df": "15.978272902459",
+      "p_value": "2.97303938704541e-05",
+      "comparison": "WT versus CS at the same dose",
+      "test": "Two-sided Welch t-test",
+      "unit": "Pooled normalized well",
+      "p_adjustment": "None",
+      "label": "p < 0.001",
+      "bracket_y": "65",
+      "label_y": "68"
+    },
+    {
+      "dose_mM": "40",
+      "n_WT": "9",
+      "n_CS": "9",
+      "t_WT_minus_CS": "-2.37710984446242",
+      "df": "15.6127926097255",
+      "p_value": "0.0306077041061126",
+      "comparison": "WT versus CS at the same dose",
+      "test": "Two-sided Welch t-test",
+      "unit": "Pooled normalized well",
+      "p_adjustment": "None",
+      "label": "p = 0.031",
+      "bracket_y": "43",
+      "label_y": "46"
+    }
+  ],
+  "native_artwork": {
+    "copies_verified": 2,
+    "linked_artwork_items": 0,
+    "embedded_scientific_images": 20,
+    "scientific_image_streams_preserved": true,
+    "content_outside_panel_B_unchanged": true,
+    "axes_bounds_unchanged": true,
+    "P_label_font_size_pt": 7,
+    "final_PDF_matches_embedded_AI_render": true,
+    "visual_review": "Labels and brackets checked at final figure size; no overlaps with points, lines, legend or adjacent labels."
+  }
+}

@@ -23,7 +23,8 @@ save_plot <- function(plot,stem,width,height) {
 }
 
 # Pool normalized wells within genotype and dose, as specified by the authors.
-# Culture-preparation identifiers remain in the source table; no tests are added.
+# Culture-preparation identifiers remain in the source table. Restored tests
+# compare pooled normalized wells, not culture-preparation means.
 d <- read.csv(file.path(panel,'Supporting_Data/mtt_plot_values.csv'))
 d$genotype <- factor(d$genotype,levels=c('WT','CS'))
 stopifnot(nrow(d)==78,all(is.finite(d$normalized_pct)))
@@ -43,11 +44,32 @@ summ <- do.call(rbind,lapply(split(d,list(d$dose_mM,d$genotype),drop=TRUE),funct
 summ$genotype <- factor(summ$genotype,levels=c('WT','CS'))
 stopifnot(nrow(experiment_summ)==16,nrow(summ)==10,
  all(summ$well_n==ifelse(summ$dose_mM %in% c(5,10),6,9)),all(is.finite(summ$sem)))
+# Restore the original two-sided Welch WT-versus-CS comparisons at treated doses.
+# These P values are unadjusted; the matched 0 mM controls are not tested.
+tests <- do.call(rbind,lapply(c(5,10,20,40),function(dose) {
+ x <- subset(d,dose_mM==dose)
+ wt <- x$normalized_pct[x$genotype=='WT']; cs <- x$normalized_pct[x$genotype=='CS']
+ test <- t.test(wt,cs,alternative='two.sided',var.equal=FALSE)
+ data.frame(dose_mM=dose,n_WT=length(wt),n_CS=length(cs),
+  t_WT_minus_CS=unname(test$statistic),df=unname(test$parameter),p_value=test$p.value,
+  comparison='WT versus CS at the same dose',test='Two-sided Welch t-test',
+  unit='Pooled normalized well',p_adjustment='None')
+}))
+tests$label <- ifelse(tests$p_value<.001,'p < 0.001',paste0('p = ',formatC(tests$p_value,format='g',digits=2)))
+# Stagger the adjacent 5/10 mM labels, preserving all data and axis coordinates.
+tests$bracket_y <- c(88,73,65,43)
+tests$label_y <- tests$bracket_y+3
+stopifnot(all(tests$bracket_y>vapply(tests$dose_mM,function(dose)max(d$normalized_pct[d$dose_mM==dose]),numeric(1))+5))
+write.csv(tests,file.path(panel,'Supporting_Data/mtt_welch_tests_pooled_wells.csv'),row.names=FALSE)
 p <- ggplot(d,aes(dose_mM,normalized_pct))+
  geom_hline(yintercept=100,color='#A6A6A6',linetype='dashed',linewidth=.20)+
  geom_point(color='#242424',size=.9,alpha=.72,show.legend=FALSE)+
  geom_line(data=summ,aes(y=mean,color=genotype,group=genotype),linewidth=.30)+
  geom_errorbar(data=summ,aes(y=mean,ymin=mean-sem,ymax=mean+sem,group=genotype,color=genotype),width=1.8,linewidth=.20,show.legend=FALSE)+
+ geom_segment(data=tests,aes(x=dose_mM-1.05,xend=dose_mM+1.05,y=bracket_y,yend=bracket_y),inherit.aes=FALSE,linewidth=.20)+
+ geom_segment(data=tests,aes(x=dose_mM-1.05,xend=dose_mM-1.05,y=bracket_y,yend=bracket_y-1.5),inherit.aes=FALSE,linewidth=.20)+
+ geom_segment(data=tests,aes(x=dose_mM+1.05,xend=dose_mM+1.05,y=bracket_y,yend=bracket_y-1.5),inherit.aes=FALSE,linewidth=.20)+
+ geom_text(data=tests,aes(x=dose_mM,y=label_y,label=label),inherit.aes=FALSE,vjust=0,size=7/.pt,family=font,color='black')+
  scale_x_continuous(breaks=c(0,5,10,20,40),expand=expansion(add=2.2))+
  scale_y_continuous(limits=c(0,150),breaks=seq(0,125,25),expand=expansion(mult=0))+
  scale_color_manual(name=NULL,values=c(WT=s$WT,CS=s$CS),breaks=c('WT','CS'),labels=c('dMIC60-WT','dMIC60-CS'))+

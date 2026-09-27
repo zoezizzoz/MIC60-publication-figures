@@ -12,7 +12,7 @@ def rows(path):
     with path.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 def verify():
     idx=json.loads((ROOT/'plotted_data/INDEX.json').read_text())
-    assert len(idx)==43
+    assert len(idx)==44
     for item in idx:
         p=ROOT/item['file']
         assert p.is_file(),item['file']
@@ -37,6 +37,22 @@ def verify():
         assert math.isclose(float(row['mean']),statistics.mean(values),abs_tol=1e-10)
         assert math.isclose(float(row['sd']),sd,abs_tol=1e-10)
         assert math.isclose(float(row['sem']),sd/math.sqrt(n),abs_tol=1e-10)
+    mtt_tests=rows(ROOT/'plotted_data/Fig4B/mtt_welch_tests_pooled_wells.csv')
+    archived_tests={int(r['dose_mM']):float(r['p_value']) for r in rows(ROOT/'reviewed_analysis/figure_sources/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_rebuilt_TECHNICAL_WELLS_NOT_FOR_INFERENCE.csv')}
+    assert [int(r['dose_mM']) for r in mtt_tests]==[5,10,20,40]
+    assert sha(ROOT/'plotted_data/Fig4B/mtt_welch_tests_pooled_wells.csv')==sha(ROOT/'panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_pooled_wells.csv')
+    for row in mtt_tests:
+        dose=int(row['dose_mM']);wt=mtt[(dose,'WT')];cs=mtt[(dose,'CS')]
+        vw=statistics.variance(wt)/len(wt);vc=statistics.variance(cs)/len(cs)
+        t=(statistics.mean(wt)-statistics.mean(cs))/math.sqrt(vw+vc)
+        df=(vw+vc)**2/(vw**2/(len(wt)-1)+vc**2/(len(cs)-1))
+        assert int(row['n_WT'])==len(wt) and int(row['n_CS'])==len(cs)
+        assert math.isclose(float(row['t_WT_minus_CS']),t,rel_tol=1e-12)
+        assert math.isclose(float(row['df']),df,rel_tol=1e-12)
+        assert math.isclose(float(row['p_value']),archived_tests[dose],rel_tol=1e-12)
+        assert row['test']=='Two-sided Welch t-test' and row['p_adjustment']=='None'
+        assert float(row['bracket_y'])>max(wt+cs)+5
+    assert [r['label'] for r in mtt_tests]==['p = 0.0045','p < 0.001','p < 0.001','p = 0.031']
     assert len(rows(ROOT/'plotted_data/FigS4C/transfection_efficiency.csv'))==20
     stress=rows(ROOT/'plotted_data/FigS4A/figS4_plotted_values.csv')
     de={r['gene']:r for r in rows(ROOT/'reviewed_analysis/data/rnaseq_female.csv')}

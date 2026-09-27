@@ -1,0 +1,3 @@
+Replace the MTT Methods sentence stating “No inferential tests were performed” with the following wording:
+
+Normalized well values were pooled within genotype and dose and summarized as mean ± s.e.m. Genotypes were compared at each treated dose using two-sided Welch t-tests on the pooled normalized wells, without multiple-testing adjustment.

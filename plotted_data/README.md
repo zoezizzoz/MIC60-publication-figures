@@ -37,6 +37,7 @@ Data are organized using the current figure panel letters. Old source directorie
 | Fig4B | [mtt_plot_values.csv](Fig4B/mtt_plot_values.csv) | 78 | normalized well (treated as biological replicate per author direction) |
 | Fig4B | [mtt_experiment_means.csv](Fig4B/mtt_experiment_means.csv) | 16 | culture preparation × genotype × dose (provenance only) |
 | Fig4B | [mtt_pooled_well_summary.csv](Fig4B/mtt_pooled_well_summary.csv) | 10 | pooled-well mean, SD, s.e.m. and counts by genotype × dose |
+| Fig4B | [mtt_welch_tests_pooled_wells.csv](Fig4B/mtt_welch_tests_pooled_wells.csv) | 4 | unadjusted two-sided Welch comparisons of pooled normalized wells |
 | FigS1B | [western_blot_quantification.csv](FigS1B/western_blot_quantification.csv) | 6 | paired blot measurement |
 | FigS2 | [KEGG_GSEA_plotted_pathways.csv](FigS2/KEGG_GSEA_plotted_pathways.csv) | 20 | pathway × sex |
 | FigS3 | [selected_gene_modules.csv](FigS3/selected_gene_modules.csv) | 81 | gene × figure panel |

@@ -23,7 +23,7 @@
     "source_sha256": "23d8a3379388d936845d2582c7a9b7dc615c70d7c597f600c53571f0b6b9e8b0",
     "source_mtime": "2026-09-22T13:00:09.987779",
     "role": "reviewed_analysis_and_recovered_inputs",
-    "deposit_sha256": "9aa39637d90103ad26c3a80c3886a13224a4d9012082f06f0b8efccee6f0a048",
+    "deposit_sha256": "6593f148236f99847c0da56c4e85e767397ce11652c73a4444ab4171650e1383",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2579,7 +2579,7 @@
     "source_sha256": "332645e39737de0a9b07d2369bf964e275b19239d9ab386567806bc7fb7b22d4",
     "source_mtime": "2026-09-23T14:51:52.733895",
     "role": "current_Fig4AB",
-    "deposit_sha256": "bce357264ef20670435e465bb90e19ba0cee062be2d9b06b7b7031410515a513",
+    "deposit_sha256": "d2b3074f53bc85d9deeba48d517bc961556189cb9b4ffe85877dd919b3499dd2",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2678,7 +2678,7 @@
     "source_sha256": "46873fe3976b88a0abb1aea767dcb3de3a6d631feb96c7fad540459f390c9013",
     "source_mtime": "2026-09-23T14:54:30.488718",
     "role": "current_Fig4AB",
-    "deposit_sha256": "63fa8d8208eb9c7876b97bb88a123625bacffc5ed8873a2c6d5522703b9c21d7",
+    "deposit_sha256": "96de82d267b2068d96672e3c00b1bc7d8ea78d29dc2d91f2e0731dd10d5a4811",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2687,7 +2687,7 @@
     "source_sha256": "1c9c61d2ef3d4c64eba58d0ca791d90c881f773a9f2cad018d2698a89bb7e7e1",
     "source_mtime": "2026-09-23T14:58:10.372555",
     "role": "current_Fig4AB",
-    "deposit_sha256": "4b5354275848db059b33c6ec6bf4164e918cac17f9fb70fe736decfcff108f6d",
+    "deposit_sha256": "aa7e730d99d23a8c9492d801c108daf4205e2616da607f28c5949c34468a8971",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2768,7 +2768,7 @@
     "source_sha256": "13efcbd84ee05d9e6fb8f49b7394fc6191c1c47dc0663c7013b1c5425ac2c814",
     "source_mtime": "2026-09-23T14:51:53.088413",
     "role": "current_Fig4AB",
-    "deposit_sha256": "fc0f29f71aa52f7500f74e034a5933015b8c68a1ac950dc7cd41363c8775fc6e",
+    "deposit_sha256": "17b87ba514b94ef3b3d9379ea26e6c18f9d73cabb2fd0129b18f9704567fd330",
     "unchanged_from_recovered_copy": false
   },
   {
@@ -2795,7 +2795,7 @@
     "source_sha256": "35ee1d0b66e125ecbb2a4b1b1958198f0b23c065fc8db9072b75669f57f73310",
     "source_mtime": "2026-09-23T14:58:10.372361",
     "role": "current_Fig4AB",
-    "deposit_sha256": "cf28c54bcf682deef969179660500bdf9012036d54edfab915c0281b1026e154",
+    "deposit_sha256": "e60a89b22ac0e0ad66c1fd40f998a7f93fe30dfa6b5a9c9a3ed7ba5bead66929",
     "unchanged_from_recovered_copy": false
   },
   {

@@ -1,10 +1,10 @@
 # MIC60 publication figures: code and plotted data
 
-This repository contains the current deposited graph code and plotting data, including the September 25 Figure S3 evidence review and September 25 pooled-well Figure 4B update. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
+This repository contains the current deposited graph code and plotting data, including the September 25 Figure S3 evidence review and September 27 Figure 4B P-value restoration. Current generators are listed in the plotted-data index; documented historical sources are kept separately under `provenance/`. The recovery began from commit `0924a4e5256396266baa405587a617cfd20d0eed` (18 September 2026).
 
 ## Find a graph's data
 
-Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 43 tables cover 29 graph panels using the current panel letters. [INDEX.csv](plotted_data/INDEX.csv) maps each table to its generator, original source, observation unit, row selection and checksum.
+Start with **[plotted_data/README.md](plotted_data/README.md)**. Its 44 tables cover 29 graph panels using the current panel letters. [INDEX.csv](plotted_data/INDEX.csv) maps each table to its generator, original source, observation unit, row selection and checksum.
 
 - `reviewed_analysis/`: existing reviewed pipeline, restored inputs, shared styles, generators and numerical outputs.
 - `panels/Fig3N/`: current connected-object TMRM/MTG field-mean graph; 32 fields and 22,531 contributing objects.

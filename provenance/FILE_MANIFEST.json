@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-25T20:10:35.280920+00:00",
+  "snapshot_utc": "2026-09-27T07:50:40.657194+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -14,18 +14,18 @@
     },
     {
       "path": "LIMITATIONS.md",
-      "bytes": 3653,
-      "sha256": "a9ca07ceab8523aa5764105eadbec21902eda91ca3d1ea497b762deb9c0bb5fc"
+      "bytes": 3781,
+      "sha256": "552b205a4667c56542da540bf2ccd406419d3ee98c7b7299f16024c647e7ead8"
     },
     {
       "path": "README.md",
-      "bytes": 4170,
-      "sha256": "6dfab173c952a2e6124a2b9a610468fbce4720a0fae0a6f164b21738c785ad65"
+      "bytes": 4171,
+      "sha256": "c9951adb0d24a1bf4afbd064da635578a88e54bb616c9ee210d09194c478c3d4"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 6932,
-      "sha256": "82775977812db14f66693f505c8466bac20f440ae8601345f0d2ba8060852b4d"
+      "bytes": 7201,
+      "sha256": "b5dd712480bf16b6eba29caf6aa516fb743cf00409c49d9e7cef54c92895fb54"
     },
     {
       "path": "R_PACKAGES.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "UPDATE_NOTES.md",
-      "bytes": 7670,
-      "sha256": "e23ca59b74c9d8d7191b48e228afde4278a4057cfad3b68a7aa746d650f043e5"
+      "bytes": 8215,
+      "sha256": "e345cd3b1af843024ddb8c30c402ae789654bb247b3c1755d93ee5dfe4badadb"
     },
     {
       "path": "data/original_inputs/Figure_1C_Female_Volcano/Original_Data/count_matrix_symbol.csv",
@@ -584,8 +584,8 @@
     },
     {
       "path": "panels/Fig4AB/Code/prepare_plot_data.py",
-      "bytes": 4235,
-      "sha256": "bce357264ef20670435e465bb90e19ba0cee062be2d9b06b7b7031410515a513"
+      "bytes": 4331,
+      "sha256": "d2b3074f53bc85d9deeba48d517bc961556189cb9b4ffe85877dd919b3499dd2"
     },
     {
       "path": "panels/Fig4AB/Code/render_settings.json",
@@ -599,8 +599,8 @@
     },
     {
       "path": "panels/Fig4AB/Documentation/DATA_VERIFICATION.json",
-      "bytes": 1469,
-      "sha256": "fc0f29f71aa52f7500f74e034a5933015b8c68a1ac950dc7cd41363c8775fc6e"
+      "bytes": 1560,
+      "sha256": "17b87ba514b94ef3b3d9379ea26e6c18f9d73cabb2fd0129b18f9704567fd330"
     },
     {
       "path": "panels/Fig4AB/Documentation/NATIVE_POOLED_WELL_QA.json",
@@ -619,8 +619,8 @@
     },
     {
       "path": "panels/Fig4AB/README.md",
-      "bytes": 3723,
-      "sha256": "cf28c54bcf682deef969179660500bdf9012036d54edfab915c0281b1026e154"
+      "bytes": 4014,
+      "sha256": "e60a89b22ac0e0ad66c1fd40f998a7f93fe30dfa6b5a9c9a3ed7ba5bead66929"
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4A_TIMELESS/Code/generate_timeless_vector.R",
@@ -654,13 +654,23 @@
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
-      "bytes": 5770,
-      "sha256": "63fa8d8208eb9c7876b97bb88a123625bacffc5ed8873a2c6d5522703b9c21d7"
+      "bytes": 7491,
+      "sha256": "96de82d267b2068d96672e3c00b1bc7d8ea78d29dc2d91f2e0731dd10d5a4811"
+    },
+    {
+      "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/Fig4B_caption.txt",
+      "bytes": 635,
+      "sha256": "35e6c7bcca60dc9f056f14d256502acf25cba6c6a9b1c427af035896fcb536e0"
+    },
+    {
+      "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/Fig4B_methods_update.txt",
+      "bytes": 349,
+      "sha256": "b066f7e4f5ca3a64075654e065126b6a98eee8ed8784c2a77b60df9327b4a38a"
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/README.md",
-      "bytes": 333,
-      "sha256": "4b5354275848db059b33c6ec6bf4164e918cac17f9fb70fe736decfcff108f6d"
+      "bytes": 609,
+      "sha256": "aa7e730d99d23a8c9492d801c108daf4205e2616da607f28c5949c34468a8971"
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/R_sessionInfo.txt",
@@ -691,6 +701,11 @@
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_pooled_well_summary.csv",
       "bytes": 665,
       "sha256": "12a57ad40a168ccb4db672361511eb9f717964c11ffcf5ae531c371a9a558204"
+    },
+    {
+      "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_pooled_wells.csv",
+      "bytes": 802,
+      "sha256": "0908ad06f85a54be434558968711609bd5a10e05fd8d76e891495745a62590cf"
     },
     {
       "path": "panels/FigS4A/DATA_VERIFICATION.json",
@@ -1158,6 +1173,11 @@
       "sha256": "12a57ad40a168ccb4db672361511eb9f717964c11ffcf5ae531c371a9a558204"
     },
     {
+      "path": "plotted_data/Fig4B/mtt_welch_tests_pooled_wells.csv",
+      "bytes": 802,
+      "sha256": "0908ad06f85a54be434558968711609bd5a10e05fd8d76e891495745a62590cf"
+    },
+    {
       "path": "plotted_data/FigS1B/western_blot_quantification.csv",
       "bytes": 284,
       "sha256": "650c4e4e4060bdeac18286ff8488d206e1aa44aa63e50952269420081617e005"
@@ -1234,18 +1254,18 @@
     },
     {
       "path": "plotted_data/INDEX.csv",
-      "bytes": 17916,
-      "sha256": "b63f3a783d28e29e35e7d6b373123f3a5811bb3673ea8c0fd309a3db8c39da00"
+      "bytes": 18734,
+      "sha256": "e3eb71fc535d0cd2a0dddb25bba0fd9024d08c6f66ef4b05b95b98489d0e1c81"
     },
     {
       "path": "plotted_data/INDEX.json",
-      "bytes": 24943,
-      "sha256": "30ca2d1726bf7dda2a8d3c5dadd480fcf078ab26e05a2cf0d3d05cc862a799d9"
+      "bytes": 25925,
+      "sha256": "0294b1f7ac9f1988718cd346a57ce226032658fb874afb2d63809e71747cd1d1"
     },
     {
       "path": "plotted_data/README.md",
-      "bytes": 6764,
-      "sha256": "12a0c3a6849b9889c96d089bcae9c2d551bf01388fd164749445ac20c5e5a8fd"
+      "bytes": 6923,
+      "sha256": "093f1c0be0b833ed3edc0ffaac7a2662c5e4b9fec50059f1a7dc1995222cfbe9"
     },
     {
       "path": "provenance/GEO.json",
@@ -1540,7 +1560,7 @@
     {
       "path": "provenance/source_files.json",
       "bytes": 181750,
-      "sha256": "994543884e4d5e026d547ab593eb492dccbd398538de302361b0b118a6845019"
+      "sha256": "1d6dd4e547fdf7aa42a7602bcda669772f8139a38f1149dbc02e60978dc910e5"
     },
     {
       "path": "provenance/survival_legacy/Fly Lifespan Streamlined.csv",
@@ -1584,8 +1604,8 @@
     },
     {
       "path": "reviewed_analysis/code/03_assay_audit.py",
-      "bytes": 9719,
-      "sha256": "9aa39637d90103ad26c3a80c3886a13224a4d9012082f06f0b8efccee6f0a048"
+      "bytes": 9794,
+      "sha256": "6593f148236f99847c0da56c4e85e767397ce11652c73a4444ab4171650e1383"
     },
     {
       "path": "reviewed_analysis/code/04_review_panels.R",
@@ -3829,13 +3849,18 @@
     },
     {
       "path": "tools/verify_deposit.py",
-      "bytes": 10179,
-      "sha256": "32032298181382c261bd1a3527beeed4e637fc6a13f1315e7432d6c83997037d"
+      "bytes": 11532,
+      "sha256": "452b79bb1b8d9674044482c807ea8947fcba44d9a3048dc9e5da2b53eb0316b2"
     },
     {
       "path": "verification/DEG_classification_check.json",
       "bytes": 215,
       "sha256": "7405bb4783c9f21d65ae88d56c4b9dd8a4db3e4887a74c09f50c909f72cc6d28"
+    },
+    {
+      "path": "verification/Fig4B_PVALUES.json",
+      "bytes": 2605,
+      "sha256": "fae6165c4dfd57c5f6c393052c4927fc11d7b5ffa91a8453f828781726d74457"
     },
     {
       "path": "verification/PREPARATION_REPORT.json",
@@ -3903,5 +3928,5 @@
       "sha256": "01752b84ff1a83e7197d86bca2df70c50bafeb101962e3f1247df69d8456d3d3"
     }
   ],
-  "notes": "Manifest excludes itself and SHA256SUMS. All paths are repository-relative; all payloads are regular files. Git attributes preserve exact input bytes. Includes the current 81-entry Figure S3 (11 AMPK genes), individual-gene evidence audit, aligned column layout, current code and unchanged full supporting survey; also retains the deposited pooled-well Figure 4B update."
+  "notes": "Manifest excludes itself and SHA256SUMS. All paths are repository-relative; all payloads are regular files. Git attributes preserve exact input bytes. Includes the current 81-entry Figure S3 and evidence audit, and the Figure 4B pooled-well mean/SEM with restored unadjusted two-sided Welch P values at the four treated doses."
 }

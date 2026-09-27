@@ -1,5 +1,9 @@
 # Publication deposit updates
 
+## Figure 4B P values, 27 September 2026
+
+Restores the original four unadjusted two-sided Welch WT-versus-CS comparisons at 5, 10, 20 and 40 mM using the current pooled normalized wells. P values are recomputed directly and agree with the archived table. Raw observations, normalization, pooled means and SEM are unchanged. The source renderer uses staggered 7 pt labels above short dose-centered brackets. Exact P values, sample sizes, t statistics, degrees of freedom, label positions and matching caption/Methods wording accompany the code.
+
 ## Current Figure S3, 25 September 2026
 
 Figure S3 contains 81 group–gene entries (79 unique genes), including 11 AMPK-associated genes. Each original entry has a publication-evidence audit and an explicit display decision. Seven entries were omitted where the reviewed publications did not establish the specified association or exact-gene experimental support; Sesn and Atg8a were restored to AMPK based on fly experiments. Functional panel names match the scope of the evidence. The original 89 entries and full 131-gene orthology survey remain in supporting data, with unchanged RNA-seq values.

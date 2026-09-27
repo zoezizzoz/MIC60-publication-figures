@@ -112,7 +112,7 @@ pooled=d.groupby(['dose_mM','genotype']).agg(mean_pct=('normalized_pct','mean'),
 pooled['sem_wells']=pooled.sd_wells/np.sqrt(pooled.well_n)
 pooled.to_csv(OUT/'MTT_descriptive_summary.csv')
 results['MTT']={'raw_to_plotted_max_absolute_error':maxdiff,'wells':len(d),
- 'limitation':'Pooled normalized wells, mean +/- SEM: 6 wells/genotype at 5/10 mM, 9 at 0/20/40 mM. Each well is treated as a biological replicate at the authors\' direction; culture-preparation IDs remain available. No inferential tests. July 15 source control is labelled DMSO.'}
+ 'limitation':'Pooled normalized wells, mean +/- SEM: 6 wells/genotype at 5/10 mM, 9 at 0/20/40 mM. Each well is treated as a biological replicate at the authors\' direction; culture-preparation IDs remain available. Unadjusted two-sided Welch comparisons are computed by the current Figure 4B plotting generator. July 15 source control is labelled DMSO.'}
 
 # TEM: field-level tests can be reproduced but fly IDs are absent.
 d=pd.read_csv(DATA/'TEM_fields.csv');tem=[]

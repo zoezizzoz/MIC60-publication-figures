@@ -337,7 +337,7 @@
     "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_plot_values.csv",
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
-    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only.",
+    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only. The four treated-dose comparisons use unadjusted two-sided Welch tests on pooled normalized wells.",
     "sha256": "9d8c30804ab825504db6305fd1e56c761686ba1978b97901df0c1e6dcecf9075"
   },
   {
@@ -348,7 +348,7 @@
     "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_experiment_means.csv",
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
-    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only.",
+    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only. The four treated-dose comparisons use unadjusted two-sided Welch tests on pooled normalized wells.",
     "sha256": "d2e6a00388c6a56468c829a2712e9c19eebb0fd8cdaefa31e659d45a970a7cf8"
   },
   {
@@ -359,8 +359,19 @@
     "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_pooled_well_summary.csv",
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
-    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only.",
+    "notes": "All 78 normalized wells are pooled within genotype and dose; lines are arithmetic means and errors are SEM across wells. n=6 per genotype at 5/10 mM, n=9 at 0/20/40 mM. Culture-preparation summaries are retained for provenance only. The four treated-dose comparisons use unadjusted two-sided Welch tests on pooled normalized wells.",
     "sha256": "12a57ad40a168ccb4db672361511eb9f717964c11ffcf5ae531c371a9a558204"
+  },
+  {
+    "panel": "Fig4B",
+    "file": "plotted_data/Fig4B/mtt_welch_tests_pooled_wells.csv",
+    "rows": 4,
+    "observation_unit": "WT-versus-CS comparison of pooled normalized wells at one treated dose",
+    "source": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_pooled_wells.csv",
+    "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
+    "selection": "Source table copied unchanged",
+    "notes": "Two-sided Welch tests; no multiple-testing adjustment. The four P values reproduce the archived comparisons. Matched 0 mM controls are not tested.",
+    "sha256": "0908ad06f85a54be434558968711609bd5a10e05fd8d76e891495745a62590cf"
   },
   {
     "panel": "FigS1B",
