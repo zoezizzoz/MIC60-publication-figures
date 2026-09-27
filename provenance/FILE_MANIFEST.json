@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-27T07:50:40.657194+00:00",
+  "snapshot_utc": "2026-09-27T08:03:08.055014+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -654,8 +654,8 @@
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
-      "bytes": 7491,
-      "sha256": "96de82d267b2068d96672e3c00b1bc7d8ea78d29dc2d91f2e0731dd10d5a4811"
+      "bytes": 7679,
+      "sha256": "2f47647741d151fbce5084db93ef81e73c740637a6ffdcca906c520ac4b8577a"
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/Fig4B_caption.txt",
@@ -1560,7 +1560,7 @@
     {
       "path": "provenance/source_files.json",
       "bytes": 181750,
-      "sha256": "1d6dd4e547fdf7aa42a7602bcda669772f8139a38f1149dbc02e60978dc910e5"
+      "sha256": "04f1ebb0a718025ebb1c2339a323d9eb0e0ead5e8383ca708b86801911760da7"
     },
     {
       "path": "provenance/survival_legacy/Fly Lifespan Streamlined.csv",
@@ -3859,8 +3859,8 @@
     },
     {
       "path": "verification/Fig4B_PVALUES.json",
-      "bytes": 2605,
-      "sha256": "fae6165c4dfd57c5f6c393052c4927fc11d7b5ffa91a8453f828781726d74457"
+      "bytes": 2879,
+      "sha256": "634d6708a088025fab467fe08808e98922ffbb2aaaefb5a0f22d4ebf37d868c8"
     },
     {
       "path": "verification/PREPARATION_REPORT.json",

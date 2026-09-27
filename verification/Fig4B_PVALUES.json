@@ -85,5 +85,13 @@
     "P_label_font_size_pt": 7,
     "final_PDF_matches_embedded_AI_render": true,
     "visual_review": "Labels and brackets checked at final figure size; no overlaps with points, lines, legend or adjacent labels."
+  },
+  "P_label_typography": {
+    "p_font": "Arial-ItalicMT",
+    "size_pt": 7,
+    "numbers_and_comparison_symbols": "upright",
+    "all_four_labels_checked": true,
+    "only_P_character_fonts_changed_in_native_assemblies": true,
+    "data_and_statistics_unchanged": true
   }
 }
