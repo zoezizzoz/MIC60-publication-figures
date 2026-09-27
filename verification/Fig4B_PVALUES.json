@@ -26,8 +26,8 @@
       "unit": "Pooled normalized well",
       "p_adjustment": "None",
       "label": "p = 0.0045",
-      "bracket_y": "85",
-      "label_y": "88"
+      "bracket_y": "83.7658706295265",
+      "label_y": "86.7658706295265"
     },
     {
       "dose_mM": "10",
@@ -41,8 +41,8 @@
       "unit": "Pooled normalized well",
       "p_adjustment": "None",
       "label": "p < 0.001",
-      "bracket_y": "73",
-      "label_y": "76"
+      "bracket_y": "72.6757754158705",
+      "label_y": "75.6757754158705"
     },
     {
       "dose_mM": "20",
@@ -56,8 +56,8 @@
       "unit": "Pooled normalized well",
       "p_adjustment": "None",
       "label": "p < 0.001",
-      "bracket_y": "65",
-      "label_y": "68"
+      "bracket_y": "59.0730670393858",
+      "label_y": "62.0730670393858"
     },
     {
       "dose_mM": "40",
@@ -71,8 +71,8 @@
       "unit": "Pooled normalized well",
       "p_adjustment": "None",
       "label": "p = 0.031",
-      "bracket_y": "43",
-      "label_y": "46"
+      "bracket_y": "36.6888579905058",
+      "label_y": "39.6888579905058"
     }
   ],
   "native_artwork": {
@@ -84,7 +84,7 @@
     "axes_bounds_unchanged": true,
     "P_label_font_size_pt": 7,
     "final_PDF_matches_embedded_AI_render": true,
-    "visual_review": "Rechecked after lowering the 5 mM annotation and offsetting its text slightly right; labels clear the control points, connecting lines, reference line and adjacent annotations."
+    "visual_review": "Checked equal point-to-bracket spacing at 10, 20 and 40 mM, with a small added clearance at 5 mM to prevent adjacent labels touching."
   },
   "P_label_typography": {
     "p_font": "Arial-ItalicMT",
@@ -96,12 +96,34 @@
   },
   "annotation_spacing": {
     "revision": "2026-09-27",
-    "change": "Lower the 5 mM bracket and label near the data and shift its text 1.4 mM right to clear the connecting lines.",
-    "bracket_y": 85,
-    "label_y": 88,
-    "label_x": 6.4,
-    "other_annotations_and_scientific_artwork_unchanged": true,
-    "checked_in_native_assemblies": 3,
-    "exported_PDF_matches_embedded_AI": true
+    "change": "Common 10 percentage-point gap above the highest point, with 3.6 extra at 5 mM to separate adjacent labels.",
+    "per_dose": [
+      {
+        "dose": 5,
+        "top_point": 70.16587062952654,
+        "bracket_y": 83.76587062952653,
+        "gap": 13.6
+      },
+      {
+        "dose": 10,
+        "top_point": 62.675775415870504,
+        "bracket_y": 72.6757754158705,
+        "gap": 10
+      },
+      {
+        "dose": 20,
+        "top_point": 49.07306703938584,
+        "bracket_y": 59.07306703938584,
+        "gap": 10
+      },
+      {
+        "dose": 40,
+        "top_point": 26.688857990505845,
+        "bracket_y": 36.688857990505845,
+        "gap": 10
+      }
+    ],
+    "label_x_offset_5mM": 1.4,
+    "data_and_statistics_unchanged": true
   }
 }

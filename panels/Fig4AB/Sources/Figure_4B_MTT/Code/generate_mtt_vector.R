@@ -56,9 +56,10 @@ tests <- do.call(rbind,lapply(c(5,10,20,40),function(dose) {
   unit='Pooled normalized well',p_adjustment='None')
 }))
 tests$label <- ifelse(tests$p_value<.001,'p < 0.001',paste0('p = ',formatC(tests$p_value,format='g',digits=2)))
-# Keep the 5 mM annotation close to its points and offset its text to clear the connecting lines.
-# Stagger adjacent 5/10 mM labels while preserving data and axis coordinates.
-tests$bracket_y <- c(85,73,65,43)
+# Use a common gap above the highest point at each treated dose.
+# The adjacent 5/10 mM labels need a small extra vertical separation.
+top_point <- vapply(tests$dose_mM, function(dose) max(d$normalized_pct[d$dose_mM == dose]), numeric(1))
+tests$bracket_y <- top_point + 10 + ifelse(tests$dose_mM == 5, 3.6, 0)
 tests$label_y <- tests$bracket_y+3
 stopifnot(all(tests$bracket_y>vapply(tests$dose_mM,function(dose)max(d$normalized_pct[d$dose_mM==dose]),numeric(1))+5))
 write.csv(tests,file.path(panel,'Supporting_Data/mtt_welch_tests_pooled_wells.csv'),row.names=FALSE)
