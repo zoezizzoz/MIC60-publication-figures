@@ -56,8 +56,9 @@ tests <- do.call(rbind,lapply(c(5,10,20,40),function(dose) {
   unit='Pooled normalized well',p_adjustment='None')
 }))
 tests$label <- ifelse(tests$p_value<.001,'p < 0.001',paste0('p = ',formatC(tests$p_value,format='g',digits=2)))
-# Stagger the adjacent 5/10 mM labels, preserving all data and axis coordinates.
-tests$bracket_y <- c(88,73,65,43)
+# Raise the 5 mM annotation above the control points and connecting lines.
+# Stagger adjacent 5/10 mM labels while preserving data and axis coordinates.
+tests$bracket_y <- c(115,73,65,43)
 tests$label_y <- tests$bracket_y+3
 stopifnot(all(tests$bracket_y>vapply(tests$dose_mM,function(dose)max(d$normalized_pct[d$dose_mM==dose]),numeric(1))+5))
 write.csv(tests,file.path(panel,'Supporting_Data/mtt_welch_tests_pooled_wells.csv'),row.names=FALSE)

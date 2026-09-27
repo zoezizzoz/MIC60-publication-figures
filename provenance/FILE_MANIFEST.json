@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-27T08:03:08.055014+00:00",
+  "snapshot_utc": "2026-09-27T08:58:39.656339+00:00",
   "base_commit": "0924a4e5256396266baa405587a617cfd20d0eed",
   "files": [
     {
@@ -654,8 +654,8 @@
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
-      "bytes": 7679,
-      "sha256": "2f47647741d151fbce5084db93ef81e73c740637a6ffdcca906c520ac4b8577a"
+      "bytes": 7752,
+      "sha256": "0f4a62e35d952d7896402bb48ba33c543f600de80ed518e90e5178c0d3ca25dc"
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Documentation/Fig4B_caption.txt",
@@ -704,8 +704,8 @@
     },
     {
       "path": "panels/Fig4AB/Sources/Figure_4B_MTT/Supporting_Data/mtt_welch_tests_pooled_wells.csv",
-      "bytes": 802,
-      "sha256": "0908ad06f85a54be434558968711609bd5a10e05fd8d76e891495745a62590cf"
+      "bytes": 804,
+      "sha256": "56b0dd7c8e2dbcc6eb891b829f88a4cc69e890c3f98ed4424aec7b8239873f5c"
     },
     {
       "path": "panels/FigS4A/DATA_VERIFICATION.json",
@@ -1174,8 +1174,8 @@
     },
     {
       "path": "plotted_data/Fig4B/mtt_welch_tests_pooled_wells.csv",
-      "bytes": 802,
-      "sha256": "0908ad06f85a54be434558968711609bd5a10e05fd8d76e891495745a62590cf"
+      "bytes": 804,
+      "sha256": "56b0dd7c8e2dbcc6eb891b829f88a4cc69e890c3f98ed4424aec7b8239873f5c"
     },
     {
       "path": "plotted_data/FigS1B/western_blot_quantification.csv",
@@ -1260,7 +1260,7 @@
     {
       "path": "plotted_data/INDEX.json",
       "bytes": 25925,
-      "sha256": "0294b1f7ac9f1988718cd346a57ce226032658fb874afb2d63809e71747cd1d1"
+      "sha256": "908d7c24f676cfd0325b2fd51ce124a4bfb2843a62319b15aa3ee2dbc0f24c82"
     },
     {
       "path": "plotted_data/README.md",
@@ -1560,7 +1560,7 @@
     {
       "path": "provenance/source_files.json",
       "bytes": 181750,
-      "sha256": "04f1ebb0a718025ebb1c2339a323d9eb0e0ead5e8383ca708b86801911760da7"
+      "sha256": "bac8dcf23426e5e35ecb2ceb1f762e250f557541f05865b259b9f1ac377d284e"
     },
     {
       "path": "provenance/survival_legacy/Fly Lifespan Streamlined.csv",
@@ -3859,8 +3859,8 @@
     },
     {
       "path": "verification/Fig4B_PVALUES.json",
-      "bytes": 2879,
-      "sha256": "634d6708a088025fab467fe08808e98922ffbb2aaaefb5a0f22d4ebf37d868c8"
+      "bytes": 3257,
+      "sha256": "a673af9b4422d06a8ab03a2c95ff44317b7af19a1c6bf8c9909ec671c6c3a6b3"
     },
     {
       "path": "verification/PREPARATION_REPORT.json",

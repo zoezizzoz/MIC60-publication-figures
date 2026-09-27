@@ -371,7 +371,7 @@
     "code": "panels/Fig4AB/Sources/Figure_4B_MTT/Code/generate_mtt_vector.R",
     "selection": "Source table copied unchanged",
     "notes": "Two-sided Welch tests; no multiple-testing adjustment. The four P values reproduce the archived comparisons. Matched 0 mM controls are not tested.",
-    "sha256": "0908ad06f85a54be434558968711609bd5a10e05fd8d76e891495745a62590cf"
+    "sha256": "56b0dd7c8e2dbcc6eb891b829f88a4cc69e890c3f98ed4424aec7b8239873f5c"
   },
   {
     "panel": "FigS1B",
