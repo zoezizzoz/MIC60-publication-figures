@@ -26,8 +26,8 @@
       "unit": "Pooled normalized well",
       "p_adjustment": "None",
       "label": "p = 0.0045",
-      "bracket_y": "115",
-      "label_y": "118"
+      "bracket_y": "85",
+      "label_y": "88"
     },
     {
       "dose_mM": "10",
@@ -84,7 +84,7 @@
     "axes_bounds_unchanged": true,
     "P_label_font_size_pt": 7,
     "final_PDF_matches_embedded_AI_render": true,
-    "visual_review": "Rechecked after moving the 5 mM annotation above the control points and connecting lines; labels remain legible with no overlap."
+    "visual_review": "Rechecked after lowering the 5 mM annotation and offsetting its text slightly right; labels clear the control points, connecting lines, reference line and adjacent annotations."
   },
   "P_label_typography": {
     "p_font": "Arial-ItalicMT",
@@ -96,9 +96,10 @@
   },
   "annotation_spacing": {
     "revision": "2026-09-27",
-    "change": "Raise only the 5 mM bracket and label to clear the control points and connecting lines.",
-    "bracket_y": 115,
-    "label_y": 118,
+    "change": "Lower the 5 mM bracket and label near the data and shift its text 1.4 mM right to clear the connecting lines.",
+    "bracket_y": 85,
+    "label_y": 88,
+    "label_x": 6.4,
     "other_annotations_and_scientific_artwork_unchanged": true,
     "checked_in_native_assemblies": 3,
     "exported_PDF_matches_embedded_AI": true

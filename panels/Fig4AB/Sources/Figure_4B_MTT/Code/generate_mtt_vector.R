@@ -56,14 +56,15 @@ tests <- do.call(rbind,lapply(c(5,10,20,40),function(dose) {
   unit='Pooled normalized well',p_adjustment='None')
 }))
 tests$label <- ifelse(tests$p_value<.001,'p < 0.001',paste0('p = ',formatC(tests$p_value,format='g',digits=2)))
-# Raise the 5 mM annotation above the control points and connecting lines.
+# Keep the 5 mM annotation close to its points and offset its text to clear the connecting lines.
 # Stagger adjacent 5/10 mM labels while preserving data and axis coordinates.
-tests$bracket_y <- c(115,73,65,43)
+tests$bracket_y <- c(85,73,65,43)
 tests$label_y <- tests$bracket_y+3
 stopifnot(all(tests$bracket_y>vapply(tests$dose_mM,function(dose)max(d$normalized_pct[d$dose_mM==dose]),numeric(1))+5))
 write.csv(tests,file.path(panel,'Supporting_Data/mtt_welch_tests_pooled_wells.csv'),row.names=FALSE)
 # Italicize only p; comparison symbols and numerical values remain upright.
 plot_labels <- tests
+plot_labels$label_x <- plot_labels$dose_mM + ifelse(plot_labels$dose_mM == 5, 1.4, 0)
 plot_labels$label <- paste0('italic(p)~"',sub('^p ', '',tests$label),'"')
 p <- ggplot(d,aes(dose_mM,normalized_pct))+
  geom_hline(yintercept=100,color='#A6A6A6',linetype='dashed',linewidth=.20)+
@@ -73,7 +74,7 @@ p <- ggplot(d,aes(dose_mM,normalized_pct))+
  geom_segment(data=tests,aes(x=dose_mM-1.05,xend=dose_mM+1.05,y=bracket_y,yend=bracket_y),inherit.aes=FALSE,linewidth=.20)+
  geom_segment(data=tests,aes(x=dose_mM-1.05,xend=dose_mM-1.05,y=bracket_y,yend=bracket_y-1.5),inherit.aes=FALSE,linewidth=.20)+
  geom_segment(data=tests,aes(x=dose_mM+1.05,xend=dose_mM+1.05,y=bracket_y,yend=bracket_y-1.5),inherit.aes=FALSE,linewidth=.20)+
- geom_text(data=plot_labels,aes(x=dose_mM,y=label_y,label=label),inherit.aes=FALSE,vjust=0,size=7/.pt,family=font,color='black',parse=TRUE)+
+ geom_text(data=plot_labels,aes(x=label_x,y=label_y,label=label),inherit.aes=FALSE,vjust=0,size=7/.pt,family=font,color='black',parse=TRUE)+
  scale_x_continuous(breaks=c(0,5,10,20,40),expand=expansion(add=2.2))+
  scale_y_continuous(limits=c(0,150),breaks=seq(0,125,25),expand=expansion(mult=0))+
  scale_color_manual(name=NULL,values=c(WT=s$WT,CS=s$CS),breaks=c('WT','CS'),labels=c('dMIC60-WT','dMIC60-CS'))+
